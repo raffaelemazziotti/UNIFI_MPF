@@ -1,5 +1,5 @@
 ---
-title: "Neuroscience of social-cognitive enhancement for well-being and Neural bases of decision processes"
+title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
 author: "Raffaele M Mazziotti, PhD"
 institute: "University of Florence"
 title-block: false
@@ -7,6 +7,7 @@ page-layout: full
 resources:
   - quiz/
   - images/
+  - docs/
 format:
   revealjs:
     controls: true
@@ -27,12 +28,11 @@ format:
     mermaid:
       theme: neutral
 ---
+
 ## Index
 
 >[Welcome to the course!]{.highlight}
-This part of the course introduces the foundations of neuroscience. We will cover basic principles of **neurobiology**,  
-an introduction to `neurophysiology`, and the core concepts needed to understand how the nervous system works,
-from neurons to systems.
+Description of the course
 
 
 ### Chapters
@@ -40,22 +40,14 @@ from neurons to systems.
 ::: column
 
 :::{.list-box}
-- [Introduction](1_intro.html)
-- [Neuron](2_neuron.html)
-- [Neuronal Communication](3_synapse.html)
-- [Organization of the Nervous System](4_NS_organization.html)
-- [Sensory Systems](5_sensory.html)
+- [Biomarkers](1_biomarkers.html)
 :::
 
 ::: 
 ::: column
 
 :::{.list-box}
-- [Motor System](6_motor.html)
-- [Emotion, Motivation & Stress](7_emotion_motivation.html)
-- [Neuroplasticity](8_Neuroplasticity.html)
-- [Resilience GxE](9_resilience_gxe.html)
-- [Epigenetics](10_epigenetics.html)
+- other subject
 :::
 
 :::

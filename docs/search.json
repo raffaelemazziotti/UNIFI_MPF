@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "0_content.html#index",
+    "href": "0_content.html#index",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Index",
+    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nBiomarkers\n\n\n\n\n\nother subject"
+  },
+  {
+    "objectID": "0_content.html#course-material-and-schedule",
+    "href": "0_content.html#course-material-and-schedule",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Course material and schedule",
+    "text": "Course material and schedule\n\n\n\n📘 Course book\n\nThe main reference for the course is an open-access textbook\nYou can read it online or download it for free\n\n👉 Foundations of Neuroscience (open book)\n\n\n\n🗓 ️Timetable and midterms\n\nThe timetable includes:\n\nscheduled lessons\nmidterm dates\n\nPlease check it regularly for updates\n\n👉 Course timetable and midterms"
+  },
+  {
+    "objectID": "0_content.html#how-to-use-these-slides",
+    "href": "0_content.html#how-to-use-these-slides",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How to use these slides",
+    "text": "How to use these slides\n\n\n\n⛵ Navigation\n\nThese slides are interactive\nUse keyboard or mouse\nPress F for full-screen mode\n\n\n\n⏱️ Quick access\n\nIn the lower-left corner, click the ☰ icon to open the slide index\nClick any slide title to jump directly to it\nUse the ⚙️ Tools menu to see all available shortcuts\n\n\n\n\n🧭 Course structure\n\nThe Index slide links all sections\nEach section starts with a title slide\nA 🏠 Home button on the first slide\nbrings you back to the Index\n\n\n\n📄 PDF version\n\nGo to the first slide of a section\nPress E\nA PDF-compatible version appears\nPrint or save it for clean notes"
+  },
+  {
+    "objectID": "1_biomarkers.html#why-this-course",
+    "href": "1_biomarkers.html#why-this-course",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why this course?",
+    "text": "Why this course?\n\n\n\nPsychology traditionally relies on:\n\nbehavior\nself-report\nclinical judgment\n\nThese tools are powerful, but limited.\n\n\nBiomarkers promise objectivity, quantification, prediction, and personalization."
+  },
+  {
+    "objectID": "1_biomarkers.html#the-promise-of-biomarkers",
+    "href": "1_biomarkers.html#the-promise-of-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The promise of biomarkers",
+    "text": "The promise of biomarkers\n\n\n\nBiomarkers are expected to:\n\nreduce subjectivity\nlink behavior to biology\nimprove diagnosis and prognosis\nguide treatment decisions\nenable personalized approaches\n\n\nKey question:\nDo biomarkers actually deliver on these promises?"
+  },
+  {
+    "objectID": "1_biomarkers.html#what-do-we-mean-by-biomarker",
+    "href": "1_biomarkers.html#what-do-we-mean-by-biomarker",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What do we mean by “biomarker”?",
+    "text": "What do we mean by “biomarker”?\nA widely accepted formal definition (NIH / FDA):\n\nA biomarker is a defined characteristic that is measured as an indicator of normal biological processes, pathogenic processes, or responses to an intervention.\n\n\n\n\nKey points embedded in the definition:\n\nit is a measurement\nit is an indicator, not a diagnosis\nit is tied to a specific process or response\n\n\n\n\nImmediate implications:\n\nbiomarkers are indirect\nbiomarkers are context-dependent\nbiomarkers are not explanatory by default"
+  },
+  {
+    "objectID": "1_biomarkers.html#what-do-we-mean-by-biomarker-1",
+    "href": "1_biomarkers.html#what-do-we-mean-by-biomarker-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What do we mean by “biomarker”?",
+    "text": "What do we mean by “biomarker”?\n\n\n\nObjective does not mean useful. A measure can be:\n\nobjective\nprecise\nreproducible\n\nAnd still be clinically useless.\n\n\nTypical reasons:\n\nlarge overlap between patients and controls\nno added value over clinical assessment\n\n\n\n\nPsychiatry and psychology still lack:\n\nrobust diagnostic biomarkers\nclinically actionable predictors\n\nMany proposed biomarkers:\n\nare statistically significant\nfail in real clinical settings"
+  },
+  {
+    "objectID": "1_biomarkers.html#the-core-epistemological-problem",
+    "href": "1_biomarkers.html#the-core-epistemological-problem",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The core epistemological problem",
+    "text": "The core epistemological problem\n\n\n\nNeurological, Psychiatric and Psychological phenomena are:\n\nheterogeneous\ndynamic\nmultidimensional\n\n\nBiological systems reflect this complexity. As a result, one-to-one mappings\n(one biomarker → one disorder) are rare.\n\n\n\n\n\n\n\n\ngraph LR\n    B1[Biomarker A] --&gt; D1[Disorder 1]\n    B1 --&gt; D2[Disorder 2]\n\n    B2[Biomarker B] --&gt; D1\n    B2 --&gt; D3[Disorder 3]\n\n    B3[Biomarker C] --&gt; D2\n    B3 --&gt; D3\n\n    subgraph Biomarkers\n        B1\n        B2\n        B3\n    end\n\n    subgraph Disorders\n        D1\n        D2\n        D3\n    end"
+  },
+  {
+    "objectID": "1_biomarkers.html#biomarkers-are-not-truth-machines",
+    "href": "1_biomarkers.html#biomarkers-are-not-truth-machines",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Biomarkers are not “truth machines”",
+    "text": "Biomarkers are not “truth machines”\n\n\n\nBiomarkers do not reveal truth directly. They are probabilistic signals.\n\n\nMost biomarkers are correlates, not causes.\nA biomarker may:\n\nchange with a disorder\ntrack symptom severity\npredict outcomes\n\nWithout explaining why. Biomarkers are not mechanisms."
+  },
+  {
+    "objectID": "1_biomarkers.html#group-level-vs-individual-level-thinking",
+    "href": "1_biomarkers.html#group-level-vs-individual-level-thinking",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Group-level vs individual-level thinking",
+    "text": "Group-level vs individual-level thinking\n\n\n\nMost biomarkers are discovered at the group level. Clinical decisions are made at the individual level.\n\n\nResearch question:\n\n“Is there a difference between groups?”\n\nClinical question:\n\n“Can I make a decision for this person?”\n\nThese are fundamentally different problems.\n\n\n\nA biomarker can be:\n\nstatistically significant\nand useless for deciding about a single patient\n\n\n\nBiomarkers should be understood as:\n\ndecision-support tools\nnot decision-makers\n\nThey complement:\n\nclinical judgment\ncontextual information"
+  },
+  {
+    "objectID": "1_biomarkers.html#what-counts-as-a-biomarker",
+    "href": "1_biomarkers.html#what-counts-as-a-biomarker",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What counts as a biomarker?",
+    "text": "What counts as a biomarker?\n\n\n\nA biomarker can be:\n\nmolecular (genes, proteins, metabolites)\nphysiological (heart rate variability, cortisol)\n\nneural (EEG features, imaging-derived measures)\nbehavioral (reaction times, eye movements)\n\ncomputational (scores derived from multiple measures)\n\n\n\nBiomarkers are not limited to biology at the molecular level."
+  }
+]

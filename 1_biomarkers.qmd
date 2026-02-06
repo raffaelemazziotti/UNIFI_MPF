@@ -1,0 +1,306 @@
+---
+title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
+subtitle: "Module 2 - Biomarkers"
+author: "Raffaele M Mazziotti, PhD"
+institute: "University of Florence"
+resources:
+  - quiz/
+  - images/
+format:
+  revealjs:
+    controls: true
+    theme: default
+    slide-number: true
+    logo: images/logo/NEUROFARBA_logo.svg
+    css: slide_style.css
+    transition: fade
+    center: true
+    math: mathjax
+    chalkboard: 
+      buttons: false
+    progress: true
+    title-slide-attributes:
+      data-background-image: images/logo/NEUROFARBA.svg
+      data-background-size: 500px
+      data-background-position: "center 10%"
+      data-state: title-slide
+    include-after-body: afterbody.html
+    mermaid:
+      theme: neutral
+    
+---
+
+## Why this course?
+
+:::columns
+:::column
+
+:::info-box
+Psychology traditionally relies on:
+
+- behavior
+- self-report
+- clinical judgment
+
+These tools are powerful, but `limited`.
+:::
+
+>Biomarkers promise objectivity, quantification, prediction, and personalization.
+
+:::
+:::column
+
+![](images/biom_self_report.png){width="350" fig-align="center"}
+
+:::
+:::
+
+## The promise of biomarkers
+
+:::columns
+:::column
+
+:::info-box
+
+Biomarkers are expected to:
+
+- reduce subjectivity
+- link behavior to biology
+- improve diagnosis and prognosis
+- guide treatment decisions
+- enable personalized approaches
+
+>**Key question:**  
+Do biomarkers actually deliver on these promises?
+
+:::
+
+:::
+:::column
+
+![](docs/images/biom_representative.png){width="350" fig-align="center"}
+
+:::
+:::
+
+## What do we mean by “biomarker”?
+
+A widely accepted formal definition ([NIH](https://www.nih.gov/) / [FDA](https://www.fda.gov/)):
+
+> A [biomarker]{.highlight} is a defined `characteristic` that is `measured` as an `indicator` of normal biological **processes**, pathogenic processes, or *responses* to an intervention.
+
+:::columns
+:::column
+
+:::info-box
+Key points embedded in the definition:
+
+- it is a *measurement*
+- it is an *indicator*, not a diagnosis
+- it is tied to a *specific process or response*
+:::
+
+:::
+:::column
+
+:::info-box
+Immediate implications:
+
+- biomarkers are `indirect`
+- biomarkers are `context-dependent`
+- biomarkers are `not explanatory` by default
+:::
+
+:::
+:::
+
+## What do we mean by “biomarker”?
+
+:::columns
+:::column
+
+:::info-box
+Objective does not mean useful.  A measure can be:
+
+- objective
+- precise
+- reproducible
+
+And still be clinically useless.
+:::
+
+:::card
+Typical reasons:
+
+- large `overlap` between patients and controls
+- `no added value` over clinical assessment
+
+:::
+
+:::
+:::column
+
+:::info-box
+Psychiatry and psychology still lack:
+
+- `robust` diagnostic biomarkers
+- clinically actionable predictors
+
+Many proposed biomarkers:
+
+- are statistically significant
+- `fail` in real clinical settings
+
+![](docs/images/biom_fail.jpg){width="300" fig-align="center"}
+:::
+
+
+:::
+:::
+
+## The core epistemological problem
+
+:::columns
+:::column
+
+:::info-box
+Neurological, Psychiatric and Psychological phenomena are:
+
+- heterogeneous
+- dynamic
+- multidimensional
+
+>Biological systems reflect this complexity.
+As a result, one-to-one mappings  
+(one biomarker → one disorder) are rare.
+
+:::
+
+:::
+:::column
+
+```{mermaid}
+graph LR
+    B1[Biomarker A] --> D1[Disorder 1]
+    B1 --> D2[Disorder 2]
+
+    B2[Biomarker B] --> D1
+    B2 --> D3[Disorder 3]
+
+    B3[Biomarker C] --> D2
+    B3 --> D3
+
+    subgraph Biomarkers
+        B1
+        B2
+        B3
+    end
+
+    subgraph Disorders
+        D1
+        D2
+        D3
+    end
+```
+
+:::
+:::
+
+## Biomarkers are not “truth machines”
+
+:::columns
+:::column
+
+>Biomarkers do not reveal truth directly.
+They are `probabilistic` signals.
+
+:::info-box
+Most biomarkers are `correlates`, not causes.
+
+A biomarker may:
+
+- change with a disorder
+- track symptom severity
+- predict outcomes
+
+Without explaining why. [Biomarkers are not mechanisms]{.highlight}.
+:::
+
+:::
+:::column
+
+![](docs/images/biom_corr_not_cause2.jpg){width="300" fig-align="center"}
+![](docs/images/biom_corr_not_cause.png){width="350" fig-align="center"}
+
+:::
+:::
+
+## Group-level vs individual-level thinking
+
+:::columns
+:::column
+>Most biomarkers are discovered at the `group level`.
+Clinical decisions are made at the individual level.
+
+:::info-box
+Research question:
+
+- “Is there a difference between groups?”
+
+Clinical question:
+
+- “Can I make a decision for this person?”
+
+These are fundamentally different problems.
+:::
+
+
+:::
+:::column
+
+:::info-box
+A biomarker can be:
+
+- statistically significant
+- and useless for deciding about a single patient
+:::
+
+:::info-box
+Biomarkers should be understood as:
+
+- decision-support tools
+- not decision-makers
+
+They complement:
+
+- clinical judgment
+- contextual information
+:::
+
+:::
+:::
+
+## What counts as a biomarker?
+
+:::columns
+:::column
+
+:::info-box
+A biomarker can be:
+
+- `molecular` (genes, proteins, metabolites)
+- `physiological` (heart rate variability, cortisol)
+  - neural (EEG features, imaging-derived measures)
+  - behavioral (reaction times, eye movements)
+- `computational` (scores derived from multiple measures)
+:::
+
+>Biomarkers are **not limited to biology at the molecular level**.
+
+:::
+:::column
+
+![](docs/images/biom_types(1).png){width="350" fig-align="center"}
+
+:::
+:::
