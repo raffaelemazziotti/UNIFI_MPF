@@ -75,5 +75,131 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "What counts as a biomarker?",
     "text": "What counts as a biomarker?\n\n\n\nA biomarker can be:\n\nmolecular (genes, proteins, metabolites)\nphysiological (heart rate variability, cortisol)\n\nneural (EEG features, imaging-derived measures)\nbehavioral (reaction times, eye movements)\n\ncomputational (scores derived from multiple measures)\n\n\n\nBiomarkers are not limited to biology at the molecular level."
+  },
+  {
+    "objectID": "1_biomarkers.html#what-a-biomarker-is-not",
+    "href": "1_biomarkers.html#what-a-biomarker-is-not",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What a biomarker is NOT",
+    "text": "What a biomarker is NOT\n\n\n\nA biomarker is not:\n\na diagnosis\na symptom\na risk factor\nan endophenotype\na clinical judgment\na mechanism\n\n\n\nA biomarker can be a risk factor, but not all risk factors are biomarkers.\n\n\n\nMechanisms:\n\nexplain how a process works\nimply causal structure\n\n\n\nEndophenotypes:\n\nare heritable traits\nlie between genes and behavior\nare relatively stable"
+  },
+  {
+    "objectID": "1_biomarkers.html#context-of-use-cou",
+    "href": "1_biomarkers.html#context-of-use-cou",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Context of Use (CoU)",
+    "text": "Context of Use (CoU)\n\n\n\nA biomarker is only defined together with:\n\na target population\na clinical or research question\n\nWithout a Context of Use:\n\nperformance cannot be evaluated\nusefulness cannot be judged\n\n\n\n\nThe same measured characteristic can be:\n\na biomarker in one context\nirrelevant in another\nmisleading in a third"
+  },
+  {
+    "objectID": "1_biomarkers.html#biomarkers-are-multidimensional-objects",
+    "href": "1_biomarkers.html#biomarkers-are-multidimensional-objects",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Biomarkers are multidimensional objects",
+    "text": "Biomarkers are multidimensional objects\n\n\n\nBiomarkers are often introduced as simple categories or lists. In reality, biomarkers vary along multiple dimensions.\n\n\nDimension 1: Biological Level\n\nmolecular\ncellular\nphysiological\nneural\nbehavioral\n\n\n\n\nLower-level does not mean:\n\nmore objective\nmore specific\nmore clinically useful\n\nA genetic marker can be less useful than a behavioral one."
+  },
+  {
+    "objectID": "1_biomarkers.html#dimension-2-temporal-stability",
+    "href": "1_biomarkers.html#dimension-2-temporal-stability",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Dimension 2: Temporal stability",
+    "text": "Dimension 2: Temporal stability\n\n\nBiomarkers differ in how they change over time. Two broad classes:\n\ntrait-like biomarkers\nstate-dependent biomarkers\n\n\nTrait biomarkers are:\n\nrelatively stable\nminimally affected by context\noften present before symptoms\n\n\nExamples: genetic variants, structural brain features. They are often used for risk or susceptibility.\n\n\n\n\nState biomarkers:\n\nfluctuate over time\nreflect current condition or context\nare sensitive to environment and intervention\n\n\nExamples: cortisol, EEG power, arousal\n\n\n\n\n\nBiomarker\nKey properties\nMain limitation\n\n\n\n\nTrait\nStable\nOften weak predictors\n\n\nState\nSensitive\nProne to bias"
+  },
+  {
+    "objectID": "1_biomarkers.html#dimension-3-specificity",
+    "href": "1_biomarkers.html#dimension-3-specificity",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Dimension 3: Specificity",
+    "text": "Dimension 3: Specificity\n\n\n\nBiomarkers differ in how specific they are.\nSpecificity can be:\n\ndisorder-specific\ndimension-specific\ntransdiagnostic\n\nPsychological/Psychiatric biomarkers are often transdiagnostic.\n\n\nMany biomarkers in Psychology:\n\nappear across multiple disorders\nreflect shared processes\n\n\n\n\nMental disorders are:\n\nheterogeneous\noverlapping\nnot defined by single mechanisms\n\nTherefore, biomarkers rarely show one-to-one mappings."
+  },
+  {
+    "objectID": "1_biomarkers.html#dimension-4-functional-role",
+    "href": "1_biomarkers.html#dimension-4-functional-role",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Dimension 4: Functional role",
+    "text": "Dimension 4: Functional role\nBiomarkers differ by what they are used for:\n\ndetection\nprediction\nmonitoring\nstratification\n\nThe same biomarker can serve different roles.\nExample: EEG feature - diagnostic marker in one context - prognostic marker in another - monitoring marker in treatment studies\nFunction is not intrinsic to the measure."
+  },
+  {
+    "objectID": "1_biomarkers.html#dimension-4-measurement-context",
+    "href": "1_biomarkers.html#dimension-4-measurement-context",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Dimension 4: Measurement context",
+    "text": "Dimension 4: Measurement context\n\n\n\nBiomarkers depend on:\n\nhow they are measured\nwhere they are measured\nunder which conditions\n\n\n\nLaboratory vs real-world measures can differ substantially. A biomarker may work:\n\nin controlled experimental settings\nbut fail in clinical practice\n\n\n\n\nMeasurement context directly affects:\n\nreliability\nvalidity\ninterpretability"
+  },
+  {
+    "objectID": "1_biomarkers.html#dimension-5-functional-role",
+    "href": "1_biomarkers.html#dimension-5-functional-role",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Dimension 5: Functional role",
+    "text": "Dimension 5: Functional role\n\n\n\nBiomarkers differ by what they are used for:\n\ndetection\nprediction\nmonitoring\nstratification\n\nThe same biomarker can serve different roles.\n\n\n\nExample: EEG feature\n\ndiagnostic marker in one context\nprognostic marker in another\nmonitoring marker in treatment studies\n\nFunction is not intrinsic to the measure."
+  },
+  {
+    "objectID": "1_biomarkers.html#biomarker-evaluation",
+    "href": "1_biomarkers.html#biomarker-evaluation",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Biomarker Evaluation",
+    "text": "Biomarker Evaluation\n\n\n\nBiomarkers are not evaluated by intuition.\nThey are evaluated by:\n\nmeasurement quality\nerror structure\ndecision consequences\n\n\n\nA biomarker must be reliable before being useful.\nReliability refers to:\n\ntest-retest stability\ninter-rater consistency\nrobustness across contexts\n\n\n\n\nIf a biomarker varies because of:\n\nmeasurement noise\nequipment differences\ncontext instability\n\nThen any observed association may be spurious. Reliability sets the upper limit of usefulness."
+  },
+  {
+    "objectID": "1_biomarkers.html#biomarker-evaluation-validity",
+    "href": "1_biomarkers.html#biomarker-evaluation-validity",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Biomarker Evaluation: Validity",
+    "text": "Biomarker Evaluation: Validity\n\n\n\nValidity is contextual and it is not a single property. A biomarker can be:\n\nvalid for one purpose\ninvalid for another\n\n\n\nKey forms of validity:\n\nconstruct validity\ncriterion validity\npredictive validity\n\nPredictive validity is the most relevant for clinical use."
+  },
+  {
+    "objectID": "1_biomarkers.html#error-structure",
+    "href": "1_biomarkers.html#error-structure",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Error Structure",
+    "text": "Error Structure\n\n\nEvery biomarker makes errors. There is no error-free biomarker.\n\nWhen using a biomarker to classify or predict, there are 4 possible outcomes:\n\ntrue positive\nfalse positive\ntrue negative\nfalse negative\n\nEvery decision falls into one of these categories.\n\n\n\n\n\n\n\n\nDisorder\n\n\n\n\nBiomarker\n\n\nPresent\n\n\nAbsent\n\n\n\n\n\n\nPositive\n\n\nTrue positive\n\n\nFalse positive\n\n\n\n\nNegative\n\n\nFalse negative\n\n\nTrue negative"
+  },
+  {
+    "objectID": "1_biomarkers.html#error-structure-1",
+    "href": "1_biomarkers.html#error-structure-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Error Structure",
+    "text": "Error Structure\n\n\n\nA false positive occurs when:\n\nthe biomarker indicates a condition\nbut the condition is not present\n\nConsequences:\n\nunnecessary alarm\noverdiagnosis\ninappropriate intervention\n\n\n\n\nA false negative occurs when:\n\nthe biomarker fails to detect a condition\nthat is actually present\n\nConsequences:\n\nmissed diagnosis\ndelayed intervention\nfalse reassurance\n\n\n\n\nWhich error is worse depends on context."
+  },
+  {
+    "objectID": "1_biomarkers.html#error-structure-2",
+    "href": "1_biomarkers.html#error-structure-2",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Error Structure",
+    "text": "Error Structure"
+  },
+  {
+    "objectID": "1_biomarkers.html#sensitivity-and-specificity",
+    "href": "1_biomarkers.html#sensitivity-and-specificity",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Sensitivity and specificity",
+    "text": "Sensitivity and specificity\n\n\n\nAccuracy:\n\nAbility to detect a condition correctly\n\nSensitivity:\n\nability to detect a condition when it is present\n\nSpecificity:\n\nability to exclude a condition when it is absent\n\n\n\nThey describe different aspects of performance.\n\n\n\nIncreasing sensitivity often:\n\nincreases false positives\n\nIncreasing specificity often:\n\nincreases false negatives"
+  },
+  {
+    "objectID": "1_biomarkers.html#accuracy-sensitivity-and-specificity",
+    "href": "1_biomarkers.html#accuracy-sensitivity-and-specificity",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Accuracy, Sensitivity and specificity",
+    "text": "Accuracy, Sensitivity and specificity\n\n\n\nAccuracy:\n\nAbility to detect a condition correctly\n\nSensitivity:\n\nability to detect a condition when it is present\n\nSpecificity:\n\nability to exclude a condition when it is absent\n\n\n\nThey describe different aspects of performance.\n\n\n\nIncreasing sensitivity often:\n\nincreases false positives\n\nIncreasing specificity often:\n\nincreases false negatives"
+  },
+  {
+    "objectID": "1_biomarkers.html#confusion-matrix",
+    "href": "1_biomarkers.html#confusion-matrix",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Confusion matrix",
+    "text": "Confusion matrix\n\nA confusion matrix, also known as error matrix is a specific table layout that allows visualization of the performance of a Biomarker."
+  },
+  {
+    "objectID": "1_biomarkers.html#thresholds-create-errors",
+    "href": "1_biomarkers.html#thresholds-create-errors",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Thresholds create errors",
+    "text": "Thresholds create errors\n\n\n\nMost biomarkers require a threshold.\n\n\nChanging the threshold:\n\nchanges sensitivity\nchanges specificity\nchanges error balance\n\n\n\nROC curves describe:\n\ntrade-offs between sensitivity and false positives\nperformance across thresholds"
+  },
+  {
+    "objectID": "1_biomarkers.html#clinical-utility-is-not-accuracy",
+    "href": "1_biomarkers.html#clinical-utility-is-not-accuracy",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Clinical utility is not accuracy",
+    "text": "Clinical utility is not accuracy\nHigh accuracy alone is insufficient.\nClinical utility depends on:\n\nconsequences of errors\npossibility to use across contexts\nadded value over clinical judgment\n\nA slightly better biomarker can still be useless."
   }
 ]
