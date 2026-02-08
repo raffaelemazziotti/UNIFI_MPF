@@ -831,9 +831,83 @@ Increasing specificity often:
 
 ## Confusion matrix
 
-![](docs/images/biom_confusion.png){width="500" fig-align="center"}
+<table class="confusion-matrix">
+  <caption><strong>Confusion matrix and performance metrics for a biomarker</strong></caption>
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="2">Predicted class</th>
+      <th rowspan="2">Performance metric</th>
+    </tr>
+    <tr>
+      <th>Actual class</th>
+      <th>Positive</th>
+      <th>Negative</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><strong>Positive</strong></th>
+      <td>True positive (TP)</td>
+      <td>False negative (FN)</td>
+      <td>
+        <strong>Sensitivity</strong><br>
+        TP / (TP + FN)
+      </td>
+    </tr>
+    <tr>
+      <th><strong>Negative</strong></th>
+      <td>False positive (FP)</td>
+      <td>True negative (TN)</td>
+      <td>
+        <strong>Specificity</strong><br>
+        TN / (TN + FP)
+      </td>
+    </tr>
+    <tr>
+      <th>—</th>
+      <td>
+        <strong>Precision</strong><br>
+        TP / (TP + FP)
+      </td>
+      <td>
+        <strong>Negative predictive value</strong><br>
+        TN / (TN + FN)
+      </td>
+      <td>
+        <strong>Accuracy</strong><br>
+        (TP + TN) / (TP + TN + FP + FN)
+      </td>
+    </tr>
+  </tbody>
+</table>
+<style>
+table.confusion-matrix{
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 900px;
+}
+table.confusion-matrix caption{
+  caption-side: top;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+table.confusion-matrix th,
+table.confusion-matrix td{
+  border: 1px solid #515151;
+  padding: 0.55rem 0.7rem;
+  vertical-align: middle;
+}
+table.confusion-matrix thead th{
+  background: #6e6e6e;
+}
+table.confusion-matrix th{
+  white-space: nowrap;
+}
+</style>
 
- A confusion matrix, also known as `error matrix` is a specific table layout that allows visualization of the performance of a Biomarker.
+A confusion matrix, also known as `error matrix` is a specific table layout that allows visualization of the performance of a Biomarker.
 
 ## Thresholds create errors
 
@@ -873,7 +947,149 @@ High accuracy alone is insufficient.
 Clinical utility depends on:
 
 - `consequences of errors`
-- possibility to use across contexts
-- added value over clinical judgment
+- possibility to use `across contexts`
+- added value over `clinical judgment`
 
 A slightly better biomarker can still be useless.
+
+## Functional classification of biomarkers
+
+According to regulatory and clinical frameworks, biomarkers can be used as:
+
+- `diagnostic`
+- `prognostic`
+- `predictive`
+- `monitoring`
+
+## Diagnostic biomarkers
+
+:::columns
+:::column
+
+`Diagnostic` (classification) biomarkers are used to:
+
+- `detect the presence` of a condition
+- support or refine a diagnosis
+- identify subtypes of a condition
+
+:::info-box
+For diagnostic biomarkers:
+
+- false positives are especially harmful
+- specificity is critical
+- prevalence strongly affects usefulness
+:::
+
+:::
+:::column
+
+:::card
+They answer the question:
+
+`Is this condition present?`
+:::
+
+![](docs/images/biom_diagnostic.png){width="200" fig-align="center"}
+
+:::
+:::
+
+## Prognostic biomarkers
+
+:::columns
+:::column
+
+`Prognostic` biomarkers provide information about:
+
+- future course of a condition
+- likelihood of progression, relapse, or recovery
+
+:::info-box
+Prognostic biomarkers:
+
+- are independent of treatment
+- describe natural history
+- often work at the group level
+
+:::
+
+:::
+:::column
+
+:::card
+They answer the question:
+
+`What is likely to happen over time?`
+:::
+
+![](docs/images/biom_prognostic.png){width="250" fig-align="center"}
+
+:::
+:::
+
+## Predictive biomarkers
+
+:::columns
+:::column
+
+`Predictive` biomarkers estimate:
+
+- likelihood of response to an intervention
+- likelihood of side effects
+
+:::info-box
+Predictive biomarkers are:
+
+- central to personalized medicine
+- highly attractive clinically
+- extremely difficult to validate
+
+They require comparison across treatments.
+
+:::
+
+:::
+:::column
+
+
+:::card
+They answer the question:
+`Will this treatment work for this person?`
+:::
+
+![](docs/images/biom_predictive.png){width="250" fig-align="center"}
+
+:::
+:::
+
+## Monitoring biomarkers
+
+:::columns
+:::column
+
+`Monitoring` biomarkers are used to:
+
+- track changes over time
+- assess response or progression
+- support ongoing decisions
+
+:::info-box
+Examples:
+
+- physiological stress markers
+- EEG changes during treatment
+- behavioral performance over time
+:::
+
+
+:::
+:::column
+
+:::card
+They answer the question:
+
+`Is the condition changing over time?`
+:::
+
+:::
+:::

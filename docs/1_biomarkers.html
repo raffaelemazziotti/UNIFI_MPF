@@ -898,8 +898,104 @@ table.confusion-matrix th[scope="row"]{
 </section>
 <section id="confusion-matrix" class="slide level2 center">
 <h2>Confusion matrix</h2>
-
-<img data-src="docs/images/biom_confusion.png" class="quarto-figure quarto-figure-center r-stretch" width="500"><p>A confusion matrix, also known as <code>error matrix</code> is a specific table layout that allows visualization of the performance of a Biomarker.</p>
+<table class="confusion-matrix">
+<caption>
+<strong>Confusion matrix and performance metrics for a biomarker</strong>
+</caption>
+<thead>
+<tr>
+<th>
+</th>
+<th colspan="2">
+Predicted class
+</th>
+<th rowspan="2">
+Performance metric
+</th>
+</tr>
+<tr>
+<th>
+Actual class
+</th>
+<th>
+Positive
+</th>
+<th>
+Negative
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+<strong>Positive</strong>
+</th>
+<td>
+True positive (TP)
+</td>
+<td>
+False negative (FN)
+</td>
+<td>
+<strong>Sensitivity</strong><br> TP / (TP + FN)
+</td>
+</tr>
+<tr>
+<th>
+<strong>Negative</strong>
+</th>
+<td>
+False positive (FP)
+</td>
+<td>
+True negative (TN)
+</td>
+<td>
+<strong>Specificity</strong><br> TN / (TN + FP)
+</td>
+</tr>
+<tr>
+<th>
+—
+</th>
+<td>
+<strong>Precision</strong><br> TP / (TP + FP)
+</td>
+<td>
+<strong>Negative predictive value</strong><br> TN / (TN + FN)
+</td>
+<td>
+<strong>Accuracy</strong><br> (TP + TN) / (TP + TN + FP + FN)
+</td>
+</tr>
+</tbody>
+</table>
+<style>
+table.confusion-matrix{
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 900px;
+}
+table.confusion-matrix caption{
+  caption-side: top;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+table.confusion-matrix th,
+table.confusion-matrix td{
+  border: 1px solid #515151;
+  padding: 0.55rem 0.7rem;
+  vertical-align: middle;
+}
+table.confusion-matrix thead th{
+  background: #6e6e6e;
+}
+table.confusion-matrix th{
+  white-space: nowrap;
+}
+</style>
+<p>A confusion matrix, also known as <code>error matrix</code> is a specific table layout that allows visualization of the performance of a Biomarker.</p>
 </section>
 <section id="thresholds-create-errors" class="slide level2 center">
 <h2>Thresholds create errors</h2>
@@ -937,10 +1033,133 @@ table.confusion-matrix th[scope="row"]{
 <p>Clinical utility depends on:</p>
 <ul>
 <li><code>consequences of errors</code></li>
-<li>possibility to use across contexts</li>
-<li>added value over clinical judgment</li>
+<li>possibility to use <code>across contexts</code></li>
+<li>added value over <code>clinical judgment</code></li>
 </ul>
 <p>A slightly better biomarker can still be useless.</p>
+</section>
+<section id="functional-classification-of-biomarkers" class="slide level2 center">
+<h2>Functional classification of biomarkers</h2>
+<p>According to regulatory and clinical frameworks, biomarkers can be used as:</p>
+<ul>
+<li><code>diagnostic</code></li>
+<li><code>prognostic</code></li>
+<li><code>predictive</code></li>
+<li><code>monitoring</code></li>
+</ul>
+</section>
+<section id="diagnostic-biomarkers" class="slide level2 center">
+<h2>Diagnostic biomarkers</h2>
+<div class="columns">
+<div class="column">
+<p><code>Diagnostic</code> (classification) biomarkers are used to:</p>
+<ul>
+<li><code>detect the presence</code> of a condition</li>
+<li>support or refine a diagnosis</li>
+<li>identify subtypes of a condition</li>
+</ul>
+<div class="info-box">
+<p>For diagnostic biomarkers:</p>
+<ul>
+<li>false positives are especially harmful</li>
+<li>specificity is critical</li>
+<li>prevalence strongly affects usefulness</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="card">
+<p>They answer the question:</p>
+<p><code>Is this condition present?</code></p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="docs/images/biom_diagnostic.png" class="quarto-figure quarto-figure-center" width="200"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="prognostic-biomarkers" class="slide level2 center">
+<h2>Prognostic biomarkers</h2>
+<div class="columns">
+<div class="column">
+<p><code>Prognostic</code> biomarkers provide information about:</p>
+<ul>
+<li>future course of a condition</li>
+<li>likelihood of progression, relapse, or recovery</li>
+</ul>
+<div class="info-box">
+<p>Prognostic biomarkers:</p>
+<ul>
+<li>are independent of treatment</li>
+<li>describe natural history</li>
+<li>often work at the group level</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="card">
+<p>They answer the question:</p>
+<p><code>What is likely to happen over time?</code></p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="docs/images/biom_prognostic.png" class="quarto-figure quarto-figure-center" width="250"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="predictive-biomarkers" class="slide level2 center">
+<h2>Predictive biomarkers</h2>
+<div class="columns">
+<div class="column">
+<p><code>Predictive</code> biomarkers estimate:</p>
+<ul>
+<li>likelihood of response to an intervention</li>
+<li>likelihood of side effects</li>
+</ul>
+<div class="info-box">
+<p>Predictive biomarkers are:</p>
+<ul>
+<li>central to personalized medicine</li>
+<li>highly attractive clinically</li>
+<li>extremely difficult to validate</li>
+</ul>
+<p>They require comparison across treatments.</p>
+</div>
+</div><div class="column">
+<div class="card">
+<p>They answer the question: <code>Will this treatment work for this person?</code></p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="docs/images/biom_predictive.png" class="quarto-figure quarto-figure-center" width="250"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="monitoring-biomarkers" class="slide level2 center">
+<h2>Monitoring biomarkers</h2>
+<div class="columns">
+<div class="column">
+<p><code>Monitoring</code> biomarkers are used to:</p>
+<ul>
+<li>track changes over time</li>
+<li>assess response or progression</li>
+<li>support ongoing decisions</li>
+</ul>
+<div class="info-box">
+<p>Examples:</p>
+<ul>
+<li>physiological stress markers</li>
+<li>EEG changes during treatment</li>
+<li>behavioral performance over time</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="card">
+<p>They answer the question:</p>
+<p><code>Is the condition changing over time?</code></p>
+</div>
+</div></div>
 
 
 
@@ -982,6 +1201,7 @@ table.confusion-matrix th[scope="row"]{
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
+'scrollActivationWidth': 0,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":false},
 'smaller': false,

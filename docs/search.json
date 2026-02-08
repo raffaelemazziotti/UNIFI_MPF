@@ -186,7 +186,7 @@
     "href": "1_biomarkers.html#confusion-matrix",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Confusion matrix",
-    "text": "Confusion matrix\n\nA confusion matrix, also known as error matrix is a specific table layout that allows visualization of the performance of a Biomarker."
+    "text": "Confusion matrix\n\n\nConfusion matrix and performance metrics for a biomarker\n\n\n\n\n\n\nPredicted class\n\n\nPerformance metric\n\n\n\n\nActual class\n\n\nPositive\n\n\nNegative\n\n\n\n\n\n\nPositive\n\n\nTrue positive (TP)\n\n\nFalse negative (FN)\n\n\nSensitivity TP / (TP + FN)\n\n\n\n\nNegative\n\n\nFalse positive (FP)\n\n\nTrue negative (TN)\n\n\nSpecificity TN / (TN + FP)\n\n\n\n\n—\n\n\nPrecision TP / (TP + FP)\n\n\nNegative predictive value TN / (TN + FN)\n\n\nAccuracy (TP + TN) / (TP + TN + FP + FN)\n\n\n\n\n\nA confusion matrix, also known as error matrix is a specific table layout that allows visualization of the performance of a Biomarker."
   },
   {
     "objectID": "1_biomarkers.html#thresholds-create-errors",
@@ -201,5 +201,40 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Clinical utility is not accuracy",
     "text": "Clinical utility is not accuracy\nHigh accuracy alone is insufficient.\nClinical utility depends on:\n\nconsequences of errors\npossibility to use across contexts\nadded value over clinical judgment\n\nA slightly better biomarker can still be useless."
+  },
+  {
+    "objectID": "1_biomarkers.html#functional-classification-of-biomarkers",
+    "href": "1_biomarkers.html#functional-classification-of-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Functional classification of biomarkers",
+    "text": "Functional classification of biomarkers\nAccording to regulatory and clinical frameworks, biomarkers can be used as:\n\ndiagnostic\nprognostic\npredictive\nmonitoring"
+  },
+  {
+    "objectID": "1_biomarkers.html#diagnostic-biomarkers",
+    "href": "1_biomarkers.html#diagnostic-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Diagnostic biomarkers",
+    "text": "Diagnostic biomarkers\n\n\nDiagnostic (classification) biomarkers are used to:\n\ndetect the presence of a condition\nsupport or refine a diagnosis\nidentify subtypes of a condition\n\n\nFor diagnostic biomarkers:\n\nfalse positives are especially harmful\nspecificity is critical\nprevalence strongly affects usefulness\n\n\n\n\nThey answer the question:\nIs this condition present?"
+  },
+  {
+    "objectID": "1_biomarkers.html#prognostic-biomarkers",
+    "href": "1_biomarkers.html#prognostic-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Prognostic biomarkers",
+    "text": "Prognostic biomarkers\n\n\nPrognostic biomarkers provide information about:\n\nfuture course of a condition\nlikelihood of progression, relapse, or recovery\n\n\nPrognostic biomarkers:\n\nare independent of treatment\ndescribe natural history\noften work at the group level\n\n\n\n\nThey answer the question:\nWhat is likely to happen over time?"
+  },
+  {
+    "objectID": "1_biomarkers.html#predictive-biomarkers",
+    "href": "1_biomarkers.html#predictive-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Predictive biomarkers",
+    "text": "Predictive biomarkers\n\n\nPredictive biomarkers estimate:\n\nlikelihood of response to an intervention\nlikelihood of side effects\n\n\nPredictive biomarkers are:\n\ncentral to personalized medicine\nhighly attractive clinically\nextremely difficult to validate\n\nThey require comparison across treatments.\n\n\n\nThey answer the question: Will this treatment work for this person?"
+  },
+  {
+    "objectID": "1_biomarkers.html#monitoring-biomarkers",
+    "href": "1_biomarkers.html#monitoring-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Monitoring biomarkers",
+    "text": "Monitoring biomarkers\n\n\nMonitoring biomarkers are used to:\n\ntrack changes over time\nassess response or progression\nsupport ongoing decisions\n\n\nExamples:\n\nphysiological stress markers\nEEG changes during treatment\nbehavioral performance over time\n\n\n\n\nThey answer the question:\nIs the condition changing over time?"
   }
 ]
