@@ -1,0 +1,948 @@
+---
+title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
+subtitle: "Intrinsic Signals"
+author: "Raffaele M Mazziotti, PhD"
+institute: "University of Florence"
+resources:
+  - quiz/
+  - images/
+format:
+  revealjs:
+    controls: true
+    theme: default
+    slide-number: true
+    logo: images/logo/NEUROFARBA_logo.svg
+    css: slide_style.css
+    transition: fade
+    center: true
+    math: mathjax
+    chalkboard: 
+      buttons: false
+    progress: true
+    title-slide-attributes:
+      data-background-image: images/logo/NEUROFARBA.svg
+      data-background-size: 500px
+      data-background-position: "center 10%"
+      data-state: title-slide
+    include-after-body: afterbody.html
+    mermaid:
+      theme: neutral
+    
+---
+
+## Neurovascular Coupling
+
+:::columns
+:::column
+
+Optical imaging methods do `not` measure neuronal activity `directly`.
+They measure `vascular and metabolic changes` that follow neural activity.
+
+:::info-box
+Neural signaling `requires` energy for:
+
+- `action potentials`
+- `synaptic transmission`
+- `ion pumping`
+- `neurotransmitter recycling`
+
+All of these processes increase `metabolic demand`.
+:::
+
+:::
+:::column
+
+![](docs/images/ios_neural_events.png){width="250" fig-align="center"}
+
+:::
+:::
+
+## Neurovascular Unit
+
+:::columns
+:::column
+
+:::card
+Neurons rely almost entirely on: `glucose` and `oxygen`. These are delivered by the `vascular system`. Neural activity therefore requires a local `vascular response`.
+:::
+
+:::info-box
+[Neurovascular coupling](https://www.mdpi.com/2306-5354/12/5/442) refers to the set of mechanisms by which changes in neural activity lead to changes in:
+
+- `cerebral blood flow` (CBF)
+- `blood volume`
+- `blood oxygenation`
+:::
+
+>This coupling is `local`, `regulated`, and `stimulus-dependent`.
+
+:::
+:::column
+
+:::info-box
+
+Neurovascular coupling is not controlled by neurons alone. It involves `interactions` between:
+
+- `neurons`
+- `astrocytes`
+- `endothelial` cells
+- `smooth muscle` cells
+
+This is often referred to as the [neuro-glio-vascular unit](https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2021.732820/full).
+
+:::
+
+![](docs/images/ios_vascular_brains.png){width="350" fig-align="center"}
+
+:::
+:::
+
+## Neurovascular Mechanisms
+
+
+:::columns
+:::column
+
+There is not a single pathway linking neurons to vessels. Current models describe `3` main mechanisms:
+
+- `direct` neuronal signaling
+- `astrocyte-mediated` signaling
+- `metabolic feedback` signaling
+
+>These mechanisms act `in parallel`, not in isolation.
+
+:::
+:::column
+
+![](docs/images/ios_vascular_brains.png){width="350" fig-align="center"}
+![](docs/images/ios_penetrating_arterioles.jpg){width="350" fig-align="center"}
+
+:::
+:::
+
+## Mechanism 1: Direct neuronal signaling
+
+:::columns
+:::column
+
+>Neurons can influence blood vessels `directly`.
+
+:::info-box
+This occurs through:
+
+- neurotransmitter release
+- neuromodulators
+- gaseous messengers (like nitric oxide, aka NO)
+:::
+
+:::
+:::column
+
+:::info-box
+In this mechanism:
+
+- neural activity increases
+- neurons release vasoactive substances
+- nearby vessels dilate rapidly
+
+This is often called a `feedforward` mechanism. It `anticipates` metabolic demand rather than reacting to it.
+
+:::
+
+:::
+:::
+
+## Properties of Direct Neuronal Signaling
+
+:::columns
+:::column
+
+:::card
+**Strengths**
+
+- `fast`
+- spatially `precise`
+- tightly `linked to synaptic activity`
+:::
+:::
+
+:::column
+
+:::card
+Limitations
+
+- `not sufficient` alone
+- does not encode metabolic state
+- varies across neuron types
+:::
+:::
+:::
+
+>This mechanism is responsible for the `early vascular response`.
+
+## Mechanism 2: Astrocyte-mediated signaling
+
+:::columns
+:::column
+
+:::info-box
+Astrocytes:
+
+- sense synaptic activity
+- integrate signals over space and time
+- release vasoactive substances
+
+They do not fire action potentials, but they actively regulate blood flow.
+:::
+
+![](docs/images/ios_synapse_tripartite.jpg){width="350" fig-align="center"}
+
+:::
+:::column
+
+:::info-box
+Typical sequence after synaptic activation:
+
+- glutamate activates astrocytic receptors
+- intracellular calcium rises
+- vasoactive signals are released (vasodilation)
+
+This pathway is `slower` than direct neuronal signaling. Roles:
+
+- integrate and smooth fast neural fluctuations
+- contribute to spatial spread of vascular responses
+
+This helps explain why vascular signals are `broader` than neural ones.
+
+:::
+
+:::
+:::
+
+## Mechanism 3: Metabolic feedback signaling
+
+:::columns
+:::column
+
+:::info-box
+Neural activity alters local metabolism.
+
+This leads to changes in:
+
+- `oxygen` levels
+- `glucose` consumption
+- carbon dioxide
+- pH
+
+These metabolic changes influence vessel tone.
+:::
+
+:::
+:::column
+
+:::info-box
+In this mechanism:
+
+- neural activity consumes oxygen
+- metabolic byproducts accumulate
+- vessels respond to restore balance
+
+This is a `feedback mechanism`, not feedforward. It `reflects actual energy use`.
+:::
+
+:::
+:::
+
+## The three mechanisms work together
+
+:::columns
+:::column
+![](docs/images/ios_neurovascular_coupling.png){width="500" fig-align="center"}
+
+:::
+:::column
+
+:::info-box
+Neurovascular coupling emerges from:
+
+- `fast` neuronal feedforward signaling
+- `intermediate` astrocytic integration
+- `slower` metabolic feedback
+:::
+
+```{mermaid}
+flowchart LR  
+A[Neural activity] --> B[Neuronal signaling]  
+A --> C[Astrocytic integration]  
+A --> D[Metabolic changes]  
+B --> E[Vascular response]  
+C --> E  
+D --> E  
+```
+
+:::
+:::
+
+## Consequence for interpretation
+
+:::columns
+:::column
+
+:::info-box
+Important implications:
+
+- signal amplitude ≠ firing rate
+- timing reflects vascular dynamics
+- spatial maps reflect integration
+:::
+
+:::
+:::column
+
+:::info-box
+Despite its complexity:
+
+- coupling is reproducible
+- spatially organized
+- stimulus-dependent
+
+This is why optical imaging works so well for mapping.
+:::
+
+:::
+:::
+
+## What does “intrinsic” mean?
+
+:::columns
+:::column
+
+> Intrinsic signal optical imaging uses the brain’s own optical properties.
+
+:::info-box
+- No dyes.  
+- No fluorescent reporters.  
+- No genetic indicators.
+
+The signal emerges from:
+
+- `hemoglobin absorption`
+- `blood volume` changes
+- `light scattering` changes
+
+:::
+
+
+:::
+:::column
+
+![](images/ios_intrinsic_estrinsic.jpg){width="350" fig-align="center"}
+
+:::
+:::
+
+## Why the visual cortex?
+
+:::columns
+:::column
+
+:::info-box
+The visual cortex is the `ideal model` system because:
+
+- it has precise `topographic organization`
+- responses are `stimulus-locked`
+:::
+
+:::info-box
+`Retinotopy` is a functional property of several visual areas:
+
+- neighboring points in visual space
+- are represented by neighboring points in cortex
+
+Different visual areas have a complete (almost) representation of the visual field.
+
+:::
+
+
+:::
+:::column
+
+```{mermaid}
+flowchart LR  
+A[Visual stimulus in left field] --> B[Right visual cortex activation]  
+C[Stimulus moves upward] --> D[Activation shifts dorsally]
+
+```
+
+![](images/ios_retinotopy2.png){width="250" fig-align="center"}
+![](images/ios_retinotopy.jpeg){width="250" fig-align="center"}
+
+In ISI:
+
+- reflected light is recorded
+- The readout is a `reflectance change over time`.
+
+:::
+:::
+
+## Why reflectance changes{#reflectance_change}
+
+:::columns
+:::column
+
+>Hemoglobin absorbs light.
+
+:::info-box
+Oxygenated (OHb) and deoxygenated (RHb) hemoglobin:
+
+- have different `absorption spectra`
+- absorb differently at different wavelengths
+
+Therefore: changes in oxygenation → changes in reflectance.
+:::
+
+:::
+:::column
+
+![](images/ios_hemoglobin_spectrum(1).png){width="550" fig-align="center"}
+
+:::
+:::
+
+## Wavelength matters
+
+:::columns
+:::column
+
+>Different wavelengths emphasize different components.
+
+:::info-box
+Around 610-680 nm:
+
+- `RHb absorbs` strongly
+- `active regions appear darker`
+- `signal correlates with increased HbR`
+
+Other wavelengths emphasize different dynamics.
+:::
+
+:::
+:::column
+
+![](images/ios_hemoglobin_spectrum(1).png){width="550" fig-align="center"}
+
+:::
+:::
+
+## Optical logic of ISI
+
+:::columns
+:::column
+
+:::card
+**Neural activation**
+
+- increases oxygen consumption
+- transient increase in HbR
+- later increase in OHb
+:::
+
+:::card
+**Optical consequence**
+
+- reflectance decreases at HbR-sensitive wavelengths
+- `spatially localized darkening`
+- reproducible stimulus-locked maps
+:::
+
+:::
+:::column
+
+![](images/ios_setup.gif){width="350" fig-align="center"}
+![](images/ios_signal_average.png){width="350" fig-align="center"}
+:::
+:::
+
+## Early and late components
+
+:::columns
+:::column
+
+
+:::info-box
+The intrinsic signal has [components](https://www.jneurosci.org/content/27/17/4572):
+
+- `initial dip` (early oxygen extraction)
+- `hyperemic response` (increased blood flow)
+- post-stimulus `undershoot`
+
+These reflect the three mechanisms of neurovascular coupling.
+:::
+
+:::
+:::column
+
+![](images/ios_components(1).png){width="300" fig-align="center"}
+![](images/ios_components2.jpg){width="500" fig-align="center"}
+
+:::
+:::
+
+## Mapping retinotopy with ISI
+
+:::columns
+:::column
+
+:::card
+Typical paradigm:
+
+- moving bar stimulus
+- drifting grating
+- phase-encoded visual stimulation
+:::
+
+:::card
+The cortical response:
+
+- shifts smoothly
+- mirrors stimulus movement
+- produces continuous retinotopic maps
+:::
+
+:::
+:::column
+
+![](images/ios_drifting_bar_left_right.mp4){width="250" fig-align="center"}
+![](images/ios_drifting_bar_bottom_up.mp4){width="250" fig-align="center"}
+![](images/ios_retinotopy_left_right.gif){width="250" fig-align="center"}
+![](images/ios_retinotopy_down_up.gif){width="250" fig-align="center"}
+
+:::
+:::
+
+## Mapping retinotopy with ISI
+
+:::columns
+:::column
+
+:::card
+The retinotopic organization is so strong that you can even draw on the visual cortex.
+
+In this experiment we tried to understand what is the `stimulus shape` from the `activation pattern`.
+As shown [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10336717): clear distinct activation patterns emerge after visual stimulation.
+:::
+
+:::
+:::column
+
+![](images/ios_retinotopy_shapes.png){width="500" fig-align="center"}
+![](images/ios_retinotopy_shapes_response.png){width="500" fig-align="center"}
+
+:::
+:::
+
+## Beyond retinotopy
+
+:::columns
+:::column
+
+:::info-box
+ISI has been used to map:
+
+- `orientation` columns (not in the mouse)
+- `ocular dominance` columns
+- `somatosensory maps`
+- `auditory maps`
+
+It captures `mesoscale` cortical architecture.
+:::
+
+:::
+:::column
+
+:::info-box
+ISI provides:
+
+- `high spatial resolution` (tens of micrometers)
+- `large field of view`
+- stable `functional maps`
+
+This makes it ideal for `cortical mapping` in animals.
+:::
+
+:::
+:::
+
+## Strengths and Weaknesses
+
+:::columns
+:::column
+
+:::card
+`Strengths`
+
+- no dyes required
+- stable across sessions
+- excellent for mapping cortex
+- strong signal-to-noise ratio
+- ideal for primary sensory cortices studies
+:::
+
+:::
+:::column
+
+:::card
+`Weaknesses`
+
+- signal is slow (seconds)
+- reflects vascular integration (indirect signal)
+- cannot resolve spikes or fast oscillations
+- limited to surface cortex
+- requires surgical preparation
+- influenced by anesthesia 
+
+:::
+
+:::
+:::
+
+## What is fNIRS?
+
+:::columns
+:::column
+
+:::info-box
+Functional Near Infrared Spectroscopy (fNIRS) is a `non-invasive` method that measures changes in:
+
+- OHb
+- RHb
+
+through `near-infrared` (NIr) light transmitted across the scalp.
+:::
+
+
+![](images/ios_optical_window.png){width="500" fig-align="center"}
+
+:::
+:::column
+
+:::info-box
+Biological tissue has an `optical window` approximately between:
+
+- `700 nm and 900 nm`
+
+In this range:
+
+- light penetrates scalp and skull
+- hemoglobin absorbs selectively
+- water and lipids absorb less
+
+This makes deep measurement possible.
+:::
+
+:::
+:::
+
+## From reflectance to absorption
+
+:::columns
+:::column
+
+:::info-box
+In `ISI`:
+
+- light hits cortex
+- `reflectance` changes are measured
+
+In `fNIRS`:
+
+- light enters scalp
+- travels through tissue
+- is partially absorbed
+- exits at a detector
+
+> We measure changes in light attenuation (`Absorbance`).
+
+:::
+
+:::
+:::column
+
+
+![](images/ios_light_paths.png){width="500" fig-align="center"}
+
+:::
+:::
+
+## The Beer-Lambert principle
+
+:::columns
+:::column
+
+:::info-box
+The core idea:
+
+- the amount of light absorbed depends on
+- the concentration of `absorbing molecules`
+- and the `path length`
+:::
+
+:::card
+In fNIRS, the absorbing molecules are:
+
+- OHb
+- RHb
+:::
+
+>We estimate concentration changes from light attenuation.
+
+:::
+:::column
+
+:::info-box
+
+OHb and RHb absorb light differently (see [absorption coefficients](#reflectance_change)). Using at least `2` wavelengths:
+
+- allows `separation` of OHb and RHb signals
+- enables `estimation` of relative concentration changes
+
+This is called the `modified Beer–Lambert law`.
+
+:::
+
+:::info-box
+fNIRS measures changes in:
+
+- `OHb` and `RHb`
+- Total hemoglobin (`THb` = OHb + RHb)
+:::
+
+:::
+:::
+
+## Typical activation pattern
+
+:::columns
+:::column
+
+:::info-box
+During neural activation:
+
+- HbO increases
+- HbR decreases
+- blood volume increases
+
+>This pattern mirrors what we saw in ISI. The signal is vascular, not electrical.
+
+:::
+
+:::
+:::column
+
+![](images/ios_fnirs_response.png){width="500" fig-align="center"}
+
+:::
+:::
+
+## Spatio-temporal Resolution
+
+:::columns
+:::column
+
+:::info-box
+Spatial resolution:
+
+- `centimeter-level` spatial resolution
+- sensitivity to `superficial` cortex
+- no access deep brain structures.
+:::
+
+:::
+:::column
+
+:::info-box
+Temporal resolution:
+
+- samples light at high frequency (tens of Hz)
+- but reflects `slow` vascular dynamics (seconds)
+
+>Temporal resolution is limited by physiology, not hardware.
+
+:::
+
+:::
+:::
+
+## Strengths of fNIRS
+
+:::columns
+:::column
+:::card
+[Advantages]{.highlight}
+
+- `non-invasive`
+- `silent` (compared to fRMI)
+- `portable`
+- suitable for `infants`
+- usable in `naturalistic tasks`
+:::
+:::
+
+:::column
+:::card
+[Research relevance]{.highlight}
+
+- `social interaction` studies (e.g. hyperscanning)
+- `developmental` research
+- `clinical` populations
+
+:::
+:::
+:::
+
+## fNIRS vs ISI
+
+:::columns
+:::column
+:::card
+[Intrinsic Signal Imaging]{.highlight}
+
+- `low invasive`
+- `reflectance`
+- very `high spatial resolution`
+- `animal models`
+
+:::
+:::
+
+:::column
+:::card
+[fNIRS]{.highlight}
+
+- `non-invasive`
+- `absorption`
+- `low spatial resolution`
+- `human studies`
+
+:::
+:::
+:::
+
+>Same physiology. Different optical constraints.
+
+## The fNIRS device: basic components
+
+:::columns
+:::column
+
+:::info-box
+An fNIRS system consists of:
+
+- light `sources`
+- light `detectors`
+- `optodes` placed on the scalp
+- acquisition and `processing unit`
+:::
+
+:::info-box
+[Sources]{.highlight}:
+
+- emit NIr light
+- typically at 2 wavelengths
+- are placed on the scalp
+
+:::
+
+:::
+:::column
+
+:::info-box
+[Detectors]{.highlight}:
+
+- measure light intensity exiting tissue
+- are placed a few centimeters away from sources
+- are sensitive to small changes in intensity
+
+:::
+
+:::info-box
+
+An `optode` is a general term for:
+
+- a `source` optode (emits light)
+- a `detector` optode (collects light)
+
+:::
+
+
+:::
+:::
+
+## Source-detector pairing
+
+:::columns
+:::column
+
+>Optodes are arranged in structured arrays on the scalp.
+
+:::info-box
+A source and a detector form a `channel`. The `distance` between them is typically:
+
+- 2.5 to 3.5 cm in adults
+- shorter in infants
+
+This distance determines `sampling depth`.
+:::
+
+![](images/ios_fnirs_sensitivity_profile.png){width="500" fig-align="center"}
+
+:::
+:::column
+
+:::card
+The light path forms a curved trajectory called `Banana-shaped sensitivity profile`. Maximum sensitivity occurs approximately:
+
+- halfway between source and detector
+- at a depth of about half the separation distance
+
+:::
+
+:::card
+
+Scalp blood flow contributes strongly. To control for this, systems include `Short (separation) channels`:
+
+- short channels (8–10 mm distance)
+- mainly sensitive to `superficial layers` of the tissue
+
+These are used to regress out scalp effects.
+
+:::
+
+:::
+:::
+
+## Source-detector pairing
+
+:::columns
+:::column
+
+![](images/ios_fnirs_setup.jpg){width="500" fig-align="center"}
+
+:::
+:::column
+![](images/ios_fnirs_short_channel.jpg){width="200" fig-align="center"}
+
+:::card
+
+fNIRS setup requires attention to:
+
+- hair interference
+- optode contact
+- ambient light contamination
+
+Signal quality depends strongly on preparation.
+
+:::
+
+:::
+:::

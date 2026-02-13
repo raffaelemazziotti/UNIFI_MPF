@@ -4,7 +4,7 @@
     "href": "0_content.html#index",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Index",
-    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nBiomarkers\n\n\n\n\n\nother subject"
+    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nBiomarkers\nIntrinsic Signals\n\n\n\n\n\nother subject"
   },
   {
     "objectID": "0_content.html#course-material-and-schedule",
@@ -207,7 +207,7 @@
     "href": "1_biomarkers.html#functional-classification-of-biomarkers",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Functional classification of biomarkers",
-    "text": "Functional classification of biomarkers\nAccording to regulatory and clinical frameworks, biomarkers can be used as:\n\ndiagnostic\nprognostic\npredictive\nmonitoring"
+    "text": "Functional classification of biomarkers\nAccording to regulatory and clinical frameworks, biomarkers can be used as:\n\ndiagnostic\nprognostic\npredictive\nmonitoring\nrisk/suceptibility"
   },
   {
     "objectID": "1_biomarkers.html#diagnostic-biomarkers",
@@ -228,7 +228,7 @@
     "href": "1_biomarkers.html#predictive-biomarkers",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Predictive biomarkers",
-    "text": "Predictive biomarkers\n\n\nPredictive biomarkers estimate:\n\nlikelihood of response to an intervention\nlikelihood of side effects\n\n\nPredictive biomarkers are:\n\ncentral to personalized medicine\nhighly attractive clinically\nextremely difficult to validate\n\nThey require comparison across treatments.\n\n\n\nThey answer the question: Will this treatment work for this person?"
+    "text": "Predictive biomarkers\n\n\nPredictive biomarkers estimate:\n\nlikelihood of response to an intervention\nlikelihood of side effects\n\n\nPredictive biomarkers are:\n\ncentral to personalized medicine\nhighly attractive clinically\nextremely difficult to validate\n\nThey require comparison across treatments.\n\n\n\nThey answer the question:\nWill this treatment work for this person?"
   },
   {
     "objectID": "1_biomarkers.html#monitoring-biomarkers",
@@ -236,5 +236,299 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Monitoring biomarkers",
     "text": "Monitoring biomarkers\n\n\nMonitoring biomarkers are used to:\n\ntrack changes over time\nassess response or progression\nsupport ongoing decisions\n\n\nExamples:\n\nphysiological stress markers\nEEG changes during treatment\nbehavioral performance over time\n\n\n\n\nThey answer the question:\nIs the condition changing over time?"
+  },
+  {
+    "objectID": "1_biomarkers.html#susceptibility-risk-biomarkers",
+    "href": "1_biomarkers.html#susceptibility-risk-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Susceptibility / risk biomarkers",
+    "text": "Susceptibility / risk biomarkers\nRisk biomarkers estimate: - vulnerability before onset - probability of developing a condition\nThey answer the question: &gt; “Who is at higher risk?”"
+  },
+  {
+    "objectID": "1_biomarkers.html#risksusceptibility-biomarkers",
+    "href": "1_biomarkers.html#risksusceptibility-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Risk/Susceptibility biomarkers",
+    "text": "Risk/Susceptibility biomarkers\n\n\nRisk biomarkers estimate:\n\nvulnerability before onset\nprobability of developing a condition\n\n\nRisk biomarkers:\n\ngenerate many false positives\nraise ethical concerns\n\n\n\n\nThey answer the question:\nWho is at higher risk?"
+  },
+  {
+    "objectID": "1_biomarkers.html#clinical-reality-is-not-the-lab",
+    "href": "1_biomarkers.html#clinical-reality-is-not-the-lab",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Clinical reality is not the lab",
+    "text": "Clinical reality is not the lab\n\n\nClinical settings are characterized by:\n\ntime pressure\nincomplete information\nheterogeneous patients\nhigh emotional stakes\n\n\nBiomarkers must work under these conditions.\n\n\n\nA biomarker is clinically applicable only if it:\n\nimproves decision-making\nadds value beyond standard assessment\njustifies its costs and risks\nstatistical significance is not enough.\n\nIn psychology and psychiatry:\n\nclinical judgment remains central\nbiomarkers support, not replace, clinicians"
+  },
+  {
+    "objectID": "1_biomarkers.html#positive-does-not-mean-certain",
+    "href": "1_biomarkers.html#positive-does-not-mean-certain",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "“Positive” does not mean “certain”",
+    "text": "“Positive” does not mean “certain”\n\n\nUsing biomarkers responsibly requires:\n\nexplaining uncertainty\ncommunicating probabilities\navoiding deterministic language\n\n\nRisk biomarkers raise special concerns:\n\nlabeling before symptoms\nlong-term psychological burden\nunclear benefit of early knowledge\n\n\n\n\nResponsible biomarker use requires:\n\nclear context of use\nawareness of error rates\nintegration with clinical data\ncontinuous evaluation"
+  },
+  {
+    "objectID": "1_biomarkers.html#self-check",
+    "href": "1_biomarkers.html#self-check",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Self-check",
+    "text": "Self-check"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#neurovascular-coupling",
+    "href": "2_instrinsic_signals.html#neurovascular-coupling",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Neurovascular Coupling",
+    "text": "Neurovascular Coupling\n\n\nOptical imaging methods do not measure neuronal activity directly. They measure vascular and metabolic changes that follow neural activity.\n\nNeural signaling requires energy for:\n\naction potentials\nsynaptic transmission\nion pumping\nneurotransmitter recycling\n\nAll of these processes increase metabolic demand."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#where-does-neural-energy-come-from",
+    "href": "2_instrinsic_signals.html#where-does-neural-energy-come-from",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Where does neural energy come from?",
+    "text": "Where does neural energy come from?\n\n\n\nNeurons rely almost entirely on: glucose and oxygen. These are delivered by the vascular system. Neural activity therefore requires a local vascular response.\n\n\nNeurovascular coupling refers to the set of mechanisms by which changes in neural activity lead to changes in:\n\ncerebral blood flow (CBF)\nblood volume\nblood oxygenation\n\n\n\nThis coupling is local, regulated, and stimulus-dependent.\n\n\n\nNeurovascular coupling is not controlled by neurons alone. It involves interactions between:\n\nneurons\nastrocytes\nendothelial cells\nsmooth muscle cells\n\nThis is often referred to as the neuro-glio-vascular unit."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#conceptual-sequence-of-events",
+    "href": "2_instrinsic_signals.html#conceptual-sequence-of-events",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Conceptual sequence of events",
+    "text": "Conceptual sequence of events\n\n\n\n\n\nflowchart TD  \nA[Neural activity] --&gt; B[Increased energy demand]  \nB --&gt; C[Metabolic and glial signaling]  \nC --&gt; D[Vascular response]  \nD --&gt; E[Changes in &lt;br/&gt; blood flow and oxygenation]\n\n\n\n\n\n\nOptical imaging captures the final stage of this sequence."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#neurovascular-unit",
+    "href": "2_instrinsic_signals.html#neurovascular-unit",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Neurovascular Unit",
+    "text": "Neurovascular Unit\n\n\n\nNeurons rely almost entirely on: glucose and oxygen. These are delivered by the vascular system. Neural activity therefore requires a local vascular response.\n\n\nNeurovascular coupling refers to the set of mechanisms by which changes in neural activity lead to changes in:\n\ncerebral blood flow (CBF)\nblood volume\nblood oxygenation\n\n\n\nThis coupling is local, regulated, and stimulus-dependent.\n\n\n\nNeurovascular coupling is not controlled by neurons alone. It involves interactions between:\n\nneurons\nastrocytes\nendothelial cells\nsmooth muscle cells\n\nThis is often referred to as the neuro-glio-vascular unit."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#neurovascular-mechanisms",
+    "href": "2_instrinsic_signals.html#neurovascular-mechanisms",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Neurovascular Mechanisms",
+    "text": "Neurovascular Mechanisms\n\n\nThere is not a single pathway linking neurons to vessels. Current models describe 3 main mechanisms:\n\ndirect neuronal signaling\nastrocyte-mediated signaling\nmetabolic feedback signaling\n\n\nThese mechanisms act in parallel, not in isolation."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#mechanism-1-direct-neuronal-signaling",
+    "href": "2_instrinsic_signals.html#mechanism-1-direct-neuronal-signaling",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Mechanism 1: Direct neuronal signaling",
+    "text": "Mechanism 1: Direct neuronal signaling\n\n\n\nNeurons can influence blood vessels directly.\n\n\nThis occurs through:\n\nneurotransmitter release\nneuromodulators\ngaseous messengers (like nitric oxide, aka NO)\n\n\n\n\nIn this mechanism:\n\nneural activity increases\nneurons release vasoactive substances\nnearby vessels dilate rapidly\n\nThis is often called a feedforward mechanism. It anticipates metabolic demand rather than reacting to it."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#properties-of-neuronal-signaling",
+    "href": "2_instrinsic_signals.html#properties-of-neuronal-signaling",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Properties of neuronal signaling",
+    "text": "Properties of neuronal signaling\n\n\n\nStrengths\n\nfast\nspatially precise\ntightly linked to synaptic activity\n\n\n\n\nLimitations\n\nnot sufficient alone\ndoes not encode metabolic state\nvaries across neuron types"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#properties-of-direct-neuronal-signaling",
+    "href": "2_instrinsic_signals.html#properties-of-direct-neuronal-signaling",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Properties of Direct Neuronal Signaling",
+    "text": "Properties of Direct Neuronal Signaling\n\n\n\nStrengths\n\nfast\nspatially precise\ntightly linked to synaptic activity\n\n\n\n\nLimitations\n\nnot sufficient alone\ndoes not encode metabolic state\nvaries across neuron types\n\n\n\n\nThis mechanism is responsible for the early vascular response."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#mechanism-2-astrocyte-mediated-signaling",
+    "href": "2_instrinsic_signals.html#mechanism-2-astrocyte-mediated-signaling",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Mechanism 2: Astrocyte-mediated signaling",
+    "text": "Mechanism 2: Astrocyte-mediated signaling\n\n\n\nAstrocytes:\n\nsense synaptic activity\nintegrate signals over space and time\nrelease vasoactive substances\n\nThey do not fire action potentials, but they actively regulate blood flow.\n\n\n\n\n\n\n\n\nTypical sequence after synaptic activation:\n\nglutamate activates astrocytic receptors\nintracellular calcium rises\nvasoactive signals are released (vasodilation)\n\nThis pathway is slower than direct neuronal signaling. Roles:\n\nintegrate and smooth fast neural fluctuations\ncontribute to spatial spread of vascular responses\n\nThis helps explain why vascular signals are broader than neural ones."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#mechanism-3-metabolic-feedback-signaling",
+    "href": "2_instrinsic_signals.html#mechanism-3-metabolic-feedback-signaling",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Mechanism 3: Metabolic feedback signaling",
+    "text": "Mechanism 3: Metabolic feedback signaling\n\n\n\nNeural activity alters local metabolism.\nThis leads to changes in:\n\noxygen levels\nglucose consumption\ncarbon dioxide\npH\n\nThese metabolic changes influence vessel tone.\n\n\n\nIn this mechanism:\n\nneural activity consumes oxygen\nmetabolic byproducts accumulate\nvessels respond to restore balance\n\nThis is a feedback mechanism, not feedforward. It reflects actual energy use."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#the-three-mechanisms-work-together",
+    "href": "2_instrinsic_signals.html#the-three-mechanisms-work-together",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The three mechanisms work together",
+    "text": "The three mechanisms work together\n\n\n\n\n\n\n\n\n\nNeurovascular coupling emerges from:\n\nfast neuronal feedforward signaling\nintermediate astrocytic integration\nslower metabolic feedback\n\n\n\n\n\n\n\nflowchart LR  \nA[Neural activity] --&gt; B[Neuronal signaling]  \nA --&gt; C[Astrocytic integration]  \nA --&gt; D[Metabolic changes]  \nB --&gt; E[Vascular response]  \nC --&gt; E  \nD --&gt; E"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#consequence-for-interpretation",
+    "href": "2_instrinsic_signals.html#consequence-for-interpretation",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Consequence for interpretation",
+    "text": "Consequence for interpretation\n\n\n\nImportant implications:\n\nsignal amplitude ≠ firing rate\ntiming reflects vascular dynamics\nspatial maps reflect integration\n\n\n\n\nDespite its complexity:\n\ncoupling is reproducible\nspatially organized\nstimulus-dependent\n\nThis is why optical imaging works so well for mapping."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#what-does-intrinsic-mean",
+    "href": "2_instrinsic_signals.html#what-does-intrinsic-mean",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What does “intrinsic” mean?",
+    "text": "What does “intrinsic” mean?\n\n\n\nIntrinsic signal optical imaging uses the brain’s own optical properties.\n\n\n\nNo dyes.\n\nNo fluorescent reporters.\n\nNo genetic indicators.\n\nThe signal emerges from:\n\nhemoglobin absorption\nblood volume changes\nlight scattering changes"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#why-the-visual-cortex",
+    "href": "2_instrinsic_signals.html#why-the-visual-cortex",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why the visual cortex?",
+    "text": "Why the visual cortex?\n\n\n\nThe visual cortex is the ideal model system because:\n\nit has precise topographic organization\nresponses are stimulus-locked\n\n\n\nRetinotopy is a functional property of several visual areas:\n\nneighboring points in visual space\nare represented by neighboring points in cortex\n\nDifferent visual areas have a complete (almost) representation of the visual field.\n\n\n\n\n\n\n\nflowchart LR  \nA[Visual stimulus in left field] --&gt; B[Right visual cortex activation]  \nC[Stimulus moves upward] --&gt; D[Activation shifts dorsally]\n\n\n\n\n\n\n\n \nIn ISI:\n\nreflected light is recorded\nThe readout is a reflectance change over time."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#why-reflectance-changes",
+    "href": "2_instrinsic_signals.html#why-reflectance-changes",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why reflectance changes",
+    "text": "Why reflectance changes\n\n\n\nHemoglobin absorbs light.\n\n\nOxygenated (OHb) and deoxygenated (RHb) hemoglobin:\n\nhave different absorption spectra\nabsorb differently at different wavelengths\n\nTherefore: changes in oxygenation → changes in reflectance."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#wavelength-matters",
+    "href": "2_instrinsic_signals.html#wavelength-matters",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Wavelength matters",
+    "text": "Wavelength matters\n\n\n\nDifferent wavelengths emphasize different components.\n\n\nAround 610-680 nm:\n\nRHb absorbs strongly\nactive regions appear darker\nsignal correlates with increased HbR\n\nOther wavelengths emphasize different dynamics."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#optical-logic-of-isi",
+    "href": "2_instrinsic_signals.html#optical-logic-of-isi",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Optical logic of ISI",
+    "text": "Optical logic of ISI\n\n\n\nNeural activation\n\nincreases oxygen consumption\ntransient increase in HbR\nlater increase in OHb\n\n\n\nOptical consequence\n\nreflectance decreases at HbR-sensitive wavelengths\nspatially localized darkening\nreproducible stimulus-locked maps"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#early-and-late-components",
+    "href": "2_instrinsic_signals.html#early-and-late-components",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Early and late components",
+    "text": "Early and late components\n\n\n\nThe intrinsic signal has components:\n\ninitial dip (early oxygen extraction)\nhyperemic response (increased blood flow)\npost-stimulus undershoot\n\nThese reflect the three mechanisms of neurovascular coupling."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#mapping-retinotopy-with-isi",
+    "href": "2_instrinsic_signals.html#mapping-retinotopy-with-isi",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Mapping retinotopy with ISI",
+    "text": "Mapping retinotopy with ISI\n\n\n\nTypical paradigm:\n\nmoving bar stimulus\ndrifting grating\nphase-encoded visual stimulation\n\n\n\nThe cortical response:\n\nshifts smoothly\nmirrors stimulus movement\nproduces continuous retinotopic maps\n\n\n\nVideo Video"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#mapping-retinotopy-with-isi-1",
+    "href": "2_instrinsic_signals.html#mapping-retinotopy-with-isi-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Mapping retinotopy with ISI",
+    "text": "Mapping retinotopy with ISI\n\n\n\nThe retinotopic organization is so strong that you can even draw on the visual cortex.\nIn this experiment we tried to understand what is the stimulus shape from the activation pattern. As shown here: clear distinct activation patterns emerge after visual stimulation."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#beyond-retinotopy",
+    "href": "2_instrinsic_signals.html#beyond-retinotopy",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Beyond retinotopy",
+    "text": "Beyond retinotopy\n\n\n\nISI has been used to map:\n\norientation columns (not in the mouse)\nocular dominance columns\nsomatosensory maps\nauditory maps\n\nIt captures mesoscale cortical architecture.\n\n\n\nISI provides:\n\nhigh spatial resolution (tens of micrometers)\nlarge field of view\nstable functional maps\n\nThis makes it ideal for cortical mapping in animals."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#strengths-and-weaknesses",
+    "href": "2_instrinsic_signals.html#strengths-and-weaknesses",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Strengths and Weaknesses",
+    "text": "Strengths and Weaknesses\n\n\n\nStrengths\n\nno dyes required\nstable across sessions\nexcellent for mapping cortex\nstrong signal-to-noise ratio\nideal for primary sensory cortices studies\n\n\n\n\nWeaknesses\n\nsignal is slow (seconds)\nreflects vascular integration (indirect signal)\ncannot resolve spikes or fast oscillations\nlimited to surface cortex\nrequires surgical preparation\ninfluenced by anesthesia"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#what-is-fnirs",
+    "href": "2_instrinsic_signals.html#what-is-fnirs",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What is fNIRS?",
+    "text": "What is fNIRS?\n\n\n\nFunctional Near Infrared Spectroscopy (fNIRS) is a non-invasive method that measures changes in:\n\nOHb\nRHb\n\nthrough near-infrared (NIr) light transmitted across the scalp.\n\n\n\n\n\n\n\n\nBiological tissue has an optical window approximately between:\n\n700 nm and 900 nm\n\nIn this range:\n\nlight penetrates scalp and skull\nhemoglobin absorbs selectively\nwater and lipids absorb less\n\nThis makes deep measurement possible."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#from-reflectance-to-absorption",
+    "href": "2_instrinsic_signals.html#from-reflectance-to-absorption",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "From reflectance to absorption",
+    "text": "From reflectance to absorption\n\n\n\nIn ISI:\n\nlight hits cortex\nreflectance changes are measured\n\nIn fNIRS:\n\nlight enters scalp\ntravels through tissue\nis partially absorbed\nexits at a detector\n\n\nWe measure changes in light attenuation (Absorbance)."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#the-beerlambert-principle",
+    "href": "2_instrinsic_signals.html#the-beerlambert-principle",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The Beer–Lambert principle",
+    "text": "The Beer–Lambert principle"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#the-beer-lambert-principle",
+    "href": "2_instrinsic_signals.html#the-beer-lambert-principle",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The Beer-Lambert principle",
+    "text": "The Beer-Lambert principle\n\n\n\nThe core idea:\n\nthe amount of light absorbed depends on\nthe concentration of absorbing molecules\nand the path length\n\n\n\nIn fNIRS, the absorbing molecules are:\n\nOHb\nRHb\n\n\n\nWe estimate concentration changes from light attenuation.\n\n\n\nOHb and RHb absorb light differently (see absorption coefficients). Using at least 2 wavelengths:\n\nallows separation of OHb and RHb signals\nenables estimation of relative concentration changes\n\nThis is called the modified Beer–Lambert law.\n\n\nfNIRS measures changes in:\n\nOHb and RHb\nTotal hemoglobin (THb = OHb + RHb)"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#reflectance_change",
+    "href": "2_instrinsic_signals.html#reflectance_change",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why reflectance changes",
+    "text": "Why reflectance changes\n\n\n\nHemoglobin absorbs light.\n\n\nOxygenated (OHb) and deoxygenated (RHb) hemoglobin:\n\nhave different absorption spectra\nabsorb differently at different wavelengths\n\nTherefore: changes in oxygenation → changes in reflectance."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#typical-activation-pattern",
+    "href": "2_instrinsic_signals.html#typical-activation-pattern",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Typical activation pattern",
+    "text": "Typical activation pattern\n\n\n\nDuring neural activation:\n\nHbO increases\nHbR decreases\nblood volume increases\n\n\nThis pattern mirrors what we saw in ISI. The signal is vascular, not electrical."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#spatio-temporal-resolution",
+    "href": "2_instrinsic_signals.html#spatio-temporal-resolution",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Spatio-temporal Resolution",
+    "text": "Spatio-temporal Resolution\n\n\n\nSpatial resolution:\n\ncentimeter-level spatial resolution\nsensitivity to superficial cortex\nno access deep brain structures.\n\n\n\n\nTemporal resolution:\n\nsamples light at high frequency (tens of Hz)\nbut reflects slow vascular dynamics (seconds)\n\n\nTemporal resolution is limited by physiology, not hardware."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#strengths-of-fnirs",
+    "href": "2_instrinsic_signals.html#strengths-of-fnirs",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Strengths of fNIRS",
+    "text": "Strengths of fNIRS\n\n\n\nAdvantages\n\nnon-invasive\nsilent (compared to fRMI)\nportable\nsuitable for infants\nusable in naturalistic tasks\n\n\n\n\nResearch relevance\n\nsocial interaction studies (e.g. hyperscanning)\ndevelopmental research\nclinical populations"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#strengths-of-fnirs-1",
+    "href": "2_instrinsic_signals.html#strengths-of-fnirs-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Strengths of fNIRS",
+    "text": "Strengths of fNIRS\n\n\n\nAdvantages\n\nnon-invasive\nsilent\nportable\nsuitable for infants\nusable in naturalistic tasks\n\n\n\n\nResearch relevance\n\nsocial interaction studies\ndevelopmental research\nclinical populations\nhyperscanning"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#fnirs-vs-isi",
+    "href": "2_instrinsic_signals.html#fnirs-vs-isi",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "fNIRS vs ISI",
+    "text": "fNIRS vs ISI\n\n\n\nIntrinsic Signal Imaging\n\nlow invasive\nreflectance\nvery high spatial resolution\nanimal models\n\n\n\n\nfNIRS\n\nnon-invasive\nabsorption\nlow spatial resolution\nhuman studies\n\n\n\n\nSame physiology. Different optical constraints."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#the-fnirs-device-basic-components",
+    "href": "2_instrinsic_signals.html#the-fnirs-device-basic-components",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The fNIRS device: basic components",
+    "text": "The fNIRS device: basic components\n\n\n\nAn fNIRS system consists of:\n\nlight sources\nlight detectors\noptodes placed on the scalp\nacquisition and processing unit\n\n\n\nSources:\n\nemit NIr light\ntypically at 2 wavelengths\nare placed on the scalp\n\n\n\n\nDetectors:\n\nmeasure light intensity exiting tissue\nare placed a few centimeters away from sources\nare sensitive to small changes in intensity\n\n\n\nAn optode is a general term for:\n\na source optode (emits light)\na detector optode (collects light)"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#sourcedetector-pairing",
+    "href": "2_instrinsic_signals.html#sourcedetector-pairing",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Source–detector pairing",
+    "text": "Source–detector pairing\n\n\n\nOptodes are arranged in structured arrays on the scalp.\n\n\nA source and a detector form a channel. The distance between them is typically:\n\n2.5 to 3.5 cm in adults\nshorter in infants\n\nThis distance determines sampling depth.\n\n\n\n\n\n\n\n\nThe light path forms a curved trajectory called Banana-shaped sensitivity profile. Maximum sensitivity occurs approximately:\n\nhalfway between source and detector\nat a depth of about half the separation distance\n\n\n\nScalp blood flow contributes strongly. To control for this, systems include Short (separation) channels:\n\nshort channels (8–10 mm distance)\nmainly sensitive to superficial layers of the tissue\n\nThese are used to regress out scalp effects."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#sourcedetector-pairing-1",
+    "href": "2_instrinsic_signals.html#sourcedetector-pairing-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Source–detector pairing",
+    "text": "Source–detector pairing"
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#source-detector-pairing",
+    "href": "2_instrinsic_signals.html#source-detector-pairing",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Source-detector pairing",
+    "text": "Source-detector pairing\n\n\n\nOptodes are arranged in structured arrays on the scalp.\n\n\nA source and a detector form a channel. The distance between them is typically:\n\n2.5 to 3.5 cm in adults\nshorter in infants\n\nThis distance determines sampling depth.\n\n\n\n\n\n\n\n\nThe light path forms a curved trajectory called Banana-shaped sensitivity profile. Maximum sensitivity occurs approximately:\n\nhalfway between source and detector\nat a depth of about half the separation distance\n\n\n\nScalp blood flow contributes strongly. To control for this, systems include Short (separation) channels:\n\nshort channels (8–10 mm distance)\nmainly sensitive to superficial layers of the tissue\n\nThese are used to regress out scalp effects."
+  },
+  {
+    "objectID": "2_instrinsic_signals.html#source-detector-pairing-1",
+    "href": "2_instrinsic_signals.html#source-detector-pairing-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Source-detector pairing",
+    "text": "Source-detector pairing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfNIRS setup requires attention to:\n\nhair interference\noptode contact\nambient light contamination\n\nSignal quality depends strongly on preparation."
   }
 ]

@@ -41,6 +41,7 @@ Description of the course
 
 :::{.list-box}
 - [Biomarkers](1_biomarkers.html)
+- [Intrinsic Signals](2_instrinsic_signals.html)
 :::
 
 ::: 
@@ -48,38 +49,6 @@ Description of the course
 
 :::{.list-box}
 - other subject
-:::
-
-:::
-:::
-
-## Course material and schedule
-
-::: columns
-::: column
-
-::: {.card}
-[📘 Course book]{.highlight}
-
-- The main reference for the course is an **open-access textbook**
-- You can read it online or download it for free
-
-👉 [Foundations of Neuroscience (open book)](https://openbooks.lib.msu.edu/neuroscience/)
-:::
-
-:::
-
-::: column
-
-::: {.card}
-[🗓 ️Timetable and midterms]{.highlight}
-
-- The timetable includes:
-  - scheduled lessons
-  - midterm dates
-- Please check it regularly for updates
-
-👉 [Course timetable and midterms](https://docs.google.com/spreadsheets/d/1PJGewiJnxrPQ5PUh9JBqskFjvt7H6T6Mhd8j8Ym0QKw/edit?usp=sharing)
 :::
 
 :::

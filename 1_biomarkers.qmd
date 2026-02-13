@@ -1,6 +1,6 @@
 ---
 title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
-subtitle: "Module 2 - Biomarkers"
+subtitle: "Biomarkers"
 author: "Raffaele M Mazziotti, PhD"
 institute: "University of Florence"
 resources:
@@ -960,6 +960,7 @@ According to regulatory and clinical frameworks, biomarkers can be used as:
 - `prognostic`
 - `predictive`
 - `monitoring`
+- `risk/suceptibility`
 
 ## Diagnostic biomarkers
 
@@ -1054,6 +1055,7 @@ They require comparison across treatments.
 
 :::card
 They answer the question:
+
 `Will this treatment work for this person?`
 :::
 
@@ -1091,5 +1093,115 @@ They answer the question:
 `Is the condition changing over time?`
 :::
 
+![](docs/images/biom_monitoring.png){width="300" fig-align="center"}
+
 :::
 :::
+
+## Risk/Susceptibility biomarkers
+
+:::columns
+:::column
+
+`Risk biomarkers` estimate:
+
+- vulnerability `before` onset
+- probability of developing a condition
+
+:::info-box
+Risk biomarkers:
+
+- generate many false positives
+- raise ethical concerns
+:::
+
+:::
+:::column
+
+:::card
+They answer the question:
+
+`Who is at higher risk?`
+:::
+
+![](docs/images/biom_risk.png){width="300" fig-align="center"}
+
+:::
+:::
+
+## Clinical reality is not the lab
+
+:::columns
+:::column
+
+Clinical settings are characterized by:
+
+- time pressure
+- incomplete information
+- heterogeneous patients
+- high emotional stakes
+
+>Biomarkers must work under these conditions.
+
+:::
+:::column
+
+:::info-box
+A biomarker is clinically applicable only if it:
+
+- improves decision-making
+- adds value beyond standard assessment
+- justifies its costs and risks
+- statistical significance is not enough.
+
+In psychology and psychiatry:
+
+- clinical judgment remains central
+- biomarkers support, not replace, clinicians
+
+:::
+
+:::
+:::
+
+## “Positive” does not mean “certain”
+
+:::columns
+:::column
+
+Using biomarkers responsibly requires:
+
+- explaining uncertainty
+- communicating probabilities
+- avoiding deterministic language
+
+:::info-box
+Risk biomarkers raise special concerns:
+
+- labeling before symptoms
+- long-term psychological burden
+- unclear benefit of early knowledge
+:::
+
+:::
+:::column
+
+:::info-box
+Responsible biomarker use requires:
+
+- clear context of use
+- awareness of error rates
+- integration with clinical data
+- continuous evaluation
+:::
+
+:::
+:::
+
+## Self-check
+
+```{=html}
+<div class="quiz-wrap">
+  <iframe class="quiz-frame" src="quiz/quiz_biom.html" loading="lazy"></iframe>
+</div>
+```

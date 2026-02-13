@@ -5,22 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5676132-9073-4a33-b859-5430f0a97a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/biom_diagnostic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/biom_predictive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/biom_prognostic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_instrinsic_signals.qmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/biom_risk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biom_monitoring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_astrocyte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_components(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_components2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_drifting_bar_bottom_up.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_drifting_bar_left_right.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_response.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_sensitivity_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_setup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_short_channel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_hemoglobin_spectrum(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_intrinsic_estrinsic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_light_paths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_neural_events.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_neurovascular_coupling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_optical_window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_penetrating_arterioles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_down_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_left_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_shapes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_shapes_response.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_setup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_signal_average.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_synapse_tripartite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ios_vascular_brains.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/questions_biom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/quiz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/quiz_biom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_content.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/0_content.qmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_biomarkers.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/1_biomarkers.qmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_quarto.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_quarto.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/0_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/0_content.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/1_biomarkers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1_biomarkers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/slide_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/slide_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slide_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/slide_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -53,9 +90,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/docs/images" />
+      <recent name="$PROJECT_DIR$/quiz" />
       <recent name="C:\Users\pupil\Documents\GitHub\UNIFI_MPF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\pupil\Documents\GitHub\UNIFI_MPF" />
     </key>
   </component>
@@ -77,7 +116,7 @@
       <updated>1770223686830</updated>
       <workItem from="1770223687876" duration="176000" />
       <workItem from="1770293823295" duration="10470000" />
-      <workItem from="1770420080962" duration="22861000" />
+      <workItem from="1770420080962" duration="62576000" />
     </task>
     <servers />
   </component>
