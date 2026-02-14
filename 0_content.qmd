@@ -42,6 +42,7 @@ Description of the course
 :::{.list-box}
 - [Biomarkers](1_biomarkers.html)
 - [Intrinsic Signals](2_instrinsic_signals.html)
+- [Pupillometry](3_pupillometry.html)
 :::
 
 ::: 

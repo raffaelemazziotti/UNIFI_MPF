@@ -4,7 +4,7 @@
     "href": "0_content.html#index",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Index",
-    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nBiomarkers\nIntrinsic Signals\n\n\n\n\n\nother subject"
+    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nBiomarkers\nIntrinsic Signals\nPupillometry\n\n\n\n\n\nother subject"
   },
   {
     "objectID": "0_content.html#course-material-and-schedule",
@@ -530,5 +530,82 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Source-detector pairing",
     "text": "Source-detector pairing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfNIRS setup requires attention to:\n\nhair interference\noptode contact\nambient light contamination\n\nSignal quality depends strongly on preparation."
+  },
+  {
+    "objectID": "3_pupillometry.html#why-study-the-pupil",
+    "href": "3_pupillometry.html#why-study-the-pupil",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why study the pupil?",
+    "text": "Why study the pupil?\nThe pupil is:\n\nvisible\nmeasurable\ndynamically controlled\ntightly linked to brain state\n\nPupillometry provides a fast, non-invasive window\ninto autonomic and cognitive processes."
+  },
+  {
+    "objectID": "3_pupillometry.html#what-is-the-pupil",
+    "href": "3_pupillometry.html#what-is-the-pupil",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What is the pupil?",
+    "text": "What is the pupil?\n\n\n\nWhy study the pupil:\n\nvisible & measurable\ndynamically controlled\ntightly linked to brain state\n\nPupillometry provides a fast, non-invasive window into autonomic and cognitive processes. What the pupil is:\n\nthe variable opening in the center of the iris\nregulating the amount of light entering the eye\n\nIt functions like the aperture of a camera.\n\n\n\n\n\n\n\n\nTwo muscles control pupil size:\n\nSphincter pupillae → constriction\nDilator pupillae → dilation\n\nThese muscles are controlled by different branches of the autonomic nervous system."
+  },
+  {
+    "objectID": "3_pupillometry.html#the-iris-muscles",
+    "href": "3_pupillometry.html#the-iris-muscles",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The iris muscles",
+    "text": "The iris muscles"
+  },
+  {
+    "objectID": "3_pupillometry.html#pupil-anatomy-and-physiology",
+    "href": "3_pupillometry.html#pupil-anatomy-and-physiology",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Pupil Anatomy and Physiology",
+    "text": "Pupil Anatomy and Physiology"
+  },
+  {
+    "objectID": "3_pupillometry.html#pupillary-control",
+    "href": "3_pupillometry.html#pupillary-control",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Pupillary Control",
+    "text": "Pupillary Control\n\n\n\nParasympathetic (ACh) pathway:\n\nRetina\nPretectal nucleus\nEdinger–Westphal nucleus\nOculomotor nerve (III)\nCiliary ganglion\nSphincter muscle\n\nThis mediates the pupillary light reflex (PLR).\n\n\n\nSympathetic (NE) pathway:\n\nHypothalamus\nSpinal cord (ciliospinal center)\nSuperior cervical ganglion\nDilator muscle\n\nThis mediates pupil dilation in darkness, stress, and arousal."
+  },
+  {
+    "objectID": "3_pupillometry.html#pupillary-control-1",
+    "href": "3_pupillometry.html#pupillary-control-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Pupillary Control",
+    "text": "Pupillary Control"
+  },
+  {
+    "objectID": "3_pupillometry.html#central-neuromodulation",
+    "href": "3_pupillometry.html#central-neuromodulation",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Central neuromodulation",
+    "text": "Central neuromodulation\n\n\n\nBeyond reflexes, pupil size is influenced by:\n\nnoradrenergic signaling\ncortical control systems\nattention networks\n\n\n\nThe locus coeruleus:\n\nregulates arousal\nresponds to novelty and uncertainty\ninfluences sympathetic activity\n\nPupil dilation is correlated with LC activity."
+  },
+  {
+    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena",
+    "href": "3_pupillometry.html#types-of-pupillary-phenomena",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Types of Pupillary phenomena",
+    "text": "Types of Pupillary phenomena\n\n\n\nPupil diameter changes reflect multiple processes:\n\nlight reflex & dark adaptation\ncognitive load\nemotional arousal\ndecision, surprise and novelty\n\n\n\nPupillary light reflex:\n\nrapid constriction\nlatency around 200 ms\nhighly reliable\nbilateral (direct and consensual)\n\n\n\n\nDark adaptation:\n\npupil dilates\nsympathetic tone increases\nunder stress or arousal: dilation occurs even at constant luminance\n\n\n\nCognitive load\nWhen task difficulty increases:\n\npupil dilates\neven without luminance change\n\nThis is known as the task-evoked pupillary response."
+  },
+  {
+    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena-1",
+    "href": "3_pupillometry.html#types-of-pupillary-phenomena-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Types of Pupillary phenomena",
+    "text": "Types of Pupillary phenomena\n\n\n\nWorking Memory\n\nmore items in working memory\nlarger pupil dilation\ndilation scales with effort\n\nPupil size tracks mental workload.\n\n\nDuring difficult decisions:\n\npupil dilation increases\nuncertainty correlates with amplitude\nsurprise produces phasic dilation\n\nThis links pupil to decision-making models.\n\n\n\nEmotionally salient stimuli:\n\nincrease pupil diameter\nregardless of valence\nscale with arousal intensity\n\nPupil reflects arousal, not emotional category."
+  },
+  {
+    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena-2",
+    "href": "3_pupillometry.html#types-of-pupillary-phenomena-2",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Types of Pupillary phenomena",
+    "text": "Types of Pupillary phenomena"
+  },
+  {
+    "objectID": "3_pupillometry.html#how-pupillometry-works",
+    "href": "3_pupillometry.html#how-pupillometry-works",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How pupillometry works",
+    "text": "How pupillometry works\n\n\n\nModern pupillometry uses:\n\ninfrared illumination (850nm)\nvideo-based eye tracking\nautomated pupil detection\nsampling rate (&gt;5Hz)\n\nTypical steps:\n\nrecord pupil diameter over time\ndetect and remove blinks\ninterpolate missing data\nbaseline correction\nevent-related averaging"
   }
 ]

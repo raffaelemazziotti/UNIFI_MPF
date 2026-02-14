@@ -1,0 +1,289 @@
+---
+title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
+subtitle: "Pupillometry"
+author: "Raffaele M Mazziotti, PhD"
+institute: "University of Florence"
+resources:
+  - quiz/
+  - images/
+format:
+  revealjs:
+    controls: true
+    theme: default
+    slide-number: true
+    logo: images/logo/NEUROFARBA_logo.svg
+    css: slide_style.css
+    transition: fade
+    center: true
+    math: mathjax
+    chalkboard: 
+      buttons: false
+    progress: true
+    title-slide-attributes:
+      data-background-image: images/logo/NEUROFARBA.svg
+      data-background-size: 500px
+      data-background-position: "center 10%"
+      data-state: title-slide
+    include-after-body: afterbody.html
+    mermaid:
+      theme: neutral
+    
+---
+
+## What is the pupil?
+
+:::columns
+:::column
+
+:::info-box
+Why study the pupil:
+
+- visible & measurable
+- dynamically controlled
+- tightly linked to brain state
+
+Pupillometry provides a fast, non-invasive window into `autonomic` and `cognitive` processes. What the pupil is:
+
+- the `variable opening` in the center of the iris
+- regulating the amount of light entering the eye
+
+It functions like the `aperture` of a camera.
+
+:::
+
+
+:::
+:::column
+
+![](images/pup_pupil.gif){width="500" fig-align="center"}
+
+:::info-box
+Two muscles control pupil size:
+
+- `Sphincter` pupillae → constriction
+- `Dilator` pupillae → dilation
+
+These muscles are controlled by different branches of the `autonomic nervous system`.
+
+
+:::
+
+:::
+:::
+
+## Pupillary Control
+
+:::columns
+:::column
+
+:::info-box
+[Parasympathetic]{.highlight} ([ACh](https://en.wikipedia.org/wiki/Acetylcholine)) pathway:
+
+- Retina
+- Pretectal nucleus
+- Edinger–Westphal nucleus
+- Oculomotor nerve (III)
+- Ciliary ganglion
+- Sphincter muscle
+
+This mediates the `pupillary light reflex` (PLR).
+:::
+
+:::
+:::column
+
+:::info-box
+[Sympathetic]{.highlight} ([NE](https://en.wikipedia.org/wiki/Norepinephrine)) pathway:
+
+- Hypothalamus
+- Spinal cord (ciliospinal center)
+- Superior cervical ganglion
+- Dilator muscle
+
+This mediates `pupil dilation` in darkness, stress, and arousal.
+:::
+
+![](images/pup_constrict_dilate.jpg){width="300" fig-align="center"}
+
+:::
+:::
+
+## Pupillary Control
+
+![](images/pup_control.png){width="500" fig-align="center"}
+
+
+## Central neuromodulation
+
+:::columns
+:::column
+
+:::info-box
+Beyond reflexes, [pupil](https://www.semanticscholar.org/paper/Functional-Organization-of-the-Sympathetic-Pathways-Szabadi/37dcaa8ff2edba07fb9c59bf9543fc39bbe0e473) size is influenced by:
+
+- noradrenergic signaling
+- cortical control systems
+- attention networks
+
+:::
+
+:::info-box
+The `locus coeruleus`:
+
+- regulates arousal
+- responds to novelty and uncertainty
+- influences sympathetic activity
+
+Pupil dilation is `correlated` with LC activity.
+
+:::
+
+:::
+:::column
+
+![](images/pup_lc_networks.png){width="400" fig-align="center"}
+
+
+:::
+:::
+
+## Types of Pupillary phenomena
+
+:::columns
+:::column
+
+:::info-box
+Pupil diameter changes reflect multiple processes:
+
+- light reflex & dark adaptation
+- cognitive load
+- emotional arousal
+- decision, surprise and novelty
+
+:::
+
+:::info-box
+`Pupillary light reflex`:
+
+- rapid constriction
+- latency around 200 ms
+- highly reliable
+- bilateral (direct and consensual)
+
+:::
+
+:::
+:::column
+
+:::info-box
+`Dark adaptation`:
+
+- pupil dilates
+- sympathetic tone increases
+- under stress or arousal: dilation occurs even at constant luminance
+:::
+
+:::info-box
+`Cognitive load`
+
+When task difficulty increases:
+
+- pupil dilates
+- even without luminance change
+
+This is known as the `task-evoked pupillary response`.
+:::
+
+:::
+:::
+
+## Types of Pupillary phenomena
+
+:::columns
+:::column
+
+:::info-box
+`Working Memory`
+
+- more items in working memory
+- larger pupil dilation
+- dilation scales with effort
+
+Pupil size tracks mental workload.
+:::
+
+:::info-box
+
+During difficult `decisions`:
+
+- pupil dilation increases
+- uncertainty correlates with amplitude
+- surprise produces phasic dilation
+
+This links pupil to decision-making models.
+
+:::
+
+:::
+:::column
+
+:::info-box
+`Emotionally salient stimuli`:
+
+- increase pupil diameter
+- regardless of valence
+- scale with arousal intensity
+
+Pupil reflects arousal, not emotional category.
+
+:::
+
+
+:::
+:::
+
+## Types of Pupillary phenomena
+
+:::columns
+:::column
+
+![](images/pup_plr.jpg){width="400" fig-align="center"}
+
+:::
+:::column
+
+![](images/pup_emotion_valence.png){width="450" fig-align="center"}
+
+:::
+:::
+
+![](images/pup_cognitive_load.png){width="700" fig-align="center"}
+
+## How pupillometry works
+
+:::columns
+:::column
+
+:::info-box
+Modern pupillometry uses:
+
+- infrared illumination (850nm)
+- video-based eye tracking
+- automated pupil detection
+- sampling rate (>5Hz)
+
+Typical steps:
+
+- record pupil diameter over time
+- detect and remove blinks
+- interpolate missing data
+- baseline correction
+- event-related averaging
+
+:::
+
+:::
+:::column
+
+:::
+:::

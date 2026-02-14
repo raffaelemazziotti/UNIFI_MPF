@@ -5,45 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5676132-9073-4a33-b859-5430f0a97a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_instrinsic_signals.qmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/images/biom_risk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/biom_monitoring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_astrocyte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_components(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_components.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_components2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_drifting_bar_bottom_up.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_drifting_bar_left_right.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_response.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_sensitivity_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_setup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_fnirs_short_channel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_hemoglobin_spectrum(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_intrinsic_estrinsic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_light_paths.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_neural_events.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_neurovascular_coupling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_optical_window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_penetrating_arterioles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_down_up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_left_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_shapes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_retinotopy_shapes_response.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_setup.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_signal_average.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_synapse_tripartite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ios_vascular_brains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/questions_biom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/quiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/quiz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/quiz_biom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_pupillometry.qmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_cognitive_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_constrict_dilate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_emotion_valence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_lc_networks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_plr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_pupil.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0_content.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/0_content.qmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_biomarkers.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/1_biomarkers.qmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/0_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/0_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/1_biomarkers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1_biomarkers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/morningrise/Documenti/GitHub/UNIFI_MPF/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/morningrise/Documenti/GitHub/UNIFI_MPF/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
@@ -116,7 +88,8 @@
       <updated>1770223686830</updated>
       <workItem from="1770223687876" duration="176000" />
       <workItem from="1770293823295" duration="10470000" />
-      <workItem from="1770420080962" duration="62576000" />
+      <workItem from="1770420080962" duration="63322000" />
+      <workItem from="1771069382133" duration="11963000" />
     </task>
     <servers />
   </component>
