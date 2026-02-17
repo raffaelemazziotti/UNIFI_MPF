@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.33">
+
+  <meta name="author" content="Raffaele M Mazziotti, PhD">
+  <title>Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="slide_style.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="images/logo/NEUROFARBA.svg" data-background-position="center 10%" data-background-size="500px" data-state="title-slide" class="quarto-title-block center">
+  <h1 class="title">Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive</h1>
+  <p class="subtitle">Translational Biomarkers</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Raffaele M Mazziotti, PhD 
+</div>
+        <p class="quarto-title-affiliation">
+            University of Florence
+          </p>
+    </div>
+</div>
+
+</section>
+<section id="translational-biomarkers" class="slide level2 center">
+<h2>Translational <code>biomarkers</code></h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>A translational <code>biomarker</code> is a measurement that:</p>
+<ul>
+<li><code>quantifies</code> a biological process linked to a disorder</li>
+<li>is <code>repeatable</code> across sessions and sites</li>
+<li>can be measured in both <code>models</code> and <code>patients</code></li>
+</ul>
+</div>
+<div class="info-box">
+<p>Typical outputs you can bring into trials:</p>
+<ul>
+<li>diagnostic / stratification feature</li>
+<li>pharmacodynamic marker</li>
+<li>mechanism-linked readout (helps interpret “why” a treatment works)</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>What to do (a practical checklist):</p>
+<ul>
+<li>define the <code>construct</code> (what brain function you are indexing)</li>
+<li>choose a readout with high <code>reliability</code></li>
+<li>test <code>developmental</code> sensitivity</li>
+<li>test <code>treatment</code> sensitivity</li>
+<li>report effect size + cross-validated <code>prediction</code></li>
+</ul>
+<p>A biomarker must be <code>deployable</code>, not only significant.</p>
+</div>
+</div></div>
+</section>
+<section id="neurodevelopmental-disorders-as-critical-period-disorders" class="slide level2 center">
+<h2>Neurodevelopmental disorders as <code>critical period</code> disorders</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>A key theoretical proposal:</p>
+<p>Some neurodevelopmental disorders may reflect disruptions of <code>critical periods</code>.</p>
+<p>If maturation is altered during these windows:</p>
+<ul>
+<li>circuit refinement may be incomplete or mistimed</li>
+<li>long-term functional deficits emerge</li>
+<li>later interventions may have reduced efficacy</li>
+</ul>
+<p>This shifts focus from static deficit → altered developmental trajectory.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Why this matters clinically:</p>
+<p>If disorders involve altered <code>critical period</code> timing, then we need biomarkers that:</p>
+<ul>
+<li>detect dysfunction <code>early</code></li>
+<li>track developmental trajectories</li>
+<li>are sensitive to maturation dynamics</li>
+<li>can monitor reopening or rescue of plasticity</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section id="why-visual-cortex-is-ideal-for-critical-period-biomarkers" class="slide level2 center">
+<h2>Why <code>visual cortex</code> is ideal for critical period biomarkers</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Primary visual cortex (<code>V1</code>) is one of the best-characterized critical period systems:</p>
+<ul>
+<li>well-defined sensory input</li>
+<li>precisely mapped circuitry</li>
+<li>known developmental windows</li>
+<li>measurable plasticity</li>
+</ul>
+<p>Its maturation can be tracked quantitatively using:</p>
+<ul>
+<li><code>ISI</code> &amp; <code>fNIRS</code> imaging</li>
+<li><code>VEP</code></li>
+</ul>
+<p>This makes V1 a natural testbed for developmental biomarkers.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>If a disorder alters <code>critical period</code> timing or gain we expect to observe:</p>
+<ul>
+<li>abnormal emergence of evoked responses</li>
+<li>altered amplitude or tuning</li>
+<li>reduced experience-dependent plasticity</li>
+<li>persistent deficits into adulthood</li>
+</ul>
+<p>Therefore, evoked V1 responses can serve as:</p>
+<ul>
+<li>early <code>detection</code> markers</li>
+<li>mechanistic indicators of circuit maturation</li>
+<li>potential pharmacodynamic endpoints</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section id="why-arousal-is-also-linked-to-critical-periods" class="slide level2 center">
+<h2>Why <code>arousal</code> is also linked to critical periods</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Neuromodulators regulate plasticity:</p>
+<ul>
+<li><code>acetylcholine</code></li>
+<li><code>norepinephrine</code></li>
+</ul>
+<p>These systems:</p>
+<ul>
+<li>gate cortical responsiveness</li>
+<li>modulate signal-to-noise</li>
+<li>influence experience-dependent refinement</li>
+</ul>
+<p>Arousal state is therefore not just behavioral, it shapes developmental plasticity.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>If neuromodulatory tone is altered:</p>
+<ul>
+<li>critical period dynamics may shift</li>
+<li>plasticity thresholds may change</li>
+<li>circuit refinement may be impaired</li>
+</ul>
+<p><code>Pupil</code> and <code>HRV</code> provide scalable readouts of these systems.</p>
+<p>Thus arousal biomarkers may index a mechanism that directly impacts developmental timing.</p>
+</div>
+</div></div>
+</section>
+<section id="cdkl5-deficiency-disorder-cdd" class="slide level2 center">
+<h2>CDKL5 Deficiency Disorder (CDD)</h2>
+<div class="disorder-card">
+<div class="disorder-header">
+<div class="disorder-title">
+CDKL5 Deficiency Disorder (CDD)
+</div>
+<div class="disorder-subtitle">
+A severe developmental epileptic encephalopathy caused by loss-of-function variants in <code>CDKL5</code>
+</div>
+</div>
+<div class="disorder-body">
+<p><strong>Cause</strong> - pathogenic variants in the <code>CDKL5</code> gene (X-linked) - impacts neurodevelopmental signaling and circuit maturation</p>
+<p><strong>Core clinical picture</strong> - early-onset seizures (often in infancy) - global developmental delay and intellectual disability - motor impairment and hypotonia; often limited speech - frequent comorbidities: sleep, feeding, autonomic dysregulation</p>
+<p><strong>Why biomarkers matter</strong> - symptoms are heterogeneous and change over development - clinical trials need objective, repeatable functional endpoints beyond caregiver report</p>
+</div>
+</div>
+</section>
+<section id="why-cdd-is-ideal-for-v1-arousal-biomarkers" class="slide level2 center">
+<h2>Why CDD is ideal for <code>V1</code> + <code>arousal</code> biomarkers</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>CDD has strong rationale for <code>visual cortex</code> endpoints:</p>
+<ul>
+<li>early circuit maturation is disrupted</li>
+<li>sensory systems show measurable developmental trajectories</li>
+<li>evoked responses can reveal when deficits emerge</li>
+</ul>
+<p>This supports an early, longitudinal biomarker strategy.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>CDD also fits an <code>arousal</code> biomarker strategy:</p>
+<ul>
+<li>widespread neuromodulatory and autonomic involvement is plausible</li>
+<li>arousal regulation can be measured without demanding tasks</li>
+<li>passive measures support severe disability cohorts</li>
+</ul>
+<p>This supports scalable endpoints for monitoring and stratification.</p>
+</div>
+</div></div>
+</section>
+<section id="experiment-early-v1-impairment-in-cdkl5-mice" class="slide level2 center">
+<h2>Experiment: Early <code>V1</code> impairment in CDKL5 mice</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Intrinsic Optical Signal Imaging and VEPs</span> <a href="https://doi.org/10.1093/hmg/ddx119" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>longitudinal transcranial <code>IOS</code> during development<br>
+</li>
+<li>repeated recordings across a developmental window<br>
+</li>
+<li><code>VEP</code> recordings for validation<br>
+</li>
+<li>phenotype summarized with multi-feature classification (<code>SVM</code>)</li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>developmental emergence of reduced evoked visual responses<br>
+</li>
+<li>deficit persists into later ages<br>
+</li>
+<li>early measures discriminate genotype with high accuracy</li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="experiment-early-v1-impairment-in-cdkl5-mice-1" class="slide level2 center">
+<h2>Experiment: Early <code>V1</code> impairment in CDKL5 mice</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/biotrans_ios_pipe.png" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/biotrans_cdkl5_ios.jpeg" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+</div><div class="column">
+<p><img data-src="images/biotrans_cdkl5_vep.jpeg" class="quarto-figure quarto-figure-center" width="400"> <img data-src="images/biotrans_cdkl5_pca.jpeg" class="quarto-figure quarto-figure-center" width="500"></p>
+</div></div>
+</section>
+<section id="cdkl5-from-model-to-patient" class="slide level2 center">
+<h2>CDKL5: from model to patient</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Preclinical evidence showed:</p>
+<ul>
+<li>developmental impairment of <code>V1</code> evoked responses</li>
+<li>stable circuit-level deficit</li>
+<li>strong genotype discrimination</li>
+</ul>
+<p>But translational relevance requires confirmation in <code>patients</code>.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Key question:</p>
+<p>Do individuals with CDKL5 show measurable <code>visual evoked</code> abnormalities?</p>
+<p>And crucially:</p>
+<p>Do physiological measures correlate with <code>clinical severity</code>?</p>
+<p>If yes → the animal biomarker has clinical validity.</p>
+</div>
+</div></div>
+</section>
+<section id="experiment-visual-evoked-potentials-in-cdkl5-patients" class="slide level2 center">
+<h2>Experiment: Visual evoked potentials in CDKL5 patients</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Visual Evoked Potentials and Clinical Severity in CDKL5</span> <a href="https://www.sciencedirect.com/science/article/pii/S0022510X24001989" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>record <code>VEP</code> responses in individuals with CDKL5<br>
+</li>
+<li>quantify amplitude and latency parameters<br>
+</li>
+<li>assess relationship with standardized clinical severity scales</li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>altered <code>VEP</code> responses compared to controls<br>
+</li>
+<li>physiological parameters correlate with <code>clinical severity</code><br>
+</li>
+<li>stronger impairment associated with more severe phenotype</li>
+</ul>
+</div></div>
+</div>
+<div class="exp-section">
+<div class="exp-section-title">
+Translational significance
+</div>
+<ul>
+<li>confirms that <code>V1</code> dysfunction is present in patients<br>
+</li>
+<li>validates the mouse <code>V1</code> phenotype as clinically relevant<br>
+</li>
+<li>supports evoked visual responses as a potential <code>trial endpoint</code></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="experiment-visual-evoked-potentials-in-cdkl5-patients-1" class="slide level2 center">
+<h2>Experiment: Visual evoked potentials in CDKL5 patients</h2>
+
+<img data-src="images/biotrans_cdkl5_correlation.jpg" class="quarto-figure quarto-figure-center r-stretch" width="200"><div class="card">
+<p>Correlation between the amplitude of VEP P100 and the CDKL5 Deficiency disorder - Severity Assessment (CDD-SA) <a href="https://doi.org/10.1016/j.jns.2024.123063" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+</section>
+<section id="experiment-arousal-dysregulation-in-cdkl5-mice" class="slide level2 center">
+<h2>Experiment: <code>Arousal</code> dysregulation in CDKL5 mice</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Operant behavior + pupillometry + machine learning</span> <a href="https://doi.org/10.1093/hmg/ddac164" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>operant task to probe cognition/strategy<br>
+</li>
+<li>simultaneous <code>pupil</code> recording and locomotor monitoring<br>
+</li>
+<li>supervised <code>ML</code> to classify genotype from multimodal features</li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>altered tonic pupil dynamics and stimulus-evoked pupil responses<br>
+</li>
+<li>atypical coupling between pupil state and locomotion<br>
+</li>
+<li>multimodal features improve genotype discrimination</li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="experiment-arousal-dysregulation-in-cdkl5-mice-1" class="slide level2 center">
+<h2>Experiment: <code>Arousal</code> dysregulation in CDKL5 mice</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="images/biotrans_cdkl5_pup_data.png" class="quarto-figure quarto-figure-center" width="400"> <img data-src="images/biotrans_cdkl5_pup_orienting.png" class="quarto-figure quarto-figure-center" width="300"></p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/biotrans_cdkl5_pup_table.png" class="quarto-figure quarto-figure-center" width="800"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="experiment-deep-learning-of-spontaneous-arousal-dynamics-cross-model-patient" class="slide level2 center">
+<h2>Experiment: Deep learning of spontaneous <code>arousal</code> dynamics (cross-model → patient)</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Deep learning on spontaneous pupil dynamics + transfer to HRV</span> <a href="https://doi.org/10.1073/pnas.1820847116" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>collect spontaneous <code>pupil</code> fluctuations across ASD-related mouse models<br>
+</li>
+<li>train a convolutional network to decode arousal-related temporal signatures<br>
+</li>
+<li>apply transfer learning to human physiological data (<code>HRV</code>)</li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>identifies altered arousal signatures across models, including early stages<br>
+</li>
+<li>captures temporal structure beyond summary statistics<br>
+</li>
+<li>transfer learning supports discrimination in patient datasets</li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="experiment-deep-learning-of-spontaneous-arousal-dynamics-cross-model-patient-1" class="slide level2 center">
+<h2>Experiment: Deep learning of spontaneous <code>arousal</code> dynamics (cross-model → patient)</h2>
+
+<img data-src="images/biotrans_pup_artoni.png" class="quarto-figure quarto-figure-center r-stretch" width="400"></section>
+<section id="creatine-transporter-deficiency-ctd" class="slide level2 center">
+<h2>Creatine Transporter Deficiency (CTD)</h2>
+<div class="disorder-card">
+<div class="disorder-header">
+<div class="disorder-title">
+Creatine Transporter Deficiency (CTD)
+</div>
+<div class="disorder-subtitle">
+Loss of function in <code>SLC6A8</code> → impaired creatine transport → neurodevelopmental impairment
+</div>
+</div>
+<div class="disorder-body">
+<p><strong>Cause</strong> - pathogenic variants in <code>SLC6A8</code> (X-linked) - reduced creatine availability in brain → altered energy buffering</p>
+<p><strong>Core clinical picture</strong> - global developmental delay and intellectual disability - speech and motor impairment; behavioral dysregulation - seizures can occur; autistic-like features are common</p>
+<p><strong>Why biomarkers matter</strong> - trials need objective endpoints that track brain function over time - a strong biomarker should be <code>treatment-sensitive</code> and repeatable</p>
+</div>
+</div>
+</section>
+<section id="experiment-ctd-translational-phenotype" class="slide level2 center">
+<h2>Experiment: CTD Translational phenotype</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Shared EEG network alterations (mouse ↔︎ patient)</span> <a href="https://doi.org/10.1093/braincomms/fcaa089" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>EEG &amp; ISI in CTD mouse model<br>
+</li>
+<li>EEG in individuals with CTD<br>
+</li>
+<li>oscillatory + network metrics<br>
+</li>
+<li>quantitative comparison</li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>abnormal ISI and cortical oscillations in mice<br>
+</li>
+<li>overlapping EEG alterations in patients</li>
+<li>objective cross-species signature</li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="experiment-ctd-translational-phenotype-1" class="slide level2 center">
+<h2>Experiment: CTD Translational phenotype</h2>
+
+<img data-src="images/biotrans_ctd_eeg.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="experiment-ctd-translational-phenotype-2" class="slide level2 center">
+<h2>Experiment: CTD Translational phenotype</h2>
+
+<img data-src="images/biotrans_ctd_ios.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="experiment-ctd-translational-phenotype-3" class="slide level2 center">
+<h2>Experiment: CTD Translational phenotype</h2>
+
+<img data-src="images/biotrans_ctd_model.png" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section id="from-ios-to-fnirs" class="slide level2 center">
+<h2>From <code>IOS</code> to <code>fNIRS</code></h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>In CTD mice we identified:</p>
+<ul>
+<li>robust <code>V1</code> hemodynamic deficits<br>
+</li>
+<li>strong WT vs KO separation<br>
+</li>
+<li>longitudinal sensitivity</li>
+</ul>
+<p>This established a reliable <code>visual cortex biomarker</code>.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Translational question:</p>
+<p>How do we bring this to <code>children</code>?</p>
+<p>Constraints:</p>
+<ul>
+<li>non-invasive<br>
+</li>
+<li>tolerant to movement<br>
+</li>
+<li>feasible in pediatric populations</li>
+</ul>
+<p>Solution: adopt <code>fNIRS</code> as human analog of IOS.</p>
+</div>
+</div></div>
+</section>
+<section id="why-fnirs-for-pediatric-translation" class="slide level2 center">
+<h2>Why <code>fNIRS</code> for pediatric translation?</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p><code>fNIRS</code> measures:</p>
+<ul>
+<li>changes in <code>HbO</code></li>
+<li>changes in <code>HbR</code></li>
+<li>total hemoglobin (<code>THb</code>)</li>
+</ul>
+<p>It is:</p>
+<ul>
+<li>portable<br>
+</li>
+<li>quiet<br>
+</li>
+<li>child-friendly<br>
+</li>
+<li>suitable for repeated sessions</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Challenge:</p>
+<ul>
+<li>hemodynamic signal is <code>slow</code></li>
+<li>children have limited attention span</li>
+<li>traditional checkerboards are boring</li>
+</ul>
+<p>Therefore, stimulus design becomes critical.</p>
+</div>
+</div></div>
+</section>
+<section id="developing-a-child-friendly-visual-paradigm" class="slide level2 center">
+<h2>Developing a child-friendly visual paradigm</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Problem:</p>
+<p>Standard reversing checkerboard blocks are:</p>
+<ul>
+<li>repetitive<br>
+</li>
+<li>low engagement<br>
+</li>
+<li>difficult for long pediatric recordings</li>
+</ul>
+<p>We needed a stimulus that was:</p>
+<ul>
+<li>visually strong<br>
+</li>
+<li>engaging<br>
+</li>
+<li>compatible with block design</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Solution:</p>
+<ul>
+<li>embed checkerboard into animated <code>cartoon</code> content<br>
+</li>
+<li>maintain contrast reversals<br>
+</li>
+<li>preserve visual drive<br>
+</li>
+<li>increase compliance</li>
+</ul>
+<p>Goal: maximize <code>signal</code> without losing attention.</p>
+</div>
+</div></div>
+</section>
+<section id="developing-a-child-friendly-visual-paradigm-1" class="slide level2 center">
+<h2>Developing a child-friendly visual paradigm</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><video data-src="images/biotrans_peppa.mp4" class="quarto-figure quarto-figure-center" width="400" controls=""><a href="images/biotrans_peppa.mp4">Video</a></video></p>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><video data-src="images/biotrans_nemo.mp4" class="quarto-figure quarto-figure-center" width="400" controls=""><a href="images/biotrans_nemo.mp4">Video</a></video></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="experiment-cartoon-based-fnirs-visual-paradigm" class="slide level2 center">
+<h2>Experiment: Cartoon-based <code>fNIRS</code> visual paradigm</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Occipital fNIRS during engaging visual stimulation</span> <a href="https://doi.org/10.1038/s41398-022-01820-5" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>occipital <code>fNIRS</code> recordings<br>
+</li>
+<li>reversing checkerboard blended with cartoon animation<br>
+</li>
+<li>block design optimized for children<br>
+</li>
+<li>tested in typically developing cohort</li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>robust visual hemodynamic response<br>
+</li>
+<li>high compliance and low dropout<br>
+</li>
+<li>strong <code>THb</code> and <code>HbO</code> modulation<br>
+</li>
+<li>reproducible across participants</li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="visual-fnirs-amplitude-and-autistic-traits" class="slide level2 center">
+<h2>Visual <code>fNIRS</code> amplitude and autistic traits</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>In the typical population we observed:</p>
+<ul>
+<li>variability in visual hemodynamic amplitude<br>
+</li>
+<li>stable individual differences</li>
+</ul>
+<p>We then tested association with:</p>
+<ul>
+<li>quantitative <code>autistic traits</code></li>
+</ul>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Key finding:</p>
+<ul>
+<li>lower <code>THb</code> response amplitude<br>
+</li>
+<li>associated with higher autistic trait scores</li>
+</ul>
+<p>Implication:</p>
+<p>Visual cortical response amplitude may reflect<br>
+a dimensional neurodevelopmental phenotype.</p>
+</div>
+</div></div>
+</section>
+<section id="visual-fnirs-amplitude-and-autistic-traits-1" class="slide level2 center">
+<h2>Visual <code>fNIRS</code> amplitude and autistic traits</h2>
+
+<img data-src="images/biotrans_fnirs_asd_traits.png" class="quarto-figure quarto-figure-center r-stretch" width="400"></section>
+<section id="converging-autism-evidence" class="slide level2 center">
+<h2>Converging autism evidence</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>In typically developing children:</p>
+<ul>
+<li>lower visual <code>THb</code> amplitude<br>
+</li>
+<li>associated with higher autistic traits</li>
+</ul>
+<p>Dimensional phenotype.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>In diagnosed female ASD:</p>
+<ul>
+<li>reduced <code>OHb</code> amplitude<br>
+</li>
+<li>altered hemispheric lateralization<br>
+</li>
+<li>correlation with <code>AQ</code> severity</li>
+</ul>
+<p>Clinical phenotype.</p>
+</div>
+</div></div>
+</section>
+<section id="experiment-visual-fnirs-in-female-preschoolers-with-asd" class="slide level2 center">
+<h2>Experiment: Visual <code>fNIRS</code> in female preschoolers with ASD</h2>
+<div class="experiment-card">
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<p><span>Cartoon-based visual fNIRS in fASD preschoolers</span> <a href="https://doi.org/10.3390/brainsci13060951" target="_blank" style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;"> Reference </a></p>
+</div>
+<div class="exp-section">
+<div class="columns">
+<div class="column">
+<div class="exp-section-title">
+Method
+</div>
+<ul>
+<li>high-functioning female preschoolers with ASD<br>
+</li>
+<li>age-matched TD controls<br>
+</li>
+<li>occipital <code>fNIRS</code> during cartoon-based checkerboard<br>
+</li>
+<li>extract <code>THb</code>, <code>OHb</code>, <code>DHb</code><br>
+</li>
+<li>compute <code>laterality index</code></li>
+</ul>
+</div><div class="column">
+<div class="exp-section-title">
+Key results
+</div>
+<ul>
+<li>reliable visual response in both groups<br>
+</li>
+<li>significantly lower <code>OHb</code> amplitude in ASD<br>
+</li>
+<li>reduced rightward lateralization<br>
+</li>
+<li>atypical hemispheric coupling<br>
+</li>
+<li>laterality correlates with <code>AQ</code> severity</li>
+</ul>
+</div></div>
+</div>
+</div>
+</section>
+<section id="experiment-visual-fnirs-in-female-preschoolers-with-asd-1" class="slide level2 center">
+<h2>Experiment: Visual <code>fNIRS</code> in female preschoolers with ASD</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/biotrans_fnirs_asd.png" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/biotrans_fnirs_asd_laterality.png" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+</div></div>
+
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/logo/NEUROFARBA_logo.svg" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'scrollActivationWidth': 0,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script>
+    (function () {
+      function injectHomeLink() {
+        const link = document.createElement("a");
+        link.href = "index.html";
+        link.setAttribute("aria-label", "Back to Index");
+        link.title = "Back to Index";
+
+        // Positioning
+        link.style.position = "absolute";
+        link.style.bottom = "20px";
+        link.style.left = "50%";
+        link.style.transform = "translateX(-50%)";
+        link.style.width = "28px";
+        link.style.height = "28px";
+        link.style.zIndex = "1000";
+        link.style.display = "none";
+        link.style.opacity = "0.75";
+        link.style.cursor = "pointer";
+
+        // Home icon image
+        const img = document.createElement("img");
+        img.src = "images/home.svg";
+        img.alt = "Home";
+        img.width = 28;
+        img.height = 28;
+        img.style.display = "block";
+
+        link.appendChild(img);
+        document.body.appendChild(link);
+
+        // Hover feedback
+        link.addEventListener("mouseenter", () => {
+          link.style.opacity = "1";
+          link.style.transform = "translateX(-50%) scale(2)";
+        });
+
+        link.addEventListener("mouseleave", () => {
+          link.style.opacity = "0.75";
+          link.style.transform = "translateX(-50%) scale(1)";
+        });
+
+        // Show only on title slide
+        function updateVisibility() {
+          if (document.body.classList.contains("title-slide")) {
+            link.style.display = "block";
+          } else {
+            link.style.display = "none";
+          }
+        }
+
+        updateVisibility();
+        Reveal.on("slidechanged", updateVisibility);
+        Reveal.on("ready", updateVisibility);
+      }
+
+      if (window.Reveal && Reveal.isReady()) {
+        injectHomeLink();
+      } else {
+        document.addEventListener("DOMContentLoaded", function () {
+          Reveal.on("ready", injectHomeLink);
+        });
+      }
+    })();
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

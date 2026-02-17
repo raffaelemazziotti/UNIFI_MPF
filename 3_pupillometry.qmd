@@ -112,7 +112,6 @@ This mediates `pupil dilation` in darkness, stress, and arousal.
 
 ![](images/pup_control.png){width="500" fig-align="center"}
 
-
 ## Central neuromodulation
 
 :::columns
@@ -285,5 +284,114 @@ Typical steps:
 :::
 :::column
 
+![](images/pup_pupillometry.jpg){width="700" fig-align="center"}
+
 :::
 :::
+
+## How pupillometry works
+
+:::columns
+:::column
+:::info-box
+Pupil is extremely sensitive to light. Therefore:
+
+- stimulus luminance must be controlled
+- screen brightness must be constant
+- visual properties must be standardized
+
+:::
+
+:::info-box
+Pupil responses:
+
+- begin ~200–500 ms after event
+- peak around 1–2 seconds
+- decay slowly
+
+Faster than hemodynamic signals  
+but slower than EEG.
+
+:::
+
+:::
+:::column
+
+:::info-box
+
+Tonic vs phasic pupil signals
+
+`Tonic` level:
+
+- slow fluctuations
+- linked to sustained arousal
+
+`Phasic` response:
+
+- rapid stimulus-locked dilation
+- linked to cognitive events
+
+Both are informative.
+
+:::
+
+:::
+:::
+
+## Strengths and Weaknesses
+
+:::columns
+:::column
+:::card
+**Strengths**
+
+- non-invasive
+- inexpensive
+- high temporal resolution
+- portable
+- suitable across lifespan
+- sensitive to arousal and cognitive load
+- compatible with many experimental paradigms
+:::
+:::
+
+:::column
+:::card
+**Limitations**
+
+- highly sensitive to luminance
+- influenced by fatigue and circadian factors
+- affected by medication and autonomic state
+- low spatial specificity
+- reflects multiple overlapping processes
+:::
+
+:::
+:::
+
+## MEYE
+
+Browser-based eye tracking/ pupillometry tool: [pupillometry.it](https://pupillometry.it)
+
+:::columns
+:::column
+![](images/pup_meye_web_demo2.gif){width="700" fig-align="center"}
+
+
+:::
+:::column
+
+![](images/pup_meye_setup.png){width="400" fig-align="center"}
+
+:::
+:::
+
+
+
+## Self-check
+
+```{=html}
+<div class="quiz-wrap">
+  <iframe class="quiz-frame" src="quiz/quiz_pup.html" loading="lazy"></iframe>
+</div>
+```

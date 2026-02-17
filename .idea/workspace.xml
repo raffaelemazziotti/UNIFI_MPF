@@ -5,17 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5676132-9073-4a33-b859-5430f0a97a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_pupillometry.qmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_cognitive_load.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_constrict_dilate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_control.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_emotion_valence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_lc_networks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_plr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pup_pupil.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_translational_biomarkers.qmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_data_mining.qmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_correlation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_ios.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_pca.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_pup_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_pup_orienting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_pup_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_cdkl5_vep.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_ctd_eeg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_ctd_ios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_ctd_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_fnirs_asd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_fnirs_asd_laterality.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_fnirs_asd_traits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_ios_pipe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_nemo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_peppa.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/biotrans_pup_artoni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_meye_setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_meye_web_demo2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pup_pupillometry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/questions_ios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/questions_pup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/quiz_ios.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/quiz_pup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0_content.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/0_content.qmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_instrinsic_signals.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/2_instrinsic_signals.qmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_pupillometry.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/3_pupillometry.qmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/0_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/0_content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/3_pupillometry.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/3_pupillometry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +111,8 @@
       <workItem from="1770223687876" duration="176000" />
       <workItem from="1770293823295" duration="10470000" />
       <workItem from="1770420080962" duration="63322000" />
-      <workItem from="1771069382133" duration="11963000" />
+      <workItem from="1771069382133" duration="24060000" />
+      <workItem from="1771234520982" duration="18639000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,47 @@
+---
+title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
+subtitle: "Biomarker Data Mining"
+author: "Raffaele M Mazziotti, PhD"
+institute: "University of Florence"
+resources:
+  - quiz/
+  - images/
+format:
+  revealjs:
+    controls: true
+    theme: default
+    slide-number: true
+    logo: images/logo/NEUROFARBA_logo.svg
+    css: slide_style.css
+    transition: fade
+    center: true
+    math: mathjax
+    chalkboard: 
+      buttons: false
+    progress: true
+    title-slide-attributes:
+      data-background-image: images/logo/NEUROFARBA.svg
+      data-background-size: 500px
+      data-background-position: "center 10%"
+      data-state: title-slide
+    include-after-body: afterbody.html
+    mermaid:
+      theme: neutral
+    
+---
+
+# What is Data Mining?
+
+Data mining is the process of:
+
+- Extracting patterns from data  
+- Discovering structure in complex datasets  
+- Identifying predictive features  
+- Transforming data into knowledge  
+
+In neuroscience and psychophysiology:
+
+- High-dimensional signals  
+- Many variables  
+- Small-to-medium samples  
+- Noisy biological data  

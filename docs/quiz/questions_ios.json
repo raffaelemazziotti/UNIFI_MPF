@@ -1,0 +1,764 @@
+{
+  "topic": "Intrinsic Signals, Neurovascular Coupling, ISI and fNIRS",
+  "questions": [
+    {
+      "question": "Optical imaging methods like ISI and fNIRS measure neuronal activity:",
+      "options": [
+        "Directly, by recording action potentials",
+        "Directly, by measuring synaptic currents",
+        "Indirectly, by measuring vascular and metabolic changes",
+        "Only through behavioral outputs"
+      ],
+      "correct": 2,
+      "feedback": "Optical methods measure hemodynamic/metabolic changes that follow neural activity, not neurons directly."
+    },
+    {
+      "question": "Neural signaling increases metabolic demand mainly because it requires energy for:",
+      "options": [
+        "Myelination only",
+        "Action potentials, synaptic transmission, and ion pumping",
+        "DNA replication",
+        "Glial cell division"
+      ],
+      "correct": 1,
+      "feedback": "Action potentials, synaptic transmission, ion pumping, and transmitter recycling all cost energy."
+    },
+    {
+      "question": "Neurons rely almost entirely on which two substrates delivered by the vascular system?",
+      "options": [
+        "Fatty acids and ketones",
+        "Glucose and oxygen",
+        "Amino acids and water",
+        "Sodium and potassium"
+      ],
+      "correct": 1,
+      "feedback": "Neural metabolism depends strongly on glucose and oxygen delivery."
+    },
+    {
+      "question": "Neurovascular coupling refers to mechanisms linking neural activity to changes in:",
+      "options": [
+        "Only neural firing rate",
+        "Only cerebrospinal fluid pressure",
+        "CBF, blood volume, and blood oxygenation",
+        "Only neurotransmitter release"
+      ],
+      "correct": 2,
+      "feedback": "Neurovascular coupling links activity to blood flow, volume, and oxygenation changes."
+    },
+    {
+      "question": "Neurovascular coupling is typically described as:",
+      "options": [
+        "Global, unregulated, and random",
+        "Local, regulated, and stimulus-dependent",
+        "Only hormone-driven",
+        "Only controlled by neurons"
+      ],
+      "correct": 1,
+      "feedback": "Coupling is local and regulated, and depends on the stimulus and context."
+    },
+    {
+      "question": "The neurovascular response is controlled by interactions between neurons and:",
+      "options": [
+        "Only microglia",
+        "Astrocytes, endothelial cells, and smooth muscle cells",
+        "Only oligodendrocytes",
+        "Only blood platelets"
+      ],
+      "correct": 1,
+      "feedback": "The neuro-glio-vascular unit involves neurons, astrocytes, endothelium, and smooth muscle."
+    },
+    {
+      "question": "Current models of neurovascular coupling typically describe how many main mechanisms?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct": 2,
+      "feedback": "Slides describe three mechanisms: direct neuronal signaling, astrocyte-mediated signaling, and metabolic feedback."
+    },
+    {
+      "question": "The three neurovascular mechanisms act:",
+      "options": [
+        "In isolation, one at a time",
+        "Only in pathological conditions",
+        "In parallel, not in isolation",
+        "Only during anesthesia"
+      ],
+      "correct": 2,
+      "feedback": "They contribute simultaneously to the overall vascular response."
+    },
+    {
+      "question": "Mechanism 1 (direct neuronal signaling) involves vasoactive effects via:",
+      "options": [
+        "DNA methylation",
+        "Neurotransmitters, neuromodulators, and nitric oxide",
+        "Only lactate production",
+        "Only astrocytic calcium waves"
+      ],
+      "correct": 1,
+      "feedback": "Direct neuronal signaling can release vasoactive substances including NO."
+    },
+    {
+      "question": "Direct neuronal signaling is often described as a feedforward mechanism because it:",
+      "options": [
+        "Reflects delayed energy use",
+        "Anticipates metabolic demand",
+        "Occurs only after oxygen depletion",
+        "Depends on pH changes"
+      ],
+      "correct": 1,
+      "feedback": "Feedforward signaling can dilate vessels rapidly in anticipation of demand."
+    },
+    {
+      "question": "A key strength of direct neuronal signaling is that it is:",
+      "options": [
+        "Slow and diffuse",
+        "Fast and spatially precise",
+        "Independent of synaptic activity",
+        "Only metabolic"
+      ],
+      "correct": 1,
+      "feedback": "It is fast, spatially precise, and tightly linked to synaptic activity."
+    },
+    {
+      "question": "A limitation of direct neuronal signaling is that it:",
+      "options": [
+        "Encodes metabolic state perfectly",
+        "Is sufficient alone to explain all vascular responses",
+        "Does not encode metabolic state and varies across neuron types",
+        "Requires astrocytes to fire action potentials"
+      ],
+      "correct": 2,
+      "feedback": "It is not sufficient alone and does not directly encode metabolic state."
+    },
+    {
+      "question": "According to the slides, the early vascular response is largely attributed to:",
+      "options": [
+        "Metabolic feedback only",
+        "Astrocyte-mediated signaling only",
+        "Direct neuronal signaling",
+        "Blood-brain barrier breakdown"
+      ],
+      "correct": 2,
+      "feedback": "Direct neuronal signaling is highlighted as responsible for the early response."
+    },
+    {
+      "question": "Astrocytes contribute to neurovascular coupling by:",
+      "options": [
+        "Firing action potentials to control vessels",
+        "Sensing synaptic activity and releasing vasoactive substances",
+        "Only transporting oxygen in blood",
+        "Producing hemoglobin"
+      ],
+      "correct": 1,
+      "feedback": "Astrocytes sense synaptic activity and can release vasoactive signals."
+    },
+    {
+      "question": "In astrocyte-mediated signaling, a typical trigger sequence begins with:",
+      "options": [
+        "Nitric oxide binding hemoglobin",
+        "Glutamate activating astrocytic receptors",
+        "Carbon dioxide decreasing pH",
+        "Water absorption increasing"
+      ],
+      "correct": 1,
+      "feedback": "Synaptic glutamate can activate astrocytic receptors, leading to downstream signaling."
+    },
+    {
+      "question": "A key intracellular event in astrocyte-mediated signaling is:",
+      "options": [
+        "Action potential firing",
+        "Calcium increase inside astrocytes",
+        "Myelin formation",
+        "Dopamine release"
+      ],
+      "correct": 1,
+      "feedback": "Astrocytic signaling often involves increases in intracellular calcium."
+    },
+    {
+      "question": "Compared to direct neuronal signaling, astrocyte-mediated signaling is generally:",
+      "options": [
+        "Faster",
+        "Slower",
+        "Instantaneous",
+        "Independent of synaptic activity"
+      ],
+      "correct": 1,
+      "feedback": "Astrocyte-mediated pathways are described as slower than direct neuronal effects."
+    },
+    {
+      "question": "One role of astrocytes in neurovascular coupling is to:",
+      "options": [
+        "Make vascular signals narrower than neural signals",
+        "Integrate and smooth fast neural fluctuations",
+        "Eliminate metabolic byproducts directly",
+        "Prevent any spatial spread"
+      ],
+      "correct": 1,
+      "feedback": "Astrocytes help integrate activity over time/space, contributing to broader vascular signals."
+    },
+    {
+      "question": "Metabolic feedback signaling primarily reflects:",
+      "options": [
+        "Anticipation of energy demand",
+        "Actual energy use and byproducts of metabolism",
+        "Only neurotransmitter release",
+        "Only mechanical pulsations"
+      ],
+      "correct": 1,
+      "feedback": "Metabolic feedback responds to oxygen use and accumulation of metabolic byproducts."
+    },
+    {
+      "question": "Which set of changes is most associated with metabolic feedback signaling?",
+      "options": [
+        "Oxygen, glucose, CO2, and pH changes",
+        "Only sodium changes",
+        "Only dopamine fluctuations",
+        "Only skull thickness changes"
+      ],
+      "correct": 0,
+      "feedback": "Metabolic feedback involves oxygen/glucose consumption and changes in CO2 and pH."
+    },
+    {
+      "question": "Metabolic feedback signaling is best described as:",
+      "options": [
+        "Feedforward",
+        "Feedback",
+        "Purely electrical",
+        "Independent of metabolism"
+      ],
+      "correct": 1,
+      "feedback": "It is a feedback mechanism reflecting metabolic state."
+    },
+    {
+      "question": "Neurovascular coupling emerges from:",
+      "options": [
+        "Only neuronal feedforward signaling",
+        "Only astrocytic integration",
+        "Only metabolic feedback",
+        "Fast neuronal feedforward + intermediate astrocytic + slow metabolic feedback"
+      ],
+      "correct": 3,
+      "feedback": "The slides emphasize three timescales contributing together."
+    },
+    {
+      "question": "A key implication for interpreting vascular optical signals is that:",
+      "options": [
+        "Signal amplitude equals firing rate",
+        "Timing directly reflects spikes",
+        "Spatial maps reflect integration and vascular dynamics",
+        "Signals are independent of stimulus"
+      ],
+      "correct": 2,
+      "feedback": "Amplitude and timing reflect vascular integration, not direct neuronal firing."
+    },
+    {
+      "question": "Despite complexity, neurovascular coupling is often:",
+      "options": [
+        "Unreproducible and random",
+        "Reproducible, spatially organized, and stimulus-dependent",
+        "Only present in disease",
+        "Too weak to map function"
+      ],
+      "correct": 1,
+      "feedback": "This reproducibility is why optical mapping works well."
+    },
+    {
+      "question": "In intrinsic signal optical imaging (ISI), “intrinsic” means the signal comes from:",
+      "options": [
+        "Injected fluorescent dyes",
+        "Genetic indicators",
+        "The brain’s own optical properties",
+        "Electrode recordings"
+      ],
+      "correct": 2,
+      "feedback": "ISI uses endogenous optical changes (hemoglobin absorption, blood volume, scattering)."
+    },
+    {
+      "question": "Which is NOT required for intrinsic signal optical imaging (ISI)?",
+      "options": [
+        "No dyes",
+        "No fluorescent reporters",
+        "No genetic indicators",
+        "A viral vector to express calcium sensors"
+      ],
+      "correct": 3,
+      "feedback": "ISI does not require fluorescent or genetic indicators."
+    },
+    {
+      "question": "Intrinsic optical signals primarily arise from changes in:",
+      "options": [
+        "Axon diameter",
+        "Hemoglobin absorption, blood volume, and light scattering",
+        "Only EEG power",
+        "Only neurotransmitter synthesis"
+      ],
+      "correct": 1,
+      "feedback": "These endogenous optical properties generate the ISI signal."
+    },
+    {
+      "question": "The visual cortex is an ideal model system for ISI mapping because it has:",
+      "options": [
+        "No vascularization",
+        "Precise topographic organization and stimulus-locked responses",
+        "No retinotopy",
+        "Only random cortical organization"
+      ],
+      "correct": 1,
+      "feedback": "Retinotopy and stimulus-locked responses make visual cortex ideal for mapping."
+    },
+    {
+      "question": "Retinotopy means that:",
+      "options": [
+        "Cortex represents auditory frequency",
+        "Neighboring visual field points map to neighboring cortical points",
+        "The same cortical point maps to all visual space",
+        "Visual cortex has no organization"
+      ],
+      "correct": 1,
+      "feedback": "Retinotopy is a spatial mapping between visual space and cortex."
+    },
+    {
+      "question": "In ISI, the recorded readout is typically:",
+      "options": [
+        "Electrical potentials over time",
+        "Reflectance change over time",
+        "Diffusion tensor anisotropy",
+        "Hormone concentration in blood"
+      ],
+      "correct": 1,
+      "feedback": "ISI measures stimulus-locked changes in reflected light."
+    },
+    {
+      "question": "Reflectance changes in ISI occur because:",
+      "options": [
+        "Neurons emit light",
+        "Hemoglobin absorbs light",
+        "Skull becomes transparent during activation",
+        "Action potentials change camera gain"
+      ],
+      "correct": 1,
+      "feedback": "Hemoglobin absorption changes with oxygenation and blood volume, altering reflectance."
+    },
+    {
+      "question": "Oxygenated (OHb) and deoxygenated (RHb) hemoglobin differ mainly in:",
+      "options": [
+        "Their absorption spectra at different wavelengths",
+        "Their electrical conductivity",
+        "Their DNA sequence",
+        "Their role in neurotransmitter recycling"
+      ],
+      "correct": 0,
+      "feedback": "OHb and RHb absorb light differently across wavelengths."
+    },
+    {
+      "question": "At wavelengths around 610–680 nm, ISI signals tend to emphasize:",
+      "options": [
+        "OHb absorption strongly",
+        "RHb absorption strongly",
+        "Water absorption strongly",
+        "Lipids absorption strongly"
+      ],
+      "correct": 1,
+      "feedback": "In this band RHb absorbs strongly, making active regions appear darker."
+    },
+    {
+      "question": "At HbR-sensitive wavelengths, active cortical regions often appear:",
+      "options": [
+        "Brighter due to increased reflectance",
+        "Darker due to decreased reflectance",
+        "Unchanged because absorption is constant",
+        "Random because light does not penetrate"
+      ],
+      "correct": 1,
+      "feedback": "More HbR absorption reduces reflectance, producing darkening."
+    },
+    {
+      "question": "A typical optical logic during neural activation is:",
+      "options": [
+        "HbR always decreases immediately",
+        "Oxygen consumption increases HbR briefly, then OHb increases later",
+        "OHb decreases and HbR increases permanently",
+        "Hemoglobin does not change with activation"
+      ],
+      "correct": 1,
+      "feedback": "Early oxygen extraction increases HbR transiently; later hyperemia increases OHb."
+    },
+    {
+      "question": "The intrinsic signal components often include:",
+      "options": [
+        "Initial dip, hyperemic response, and post-stimulus undershoot",
+        "Spike bursts and gamma oscillations",
+        "Only an initial dip",
+        "Only a constant baseline shift"
+      ],
+      "correct": 0,
+      "feedback": "Slides list initial dip, hyperemic response, and undershoot as key components."
+    },
+    {
+      "question": "The initial dip is most closely associated with:",
+      "options": [
+        "Early oxygen extraction",
+        "Delayed blood flow increase",
+        "Only scalp blood flow",
+        "Electrode impedance changes"
+      ],
+      "correct": 0,
+      "feedback": "The initial dip reflects early oxygen extraction before full hyperemia."
+    },
+    {
+      "question": "The hyperemic response refers to:",
+      "options": [
+        "Decreased blood flow",
+        "Increased blood flow and oxygen delivery",
+        "No change in blood volume",
+        "Purely electrical activity"
+      ],
+      "correct": 1,
+      "feedback": "Hyperemia is increased blood flow supplying oxygenated blood."
+    },
+    {
+      "question": "Retinotopic mapping with ISI often uses stimuli such as:",
+      "options": [
+        "Static images only",
+        "Moving bars or drifting gratings",
+        "Random tones only",
+        "Resting-state only"
+      ],
+      "correct": 1,
+      "feedback": "Phase-encoded moving bar and drifting grating paradigms are typical."
+    },
+    {
+      "question": "In phase-encoded retinotopy, the cortical response typically:",
+      "options": [
+        "Shifts smoothly following stimulus movement",
+        "Remains fixed regardless of stimulus",
+        "Appears only in deep structures",
+        "Is too fast to record"
+      ],
+      "correct": 0,
+      "feedback": "The cortical activation shifts smoothly and mirrors stimulus movement."
+    },
+    {
+      "question": "ISI is particularly suited to capture:",
+      "options": [
+        "Single-neuron spikes across the brain",
+        "Mesoscale cortical architecture",
+        "Deep thalamic nuclei activity",
+        "Fast oscillations in the hippocampus"
+      ],
+      "correct": 1,
+      "feedback": "ISI maps mesoscale functional organization (e.g., columns, sensory maps)."
+    },
+    {
+      "question": "A listed strength of ISI is:",
+      "options": [
+        "High temporal precision for spikes",
+        "No dyes required and stable across sessions",
+        "Deep brain access",
+        "No surgical preparation needed"
+      ],
+      "correct": 1,
+      "feedback": "ISI is dye-free and stable, with strong SNR for cortical mapping."
+    },
+    {
+      "question": "A key weakness of ISI is that the signal is:",
+      "options": [
+        "Instantaneous (milliseconds)",
+        "Slow (seconds) and indirect",
+        "Electrical and direct",
+        "Unaffected by anesthesia"
+      ],
+      "correct": 1,
+      "feedback": "ISI reflects slow vascular dynamics and is influenced by anesthesia and preparation."
+    },
+    {
+      "question": "Functional Near Infrared Spectroscopy (fNIRS) measures changes in:",
+      "options": [
+        "Action potentials",
+        "OHb and RHb using near-infrared light",
+        "Neurotransmitter vesicles directly",
+        "Only cerebral spinal fluid flow"
+      ],
+      "correct": 1,
+      "feedback": "fNIRS estimates OHb/RHb changes from near-infrared light attenuation."
+    },
+    {
+      "question": "The “optical window” exploited by fNIRS is approximately:",
+      "options": [
+        "300–400 nm",
+        "500–600 nm",
+        "700–900 nm",
+        "1200–1500 nm"
+      ],
+      "correct": 2,
+      "feedback": "Between ~700–900 nm, tissue absorption allows deeper penetration with hemoglobin sensitivity."
+    },
+    {
+      "question": "In the optical window, which statement is most accurate?",
+      "options": [
+        "Water and lipids absorb strongly, preventing measurement",
+        "Light penetrates scalp/skull and hemoglobin absorbs selectively",
+        "Hemoglobin absorption disappears completely",
+        "Only deep brain structures are measured"
+      ],
+      "correct": 1,
+      "feedback": "This spectral range supports penetration while remaining sensitive to hemoglobin."
+    },
+    {
+      "question": "Compared to ISI reflectance, fNIRS primarily measures:",
+      "options": [
+        "Reflectance changes from cortex surface",
+        "Changes in light attenuation (absorbance) through tissue",
+        "Electrical field potentials",
+        "Only scattering from gray matter"
+      ],
+      "correct": 1,
+      "feedback": "fNIRS uses source-detector paths and measures attenuation, not surface reflectance."
+    },
+    {
+      "question": "The Beer–Lambert principle states that absorption depends on:",
+      "options": [
+        "Only wavelength",
+        "Concentration of absorbers and path length",
+        "Only blood pressure",
+        "Only neuron density"
+      ],
+      "correct": 1,
+      "feedback": "Absorption increases with absorber concentration and optical path length."
+    },
+    {
+      "question": "In fNIRS, the main absorbing molecules of interest are:",
+      "options": [
+        "Water and lipids",
+        "Melanin and collagen",
+        "OHb and RHb",
+        "Dopamine and serotonin"
+      ],
+      "correct": 2,
+      "feedback": "fNIRS targets hemoglobin species (oxygenated and deoxygenated)."
+    },
+    {
+      "question": "Why does fNIRS typically require at least two wavelengths?",
+      "options": [
+        "To measure electrical activity and blood flow simultaneously",
+        "To separate OHb and RHb contributions",
+        "To eliminate the need for detectors",
+        "To measure only scattering"
+      ],
+      "correct": 1,
+      "feedback": "Different absorption spectra allow separation of OHb and RHb via the modified Beer–Lambert law."
+    },
+    {
+      "question": "Total hemoglobin (THb) in fNIRS is defined as:",
+      "options": [
+        "OHb − RHb",
+        "OHb + RHb",
+        "OHb / RHb",
+        "RHb only"
+      ],
+      "correct": 1,
+      "feedback": "THb is the sum of oxygenated and deoxygenated hemoglobin estimates."
+    },
+    {
+      "question": "A typical fNIRS activation pattern during neural activation is:",
+      "options": [
+        "HbO decreases and HbR increases",
+        "HbO increases and HbR decreases",
+        "Both HbO and HbR increase equally",
+        "Both HbO and HbR disappear"
+      ],
+      "correct": 1,
+      "feedback": "The canonical hemodynamic response shows increased HbO and decreased HbR."
+    },
+    {
+      "question": "fNIRS temporal resolution is best described as:",
+      "options": [
+        "Hardware-limited to 1 sample per minute",
+        "High sampling, but physiology-limited by slow vascular dynamics",
+        "Limited by spike timing",
+        "Unlimited and instantaneous"
+      ],
+      "correct": 1,
+      "feedback": "Systems can sample fast, but the hemodynamic signal changes over seconds."
+    },
+    {
+      "question": "fNIRS spatial resolution is typically:",
+      "options": [
+        "Micrometer-level",
+        "Millimeter-level throughout the whole brain",
+        "Centimeter-level, mostly superficial cortex",
+        "Deep-brain specific"
+      ],
+      "correct": 2,
+      "feedback": "fNIRS has cm-level resolution and is most sensitive to superficial cortex."
+    },
+    {
+      "question": "A major advantage of fNIRS compared to fMRI is that it is:",
+      "options": [
+        "Invasive",
+        "Silent and portable",
+        "Able to measure deep nuclei easily",
+        "Faster than spikes"
+      ],
+      "correct": 1,
+      "feedback": "fNIRS is silent, portable, and well-suited for naturalistic tasks and infants."
+    },
+    {
+      "question": "The basic components of an fNIRS system include:",
+      "options": [
+        "Electrodes, amplifiers, and gel",
+        "Sources, detectors, optodes, and acquisition unit",
+        "X-ray tube and detectors",
+        "Magnetic coils and gradients"
+      ],
+      "correct": 1,
+      "feedback": "fNIRS systems use light sources, detectors, optodes on the scalp, and processing."
+    },
+    {
+      "question": "In fNIRS terminology, an “optode” refers to:",
+      "options": [
+        "Only a detector",
+        "Only a source",
+        "Either a source or a detector",
+        "Only a computer algorithm"
+      ],
+      "correct": 2,
+      "feedback": "Optode is the general term for both source and detector elements."
+    },
+    {
+      "question": "A source and detector pair in fNIRS forms a:",
+      "options": [
+        "Voxel",
+        "Channel",
+        "Electrode",
+        "Reflectance map"
+      ],
+      "correct": 1,
+      "feedback": "A source-detector pair defines a measurement channel."
+    },
+    {
+      "question": "Typical source–detector separation in adults is approximately:",
+      "options": [
+        "1–2 mm",
+        "8–10 mm",
+        "2.5–3.5 cm",
+        "10–15 cm"
+      ],
+      "correct": 2,
+      "feedback": "Adult separations are typically ~2.5–3.5 cm to reach superficial cortex."
+    },
+    {
+      "question": "Infant source–detector separations are generally:",
+      "options": [
+        "Longer than adults",
+        "Shorter than adults",
+        "Identical to adults",
+        "Not used in infants"
+      ],
+      "correct": 1,
+      "feedback": "Infants typically use shorter separations due to smaller head size and depth."
+    },
+    {
+      "question": "The “banana-shaped sensitivity profile” describes:",
+      "options": [
+        "A cortical folding pattern",
+        "The curved light path sensitivity between source and detector",
+        "The shape of the skull",
+        "The distribution of EEG electrodes"
+      ],
+      "correct": 1,
+      "feedback": "Light sensitivity is highest along a curved path between source and detector."
+    },
+    {
+      "question": "Maximum fNIRS sensitivity typically occurs:",
+      "options": [
+        "Only at the source",
+        "Only at the detector",
+        "Halfway between source and detector",
+        "Only in deep brain regions"
+      ],
+      "correct": 2,
+      "feedback": "Sensitivity peaks near the midpoint between source and detector."
+    },
+    {
+      "question": "Sampling depth in fNIRS is roughly related to separation distance such that depth is about:",
+      "options": [
+        "Twice the separation distance",
+        "Half the separation distance",
+        "Independent of separation",
+        "Always 10 cm"
+      ],
+      "correct": 1,
+      "feedback": "A common rule of thumb is depth ≈ half the source–detector separation."
+    },
+    {
+      "question": "A major confound in fNIRS signals is:",
+      "options": [
+        "Retinal processing",
+        "Scalp blood flow contributions",
+        "Spinal cord activity",
+        "Hippocampal spikes"
+      ],
+      "correct": 1,
+      "feedback": "Superficial (scalp) hemodynamics can strongly contaminate fNIRS signals."
+    },
+    {
+      "question": "Short-separation channels are used primarily to:",
+      "options": [
+        "Measure deep brain structures",
+        "Improve spatial resolution to micrometers",
+        "Estimate superficial signals and regress them out",
+        "Replace all long channels"
+      ],
+      "correct": 2,
+      "feedback": "Short channels are mainly sensitive to superficial layers and help remove scalp effects."
+    },
+    {
+      "question": "Typical short-separation distances are approximately:",
+      "options": [
+        "2.5–3.5 cm",
+        "8–10 mm",
+        "50–60 cm",
+        "0 mm (same optode)"
+      ],
+      "correct": 1,
+      "feedback": "Short channels are often around 8–10 mm to capture superficial physiology."
+    },
+    {
+      "question": "Compared to ISI, fNIRS is best characterized as:",
+      "options": [
+        "Invasive reflectance imaging with micrometer resolution in humans",
+        "Non-invasive absorption-based measurement with cm resolution in humans",
+        "A method for spikes and oscillations",
+        "A deep-brain imaging technique"
+      ],
+      "correct": 1,
+      "feedback": "fNIRS is non-invasive, absorption-based, and has lower spatial resolution suited for humans."
+    },
+    {
+      "question": "A major weakness shared by ISI and fNIRS is that both signals are:",
+      "options": [
+        "Direct electrical measurements",
+        "Vascular/hemodynamic and therefore indirect",
+        "Independent of oxygenation",
+        "Unrelated to neural activity"
+      ],
+      "correct": 1,
+      "feedback": "Both reflect neurovascular coupling rather than direct electrical activity."
+    },
+    {
+      "question": "In fNIRS setup, signal quality depends strongly on:",
+      "options": [
+        "Eye color",
+        "Hair interference, optode contact, and ambient light",
+        "Handedness",
+        "Body temperature only"
+      ],
+      "correct": 1,
+      "feedback": "Practical issues like hair, contact, and ambient light contamination strongly affect data quality."
+    }
+  ]
+}

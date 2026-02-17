@@ -40,16 +40,17 @@ Description of the course
 ::: column
 
 :::{.list-box}
-- [Biomarkers](1_biomarkers.html)
 - [Intrinsic Signals](2_instrinsic_signals.html)
 - [Pupillometry](3_pupillometry.html)
+- [Biomarkers](1_biomarkers.html)
 :::
 
 ::: 
 ::: column
 
 :::{.list-box}
-- other subject
+- [Translational Biomarkers](4_translational_biomarkers.html)
+- [Biomarker Data Mining](5_data_mining.html)
 :::
 
 :::

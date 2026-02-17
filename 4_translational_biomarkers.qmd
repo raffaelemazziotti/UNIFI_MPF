@@ -1,0 +1,862 @@
+---
+title: "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive"
+subtitle: "Translational Biomarkers"
+author: "Raffaele M Mazziotti, PhD"
+institute: "University of Florence"
+resources:
+  - quiz/
+  - images/
+format:
+  revealjs:
+    controls: true
+    theme: default
+    slide-number: true
+    logo: images/logo/NEUROFARBA_logo.svg
+    css: slide_style.css
+    transition: fade
+    center: true
+    math: mathjax
+    chalkboard: 
+      buttons: false
+    progress: true
+    title-slide-attributes:
+      data-background-image: images/logo/NEUROFARBA.svg
+      data-background-size: 500px
+      data-background-position: "center 10%"
+      data-state: title-slide
+    include-after-body: afterbody.html
+    mermaid:
+      theme: neutral
+    
+---
+
+## Translational `biomarkers`
+
+:::columns
+:::column
+
+:::info-box
+A translational `biomarker` is a measurement that:
+
+- `quantifies` a biological process linked to a disorder
+- is `repeatable` across sessions and sites
+- can be measured in both `models` and `patients`
+
+:::
+
+:::info-box
+Typical outputs you can bring into trials:
+
+- diagnostic / stratification feature
+- pharmacodynamic marker
+- mechanism-linked readout (helps interpret "why" a treatment works)
+
+:::
+
+:::
+:::column
+
+:::info-box
+What to do (a practical checklist):
+
+- define the `construct` (what brain function you are indexing)
+- choose a readout with high `reliability`
+- test `developmental` sensitivity 
+- test `treatment` sensitivity 
+- report effect size + cross-validated `prediction` 
+
+A biomarker must be `deployable`, not only significant.
+
+:::
+
+:::
+:::
+
+## Neurodevelopmental disorders as `critical period` disorders
+
+:::columns
+:::column
+
+:::info-box
+A key theoretical proposal:
+
+Some neurodevelopmental disorders may reflect disruptions of `critical periods`.
+
+If maturation is altered during these windows:
+
+- circuit refinement may be incomplete or mistimed
+- long-term functional deficits emerge
+- later interventions may have reduced efficacy
+
+This shifts focus from static deficit → altered developmental trajectory.
+:::
+
+:::
+:::column
+
+:::info-box
+Why this matters clinically:
+
+If disorders involve altered `critical period` timing, then we need biomarkers that:
+
+- detect dysfunction `early`
+- track developmental trajectories
+- are sensitive to maturation dynamics
+- can monitor reopening or rescue of plasticity
+
+:::
+
+:::
+:::
+
+## Why `visual cortex` is ideal for critical period biomarkers
+
+:::columns
+:::column
+
+:::info-box
+Primary visual cortex (`V1`) is one of the best-characterized critical period systems:
+
+- well-defined sensory input
+- precisely mapped circuitry
+- known developmental windows
+- measurable plasticity
+
+Its maturation can be tracked quantitatively using:
+
+- `ISI` & `fNIRS` imaging
+- `VEP`
+
+
+This makes V1 a natural testbed for developmental biomarkers.
+:::
+
+:::
+:::column
+
+:::info-box
+If a disorder alters `critical period` timing or gain we expect to observe:
+
+- abnormal emergence of evoked responses
+- altered amplitude or tuning
+- reduced experience-dependent plasticity
+- persistent deficits into adulthood
+
+Therefore, evoked V1 responses can serve as:
+
+- early `detection` markers
+- mechanistic indicators of circuit maturation
+- potential pharmacodynamic endpoints
+
+:::
+
+:::
+:::
+
+## Why `arousal` is also linked to critical periods
+
+:::columns
+:::column
+
+:::info-box
+Neuromodulators regulate plasticity:
+
+- `acetylcholine`
+- `norepinephrine`
+
+These systems:
+
+- gate cortical responsiveness
+- modulate signal-to-noise
+- influence experience-dependent refinement
+
+Arousal state is therefore not just behavioral, it shapes developmental plasticity.
+:::
+
+:::
+:::column
+
+:::info-box
+If neuromodulatory tone is altered:
+
+- critical period dynamics may shift
+- plasticity thresholds may change
+- circuit refinement may be impaired
+
+`Pupil` and `HRV` provide scalable readouts of these systems.
+
+Thus arousal biomarkers may index a mechanism that directly impacts developmental timing.
+:::
+
+:::
+:::
+
+## CDKL5 Deficiency Disorder (CDD)
+
+::: {.disorder-card}
+<div class="disorder-header">
+  <div class="disorder-title">CDKL5 Deficiency Disorder (CDD)</div>
+  <div class="disorder-subtitle">A severe developmental epileptic encephalopathy caused by loss-of-function variants in `CDKL5`</div>
+</div>
+
+<div class="disorder-body">
+
+**Cause**
+- pathogenic variants in the `CDKL5` gene (X-linked)
+- impacts neurodevelopmental signaling and circuit maturation
+
+**Core clinical picture**
+- early-onset seizures (often in infancy)
+- global developmental delay and intellectual disability
+- motor impairment and hypotonia; often limited speech
+- frequent comorbidities: sleep, feeding, autonomic dysregulation
+
+**Why biomarkers matter**
+- symptoms are heterogeneous and change over development
+- clinical trials need objective, repeatable functional endpoints beyond caregiver report
+
+</div>
+:::
+
+## Why CDD is ideal for `V1` + `arousal` biomarkers
+
+:::columns
+:::column
+
+:::info-box
+CDD has strong rationale for `visual cortex` endpoints:
+
+- early circuit maturation is disrupted
+- sensory systems show measurable developmental trajectories
+- evoked responses can reveal when deficits emerge
+
+This supports an early, longitudinal biomarker strategy.
+:::
+
+:::
+:::column
+
+:::info-box
+CDD also fits an `arousal` biomarker strategy:
+
+- widespread neuromodulatory and autonomic involvement is plausible
+- arousal regulation can be measured without demanding tasks
+- passive measures support severe disability cohorts
+
+This supports scalable endpoints for monitoring and stratification.
+:::
+
+:::
+:::
+
+## Experiment: Early `V1` impairment in CDKL5 mice
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Intrinsic Optical Signal Imaging and VEPs</span>
+<a href="https://doi.org/10.1093/hmg/ddx119" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- longitudinal transcranial `IOS` during development  
+- repeated recordings across a developmental window  
+- `VEP` recordings for validation  
+- phenotype summarized with multi-feature classification (`SVM`)  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- developmental emergence of reduced evoked visual responses  
+- deficit persists into later ages  
+- early measures discriminate genotype with high accuracy  
+
+:::
+:::
+
+</div>
+
+:::
+
+## Experiment: Early `V1` impairment in CDKL5 mice
+
+:::columns
+:::column
+
+![](images/biotrans_ios_pipe.png){width="400" fig-align="center"}
+
+![](images/biotrans_cdkl5_ios.jpeg){width="400" fig-align="center"}
+
+:::
+:::column
+
+![](images/biotrans_cdkl5_vep.jpeg){width="400" fig-align="center"}
+![](images/biotrans_cdkl5_pca.jpeg){width="500" fig-align="center"}
+
+:::
+:::
+
+## CDKL5: from model to patient
+
+:::columns
+:::column
+
+:::info-box
+Preclinical evidence showed:
+
+- developmental impairment of `V1` evoked responses
+- stable circuit-level deficit
+- strong genotype discrimination
+
+But translational relevance requires confirmation in `patients`.
+:::
+
+:::
+:::column
+
+:::info-box
+Key question:
+
+Do individuals with CDKL5 show measurable `visual evoked` abnormalities?
+
+And crucially:
+
+Do physiological measures correlate with `clinical severity`?
+
+If yes → the animal biomarker has clinical validity.
+:::
+
+:::
+:::
+
+---
+
+## Experiment: Visual evoked potentials in CDKL5 patients
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Visual Evoked Potentials and Clinical Severity in CDKL5</span>
+<a href="https://www.sciencedirect.com/science/article/pii/S0022510X24001989" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- record `VEP` responses in individuals with CDKL5  
+- quantify amplitude and latency parameters  
+- assess relationship with standardized clinical severity scales  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- altered `VEP` responses compared to controls  
+- physiological parameters correlate with `clinical severity`  
+- stronger impairment associated with more severe phenotype  
+
+:::
+:::
+
+</div>
+
+<div class="exp-section">
+<div class="exp-section-title">Translational significance</div>
+
+- confirms that `V1` dysfunction is present in patients  
+- validates the mouse `V1` phenotype as clinically relevant  
+- supports evoked visual responses as a potential `trial endpoint`  
+
+</div>
+
+:::
+
+## Experiment: Visual evoked potentials in CDKL5 patients
+
+![](images/biotrans_cdkl5_correlation.jpg){width="200" fig-align="center"}
+
+:::card
+Correlation between the amplitude of VEP P100 and the CDKL5 Deficiency disorder - Severity Assessment (CDD-SA) 
+<a href="https://doi.org/10.1016/j.jns.2024.123063" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+:::
+
+## Experiment: `Arousal` dysregulation in CDKL5 mice
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Operant behavior + pupillometry + machine learning</span>
+<a href="https://doi.org/10.1093/hmg/ddac164" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- operant task to probe cognition/strategy  
+- simultaneous `pupil` recording and locomotor monitoring  
+- supervised `ML` to classify genotype from multimodal features  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- altered tonic pupil dynamics and stimulus-evoked pupil responses  
+- atypical coupling between pupil state and locomotion  
+- multimodal features improve genotype discrimination  
+
+:::
+:::
+
+</div>
+
+:::
+
+## Experiment: `Arousal` dysregulation in CDKL5 mice
+:::columns
+:::column
+
+![](images/biotrans_cdkl5_pup_data.png){width="400" fig-align="center"}
+![](images/biotrans_cdkl5_pup_orienting.png){width="300" fig-align="center"}
+
+:::
+:::column
+
+![](images/biotrans_cdkl5_pup_table.png){width="800" fig-align="center"}
+
+:::
+:::
+
+## Experiment: Deep learning of spontaneous `arousal` dynamics (cross-model → patient)
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Deep learning on spontaneous pupil dynamics + transfer to HRV</span>
+<a href="https://doi.org/10.1073/pnas.1820847116" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- collect spontaneous `pupil` fluctuations across ASD-related mouse models  
+- train a convolutional network to decode arousal-related temporal signatures  
+- apply transfer learning to human physiological data (`HRV`)  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- identifies altered arousal signatures across models, including early stages  
+- captures temporal structure beyond summary statistics  
+- transfer learning supports discrimination in patient datasets  
+
+:::
+:::
+
+</div>
+
+:::
+
+## Experiment: Deep learning of spontaneous `arousal` dynamics (cross-model → patient)
+
+![](images/biotrans_pup_artoni.png){width="400" fig-align="center"}
+
+## Creatine Transporter Deficiency (CTD)
+
+::: {.disorder-card}
+<div class="disorder-header">
+  <div class="disorder-title">Creatine Transporter Deficiency (CTD)</div>
+  <div class="disorder-subtitle">Loss of function in `SLC6A8` → impaired creatine transport → neurodevelopmental impairment</div>
+</div>
+
+<div class="disorder-body">
+
+**Cause**
+- pathogenic variants in `SLC6A8` (X-linked)
+- reduced creatine availability in brain → altered energy buffering
+
+**Core clinical picture**
+- global developmental delay and intellectual disability
+- speech and motor impairment; behavioral dysregulation
+- seizures can occur; autistic-like features are common
+
+**Why biomarkers matter**
+- trials need objective endpoints that track brain function over time
+- a strong biomarker should be `treatment-sensitive` and repeatable
+
+</div>
+:::
+
+## Experiment: CTD Translational phenotype
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Shared EEG network alterations (mouse ↔ patient)</span>
+<a href="https://doi.org/10.1093/braincomms/fcaa089" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- EEG & ISI in CTD mouse model  
+- EEG in individuals with CTD  
+- oscillatory + network metrics  
+- quantitative comparison  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- abnormal ISI and cortical oscillations in mice  
+- overlapping EEG alterations in patients
+- objective cross-species signature  
+
+:::
+:::
+
+</div>
+
+:::
+
+## Experiment: CTD Translational phenotype
+![](images/biotrans_ctd_eeg.png){width="500" fig-align="center"}
+
+## Experiment: CTD Translational phenotype
+![](images/biotrans_ctd_ios.png){width="500" fig-align="center"}
+
+## Experiment: CTD Translational phenotype
+![](images/biotrans_ctd_model.png){width="500" fig-align="center"}
+
+## From `IOS` to `fNIRS`
+
+:::columns
+:::column
+
+:::info-box
+In CTD mice we identified:
+
+- robust `V1` hemodynamic deficits  
+- strong WT vs KO separation  
+- longitudinal sensitivity  
+
+This established a reliable `visual cortex biomarker`.
+:::
+
+:::
+:::column
+
+:::info-box
+Translational question:
+
+How do we bring this to `children`?
+
+Constraints:
+
+- non-invasive  
+- tolerant to movement  
+- feasible in pediatric populations  
+
+Solution: adopt `fNIRS` as human analog of IOS.
+:::
+
+:::
+:::
+
+---
+
+## Why `fNIRS` for pediatric translation?
+
+:::columns
+:::column
+
+:::info-box
+`fNIRS` measures:
+
+- changes in `HbO`
+- changes in `HbR`
+- total hemoglobin (`THb`)
+
+It is:
+
+- portable  
+- quiet  
+- child-friendly  
+- suitable for repeated sessions  
+
+:::
+
+:::
+:::column
+
+:::info-box
+Challenge:
+
+- hemodynamic signal is `slow`
+- children have limited attention span
+- traditional checkerboards are boring
+
+Therefore, stimulus design becomes critical.
+:::
+
+:::
+:::
+
+---
+
+## Developing a child-friendly visual paradigm
+
+:::columns
+:::column
+
+:::info-box
+Problem:
+
+Standard reversing checkerboard blocks are:
+
+- repetitive  
+- low engagement  
+- difficult for long pediatric recordings  
+
+We needed a stimulus that was:
+
+- visually strong  
+- engaging  
+- compatible with block design  
+
+:::
+
+:::
+:::column
+
+:::info-box
+Solution:
+
+- embed checkerboard into animated `cartoon` content  
+- maintain contrast reversals  
+- preserve visual drive  
+- increase compliance  
+
+Goal: maximize `signal` without losing attention.
+:::
+
+:::
+:::
+
+---
+
+## Developing a child-friendly visual paradigm
+:::columns
+:::column
+
+![](images/biotrans_peppa.mp4){width="400" fig-align="center"}
+
+:::
+:::column
+
+![](images/biotrans_nemo.mp4){width="400" fig-align="center"}
+
+:::
+:::
+
+## Experiment: Cartoon-based `fNIRS` visual paradigm
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Occipital fNIRS during engaging visual stimulation</span>
+<a href="https://doi.org/10.1038/s41398-022-01820-5" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- occipital `fNIRS` recordings  
+- reversing checkerboard blended with cartoon animation  
+- block design optimized for children  
+- tested in typically developing cohort  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- robust visual hemodynamic response  
+- high compliance and low dropout  
+- strong `THb` and `HbO` modulation  
+- reproducible across participants  
+
+:::
+:::
+
+</div>
+
+:::
+
+## Visual `fNIRS` amplitude and autistic traits
+
+:::columns
+:::column
+
+:::info-box
+In the typical population we observed:
+
+- variability in visual hemodynamic amplitude  
+- stable individual differences  
+
+We then tested association with:
+
+- quantitative `autistic traits`  
+
+:::
+
+:::
+:::column
+
+:::info-box
+Key finding:
+
+- lower `THb` response amplitude  
+- associated with higher autistic trait scores  
+
+Implication:
+
+Visual cortical response amplitude may reflect  
+a dimensional neurodevelopmental phenotype.
+:::
+
+:::
+:::
+
+## Visual `fNIRS` amplitude and autistic traits
+
+![](images/biotrans_fnirs_asd_traits.png){width="400" fig-align="center"}
+
+## Converging autism evidence
+
+:::columns
+:::column
+
+:::info-box
+In typically developing children:
+
+- lower visual `THb` amplitude  
+- associated with higher autistic traits  
+
+Dimensional phenotype.
+:::
+
+:::
+:::column
+
+:::info-box
+In diagnosed female ASD:
+
+- reduced `OHb` amplitude  
+- altered hemispheric lateralization  
+- correlation with `AQ` severity  
+
+Clinical phenotype.
+:::
+
+:::
+:::
+
+## Experiment: Visual `fNIRS` in female preschoolers with ASD
+
+::: {.experiment-card}
+<div class="exp-header" style="display:flex; justify-content:space-between; align-items:center;">
+<span>Cartoon-based visual fNIRS in fASD preschoolers</span>
+<a href="https://doi.org/10.3390/brainsci13060951" target="_blank"
+   style="font-size:0.65em; padding:3px 8px; border:1px solid rgba(200,200,200,0.5); border-radius:8px; text-decoration:none;">
+Reference
+</a>
+</div>
+
+<div class="exp-section">
+
+:::columns
+:::column
+<div class="exp-section-title">Method</div>
+
+- high-functioning female preschoolers with ASD  
+- age-matched TD controls  
+- occipital `fNIRS` during cartoon-based checkerboard  
+- extract `THb`, `OHb`, `DHb`  
+- compute `laterality index`  
+
+:::
+
+:::column
+<div class="exp-section-title">Key results</div>
+
+- reliable visual response in both groups  
+- significantly lower `OHb` amplitude in ASD  
+- reduced rightward lateralization  
+- atypical hemispheric coupling  
+- laterality correlates with `AQ` severity  
+
+:::
+:::
+
+</div>
+
+:::
+
+
+## Experiment: Visual `fNIRS` in female preschoolers with ASD
+
+:::columns
+:::column
+
+![](images/biotrans_fnirs_asd.png){width="400" fig-align="center"}
+
+:::
+:::column
+
+![](images/biotrans_fnirs_asd_laterality.png){width="400" fig-align="center"}
+
+
+:::
+:::

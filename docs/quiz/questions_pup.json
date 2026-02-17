@@ -1,0 +1,456 @@
+{
+  "topic": "Pupillometry",
+  "questions": [
+    {
+      "question": "The pupil is best defined as:",
+      "options": [
+        "A muscle that moves the eye",
+        "The variable opening in the center of the iris",
+        "The transparent lens of the eye",
+        "A nerve that detects light"
+      ],
+      "correct": 1,
+      "feedback": "The pupil is the adjustable opening in the iris that regulates how much light enters the eye."
+    },
+    {
+      "question": "A useful analogy for the pupil’s function is:",
+      "options": [
+        "A microphone",
+        "A camera aperture",
+        "A thermometer",
+        "A compass"
+      ],
+      "correct": 1,
+      "feedback": "The pupil acts like a camera aperture, controlling incoming light."
+    },
+    {
+      "question": "Pupillometry is attractive in neuroscience because pupil size is:",
+      "options": [
+        "Invisible but inferable",
+        "Fixed and stable",
+        "Visible, measurable, and linked to brain state",
+        "Only related to vision"
+      ],
+      "correct": 2,
+      "feedback": "The pupil is easy to measure and tightly linked to autonomic and cognitive state."
+    },
+    {
+      "question": "Which muscle primarily causes pupil constriction?",
+      "options": [
+        "Dilator pupillae",
+        "Sphincter pupillae",
+        "Extraocular rectus",
+        "Ciliary body"
+      ],
+      "correct": 1,
+      "feedback": "The sphincter pupillae constricts the pupil."
+    },
+    {
+      "question": "Which muscle primarily causes pupil dilation?",
+      "options": [
+        "Sphincter pupillae",
+        "Dilator pupillae",
+        "Levator palpebrae",
+        "Orbicularis oculi"
+      ],
+      "correct": 1,
+      "feedback": "The dilator pupillae increases pupil diameter."
+    },
+    {
+      "question": "The two pupil muscles are controlled mainly by:",
+      "options": [
+        "The somatic nervous system",
+        "The autonomic nervous system",
+        "Only the motor cortex",
+        "Only the visual cortex"
+      ],
+      "correct": 1,
+      "feedback": "Constriction and dilation are governed by parasympathetic and sympathetic autonomic pathways."
+    },
+    {
+      "question": "The parasympathetic pathway is most closely associated with:",
+      "options": [
+        "Pupil dilation in stress",
+        "Pupillary light reflex (constriction)",
+        "Voluntary eye movements",
+        "Auditory startle reflex"
+      ],
+      "correct": 1,
+      "feedback": "Parasympathetic control mediates the pupillary light reflex (PLR)."
+    },
+    {
+      "question": "The sympathetic pathway is most closely associated with:",
+      "options": [
+        "Pupil constriction in bright light",
+        "Pupil dilation in darkness and arousal",
+        "Color perception",
+        "Blink generation"
+      ],
+      "correct": 1,
+      "feedback": "Sympathetic activity supports dilation, especially in darkness, stress, and arousal."
+    },
+    {
+      "question": "Which neurotransmitter is highlighted for the parasympathetic pathway?",
+      "options": [
+        "Dopamine",
+        "Acetylcholine (ACh)",
+        "Serotonin",
+        "GABA"
+      ],
+      "correct": 1,
+      "feedback": "Parasympathetic control is associated with acetylcholine."
+    },
+    {
+      "question": "Which neurotransmitter is highlighted for the sympathetic pathway?",
+      "options": [
+        "Norepinephrine (NE)",
+        "Glutamate",
+        "Acetylcholine (ACh)",
+        "Histamine"
+      ],
+      "correct": 0,
+      "feedback": "Sympathetic control is associated with norepinephrine."
+    },
+    {
+      "question": "In the parasympathetic PLR pathway, the Edinger–Westphal nucleus is a key node that connects to:",
+      "options": [
+        "The optic nerve only",
+        "The oculomotor nerve (III)",
+        "The spinal cord ciliospinal center",
+        "The superior cervical ganglion"
+      ],
+      "correct": 1,
+      "feedback": "The Edinger–Westphal nucleus projects via the oculomotor nerve to control constriction."
+    },
+    {
+      "question": "The sympathetic pupil pathway includes which structure as a major relay?",
+      "options": [
+        "Ciliary ganglion",
+        "Superior cervical ganglion",
+        "Edinger–Westphal nucleus",
+        "Pretectal nucleus"
+      ],
+      "correct": 1,
+      "feedback": "The sympathetic pathway relays through the superior cervical ganglion to reach the dilator muscle."
+    },
+    {
+      "question": "The pupillary light reflex (PLR) is typically characterized by:",
+      "options": [
+        "Slow dilation over minutes",
+        "Rapid constriction with ~200 ms latency",
+        "Random fluctuations unrelated to light",
+        "Only unilateral responses"
+      ],
+      "correct": 1,
+      "feedback": "PLR is rapid, reliable, and begins after roughly ~200 ms."
+    },
+    {
+      "question": "A hallmark of the pupillary light reflex is that it is:",
+      "options": [
+        "Only present in one eye",
+        "Bilateral (direct and consensual)",
+        "Only present during sleep",
+        "Only driven by cognitive load"
+      ],
+      "correct": 1,
+      "feedback": "PLR is bilateral: illuminating one eye causes constriction in both eyes."
+    },
+    {
+      "question": "Dark adaptation primarily involves:",
+      "options": [
+        "Pupil constriction and reduced sympathetic tone",
+        "Pupil dilation and increased sympathetic tone",
+        "No change in pupil size",
+        "Only cortical control"
+      ],
+      "correct": 1,
+      "feedback": "In darkness, sympathetic tone increases and the pupil dilates."
+    },
+    {
+      "question": "Under stress or arousal, pupil dilation can occur even when:",
+      "options": [
+        "Luminance is constant",
+        "The eyes are closed",
+        "The retina is inactive",
+        "The oculomotor nerve is blocked"
+      ],
+      "correct": 0,
+      "feedback": "Arousal can drive dilation even without changes in luminance."
+    },
+    {
+      "question": "The task-evoked pupillary response refers to:",
+      "options": [
+        "Light-driven constriction only",
+        "Dilation driven by increased task difficulty without luminance change",
+        "Eye movements during reading",
+        "Blink frequency changes"
+      ],
+      "correct": 1,
+      "feedback": "Task demands can elicit pupil dilation even under constant lighting."
+    },
+    {
+      "question": "As working memory load increases, pupil diameter typically:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Becomes fixed",
+        "Becomes unrelated to effort"
+      ],
+      "correct": 1,
+      "feedback": "More items/effort in working memory is associated with larger dilation."
+    },
+    {
+      "question": "Pupil size is often interpreted as tracking:",
+      "options": [
+        "Only visual acuity",
+        "Only reflex speed",
+        "Mental workload and effort",
+        "Only motor preparation"
+      ],
+      "correct": 2,
+      "feedback": "Pupil diameter scales with mental workload and effort in many tasks."
+    },
+    {
+      "question": "During difficult decisions, pupil dilation tends to:",
+      "options": [
+        "Decrease with uncertainty",
+        "Increase with uncertainty and surprise",
+        "Disappear due to fatigue",
+        "Only reflect luminance"
+      ],
+      "correct": 1,
+      "feedback": "Decision uncertainty and surprise are linked to larger phasic dilations."
+    },
+    {
+      "question": "Emotionally salient stimuli typically cause pupil diameter to:",
+      "options": [
+        "Decrease regardless of arousal",
+        "Increase regardless of valence",
+        "Stay constant unless light changes",
+        "Reflect emotional category only"
+      ],
+      "correct": 1,
+      "feedback": "Pupil responses often track arousal intensity more than emotional valence/category."
+    },
+    {
+      "question": "The slides emphasize that pupil responses to emotion reflect primarily:",
+      "options": [
+        "Valence category (positive vs negative)",
+        "Arousal intensity",
+        "Language processing",
+        "Memory retrieval only"
+      ],
+      "correct": 1,
+      "feedback": "Pupil size is more closely tied to arousal than to emotional category."
+    },
+    {
+      "question": "Beyond reflexes, pupil size is influenced by central neuromodulation involving:",
+      "options": [
+        "Noradrenergic signaling and attention networks",
+        "Only serotonin signaling",
+        "Only spinal reflex loops",
+        "Only retinal adaptation"
+      ],
+      "correct": 0,
+      "feedback": "Central systems (including noradrenergic and cortical control networks) influence pupil size."
+    },
+    {
+      "question": "The locus coeruleus (LC) is highlighted as important because it:",
+      "options": [
+        "Controls eye muscles directly",
+        "Regulates arousal and responds to novelty/uncertainty",
+        "Generates the pupillary light reflex in the retina",
+        "Is the main visual cortex relay"
+      ],
+      "correct": 1,
+      "feedback": "LC activity relates to arousal, novelty, and uncertainty; pupil dilation correlates with LC activity."
+    },
+    {
+      "question": "Pupil dilation is described as being correlated with activity in:",
+      "options": [
+        "Primary motor cortex",
+        "Locus coeruleus",
+        "Cerebellum only",
+        "Hippocampus only"
+      ],
+      "correct": 1,
+      "feedback": "Many studies link pupil dilation with locus coeruleus-related arousal systems."
+    },
+    {
+      "question": "Modern pupillometry typically uses which illumination type?",
+      "options": [
+        "Ultraviolet light (~300 nm)",
+        "Infrared illumination (~850 nm)",
+        "Visible blue light only",
+        "X-rays"
+      ],
+      "correct": 1,
+      "feedback": "Pupillometry often uses infrared illumination (around 850 nm) for robust pupil tracking."
+    },
+    {
+      "question": "A typical modern pupillometry setup relies on:",
+      "options": [
+        "EEG electrodes and amplifiers",
+        "Video-based eye tracking with automated pupil detection",
+        "PET tracers",
+        "Microelectrodes in the retina"
+      ],
+      "correct": 1,
+      "feedback": "Video eye tracking plus automated pupil detection is standard."
+    },
+    {
+      "question": "A key preprocessing step in pupillometry is to:",
+      "options": [
+        "Amplify spikes",
+        "Remove blinks and interpolate missing data",
+        "Normalize skull thickness",
+        "Subtract fMRI motion parameters"
+      ],
+      "correct": 1,
+      "feedback": "Blink detection/removal and interpolation are basic steps before analysis."
+    },
+    {
+      "question": "Baseline correction in pupillometry is used to:",
+      "options": [
+        "Increase luminance",
+        "Remove slow offsets and compare event-related changes",
+        "Measure eye color",
+        "Force pupil to constant size"
+      ],
+      "correct": 1,
+      "feedback": "Baseline correction helps interpret event-related changes relative to a reference period."
+    },
+    {
+      "question": "Why must luminance be carefully controlled in pupillometry experiments?",
+      "options": [
+        "Because pupil changes are insensitive to light",
+        "Because pupil size is extremely sensitive to light",
+        "Because luminance only affects EEG",
+        "Because cameras cannot measure bright screens"
+      ],
+      "correct": 1,
+      "feedback": "Light is a dominant driver of pupil size; uncontrolled luminance confounds cognitive effects."
+    },
+    {
+      "question": "Typical pupil responses to a cognitive event begin approximately:",
+      "options": [
+        "0–20 ms after the event",
+        "200–500 ms after the event",
+        "10–20 seconds after the event",
+        "Several minutes after the event"
+      ],
+      "correct": 1,
+      "feedback": "Event-related pupil responses usually start a few hundred milliseconds after the event."
+    },
+    {
+      "question": "Event-related pupil responses typically peak around:",
+      "options": [
+        "10–50 ms",
+        "1–2 seconds",
+        "10–20 seconds",
+        "1–2 minutes"
+      ],
+      "correct": 1,
+      "feedback": "Pupil dilations often peak around 1–2 seconds after an event."
+    },
+    {
+      "question": "Compared to hemodynamic signals, pupil responses are generally:",
+      "options": [
+        "Slower",
+        "Faster",
+        "Identical in timing",
+        "Not physiological"
+      ],
+      "correct": 1,
+      "feedback": "Pupil dynamics are faster than hemodynamic signals but slower than EEG."
+    },
+    {
+      "question": "Tonic pupil level is best described as:",
+      "options": [
+        "Rapid stimulus-locked dilation",
+        "Slow fluctuations linked to sustained arousal",
+        "A direct measure of firing rate",
+        "A pure artifact of blinks"
+      ],
+      "correct": 1,
+      "feedback": "Tonic level reflects slower changes associated with ongoing arousal state."
+    },
+    {
+      "question": "Phasic pupil response is best described as:",
+      "options": [
+        "A slow drift over minutes",
+        "A rapid stimulus-locked dilation linked to cognitive events",
+        "Only a constriction reflex to light",
+        "A measure of cortical thickness"
+      ],
+      "correct": 1,
+      "feedback": "Phasic responses are fast, event-related changes in pupil diameter."
+    },
+    {
+      "question": "Which is listed as a strength of pupillometry?",
+      "options": [
+        "High spatial specificity for deep brain nuclei",
+        "Non-invasive and high temporal resolution",
+        "Direct measurement of spikes",
+        "Immunity to medication effects"
+      ],
+      "correct": 1,
+      "feedback": "Pupillometry is non-invasive, inexpensive, portable, and has high temporal resolution."
+    },
+    {
+      "question": "Which is listed as a limitation of pupillometry?",
+      "options": [
+        "Insensitive to luminance",
+        "Highly sensitive to luminance and autonomic state",
+        "Cannot be used across lifespan",
+        "Requires radioactive tracers"
+      ],
+      "correct": 1,
+      "feedback": "Pupil size is strongly affected by luminance, fatigue, medications, and other autonomic factors."
+    },
+    {
+      "question": "A key limitation of pupillometry regarding interpretation is that pupil size:",
+      "options": [
+        "Reflects only one process",
+        "Reflects multiple overlapping processes",
+        "Is fully deterministic",
+        "Is purely motor"
+      ],
+      "correct": 1,
+      "feedback": "Pupil diameter can reflect light reflexes, arousal, cognitive load, and more—overlapping influences."
+    },
+    {
+      "question": "Pupillometry has low spatial specificity because:",
+      "options": [
+        "It measures cortical maps directly",
+        "It reflects autonomic signals rather than localized neural sources",
+        "It measures individual synapses",
+        "It only measures retina blood flow"
+      ],
+      "correct": 1,
+      "feedback": "Pupil size is a global autonomic output, not a localized neural measurement."
+    },
+    {
+      "question": "Which factor can influence pupil diameter independent of cognitive task demands?",
+      "options": [
+        "Medication and circadian factors",
+        "Only language comprehension",
+        "Only auditory tone frequency",
+        "Only hand dominance"
+      ],
+      "correct": 0,
+      "feedback": "Fatigue, circadian rhythms, medication, and autonomic state can all alter pupil size."
+    },
+    {
+      "question": "MEYE (pupillometry.it) is described as:",
+      "options": [
+        "A PET-based imaging tool",
+        "A browser-based eye tracking/pupillometry tool",
+        "A hardware-only infrared camera",
+        "A software for EEG source localization"
+      ],
+      "correct": 1,
+      "feedback": "MEYE is a browser-based tool for eye tracking and pupillometry."
+    }
+  ]
+}

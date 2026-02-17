@@ -946,3 +946,11 @@ Signal quality depends strongly on preparation.
 
 :::
 :::
+
+## Self-check
+
+```{=html}
+<div class="quiz-wrap">
+  <iframe class="quiz-frame" src="quiz/quiz_ios.html" loading="lazy"></iframe>
+</div>
+```
