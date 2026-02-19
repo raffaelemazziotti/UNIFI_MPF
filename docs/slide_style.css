@@ -733,6 +733,61 @@
   }
 }
 
+/**********************
+  Button Component
+***********************/
+
+.reveal .btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #0888e4;
+  color: #111111 !important;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+}
+
+.reveal .btn:hover {
+  background-color: #9ad1ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+
+/* Subtle secondary version */
+.reveal .btn-secondary {
+  background-color: rgba(255,255,255,0.08);
+  color: #e6e6e6 !important;
+  border: 1px solid rgba(180,180,180,0.5);
+}
+
+.reveal .btn-secondary:hover {
+  background-color: rgba(255,255,255,0.15);
+}
+
+/**********************
+  PDF EXPORT
+***********************/
+.print-pdf .btn {
+  background: #dbeafe !important;
+  color: #003366 !important;
+  box-shadow: none !important;
+  border: 1px solid #003366;
+}
+
+/**********************
+  Mobile
+***********************/
+@media (max-width: 768px) {
+  body.quarto-light .reveal .btn {
+    font-size: 0.9em !important;
+    padding: 12px 20px !important;
+  }
+}
+
 
 
 /* ==========================

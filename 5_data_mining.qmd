@@ -30,18 +30,530 @@ format:
     
 ---
 
-# What is Data Mining?
+## What is Data Mining?
+
+::: columns
+:::column
 
 Data mining is the process of:
 
-- Extracting patterns from data  
-- Discovering structure in complex datasets  
+- `Extracting patterns from data`  
+- `Discovering structure` in complex datasets  
 - Identifying predictive features  
 - Transforming data into knowledge  
 
-In neuroscience and psychophysiology:
+:::info-box
+Modern datasets are:
 
-- High-dimensional signals  
-- Many variables  
-- Small-to-medium samples  
-- Noisy biological data  
+- Multivariate
+- High dimensional
+- Non-linear
+- Noisy
+:::
+
+
+:::
+:::column
+
+![](images/dm_data_mining.png){width="600" fig-align="center"}
+
+:::
+:::
+
+## What Is a Dataset?
+
+:::columns
+:::column 
+
+:::info-box
+A dataset is:
+
+`An organized collection of information`
+
+In biomarker research, a dataset usually contains:
+
+- participants  
+- measurements  
+- clinical labels  
+
+It is typically organized as a `table`.
+:::
+
+:::
+:::column
+
+:::info-box
+Most datasets are organized in rows and columns.
+
+- Each `row` represents one participant  
+- Each `column` represents one variable  
+:::
+
+
+|Participant | R T | Pupil Dilation | HbO | Diagnosis |  
+|------------|---------------|----------------|---------------|-----------|  
+|P01         | 520 ms        | 0.35 mm        | 1.2 µM        | Typical   | 
+|P02         | 710 ms        | 0.62 mm        | 0.6 µM        | Disorder  | 
+
+
+:::
+:::
+
+## Key Components of a Dataset
+
+:::columns
+:::column 
+
+:::info-box
+`Features`
+
+- measurable variables  
+- reaction time  
+- EEG power  
+- questionnaire scores  
+:::
+
+:::info-box
+`Label` or `Target variable`
+
+- what we want to predict  
+- diagnosis  
+- symptom severity  
+- treatment response  
+:::
+
+:::
+:::column 
+
+![](images/dm_dataset_features.png){width="600" fig-align="center"}
+
+```{mermaid}
+flowchart TD
+
+V["Statistical Variables"]
+
+V --> C["Categorical (Qualitative)"]
+V --> N["Numerical (Quantitative)"]
+
+C --> CN["Nominal"]
+C --> CO["Ordinal"]
+
+N --> ND["Discrete"]
+N --> NC["Continuous"]
+
+```
+
+:::
+::: 
+
+## What is Artificial Intelligence?
+
+Artificial Intelligence (AI) refers to:
+
+> Computational systems that learn patterns from data to make predictions or decisions.
+
+::: columns
+:::column
+
+:::info-box
+Artificial Intelligence is a broad field that includes:
+
+- `Machine Learning` (ML): Algorithms learn patterns from data. 
+- `Deep Learning`: Neural networks with many layers.
+:::
+
+::: 
+:::column
+
+![](images/dm_artificial_intelligence.png){width="600" fig-align="center"}
+
+::: 
+:::
+
+## How AI Learns
+
+::: columns
+:::column
+
+:::info-box
+Most common `learning paradigms`:
+
+[Supervised Learning]{.highlight}: 
+
+Models are trained using labeled input-output pairs to predict outcomes for new data.
+
+[Unsupervised Learning]{.highlight}:
+
+Models that analyze and find hidden patterns, structures, or relationships in input data that is not labeled, categorized, or guided
+:::
+
+::: 
+:::column
+
+![](images/dm_supervised_unsupervised.png){width="350" fig-align="center"}
+
+::: 
+:::
+
+## Supervised vs UnSupervised Learning
+
+::: columns
+:::column
+
+:::info-box
+In `Supervised` learning we provide:
+
+- measurements (features) 
+- diagnosis  (labels)
+
+The system learns:
+
+`How to predict diagnosis from measurements`
+
+>This is the most relevant approach for biomarkers.
+
+:::
+
+::: 
+:::column
+
+:::info-box
+In `UnSupervised` learning we provide:
+
+- measurements  
+- no diagnosis  
+
+The system tries to:
+
+- discover natural groups  
+- identify hidden structure  
+
+>Useful for discovering subgroups.
+
+:::
+
+::: 
+:::
+
+## Supervised vs UnSupervised Learning
+
+![](images/dm_sup_unsup.png){width="350" fig-align="center"}
+
+## What Is a Model?
+
+::: columns
+:::column
+
+A model is:
+
+A `rule` that combines `variables` to make predictions
+
+:::card
+Very simplified example:
+
+`If`  
+- reaction time is slow  
+- pupil dilation is large  
+- HbO is reduced  
+
+`Then`  
+probability of disorder increases.
+:::
+
+>The computer learns this rule automatically.
+
+
+::: 
+:::column
+
+:::card
+[Overfitting]{.highlight} occurs when a model learns training data too well, capturing `noise` and random fluctuations rather than just the underlying patterns.
+
+How we prevent Overfitting?
+
+Using `Cross-Validation`: testing the model on Data it has never seen before.
+:::
+
+![](images/dm_validation_test.jpg){width="600" fig-align="center"}
+
+::: 
+:::
+
+## The Biomarker Discovery Pipeline
+
+::: columns
+:::column
+
+1. `collect` data  
+2. clean and `preprocess`  
+3. `explore` variables  
+4. `select relevant features`  
+5. `train` predictive model  
+6. `validate` on new data  
+7. `interpret` carefully  
+::: 
+:::column
+
+![](images/dm_classification.jpg){width="600" fig-align="center"}
+
+
+::: 
+:::
+
+## Why Use Orange?
+
+::: columns
+:::column
+
+`Orange` is:
+
+- free  
+- visual  
+- easy to use  
+- designed for learning  
+
+>No coding required.
+
+
+::: 
+:::column
+
+![](images/dm_orange.png){width="400" fig-align="center"}
+
+<a href="https://orangedatamining.com/" target="_blank" class="btn">
+Download
+</a>
+
+<a href="https://orangedatamining.com/docs/" target="_blank" class="btn">
+Documentation
+</a>
+
+
+::: 
+:::
+
+## How Orange Works
+
+::: columns
+:::column
+
+:::info-box
+Orange uses visual blocks called `widgets`.
+
+You connect them in a workflow.
+
+Example:
+
+Data → Model → Evaluation
+
+>Each block performs one clear step.
+
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_widgets.png){width="400" fig-align="center"}
+
+::: 
+:::
+
+## Loading a Dataset
+
+::: columns
+:::column
+
+:::info-box
+The main widget is:
+
+`CSV import`
+
+It allows you to:
+
+- open a Comma-Separated Value (CSV) file
+- inspect variables  
+
+After loading, the data can be sent to other widgets.
+
+> For other file types you can also use the `File` widget
+
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_csv.png){width="100" fig-align="left"}
+![](images/dm_orange_csv_prompt.png){width="500" fig-align="left"}
+
+::: 
+:::
+
+## Data Table
+
+::: columns
+:::column
+
+:::info-box
+The `Data Table` widget lets you:
+
+- see all participants  
+- inspect variables  
+- check missing values  
+
+This is your first contact with the dataset.
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_data_table.png){width="100" fig-align="left"}
+
+::: 
+:::
+
+## Select Columns
+
+::: columns
+:::column
+
+:::info-box
+The `Select Columns` widget lets you:
+
+- choose which variables are used for prediction  
+- define the `target variable`  
+- assign descriptive information as `meta`  
+
+This is where you clearly define:
+
+`What do I want to predict, and from which variables?`
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_select_columns.png){width="100" fig-align="left"}
+![](images/dm_orange_select_columns_menu.png){width="500" fig-align="left"}
+
+::: 
+:::
+
+## Impute
+
+::: columns
+:::column
+
+:::info-box
+`Impute`
+
+- handle missing values  
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_impute.png){width="80" fig-align="left"}
+![](images/dm_orange_impute_menu.png){width="500" fig-align="left"}
+
+::: 
+:::
+
+
+
+
+
+## Exploring the Data
+
+::: columns
+:::column
+
+Visualization helps us understand patterns.
+
+:::card
+`Distributions`
+
+- inspect variable distributions  
+:::
+
+:::card
+`Box Plot`
+
+- compare groups  
+:::
+
+:::card
+`Scatter Plot`
+
+- explore relationships  
+:::
+
+::: 
+:::column
+
+
+
+::: 
+:::
+
+## Models: Logistic Regression
+
+::: columns
+:::column
+
+::: info-box
+The `Logistic Regression` widget is a simple and interpretable classification model to classify data into two groups.
+It:
+
+- estimates the probability of belonging to a group  
+- combines variables linearly  
+- works well when relationships are relatively simple  
+:::
+
+::: info-box
+It is often a good first model to try because:
+
+- it is stable  
+- it is easy to interpret
+:::
+
+::: 
+:::column
+
+
+::: 
+:::
+
+## Random Forest
+
+The `Random Forest` widget is a more flexible and powerful model.
+
+It:
+
+- builds many decision trees  
+- combines their predictions  
+- handles complex and non-linear relationships  
+
+It is useful when:
+
+- variables interact with each other  
+- patterns are not simple  
+- prediction accuracy is the main goal 
+
+## Support Vector Machine
+
+:::info-box
+The `Support Vector Machine` widget is a model that tries to find the best boundary between groups.
+
+It:
+
+- separates groups with an optimal decision boundary  
+- can model complex patterns  
+- works well in high-dimensional data  
+:::
+
+::: info-box
+It is often effective when:
+
+- groups overlap  
+- there are many variables  
+- the separation is subtle  
+:::

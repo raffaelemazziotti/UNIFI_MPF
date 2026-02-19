@@ -124,6 +124,10 @@
       margin-right: 0; 
     }
   </style>
+  <meta name="mermaid-theme" content="neutral">
+  <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -145,28 +149,532 @@ Raffaele M Mazziotti, PhD
 </div>
 
 </section>
-<section id="what-is-data-mining" class="title-slide slide level1 center">
-<h1>What is Data Mining?</h1>
+<section id="what-is-data-mining" class="slide level2 center">
+<h2>What is Data Mining?</h2>
+<div class="columns">
+<div class="column">
 <p>Data mining is the process of:</p>
 <ul>
-<li>Extracting patterns from data<br>
+<li><code>Extracting patterns from data</code><br>
 </li>
-<li>Discovering structure in complex datasets<br>
+<li><code>Discovering structure</code> in complex datasets<br>
 </li>
 <li>Identifying predictive features<br>
 </li>
 <li>Transforming data into knowledge</li>
 </ul>
-<p>In neuroscience and psychophysiology:</p>
+<div class="info-box">
+<p>Modern datasets are:</p>
 <ul>
-<li>High-dimensional signals<br>
-</li>
-<li>Many variables<br>
-</li>
-<li>Small-to-medium samples<br>
-</li>
-<li>Noisy biological data</li>
+<li>Multivariate</li>
+<li>High dimensional</li>
+<li>Non-linear</li>
+<li>Noisy</li>
 </ul>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_data_mining.png" class="quarto-figure quarto-figure-center" width="600"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="what-is-a-dataset" class="slide level2 center">
+<h2>What Is a Dataset?</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>A dataset is:</p>
+<p><code>An organized collection of information</code></p>
+<p>In biomarker research, a dataset usually contains:</p>
+<ul>
+<li>participants<br>
+</li>
+<li>measurements<br>
+</li>
+<li>clinical labels</li>
+</ul>
+<p>It is typically organized as a <code>table</code>.</p>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>Most datasets are organized in rows and columns.</p>
+<ul>
+<li>Each <code>row</code> represents one participant<br>
+</li>
+<li>Each <code>column</code> represents one variable<br>
+</li>
+</ul>
+</div>
+<table class="caption-top">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 21%">
+<col style="width: 23%">
+<col style="width: 21%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Participant</th>
+<th>R T</th>
+<th>Pupil Dilation</th>
+<th>HbO</th>
+<th>Diagnosis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P01</td>
+<td>520 ms</td>
+<td>0.35 mm</td>
+<td>1.2 µM</td>
+<td>Typical</td>
+</tr>
+<tr class="even">
+<td>P02</td>
+<td>710 ms</td>
+<td>0.62 mm</td>
+<td>0.6 µM</td>
+<td>Disorder</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+</section>
+<section id="key-components-of-a-dataset" class="slide level2 center">
+<h2>Key Components of a Dataset</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p><code>Features</code></p>
+<ul>
+<li>measurable variables<br>
+</li>
+<li>reaction time<br>
+</li>
+<li>EEG power<br>
+</li>
+<li>questionnaire scores<br>
+</li>
+</ul>
+</div>
+<div class="info-box">
+<p><code>Label</code> or <code>Target variable</code></p>
+<ul>
+<li>what we want to predict<br>
+</li>
+<li>diagnosis<br>
+</li>
+<li>symptom severity<br>
+</li>
+<li>treatment response<br>
+</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_dataset_features.png" class="quarto-figure quarto-figure-center" width="600"></p>
+</figure>
+</div>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+
+V["Statistical Variables"]
+
+V --&gt; C["Categorical (Qualitative)"]
+V --&gt; N["Numerical (Quantitative)"]
+
+C --&gt; CN["Nominal"]
+C --&gt; CO["Ordinal"]
+
+N --&gt; ND["Discrete"]
+N --&gt; NC["Continuous"]
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="what-is-artificial-intelligence" class="slide level2 center">
+<h2>What is Artificial Intelligence?</h2>
+<p>Artificial Intelligence (AI) refers to:</p>
+<blockquote>
+<p>Computational systems that learn patterns from data to make predictions or decisions.</p>
+</blockquote>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Artificial Intelligence is a broad field that includes:</p>
+<ul>
+<li><code>Machine Learning</code> (ML): Algorithms learn patterns from data.</li>
+<li><code>Deep Learning</code>: Neural networks with many layers.</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_artificial_intelligence.png" class="quarto-figure quarto-figure-center" width="600"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="how-ai-learns" class="slide level2 center">
+<h2>How AI Learns</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Most common <code>learning paradigms</code>:</p>
+<p><span class="highlight">Supervised Learning</span>:</p>
+<p>Models are trained using labeled input-output pairs to predict outcomes for new data.</p>
+<p><span class="highlight">Unsupervised Learning</span>:</p>
+<p>Models that analyze and find hidden patterns, structures, or relationships in input data that is not labeled, categorized, or guided</p>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_supervised_unsupervised.png" class="quarto-figure quarto-figure-center" width="350"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="supervised-vs-unsupervised-learning" class="slide level2 center">
+<h2>Supervised vs UnSupervised Learning</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>In <code>Supervised</code> learning we provide:</p>
+<ul>
+<li>measurements (features)</li>
+<li>diagnosis (labels)</li>
+</ul>
+<p>The system learns:</p>
+<p><code>How to predict diagnosis from measurements</code></p>
+<blockquote>
+<p>This is the most relevant approach for biomarkers.</p>
+</blockquote>
+</div>
+</div><div class="column">
+<div class="info-box">
+<p>In <code>UnSupervised</code> learning we provide:</p>
+<ul>
+<li>measurements<br>
+</li>
+<li>no diagnosis</li>
+</ul>
+<p>The system tries to:</p>
+<ul>
+<li>discover natural groups<br>
+</li>
+<li>identify hidden structure</li>
+</ul>
+<blockquote>
+<p>Useful for discovering subgroups.</p>
+</blockquote>
+</div>
+</div></div>
+</section>
+<section id="supervised-vs-unsupervised-learning-1" class="slide level2 center">
+<h2>Supervised vs UnSupervised Learning</h2>
+
+<img data-src="images/dm_sup_unsup.png" class="quarto-figure quarto-figure-center r-stretch" width="350"></section>
+<section id="what-is-a-model" class="slide level2 center">
+<h2>What Is a Model?</h2>
+<div class="columns">
+<div class="column">
+<p>A model is:</p>
+<p>A <code>rule</code> that combines <code>variables</code> to make predictions</p>
+<div class="card">
+<p>Very simplified example:</p>
+<p><code>If</code><br>
+- reaction time is slow<br>
+- pupil dilation is large<br>
+- HbO is reduced</p>
+<p><code>Then</code><br>
+probability of disorder increases.</p>
+</div>
+<blockquote>
+<p>The computer learns this rule automatically.</p>
+</blockquote>
+</div><div class="column">
+<div class="card">
+<p><span class="highlight">Overfitting</span> occurs when a model learns training data too well, capturing <code>noise</code> and random fluctuations rather than just the underlying patterns.</p>
+<p>How we prevent Overfitting?</p>
+<p>Using <code>Cross-Validation</code>: testing the model on Data it has never seen before.</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_validation_test.jpg" class="quarto-figure quarto-figure-center" width="600"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="the-biomarker-discovery-pipeline" class="slide level2 center">
+<h2>The Biomarker Discovery Pipeline</h2>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li><code>collect</code> data<br>
+</li>
+<li>clean and <code>preprocess</code><br>
+</li>
+<li><code>explore</code> variables<br>
+</li>
+<li><code>select relevant features</code><br>
+</li>
+<li><code>train</code> predictive model<br>
+</li>
+<li><code>validate</code> on new data<br>
+</li>
+<li><code>interpret</code> carefully<br>
+</li>
+</ol>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_classification.jpg" class="quarto-figure quarto-figure-center" width="600"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="why-use-orange" class="slide level2 center">
+<h2>Why Use Orange?</h2>
+<div class="columns">
+<div class="column">
+<p><code>Orange</code> is:</p>
+<ul>
+<li>free<br>
+</li>
+<li>visual<br>
+</li>
+<li>easy to use<br>
+</li>
+<li>designed for learning</li>
+</ul>
+<blockquote>
+<p>No coding required.</p>
+</blockquote>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_orange.png" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+<p><a href="https://orangedatamining.com/" target="_blank" class="btn"> Download </a></p>
+<p><a href="https://orangedatamining.com/docs/" target="_blank" class="btn"> Documentation </a></p>
+</div></div>
+</section>
+<section id="how-orange-works" class="slide level2 center">
+<h2>How Orange Works</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Orange uses visual blocks called <code>widgets</code>.</p>
+<p>You connect them in a workflow.</p>
+<p>Example:</p>
+<p>Data → Model → Evaluation</p>
+<blockquote>
+<p>Each block performs one clear step.</p>
+</blockquote>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dm_orange_widgets.png" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="loading-a-dataset" class="slide level2 center">
+<h2>Loading a Dataset</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>The main widget is:</p>
+<p><code>CSV import</code></p>
+<p>It allows you to:</p>
+<ul>
+<li>open a Comma-Separated Value (CSV) file</li>
+<li>inspect variables</li>
+</ul>
+<p>After loading, the data can be sent to other widgets.</p>
+<blockquote>
+<p>For other file types you can also use the <code>File</code> widget</p>
+</blockquote>
+</div>
+</div><div class="column">
+<p><img data-src="images/dm_orange_csv.png" class="quarto-figure quarto-figure-left" width="100"> <img data-src="images/dm_orange_csv_prompt.png" class="quarto-figure quarto-figure-left" width="500"></p>
+</div></div>
+</section>
+<section id="data-table" class="slide level2 center">
+<h2>Data Table</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>The <code>Data Table</code> widget lets you:</p>
+<ul>
+<li>see all participants<br>
+</li>
+<li>inspect variables<br>
+</li>
+<li>check missing values</li>
+</ul>
+<p>This is your first contact with the dataset.</p>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/dm_orange_data_table.png" class="quarto-figure quarto-figure-left" width="100"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="select-columns" class="slide level2 center">
+<h2>Select Columns</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>The <code>Select Columns</code> widget lets you:</p>
+<ul>
+<li>choose which variables are used for prediction<br>
+</li>
+<li>define the <code>target variable</code><br>
+</li>
+<li>assign descriptive information as <code>meta</code></li>
+</ul>
+<p>This is where you clearly define:</p>
+<p><code>What do I want to predict, and from which variables?</code></p>
+</div>
+</div><div class="column">
+<p><img data-src="images/dm_orange_select_columns.png" class="quarto-figure quarto-figure-left" width="100"> <img data-src="images/dm_orange_select_columns_menu.png" class="quarto-figure quarto-figure-left" width="500"></p>
+</div></div>
+</section>
+<section id="impute" class="slide level2 center">
+<h2>Impute</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p><code>Impute</code></p>
+<ul>
+<li>handle missing values<br>
+</li>
+</ul>
+</div>
+</div><div class="column">
+<p><img data-src="images/dm_orange_impute.png" class="quarto-figure quarto-figure-left" width="80"> <img data-src="images/dm_orange_impute_menu.png" class="quarto-figure quarto-figure-left" width="500"></p>
+</div></div>
+</section>
+<section id="exploring-the-data" class="slide level2 center">
+<h2>Exploring the Data</h2>
+<div class="columns">
+<div class="column">
+<p>Visualization helps us understand patterns.</p>
+<div class="card">
+<p><code>Distributions</code></p>
+<ul>
+<li>inspect variable distributions<br>
+</li>
+</ul>
+</div>
+<div class="card">
+<p><code>Box Plot</code></p>
+<ul>
+<li>compare groups<br>
+</li>
+</ul>
+</div>
+<div class="card">
+<p><code>Scatter Plot</code></p>
+<ul>
+<li>explore relationships<br>
+</li>
+</ul>
+</div>
+</div><div class="column">
+
+</div></div>
+</section>
+<section id="models-logistic-regression" class="slide level2 center">
+<h2>Models: Logistic Regression</h2>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>The <code>Logistic Regression</code> widget is a simple and interpretable classification model to classify data into two groups. It:</p>
+<ul>
+<li>estimates the probability of belonging to a group<br>
+</li>
+<li>combines variables linearly<br>
+</li>
+<li>works well when relationships are relatively simple<br>
+</li>
+</ul>
+</div>
+<div class="info-box">
+<p>It is often a good first model to try because:</p>
+<ul>
+<li>it is stable<br>
+</li>
+<li>it is easy to interpret</li>
+</ul>
+</div>
+</div><div class="column">
+
+</div></div>
+</section>
+<section id="random-forest" class="slide level2 center">
+<h2>Random Forest</h2>
+<p>The <code>Random Forest</code> widget is a more flexible and powerful model.</p>
+<p>It:</p>
+<ul>
+<li>builds many decision trees<br>
+</li>
+<li>combines their predictions<br>
+</li>
+<li>handles complex and non-linear relationships</li>
+</ul>
+<p>It is useful when:</p>
+<ul>
+<li>variables interact with each other<br>
+</li>
+<li>patterns are not simple<br>
+</li>
+<li>prediction accuracy is the main goal</li>
+</ul>
+</section>
+<section id="support-vector-machine" class="slide level2 center">
+<h2>Support Vector Machine</h2>
+<div class="info-box">
+<p>The <code>Support Vector Machine</code> widget is a model that tries to find the best boundary between groups.</p>
+<p>It:</p>
+<ul>
+<li>separates groups with an optimal decision boundary<br>
+</li>
+<li>can model complex patterns<br>
+</li>
+<li>works well in high-dimensional data<br>
+</li>
+</ul>
+</div>
+<div class="info-box">
+<p>It is often effective when:</p>
+<ul>
+<li>groups overlap<br>
+</li>
+<li>there are many variables<br>
+</li>
+<li>the separation is subtle<br>
+</li>
+</ul>
+</div>
 
 
 

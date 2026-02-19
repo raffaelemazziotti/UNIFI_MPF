@@ -971,5 +971,187 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Experiment: Visual fNIRS in female preschoolers with ASD",
     "text": "Experiment: Visual fNIRS in female preschoolers with ASD"
+  },
+  {
+    "objectID": "5_data_mining.html#simple-definition",
+    "href": "5_data_mining.html#simple-definition",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Simple Definition",
+    "text": "Simple Definition\nA dataset is:\nAn organized collection of information\nIn biomarker research, a dataset usually contains:\n\nparticipants\n\nmeasurements\n\nclinical labels\n\nIt is typically organized as a table."
+  },
+  {
+    "objectID": "5_data_mining.html#how-is-a-dataset-structured",
+    "href": "5_data_mining.html#how-is-a-dataset-structured",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How Is a Dataset Structured?",
+    "text": "How Is a Dataset Structured?\n\nMost datasets are organized in rows and columns.\n\n\nEach row represents one participant\n\nEach column represents one variable"
+  },
+  {
+    "objectID": "5_data_mining.html#participant-reaction-time-pupil-dilation-hbo-amplitude-diagnosis",
+    "href": "5_data_mining.html#participant-reaction-time-pupil-dilation-hbo-amplitude-diagnosis",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Participant | Reaction Time | Pupil Dilation | HbO Amplitude | Diagnosis",
+    "text": "Participant | Reaction Time | Pupil Dilation | HbO Amplitude | Diagnosis\nP01 | 520 ms | 0.35 mm | 1.2 µM | Typical\nP02 | 710 ms | 0.62 mm | 0.6 µM | Disorder"
+  },
+  {
+    "objectID": "5_data_mining.html#key-components-of-a-dataset",
+    "href": "5_data_mining.html#key-components-of-a-dataset",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Key Components of a Dataset",
+    "text": "Key Components of a Dataset\n\n\n\nFeatures\n\nmeasurable variables\n\nreaction time\n\nEEG power\n\nquestionnaire scores\n\n\n\n\nLabel or Target variable\n\nwhat we want to predict\n\ndiagnosis\n\nsymptom severity\n\ntreatment response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD\n\nV[\"Statistical Variables\"]\n\nV --&gt; C[\"Categorical (Qualitative)\"]\nV --&gt; N[\"Numerical (Quantitative)\"]\n\nC --&gt; CN[\"Nominal\"]\nC --&gt; CO[\"Ordinal\"]\n\nN --&gt; ND[\"Discrete\"]\nN --&gt; NC[\"Continuous\"]"
+  },
+  {
+    "objectID": "5_data_mining.html#what-is-artificial-intelligence",
+    "href": "5_data_mining.html#what-is-artificial-intelligence",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What is Artificial Intelligence?",
+    "text": "What is Artificial Intelligence?\nArtificial Intelligence (AI) refers to:\n\nComputational systems that learn patterns from data to make predictions or decisions.\n\n\n\n\nArtificial Intelligence is a broad field that includes:\n\nMachine Learning (ML): Algorithms learn patterns from data.\nDeep Learning: Neural networks with many layers."
+  },
+  {
+    "objectID": "5_data_mining.html#how-ai-learns",
+    "href": "5_data_mining.html#how-ai-learns",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How AI Learns",
+    "text": "How AI Learns\n\n\n\nMost common learning paradigms:\nSupervised Learning:\nModels are trained using labeled input-output pairs to predict outcomes for new data.\nUnsupervised Learning:\nModels that analyze and find hidden patterns, structures, or relationships in input data that is not labeled, categorized, or guided"
+  },
+  {
+    "objectID": "5_data_mining.html#what-is-a-model",
+    "href": "5_data_mining.html#what-is-a-model",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What Is a Model?",
+    "text": "What Is a Model?\n\n\nA model is:\nA rule that combines variables to make predictions\n\nVery simplified example:\nIf\n- reaction time is slow\n- pupil dilation is large\n- HbO is reduced\nThen\nprobability of disorder increases.\n\n\nThe computer learns this rule automatically.\n\n\n\nOverfitting occurs when a model learns training data too well, capturing noise and random fluctuations rather than just the underlying patterns.\nHow we prevent Overfitting?\nUsing Cross-Validation: testing the model on Data it has never seen before."
+  },
+  {
+    "objectID": "5_data_mining.html#the-biomarker-discovery-pipeline",
+    "href": "5_data_mining.html#the-biomarker-discovery-pipeline",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The Biomarker Discovery Pipeline",
+    "text": "The Biomarker Discovery Pipeline\n\n\n\ncollect data\n\nclean and preprocess\n\nexplore variables\n\nselect relevant features\n\ntrain predictive model\n\nvalidate on new data\n\ninterpret carefully"
+  },
+  {
+    "objectID": "5_data_mining.html#what-is-a-dataset",
+    "href": "5_data_mining.html#what-is-a-dataset",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What Is a Dataset?",
+    "text": "What Is a Dataset?\n\n\n\nA dataset is:\nAn organized collection of information\nIn biomarker research, a dataset usually contains:\n\nparticipants\n\nmeasurements\n\nclinical labels\n\nIt is typically organized as a table.\n\n\n\nMost datasets are organized in rows and columns.\n\nEach row represents one participant\n\nEach column represents one variable\n\n\n\n\n\n\n\n\n\n\n\n\n\nParticipant\nR T\nPupil Dilation\nHbO\nDiagnosis\n\n\n\n\nP01\n520 ms\n0.35 mm\n1.2 µM\nTypical\n\n\nP02\n710 ms\n0.62 mm\n0.6 µM\nDisorder"
+  },
+  {
+    "objectID": "5_data_mining.html#what-is-data-mining",
+    "href": "5_data_mining.html#what-is-data-mining",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What is Data Mining?",
+    "text": "What is Data Mining?\n\n\nData mining is the process of:\n\nExtracting patterns from data\n\nDiscovering structure in complex datasets\n\nIdentifying predictive features\n\nTransforming data into knowledge\n\n\nModern datasets are:\n\nMultivariate\nHigh dimensional\nNon-linear\nNoisy"
+  },
+  {
+    "objectID": "5_data_mining.html#why-this-is-different-from-classical-statistics",
+    "href": "5_data_mining.html#why-this-is-different-from-classical-statistics",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why This Is Different From classical statistics",
+    "text": "Why This Is Different From classical statistics\n\nA t-test asks:\nAre the averages different?\nMachine learning asks:\nCan I correctly classify each individual?\n\nThis is a major conceptual shift.\nWe move from: Group comparison to Individual prediction"
+  },
+  {
+    "objectID": "5_data_mining.html#supervised-vs-unsupervised-learning",
+    "href": "5_data_mining.html#supervised-vs-unsupervised-learning",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Supervised vs UnSupervised Learning",
+    "text": "Supervised vs UnSupervised Learning\n\n\n\nIn Supervised learning we provide:\n\nmeasurements (features)\ndiagnosis (labels)\n\nThe system learns:\nHow to predict diagnosis from measurements\n\nThis is the most relevant approach for biomarkers.\n\n\n\n\nIn UnSupervised learning we provide:\n\nmeasurements\n\nno diagnosis\n\nThe system tries to:\n\ndiscover natural groups\n\nidentify hidden structure\n\n\nUseful for discovering subgroups."
+  },
+  {
+    "objectID": "5_data_mining.html#supervised-vs-unsupervised-learning-1",
+    "href": "5_data_mining.html#supervised-vs-unsupervised-learning-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Supervised vs UnSupervised Learning",
+    "text": "Supervised vs UnSupervised Learning"
+  },
+  {
+    "objectID": "5_data_mining.html#why-use-orange",
+    "href": "5_data_mining.html#why-use-orange",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why Use Orange?",
+    "text": "Why Use Orange?\n\n\nOrange is:\n\nfree\n\nvisual\n\neasy to use\n\ndesigned for learning\n\n\nNo coding required.\n\n\n\n\n\n\n\n Download \n Documentation"
+  },
+  {
+    "objectID": "5_data_mining.html#how-orange-works",
+    "href": "5_data_mining.html#how-orange-works",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How Orange Works",
+    "text": "How Orange Works\n\n\n\nOrange uses visual blocks called widgets.\nYou connect them in a workflow.\nExample:\nData → Model → Evaluation\n\nEach block performs one clear step."
+  },
+  {
+    "objectID": "5_data_mining.html#loading-a-dataset",
+    "href": "5_data_mining.html#loading-a-dataset",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Loading a Dataset",
+    "text": "Loading a Dataset\n\n\n\nThe main widget is:\nCSV import\nIt allows you to:\n\nopen a Comma-Separated Value (CSV) file\ninspect variables\n\nAfter loading, the data can be sent to other widgets.\n\nFor other file types you can also use the File widget"
+  },
+  {
+    "objectID": "5_data_mining.html#data-table",
+    "href": "5_data_mining.html#data-table",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Data Table",
+    "text": "Data Table\n\n\n\nThe Data Table widget lets you:\n\nsee all participants\n\ninspect variables\n\ncheck missing values\n\nThis is your first contact with the dataset."
+  },
+  {
+    "objectID": "5_data_mining.html#table",
+    "href": "5_data_mining.html#table",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Table",
+    "text": "Table"
+  },
+  {
+    "objectID": "5_data_mining.html#select-columns",
+    "href": "5_data_mining.html#select-columns",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Select Columns",
+    "text": "Select Columns\n\n\n\nThe Select Columns widget lets you:\n\nchoose which variables are used for prediction\n\ndefine the target variable\n\nassign descriptive information as meta\n\nThis is where you clearly define:\nWhat do I want to predict, and from which variables?"
+  },
+  {
+    "objectID": "5_data_mining.html#preparing-the-data",
+    "href": "5_data_mining.html#preparing-the-data",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Preparing the Data",
+    "text": "Preparing the Data\nBefore modeling, we often need to transform the data. Transformation improves model stability.\nImportant widgets:\n\nImpute\n\nhandle missing values"
+  },
+  {
+    "objectID": "5_data_mining.html#impute",
+    "href": "5_data_mining.html#impute",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Impute",
+    "text": "Impute\n\n\n\nImpute\n\nhandle missing values"
+  },
+  {
+    "objectID": "5_data_mining.html#exploring-the-data",
+    "href": "5_data_mining.html#exploring-the-data",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Exploring the Data",
+    "text": "Exploring the Data\n\n\nVisualization helps us understand patterns.\n\nDistributions\n\ninspect variable distributions\n\n\n\n\nBox Plot\n\ncompare groups\n\n\n\n\nScatter Plot\n\nexplore relationships"
+  },
+  {
+    "objectID": "5_data_mining.html#logistic-regression",
+    "href": "5_data_mining.html#logistic-regression",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Logistic Regression",
+    "text": "Logistic Regression\n\nThe Logistic Regression widget is a simple and interpretable classification model to classify data into two groups.\nIt:\n\nestimates the probability of belonging to a group\n\ncombines variables linearly\n\nworks well when relationships are relatively simple\n\n\n\n\nIt is often a good first model to try because:\n\nit is stable\n\nit is easy to interpret\n\nit provides clear probabilities"
+  },
+  {
+    "objectID": "5_data_mining.html#random-forest",
+    "href": "5_data_mining.html#random-forest",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Random Forest",
+    "text": "Random Forest\nThe Random Forest widget is a more flexible and powerful model.\nIt:\n\nbuilds many decision trees\n\ncombines their predictions\n\nhandles complex and non-linear relationships\n\nIt is useful when:\n\nvariables interact with each other\n\npatterns are not simple\n\nprediction accuracy is the main goal"
+  },
+  {
+    "objectID": "5_data_mining.html#support-vector-machine",
+    "href": "5_data_mining.html#support-vector-machine",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Support Vector Machine",
+    "text": "Support Vector Machine\n\nThe Support Vector Machine widget is a model that tries to find the best boundary between groups.\nIt:\n\nseparates groups with an optimal decision boundary\n\ncan model complex patterns\n\nworks well in high-dimensional data\n\n\n\n\nIt is often effective when:\n\ngroups overlap\n\nthere are many variables\n\nthe separation is subtle"
+  },
+  {
+    "objectID": "5_data_mining.html#models-logistic-regression",
+    "href": "5_data_mining.html#models-logistic-regression",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Models: Logistic Regression",
+    "text": "Models: Logistic Regression\n\n\n\nThe Logistic Regression widget is a simple and interpretable classification model to classify data into two groups. It:\n\nestimates the probability of belonging to a group\n\ncombines variables linearly\n\nworks well when relationships are relatively simple\n\n\n\n\nIt is often a good first model to try because:\n\nit is stable\n\nit is easy to interpret"
   }
 ]
