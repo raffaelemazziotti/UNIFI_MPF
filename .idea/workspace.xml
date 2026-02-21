@@ -5,73 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5676132-9073-4a33-b859-5430f0a97a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/biom_self_report.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_auc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_data_visualization.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_logistic_regression.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_metrics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_multilayeer_perceptron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_ANN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_distr_bp_scatter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_logistic_regression.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_preprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_preprocess_menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_random_forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_rank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_svm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_test_score.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_orange_test_score_menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_random_forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dm_support_vector_machine.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_biomarkers.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/1_biomarkers.qmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_instrinsic_signals.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/2_instrinsic_signals.qmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_data_mining.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/5_data_mining.qmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/1_biomarkers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1_biomarkers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/5_data_mining.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/5_data_mining.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_confusion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_corr_not_cause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_corr_not_cause2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_diagnostic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_erro_gaus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_fail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_levels.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_monitoring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_predictive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_pregnant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_prognostic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_representative.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_risk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_roc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_sens_specif.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_true_false.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_types(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/biom_validity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/ios_neural_events.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/ios_neurovascular_coupling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/ios_penetrating_arterioles.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/ios_synapse_tripartite.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/images/ios_vascular_brains.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/biom_confusion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/biom_corr_not_cause.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/biom_corr_not_cause.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/biom_self_report.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/orange_widgets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/quiz/quiz_boim.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/bootstrap/bootstrap-123bf1f8be61e52d793a06c138bba625.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/bootstrap/bootstrap-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/bootstrap/bootstrap-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/bootstrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-html/anchor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-html/quarto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-html/tabsets/tabsets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-nav/quarto-nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-search/autocomplete.umd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-search/fuse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/site_libs/quarto-search/quarto-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_content.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/0_content.qmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +81,7 @@
       <workItem from="1770420080962" duration="63322000" />
       <workItem from="1771069382133" duration="24060000" />
       <workItem from="1771234520982" duration="22627000" />
-      <workItem from="1771488074113" duration="36385000" />
+      <workItem from="1771488074113" duration="37119000" />
     </task>
     <servers />
   </component>

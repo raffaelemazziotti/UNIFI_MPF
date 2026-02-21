@@ -32,7 +32,7 @@ format:
 ## Index
 
 >[Welcome to the course!]{.highlight}
-Description of the course
+We will explore intrinsic optical imaging, fNIRS, pupillometry, and data-driven biomarker discovery, combining physiological principles with statistical and machine learning approaches for translational research.
 
 
 ### Chapters
