@@ -1,24 +1,304 @@
 [
   {
-    "objectID": "0_content.html#index",
-    "href": "0_content.html#index",
+    "objectID": "5_data_mining.html#what-is-data-mining",
+    "href": "5_data_mining.html#what-is-data-mining",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Index",
-    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nIntrinsic Signals\nPupillometry\nBiomarkers\n\n\n\n\n\nTranslational Biomarkers\nBiomarker Data Mining"
+    "section": "What is Data Mining?",
+    "text": "What is Data Mining?\n\n\nData mining is the process of:\n\nExtracting patterns from data\n\nDiscovering structure in complex datasets\n\nIdentifying predictive features\n\nTransforming data into knowledge\n\n\nModern datasets are:\n\nMultivariate\nHigh dimensional\nNon-linear\nNoisy"
   },
   {
-    "objectID": "0_content.html#course-material-and-schedule",
-    "href": "0_content.html#course-material-and-schedule",
+    "objectID": "5_data_mining.html#what-is-a-dataset",
+    "href": "5_data_mining.html#what-is-a-dataset",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Course material and schedule",
-    "text": "Course material and schedule\n\n\n\n📘 Course book\n\nThe main reference for the course is an open-access textbook\nYou can read it online or download it for free\n\n👉 Foundations of Neuroscience (open book)\n\n\n\n🗓 ️Timetable and midterms\n\nThe timetable includes:\n\nscheduled lessons\nmidterm dates\n\nPlease check it regularly for updates\n\n👉 Course timetable and midterms"
+    "section": "What Is a Dataset?",
+    "text": "What Is a Dataset?\n\n\n\nA dataset is:\nAn organized collection of information\nIn biomarker research, a dataset usually contains:\n\nparticipants\n\nmeasurements\n\nclinical labels\n\nIt is typically organized as a table.\n\n\n\nMost datasets are organized in rows and columns.\n\nEach row represents one participant\n\nEach column represents one variable\n\n\n\n\n\n\n\n\n\n\n\n\n\nParticipant\nR T\nPupil Dilation\nHbO\nDiagnosis\n\n\n\n\nP01\n520 ms\n0.35 mm\n1.2 µM\nTypical\n\n\nP02\n710 ms\n0.62 mm\n0.6 µM\nDisorder"
   },
   {
-    "objectID": "0_content.html#how-to-use-these-slides",
-    "href": "0_content.html#how-to-use-these-slides",
+    "objectID": "5_data_mining.html#key-components-of-a-dataset",
+    "href": "5_data_mining.html#key-components-of-a-dataset",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "How to use these slides",
-    "text": "How to use these slides\n\n\n\n⛵ Navigation\n\nThese slides are interactive\nUse keyboard or mouse\nPress F for full-screen mode\n\n\n\n⏱️ Quick access\n\nIn the lower-left corner, click the ☰ icon to open the slide index\nClick any slide title to jump directly to it\nUse the ⚙️ Tools menu to see all available shortcuts\n\n\n\n\n🧭 Course structure\n\nThe Index slide links all sections\nEach section starts with a title slide\nA 🏠 Home button on the first slide\nbrings you back to the Index\n\n\n\n📄 PDF version\n\nGo to the first slide of a section\nPress E\nA PDF-compatible version appears\nPrint or save it for clean notes"
+    "section": "Key Components of a Dataset",
+    "text": "Key Components of a Dataset\n\n\n\nFeatures\n\nmeasurable variables\n\nreaction time\n\nEEG power\n\nquestionnaire scores\n\n\n\n\nLabel or Target variable\n\nwhat we want to predict\n\ndiagnosis\n\nsymptom severity\n\ntreatment response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD\n\nV[\"Statistical Variables\"]\n\nV --&gt; C[\"Categorical (Qualitative)\"]\nV --&gt; N[\"Numerical (Quantitative)\"]\n\nC --&gt; CN[\"Nominal\"]\nC --&gt; CO[\"Ordinal\"]\n\nN --&gt; ND[\"Discrete\"]\nN --&gt; NC[\"Continuous\"]"
+  },
+  {
+    "objectID": "5_data_mining.html#what-is-artificial-intelligence",
+    "href": "5_data_mining.html#what-is-artificial-intelligence",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What is Artificial Intelligence?",
+    "text": "What is Artificial Intelligence?\nArtificial Intelligence (AI) refers to:\n\nComputational systems that learn patterns from data to make predictions or decisions.\n\n\n\n\nArtificial Intelligence is a broad field that includes:\n\nMachine Learning (ML): Algorithms learn patterns from data.\nDeep Learning: Neural networks with many layers."
+  },
+  {
+    "objectID": "5_data_mining.html#how-ai-learns",
+    "href": "5_data_mining.html#how-ai-learns",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How AI Learns",
+    "text": "How AI Learns\n\n\n\nMost common learning paradigms:\nSupervised Learning:\nModels are trained using labeled input-output pairs to predict outcomes for new data.\nUnsupervised Learning:\nModels that analyze and find hidden patterns, structures, or relationships in input data that is not labeled, categorized, or guided"
+  },
+  {
+    "objectID": "5_data_mining.html#supervised-vs-unsupervised-learning",
+    "href": "5_data_mining.html#supervised-vs-unsupervised-learning",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Supervised vs UnSupervised Learning",
+    "text": "Supervised vs UnSupervised Learning\n\n\n\nIn Supervised learning we provide:\n\nmeasurements (features)\ndiagnosis (labels)\n\nThe system learns:\nHow to predict diagnosis from measurements\n\nThis is the most relevant approach for biomarkers.\n\n\n\n\nIn UnSupervised learning we provide:\n\nmeasurements\n\nno diagnosis\n\nThe system tries to:\n\ndiscover natural groups\n\nidentify hidden structure\n\n\nUseful for discovering subgroups."
+  },
+  {
+    "objectID": "5_data_mining.html#supervised-vs-unsupervised-learning-1",
+    "href": "5_data_mining.html#supervised-vs-unsupervised-learning-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Supervised vs UnSupervised Learning",
+    "text": "Supervised vs UnSupervised Learning"
+  },
+  {
+    "objectID": "5_data_mining.html#what-is-a-model",
+    "href": "5_data_mining.html#what-is-a-model",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What Is a Model?",
+    "text": "What Is a Model?\n\n\nA model is:\nA rule that combines variables to make predictions\n\nVery simplified example:\nIf\n- reaction time is slow\n- pupil dilation is large\n- HbO is reduced\nThen\nprobability of disorder increases.\n\n\nThe computer learns this rule automatically.\n\n\n\nOverfitting occurs when a model learns training data too well, capturing noise and random fluctuations rather than just the underlying patterns.\nHow we prevent Overfitting?\nUsing Cross-Validation: testing the model on Data it has never seen before."
+  },
+  {
+    "objectID": "5_data_mining.html#the-biomarker-discovery-pipeline",
+    "href": "5_data_mining.html#the-biomarker-discovery-pipeline",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "The Biomarker Discovery Pipeline",
+    "text": "The Biomarker Discovery Pipeline\n\n\n\ncollect data\n\nclean and preprocess\n\nexplore variables\n\nselect relevant features\n\ntrain predictive model\n\nvalidate on new data\n\ninterpret carefully"
+  },
+  {
+    "objectID": "5_data_mining.html#why-use-orange",
+    "href": "5_data_mining.html#why-use-orange",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why Use Orange?",
+    "text": "Why Use Orange?\n\n\nOrange is:\n\nfree\n\nvisual\n\neasy to use\n\ndesigned for learning\n\n\nNo coding required.\n\n\n\n\n\n\n\n Download \n Documentation"
+  },
+  {
+    "objectID": "5_data_mining.html#how-orange-works",
+    "href": "5_data_mining.html#how-orange-works",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How Orange Works",
+    "text": "How Orange Works\n\n\n\nOrange uses visual blocks called widgets.\nYou connect them in a workflow.\nExample:\nData → Model → Evaluation\n\nEach block performs one clear step."
+  },
+  {
+    "objectID": "5_data_mining.html#loading-a-dataset",
+    "href": "5_data_mining.html#loading-a-dataset",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Loading a Dataset",
+    "text": "Loading a Dataset\n\n\n\nThe main widget is:\nCSV import\nIt allows you to:\n\nopen a Comma-Separated Value (CSV) file\ninspect variables\n\nAfter loading, the data can be sent to other widgets.\n\nFor other file types you can also use the File widget"
+  },
+  {
+    "objectID": "5_data_mining.html#data-table",
+    "href": "5_data_mining.html#data-table",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Data Table",
+    "text": "Data Table\n\n\n\nThe Data Table widget lets you:\n\nsee all participants\n\ninspect variables\n\ncheck missing values\n\nThis is your first contact with the dataset."
+  },
+  {
+    "objectID": "5_data_mining.html#select-columns",
+    "href": "5_data_mining.html#select-columns",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Select Columns",
+    "text": "Select Columns\n\n\n\nThe Select Columns widget lets you:\n\nchoose which variables are used for prediction\n\ndefine the target variable\n\nassign descriptive information as meta\n\nThis is where you clearly define:\nWhat do I want to predict, and from which variables?"
+  },
+  {
+    "objectID": "5_data_mining.html#impute",
+    "href": "5_data_mining.html#impute",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Impute",
+    "text": "Impute\n\n\n\nImpute\n\nhandle missing values"
+  },
+  {
+    "objectID": "5_data_mining.html#preprocess",
+    "href": "5_data_mining.html#preprocess",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Preprocess",
+    "text": "Preprocess\n\n\n\nPreprocess\n\nTransforma data\nNormalize, discretize, etc"
+  },
+  {
+    "objectID": "5_data_mining.html#exploring-the-data",
+    "href": "5_data_mining.html#exploring-the-data",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Exploring the Data",
+    "text": "Exploring the Data\n\n\nVisualization helps us understand patterns.\n\nDistributions\n\ninspect variable distributions\n\n\n\n\nBox Plot\n\ncompare groups\n\n\n\n\nScatter Plot\n\nexplore relationships"
+  },
+  {
+    "objectID": "5_data_mining.html#features-ranking",
+    "href": "5_data_mining.html#features-ranking",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Features Ranking",
+    "text": "Features Ranking\n\n\n\nThe Rank widget evaluates how informative each variable is for predicting the target. It:\n\nscores each feature individually\n\norders variables from most to least informative\n\n\n\nOne common scoring method is Information Gain. Information Gain measures:\n\nhow much a variable reduces uncertainty (entropy) about the diagnosis\n\nhow much knowing that variable improves classification"
+  },
+  {
+    "objectID": "5_data_mining.html#models-logistic-regression",
+    "href": "5_data_mining.html#models-logistic-regression",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Models: Logistic Regression",
+    "text": "Models: Logistic Regression\n\n\n\nThe Logistic Regression widget is a simple and interpretable classification model to classify data into two groups. It:\n\nestimates the probability of belonging to a group\n\ncombines variables linearly\n\nworks well when relationships are relatively simple\n\n\n\n\nIt is often a good first model to try because:\n\nit is stable\n\nit is easy to interpret"
+  },
+  {
+    "objectID": "5_data_mining.html#models-random-forest",
+    "href": "5_data_mining.html#models-random-forest",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Models: Random Forest",
+    "text": "Models: Random Forest\n\n\nThe Random Forest widget is a more flexible and powerful model.\n\nIt:\n\nbuilds many decision trees\n\ncombines their predictions\n\nhandles complex and non-linear relationships\n\n\n\n\nIt is useful when:\n\nvariables interact with each other\n\npatterns are not simple\n\nprediction accuracy is the main goal"
+  },
+  {
+    "objectID": "5_data_mining.html#models-support-vector-machine",
+    "href": "5_data_mining.html#models-support-vector-machine",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Models: Support Vector Machine",
+    "text": "Models: Support Vector Machine\n\n\n\nThe Support Vector Machine widget is a model that tries to find the best boundary between groups.\nIt:\n\nseparates groups with an optimal decision boundary\nworks well in high-dimensional data\n\n\n\n\nIt is often effective when:\n\ngroups overlap\n\nthere are many variables\n\nthe separation is subtle"
+  },
+  {
+    "objectID": "5_data_mining.html#models-neural-network",
+    "href": "5_data_mining.html#models-neural-network",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Models: Neural Network",
+    "text": "Models: Neural Network\n\n\n\nThe Neural Network widget is a model inspired by how biological neurons process information. It:\n\ncombines variables through multiple processing layers\n\ncan learn complex and non-linear patterns\n\nadjusts internal connections to improve prediction\n\n\n\n\nNeural networks are useful when:\n\nrelationships between variables are complex\n\npatterns are not linear\n\n\n\n\nHowever:\n\nthey are less interpretable than simpler models\nthey are more sensitive to overfitting\n\nThey are powerful tools, but should be used carefully in clinical research."
+  },
+  {
+    "objectID": "5_data_mining.html#test-and-score",
+    "href": "5_data_mining.html#test-and-score",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Test and Score",
+    "text": "Test and Score\n\n\n\nThe Test and Score widget evaluates how well a model performs. This step is essential to avoid overfitting. It:\n\ntrains the model\n\ntests it on unseen data\n\ncomputes performance metrics\n\n\n\nThe widget reports measures such as:\n\naccuracy\n\nAUC\n\nprecision\n\nrecall"
+  },
+  {
+    "objectID": "5_data_mining.html#model-evaluation-accuracy-recall",
+    "href": "5_data_mining.html#model-evaluation-accuracy-recall",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Model Evaluation: Accuracy & Recall",
+    "text": "Model Evaluation: Accuracy & Recall\n\n\n\nAccuracy is the proportion of correctly classified individuals.\n\nIt answers:\nHow often is the model correct overall?\n\nIf accuracy is 0.80, the model correctly classifies 80 percent of participants.\n\n\nImportant limitation: If one group is much larger than the other,\naccuracy can be misleading.\n\n\n\nRecall, reflects sensitivity.\n\nOf all the real disorder cases, how many did we correctly detect?\n\nLow recall means:\n\nmany true cases were missed\n\n\n\n\nClinically, this relates to missed diagnoses."
+  },
+  {
+    "objectID": "5_data_mining.html#model-evaluation-precision-f1-score",
+    "href": "5_data_mining.html#model-evaluation-precision-f1-score",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Model Evaluation: Precision & F1 Score",
+    "text": "Model Evaluation: Precision & F1 Score\n\n\nPrecision answers:\nOf all the cases predicted as disorder, how many are truly disorder?\n\nLow precision means:\n\nmany false positives\n\n\n\n\nClinically, this relates to false alarms.\n\n\n\nF1 score combines precision and recall into a single number.\n\n\nIt answers:\nIs the model good at detecting true cases while avoiding false alarms?\n\n\nIt is especially useful when:\n\nclasses are imbalanced\n\nboth false positives and false negatives matter"
+  },
+  {
+    "objectID": "5_data_mining.html#model-evaluation-auc",
+    "href": "5_data_mining.html#model-evaluation-auc",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Model Evaluation: AUC",
+    "text": "Model Evaluation: AUC\n\n\n\nAUC stands for Area Under the Curve.\n\n\nIt measures:\nHow well the model separates the two groups overall\n\n\nIt ranges from:\n\n0.5 → random guessing\n\n1.0 → perfect separation\n\nAUC is useful because:\n\nit is less sensitive to class imbalance\n\nit reflects overall discriminative ability."
+  },
+  {
+    "objectID": "5_data_mining.html#model-evaluation-why-multiple-metrics-matter",
+    "href": "5_data_mining.html#model-evaluation-why-multiple-metrics-matter",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Model Evaluation: Why Multiple Metrics Matter",
+    "text": "Model Evaluation: Why Multiple Metrics Matter\n\n\n\nNo single number tells the whole story.\n\n\nA clinically useful model should:\n\ndetect true cases\n\navoid false alarms\n\ngeneralize to new patients\n\n\n\n\nThat is why we examine:\naccuracy, recall, precision, F1 score, and AUC together."
+  },
+  {
+    "objectID": "5_data_mining.html#course-project-biomarker-discovery",
+    "href": "5_data_mining.html#course-project-biomarker-discovery",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Course Project: Biomarker Discovery",
+    "text": "Course Project: Biomarker Discovery\n\n\nFor this course you will complete an individual project.\n\nYou will receive:\n\none dataset\n\none experiment description\n\none HTML file explaining the variables\n\n\n\n\nYour task is to analyze the dataset and propose potential biomarkers.\n\n\n\nEach student will receive a different dataset.\n\n\nEach dataset contains:\n\none experiment\n\ntwo groups: Typical and Atypical\n\nseveral measured variables\n\nEach row represents one participant.\nEach column represents one variable.\nOne column contains the group label."
+  },
+  {
+    "objectID": "5_data_mining.html#step-1-explore-and-visualize",
+    "href": "5_data_mining.html#step-1-explore-and-visualize",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Step 1: Explore and Visualize",
+    "text": "Step 1: Explore and Visualize\n\n\n\nBefore building any model, you must:\n\nread the experiment description carefully\n\nunderstand what each variable represents\n\nidentify the target variable\n\n\n\n\n\n\n\n\n\n\nYou must:\n\ncheck missing data\nplot all variables\ninspect distributions\ncompare groups visually and statistically\n\nUse:\n\nbox plots\n\ndistributions\n\nscatter plots\n\nGoal:\nUnderstand how Typical and Atypical subjects differ"
+  },
+  {
+    "objectID": "5_data_mining.html#step-2-identify-potential-biomarkers",
+    "href": "5_data_mining.html#step-2-identify-potential-biomarkers",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Step 2: Identify Potential Biomarkers",
+    "text": "Step 2: Identify Potential Biomarkers\n\n\n\nUsing Orange:\n\nbuild classification models\n\ntest different algorithms\n\ncompare performances\n\n\n\n\nFor your best model, you must report:\n\naccuracy\n\nprecision\n\nrecall\n\nF1 score\n\nAUC\n\n\n\n\n\nYou must explain:\nWhat do these numbers mean in clinical terms?\nFor example:\n\nAre there many false positives?\n\nAre true cases being missed?\n\n\n\nYou must try to improve performance by:\n\nprune variables using rank widget\ncomparing models"
+  },
+  {
+    "objectID": "5_data_mining.html#step-4-final-deliverable",
+    "href": "5_data_mining.html#step-4-final-deliverable",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Step 4: Final Deliverable",
+    "text": "Step 4: Final Deliverable\n\n\n\n\nYou will present your project in 7 minutes.\n\nYour presentation should include:\n\nBrief description of the experiment\nExploratory analysis\n\nGroup differences\n\nBest predictive model\n\nPerformance metrics\n\nInterpretation and conclusions\n\n\nClarity is more important than complexity.\n\n\n\n\nYour project will be evaluated based on:\n\nCorrect data exploration\n\nAppropriate use of models\n\nProper interpretation of metrics\n\nScientific reasoning\n\nClarity of presentation\n\n\n\n\nThis is not about:\n\nbuilding the most complex model\n\nobtaining perfect accuracy"
+  },
+  {
+    "objectID": "3_pupillometry.html#what-is-the-pupil",
+    "href": "3_pupillometry.html#what-is-the-pupil",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "What is the pupil?",
+    "text": "What is the pupil?\n\n\n\nWhy study the pupil:\n\nvisible & measurable\ndynamically controlled\ntightly linked to brain state\n\nPupillometry provides a fast, non-invasive window into autonomic and cognitive processes. What the pupil is:\n\nthe variable opening in the center of the iris\nregulating the amount of light entering the eye\n\nIt functions like the aperture of a camera.\n\n\n\n\n\n\n\n\nTwo muscles control pupil size:\n\nSphincter pupillae → constriction\nDilator pupillae → dilation\n\nThese muscles are controlled by different branches of the autonomic nervous system."
+  },
+  {
+    "objectID": "3_pupillometry.html#pupillary-control",
+    "href": "3_pupillometry.html#pupillary-control",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Pupillary Control",
+    "text": "Pupillary Control\n\n\n\nParasympathetic (ACh) pathway:\n\nRetina\nPretectal nucleus\nEdinger–Westphal nucleus\nOculomotor nerve (III)\nCiliary ganglion\nSphincter muscle\n\nThis mediates the pupillary light reflex (PLR).\n\n\n\nSympathetic (NE) pathway:\n\nHypothalamus\nSpinal cord (ciliospinal center)\nSuperior cervical ganglion\nDilator muscle\n\nThis mediates pupil dilation in darkness, stress, and arousal."
+  },
+  {
+    "objectID": "3_pupillometry.html#pupillary-control-1",
+    "href": "3_pupillometry.html#pupillary-control-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Pupillary Control",
+    "text": "Pupillary Control"
+  },
+  {
+    "objectID": "3_pupillometry.html#central-neuromodulation",
+    "href": "3_pupillometry.html#central-neuromodulation",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Central neuromodulation",
+    "text": "Central neuromodulation\n\n\n\nBeyond reflexes, pupil size is influenced by:\n\nnoradrenergic signaling\ncortical control systems\nattention networks\n\n\n\nThe locus coeruleus:\n\nregulates arousal\nresponds to novelty and uncertainty\ninfluences sympathetic activity\n\nPupil dilation is correlated with LC activity."
+  },
+  {
+    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena",
+    "href": "3_pupillometry.html#types-of-pupillary-phenomena",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Types of Pupillary phenomena",
+    "text": "Types of Pupillary phenomena\n\n\n\nPupil diameter changes reflect multiple processes:\n\nlight reflex & dark adaptation\ncognitive load\nemotional arousal\ndecision, surprise and novelty\n\n\n\nPupillary light reflex:\n\nrapid constriction\nlatency around 200 ms\nhighly reliable\nbilateral (direct and consensual)\n\n\n\n\nDark adaptation:\n\npupil dilates\nsympathetic tone increases\nunder stress or arousal: dilation occurs even at constant luminance\n\n\n\nCognitive load\nWhen task difficulty increases:\n\npupil dilates\neven without luminance change\n\nThis is known as the task-evoked pupillary response."
+  },
+  {
+    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena-1",
+    "href": "3_pupillometry.html#types-of-pupillary-phenomena-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Types of Pupillary phenomena",
+    "text": "Types of Pupillary phenomena\n\n\n\nWorking Memory\n\nmore items in working memory\nlarger pupil dilation\ndilation scales with effort\n\nPupil size tracks mental workload.\n\n\nDuring difficult decisions:\n\npupil dilation increases\nuncertainty correlates with amplitude\nsurprise produces phasic dilation\n\nThis links pupil to decision-making models.\n\n\n\nEmotionally salient stimuli:\n\nincrease pupil diameter\nregardless of valence\nscale with arousal intensity\n\nPupil reflects arousal, not emotional category."
+  },
+  {
+    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena-2",
+    "href": "3_pupillometry.html#types-of-pupillary-phenomena-2",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Types of Pupillary phenomena",
+    "text": "Types of Pupillary phenomena"
+  },
+  {
+    "objectID": "3_pupillometry.html#how-pupillometry-works",
+    "href": "3_pupillometry.html#how-pupillometry-works",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How pupillometry works",
+    "text": "How pupillometry works\n\n\n\nModern pupillometry uses:\n\ninfrared illumination (850nm)\nvideo-based eye tracking\nautomated pupil detection\nsampling rate (&gt;5Hz)\n\nTypical steps:\n\nrecord pupil diameter over time\ndetect and remove blinks\ninterpolate missing data\nbaseline correction\nevent-related averaging"
+  },
+  {
+    "objectID": "3_pupillometry.html#how-pupillometry-works-1",
+    "href": "3_pupillometry.html#how-pupillometry-works-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How pupillometry works",
+    "text": "How pupillometry works\n\n\n\nPupil is extremely sensitive to light. Therefore:\n\nstimulus luminance must be controlled\nscreen brightness must be constant\nvisual properties must be standardized\n\n\n\nPupil responses:\n\nbegin ~200–500 ms after event\npeak around 1–2 seconds\ndecay slowly\n\nFaster than hemodynamic signals\nbut slower than EEG.\n\n\n\nTonic vs phasic pupil signals\nTonic level:\n\nslow fluctuations\nlinked to sustained arousal\n\nPhasic response:\n\nrapid stimulus-locked dilation\nlinked to cognitive events\n\nBoth are informative."
+  },
+  {
+    "objectID": "3_pupillometry.html#strengths-and-weaknesses",
+    "href": "3_pupillometry.html#strengths-and-weaknesses",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Strengths and Weaknesses",
+    "text": "Strengths and Weaknesses\n\n\n\nStrengths\n\nnon-invasive\ninexpensive\nhigh temporal resolution\nportable\nsuitable across lifespan\nsensitive to arousal and cognitive load\ncompatible with many experimental paradigms\n\n\n\n\nLimitations\n\nhighly sensitive to luminance\ninfluenced by fatigue and circadian factors\naffected by medication and autonomic state\nlow spatial specificity\nreflects multiple overlapping processes"
+  },
+  {
+    "objectID": "3_pupillometry.html#meye",
+    "href": "3_pupillometry.html#meye",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "MEYE",
+    "text": "MEYE\nBrowser-based eye tracking/ pupillometry tool: pupillometry.it"
+  },
+  {
+    "objectID": "3_pupillometry.html#self-check",
+    "href": "3_pupillometry.html#self-check",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Self-check",
+    "text": "Self-check"
   },
   {
     "objectID": "1_biomarkers.html#why-this-course",
@@ -112,13 +392,6 @@
     "text": "Dimension 3: Specificity\n\n\n\nBiomarkers differ in how specific they are.\nSpecificity can be:\n\ndisorder-specific\ndimension-specific\ntransdiagnostic\n\nPsychological/Psychiatric biomarkers are often transdiagnostic.\n\n\nMany biomarkers in Psychology:\n\nappear across multiple disorders\nreflect shared processes\n\n\n\n\nMental disorders are:\n\nheterogeneous\noverlapping\nnot defined by single mechanisms\n\nTherefore, biomarkers rarely show one-to-one mappings."
   },
   {
-    "objectID": "1_biomarkers.html#dimension-4-functional-role",
-    "href": "1_biomarkers.html#dimension-4-functional-role",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Dimension 4: Functional role",
-    "text": "Dimension 4: Functional role\nBiomarkers differ by what they are used for:\n\ndetection\nprediction\nmonitoring\nstratification\n\nThe same biomarker can serve different roles.\nExample: EEG feature - diagnostic marker in one context - prognostic marker in another - monitoring marker in treatment studies\nFunction is not intrinsic to the measure."
-  },
-  {
     "objectID": "1_biomarkers.html#dimension-4-measurement-context",
     "href": "1_biomarkers.html#dimension-4-measurement-context",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
@@ -166,13 +439,6 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Error Structure",
     "text": "Error Structure"
-  },
-  {
-    "objectID": "1_biomarkers.html#sensitivity-and-specificity",
-    "href": "1_biomarkers.html#sensitivity-and-specificity",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Sensitivity and specificity",
-    "text": "Sensitivity and specificity\n\n\n\nAccuracy:\n\nAbility to detect a condition correctly\n\nSensitivity:\n\nability to detect a condition when it is present\n\nSpecificity:\n\nability to exclude a condition when it is absent\n\n\n\nThey describe different aspects of performance.\n\n\n\nIncreasing sensitivity often:\n\nincreases false positives\n\nIncreasing specificity often:\n\nincreases false negatives"
   },
   {
     "objectID": "1_biomarkers.html#accuracy-sensitivity-and-specificity",
@@ -238,13 +504,6 @@
     "text": "Monitoring biomarkers\n\n\nMonitoring biomarkers are used to:\n\ntrack changes over time\nassess response or progression\nsupport ongoing decisions\n\n\nExamples:\n\nphysiological stress markers\nEEG changes during treatment\nbehavioral performance over time\n\n\n\n\nThey answer the question:\nIs the condition changing over time?"
   },
   {
-    "objectID": "1_biomarkers.html#susceptibility-risk-biomarkers",
-    "href": "1_biomarkers.html#susceptibility-risk-biomarkers",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Susceptibility / risk biomarkers",
-    "text": "Susceptibility / risk biomarkers\nRisk biomarkers estimate: - vulnerability before onset - probability of developing a condition\nThey answer the question: &gt; “Who is at higher risk?”"
-  },
-  {
     "objectID": "1_biomarkers.html#risksusceptibility-biomarkers",
     "href": "1_biomarkers.html#risksusceptibility-biomarkers",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
@@ -273,25 +532,25 @@
     "text": "Self-check"
   },
   {
+    "objectID": "0_content.html#index",
+    "href": "0_content.html#index",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Index",
+    "text": "Index\n\nWelcome to the course! Description of the course\n\nChapters\n\n\n\n\nIntrinsic Signals\nPupillometry\nBiomarkers\n\n\n\n\n\nTranslational Biomarkers\nBiomarker Data Mining"
+  },
+  {
+    "objectID": "0_content.html#how-to-use-these-slides",
+    "href": "0_content.html#how-to-use-these-slides",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "How to use these slides",
+    "text": "How to use these slides\n\n\n\n⛵ Navigation\n\nThese slides are interactive\nUse keyboard or mouse\nPress F for full-screen mode\n\n\n\n⏱️ Quick access\n\nIn the lower-left corner, click the ☰ icon to open the slide index\nClick any slide title to jump directly to it\nUse the ⚙️ Tools menu to see all available shortcuts\n\n\n\n\n🧭 Course structure\n\nThe Index slide links all sections\nEach section starts with a title slide\nA 🏠 Home button on the first slide\nbrings you back to the Index\n\n\n\n📄 PDF version\n\nGo to the first slide of a section\nPress E\nA PDF-compatible version appears\nPrint or save it for clean notes"
+  },
+  {
     "objectID": "2_instrinsic_signals.html#neurovascular-coupling",
     "href": "2_instrinsic_signals.html#neurovascular-coupling",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Neurovascular Coupling",
     "text": "Neurovascular Coupling\n\n\nOptical imaging methods do not measure neuronal activity directly. They measure vascular and metabolic changes that follow neural activity.\n\nNeural signaling requires energy for:\n\naction potentials\nsynaptic transmission\nion pumping\nneurotransmitter recycling\n\nAll of these processes increase metabolic demand."
-  },
-  {
-    "objectID": "2_instrinsic_signals.html#where-does-neural-energy-come-from",
-    "href": "2_instrinsic_signals.html#where-does-neural-energy-come-from",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Where does neural energy come from?",
-    "text": "Where does neural energy come from?\n\n\n\nNeurons rely almost entirely on: glucose and oxygen. These are delivered by the vascular system. Neural activity therefore requires a local vascular response.\n\n\nNeurovascular coupling refers to the set of mechanisms by which changes in neural activity lead to changes in:\n\ncerebral blood flow (CBF)\nblood volume\nblood oxygenation\n\n\n\nThis coupling is local, regulated, and stimulus-dependent.\n\n\n\nNeurovascular coupling is not controlled by neurons alone. It involves interactions between:\n\nneurons\nastrocytes\nendothelial cells\nsmooth muscle cells\n\nThis is often referred to as the neuro-glio-vascular unit."
-  },
-  {
-    "objectID": "2_instrinsic_signals.html#conceptual-sequence-of-events",
-    "href": "2_instrinsic_signals.html#conceptual-sequence-of-events",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Conceptual sequence of events",
-    "text": "Conceptual sequence of events\n\n\n\n\n\nflowchart TD  \nA[Neural activity] --&gt; B[Increased energy demand]  \nB --&gt; C[Metabolic and glial signaling]  \nC --&gt; D[Vascular response]  \nD --&gt; E[Changes in &lt;br/&gt; blood flow and oxygenation]\n\n\n\n\n\n\nOptical imaging captures the final stage of this sequence."
   },
   {
     "objectID": "2_instrinsic_signals.html#neurovascular-unit",
@@ -313,13 +572,6 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Mechanism 1: Direct neuronal signaling",
     "text": "Mechanism 1: Direct neuronal signaling\n\n\n\nNeurons can influence blood vessels directly.\n\n\nThis occurs through:\n\nneurotransmitter release\nneuromodulators\ngaseous messengers (like nitric oxide, aka NO)\n\n\n\n\nIn this mechanism:\n\nneural activity increases\nneurons release vasoactive substances\nnearby vessels dilate rapidly\n\nThis is often called a feedforward mechanism. It anticipates metabolic demand rather than reacting to it."
-  },
-  {
-    "objectID": "2_instrinsic_signals.html#properties-of-neuronal-signaling",
-    "href": "2_instrinsic_signals.html#properties-of-neuronal-signaling",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Properties of neuronal signaling",
-    "text": "Properties of neuronal signaling\n\n\n\nStrengths\n\nfast\nspatially precise\ntightly linked to synaptic activity\n\n\n\n\nLimitations\n\nnot sufficient alone\ndoes not encode metabolic state\nvaries across neuron types"
   },
   {
     "objectID": "2_instrinsic_signals.html#properties-of-direct-neuronal-signaling",
@@ -371,8 +623,8 @@
     "text": "Why the visual cortex?\n\n\n\nThe visual cortex is the ideal model system because:\n\nit has precise topographic organization\nresponses are stimulus-locked\n\n\n\nRetinotopy is a functional property of several visual areas:\n\nneighboring points in visual space\nare represented by neighboring points in cortex\n\nDifferent visual areas have a complete (almost) representation of the visual field.\n\n\n\n\n\n\n\nflowchart LR  \nA[Visual stimulus in left field] --&gt; B[Right visual cortex activation]  \nC[Stimulus moves upward] --&gt; D[Activation shifts dorsally]\n\n\n\n\n\n\n\n \nIn ISI:\n\nreflected light is recorded\nThe readout is a reflectance change over time."
   },
   {
-    "objectID": "2_instrinsic_signals.html#why-reflectance-changes",
-    "href": "2_instrinsic_signals.html#why-reflectance-changes",
+    "objectID": "2_instrinsic_signals.html#reflectance_change",
+    "href": "2_instrinsic_signals.html#reflectance_change",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Why reflectance changes",
     "text": "Why reflectance changes\n\n\n\nHemoglobin absorbs light.\n\n\nOxygenated (OHb) and deoxygenated (RHb) hemoglobin:\n\nhave different absorption spectra\nabsorb differently at different wavelengths\n\nTherefore: changes in oxygenation → changes in reflectance."
@@ -441,25 +693,11 @@
     "text": "From reflectance to absorption\n\n\n\nIn ISI:\n\nlight hits cortex\nreflectance changes are measured\n\nIn fNIRS:\n\nlight enters scalp\ntravels through tissue\nis partially absorbed\nexits at a detector\n\n\nWe measure changes in light attenuation (Absorbance)."
   },
   {
-    "objectID": "2_instrinsic_signals.html#the-beerlambert-principle",
-    "href": "2_instrinsic_signals.html#the-beerlambert-principle",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "The Beer–Lambert principle",
-    "text": "The Beer–Lambert principle"
-  },
-  {
     "objectID": "2_instrinsic_signals.html#the-beer-lambert-principle",
     "href": "2_instrinsic_signals.html#the-beer-lambert-principle",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "The Beer-Lambert principle",
     "text": "The Beer-Lambert principle\n\n\n\nThe core idea:\n\nthe amount of light absorbed depends on\nthe concentration of absorbing molecules\nand the path length\n\n\n\nIn fNIRS, the absorbing molecules are:\n\nOHb\nRHb\n\n\n\nWe estimate concentration changes from light attenuation.\n\n\n\nOHb and RHb absorb light differently (see absorption coefficients). Using at least 2 wavelengths:\n\nallows separation of OHb and RHb signals\nenables estimation of relative concentration changes\n\nThis is called the modified Beer–Lambert law.\n\n\nfNIRS measures changes in:\n\nOHb and RHb\nTotal hemoglobin (THb = OHb + RHb)"
-  },
-  {
-    "objectID": "2_instrinsic_signals.html#reflectance_change",
-    "href": "2_instrinsic_signals.html#reflectance_change",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why reflectance changes",
-    "text": "Why reflectance changes\n\n\n\nHemoglobin absorbs light.\n\n\nOxygenated (OHb) and deoxygenated (RHb) hemoglobin:\n\nhave different absorption spectra\nabsorb differently at different wavelengths\n\nTherefore: changes in oxygenation → changes in reflectance."
   },
   {
     "objectID": "2_instrinsic_signals.html#typical-activation-pattern",
@@ -483,13 +721,6 @@
     "text": "Strengths of fNIRS\n\n\n\nAdvantages\n\nnon-invasive\nsilent (compared to fRMI)\nportable\nsuitable for infants\nusable in naturalistic tasks\n\n\n\n\nResearch relevance\n\nsocial interaction studies (e.g. hyperscanning)\ndevelopmental research\nclinical populations"
   },
   {
-    "objectID": "2_instrinsic_signals.html#strengths-of-fnirs-1",
-    "href": "2_instrinsic_signals.html#strengths-of-fnirs-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Strengths of fNIRS",
-    "text": "Strengths of fNIRS\n\n\n\nAdvantages\n\nnon-invasive\nsilent\nportable\nsuitable for infants\nusable in naturalistic tasks\n\n\n\n\nResearch relevance\n\nsocial interaction studies\ndevelopmental research\nclinical populations\nhyperscanning"
-  },
-  {
     "objectID": "2_instrinsic_signals.html#fnirs-vs-isi",
     "href": "2_instrinsic_signals.html#fnirs-vs-isi",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
@@ -502,20 +733,6 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "The fNIRS device: basic components",
     "text": "The fNIRS device: basic components\n\n\n\nAn fNIRS system consists of:\n\nlight sources\nlight detectors\noptodes placed on the scalp\nacquisition and processing unit\n\n\n\nSources:\n\nemit NIr light\ntypically at 2 wavelengths\nare placed on the scalp\n\n\n\n\nDetectors:\n\nmeasure light intensity exiting tissue\nare placed a few centimeters away from sources\nare sensitive to small changes in intensity\n\n\n\nAn optode is a general term for:\n\na source optode (emits light)\na detector optode (collects light)"
-  },
-  {
-    "objectID": "2_instrinsic_signals.html#sourcedetector-pairing",
-    "href": "2_instrinsic_signals.html#sourcedetector-pairing",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Source–detector pairing",
-    "text": "Source–detector pairing\n\n\n\nOptodes are arranged in structured arrays on the scalp.\n\n\nA source and a detector form a channel. The distance between them is typically:\n\n2.5 to 3.5 cm in adults\nshorter in infants\n\nThis distance determines sampling depth.\n\n\n\n\n\n\n\n\nThe light path forms a curved trajectory called Banana-shaped sensitivity profile. Maximum sensitivity occurs approximately:\n\nhalfway between source and detector\nat a depth of about half the separation distance\n\n\n\nScalp blood flow contributes strongly. To control for this, systems include Short (separation) channels:\n\nshort channels (8–10 mm distance)\nmainly sensitive to superficial layers of the tissue\n\nThese are used to regress out scalp effects."
-  },
-  {
-    "objectID": "2_instrinsic_signals.html#sourcedetector-pairing-1",
-    "href": "2_instrinsic_signals.html#sourcedetector-pairing-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Source–detector pairing",
-    "text": "Source–detector pairing"
   },
   {
     "objectID": "2_instrinsic_signals.html#source-detector-pairing",
@@ -532,123 +749,11 @@
     "text": "Source-detector pairing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfNIRS setup requires attention to:\n\nhair interference\noptode contact\nambient light contamination\n\nSignal quality depends strongly on preparation."
   },
   {
-    "objectID": "3_pupillometry.html#why-study-the-pupil",
-    "href": "3_pupillometry.html#why-study-the-pupil",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why study the pupil?",
-    "text": "Why study the pupil?\nThe pupil is:\n\nvisible\nmeasurable\ndynamically controlled\ntightly linked to brain state\n\nPupillometry provides a fast, non-invasive window\ninto autonomic and cognitive processes."
-  },
-  {
-    "objectID": "3_pupillometry.html#what-is-the-pupil",
-    "href": "3_pupillometry.html#what-is-the-pupil",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "What is the pupil?",
-    "text": "What is the pupil?\n\n\n\nWhy study the pupil:\n\nvisible & measurable\ndynamically controlled\ntightly linked to brain state\n\nPupillometry provides a fast, non-invasive window into autonomic and cognitive processes. What the pupil is:\n\nthe variable opening in the center of the iris\nregulating the amount of light entering the eye\n\nIt functions like the aperture of a camera.\n\n\n\n\n\n\n\n\nTwo muscles control pupil size:\n\nSphincter pupillae → constriction\nDilator pupillae → dilation\n\nThese muscles are controlled by different branches of the autonomic nervous system."
-  },
-  {
-    "objectID": "3_pupillometry.html#the-iris-muscles",
-    "href": "3_pupillometry.html#the-iris-muscles",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "The iris muscles",
-    "text": "The iris muscles"
-  },
-  {
-    "objectID": "3_pupillometry.html#pupil-anatomy-and-physiology",
-    "href": "3_pupillometry.html#pupil-anatomy-and-physiology",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Pupil Anatomy and Physiology",
-    "text": "Pupil Anatomy and Physiology"
-  },
-  {
-    "objectID": "3_pupillometry.html#pupillary-control",
-    "href": "3_pupillometry.html#pupillary-control",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Pupillary Control",
-    "text": "Pupillary Control\n\n\n\nParasympathetic (ACh) pathway:\n\nRetina\nPretectal nucleus\nEdinger–Westphal nucleus\nOculomotor nerve (III)\nCiliary ganglion\nSphincter muscle\n\nThis mediates the pupillary light reflex (PLR).\n\n\n\nSympathetic (NE) pathway:\n\nHypothalamus\nSpinal cord (ciliospinal center)\nSuperior cervical ganglion\nDilator muscle\n\nThis mediates pupil dilation in darkness, stress, and arousal."
-  },
-  {
-    "objectID": "3_pupillometry.html#pupillary-control-1",
-    "href": "3_pupillometry.html#pupillary-control-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Pupillary Control",
-    "text": "Pupillary Control"
-  },
-  {
-    "objectID": "3_pupillometry.html#central-neuromodulation",
-    "href": "3_pupillometry.html#central-neuromodulation",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Central neuromodulation",
-    "text": "Central neuromodulation\n\n\n\nBeyond reflexes, pupil size is influenced by:\n\nnoradrenergic signaling\ncortical control systems\nattention networks\n\n\n\nThe locus coeruleus:\n\nregulates arousal\nresponds to novelty and uncertainty\ninfluences sympathetic activity\n\nPupil dilation is correlated with LC activity."
-  },
-  {
-    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena",
-    "href": "3_pupillometry.html#types-of-pupillary-phenomena",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Types of Pupillary phenomena",
-    "text": "Types of Pupillary phenomena\n\n\n\nPupil diameter changes reflect multiple processes:\n\nlight reflex & dark adaptation\ncognitive load\nemotional arousal\ndecision, surprise and novelty\n\n\n\nPupillary light reflex:\n\nrapid constriction\nlatency around 200 ms\nhighly reliable\nbilateral (direct and consensual)\n\n\n\n\nDark adaptation:\n\npupil dilates\nsympathetic tone increases\nunder stress or arousal: dilation occurs even at constant luminance\n\n\n\nCognitive load\nWhen task difficulty increases:\n\npupil dilates\neven without luminance change\n\nThis is known as the task-evoked pupillary response."
-  },
-  {
-    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena-1",
-    "href": "3_pupillometry.html#types-of-pupillary-phenomena-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Types of Pupillary phenomena",
-    "text": "Types of Pupillary phenomena\n\n\n\nWorking Memory\n\nmore items in working memory\nlarger pupil dilation\ndilation scales with effort\n\nPupil size tracks mental workload.\n\n\nDuring difficult decisions:\n\npupil dilation increases\nuncertainty correlates with amplitude\nsurprise produces phasic dilation\n\nThis links pupil to decision-making models.\n\n\n\nEmotionally salient stimuli:\n\nincrease pupil diameter\nregardless of valence\nscale with arousal intensity\n\nPupil reflects arousal, not emotional category."
-  },
-  {
-    "objectID": "3_pupillometry.html#types-of-pupillary-phenomena-2",
-    "href": "3_pupillometry.html#types-of-pupillary-phenomena-2",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Types of Pupillary phenomena",
-    "text": "Types of Pupillary phenomena"
-  },
-  {
-    "objectID": "3_pupillometry.html#how-pupillometry-works",
-    "href": "3_pupillometry.html#how-pupillometry-works",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "How pupillometry works",
-    "text": "How pupillometry works\n\n\n\nModern pupillometry uses:\n\ninfrared illumination (850nm)\nvideo-based eye tracking\nautomated pupil detection\nsampling rate (&gt;5Hz)\n\nTypical steps:\n\nrecord pupil diameter over time\ndetect and remove blinks\ninterpolate missing data\nbaseline correction\nevent-related averaging"
-  },
-  {
-    "objectID": "3_pupillometry.html#how-pupillometry-works-1",
-    "href": "3_pupillometry.html#how-pupillometry-works-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "How pupillometry works",
-    "text": "How pupillometry works\n\n\n\nPupil is extremely sensitive to light. Therefore:\n\nstimulus luminance must be controlled\nscreen brightness must be constant\nvisual properties must be standardized\n\n\n\nPupil responses:\n\nbegin ~200–500 ms after event\npeak around 1–2 seconds\ndecay slowly\n\nFaster than hemodynamic signals\nbut slower than EEG.\n\n\n\nTonic vs phasic pupil signals\nTonic level:\n\nslow fluctuations\nlinked to sustained arousal\n\nPhasic response:\n\nrapid stimulus-locked dilation\nlinked to cognitive events\n\nBoth are informative."
-  },
-  {
-    "objectID": "3_pupillometry.html#strengths-and-weaknesses",
-    "href": "3_pupillometry.html#strengths-and-weaknesses",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Strengths and Weaknesses",
-    "text": "Strengths and Weaknesses\n\n\n\nStrengths\n\nnon-invasive\ninexpensive\nhigh temporal resolution\nportable\nsuitable across lifespan\nsensitive to arousal and cognitive load\ncompatible with many experimental paradigms\n\n\n\n\nLimitations\n\nhighly sensitive to luminance\ninfluenced by fatigue and circadian factors\naffected by medication and autonomic state\nlow spatial specificity\nreflects multiple overlapping processes"
-  },
-  {
-    "objectID": "3_pupillometry.html#meye",
-    "href": "3_pupillometry.html#meye",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "MEYE",
-    "text": "MEYE\nBrowser-based eye tracking/ pupillometry tool: pupillometry.it"
-  },
-  {
     "objectID": "2_instrinsic_signals.html#self-check",
     "href": "2_instrinsic_signals.html#self-check",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Self-check",
     "text": "Self-check"
-  },
-  {
-    "objectID": "3_pupillometry.html#self-check",
-    "href": "3_pupillometry.html#self-check",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Self-check",
-    "text": "Self-check"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#cdkl5-deficiency-disorder",
-    "href": "4_translational_biomarkers.html#cdkl5-deficiency-disorder",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "CDKL5 Deficiency Disorder",
-    "text": "CDKL5 Deficiency Disorder\n\n\n\nCDKL5 Deficiency Disorder\n\n\nEarly-onset epileptic encephalopathy\n\n\n\n\nEarly seizures\n\nIntellectual disability\n\nMotor impairment\n\nAutistic features\n\nVisual dysfunction"
   },
   {
     "objectID": "4_translational_biomarkers.html#translational-biomarkers",
@@ -658,18 +763,25 @@
     "text": "Translational biomarkers\n\n\n\nA translational biomarker is a measurement that:\n\nquantifies a biological process linked to a disorder\nis repeatable across sessions and sites\ncan be measured in both models and patients\n\n\n\nTypical outputs you can bring into trials:\n\ndiagnostic / stratification feature\npharmacodynamic marker\nmechanism-linked readout (helps interpret “why” a treatment works)\n\n\n\n\nWhat to do (a practical checklist):\n\ndefine the construct (what brain function you are indexing)\nchoose a readout with high reliability\ntest developmental sensitivity\ntest treatment sensitivity\nreport effect size + cross-validated prediction\n\nA biomarker must be deployable, not only significant."
   },
   {
-    "objectID": "4_translational_biomarkers.html#early-visual-impairment-in-cdkl5-mice",
-    "href": "4_translational_biomarkers.html#early-visual-impairment-in-cdkl5-mice",
+    "objectID": "4_translational_biomarkers.html#neurodevelopmental-disorders-as-critical-period-disorders",
+    "href": "4_translational_biomarkers.html#neurodevelopmental-disorders-as-critical-period-disorders",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Early Visual Impairment in CDKL5 Mice",
-    "text": "Early Visual Impairment in CDKL5 Mice\n\n\nIntrinsic Optical Signal Imaging and VEPs  Reference \n\n\n\n\n\nMethod\n\n\nrepeated transcranial ‘intrinsic signal imaging’ during development\n\nfollow-up ‘VEPs’ for physiological validation\n\nmulti-feature phenotype summary + ‘SVM’ classification\n\n\n\nFindings\n\n\nearly responses near-normal → deficit emerges during development\n\nimpairment persists into adulthood\n\nearly readout predicts adult impairment\n\nhigh discrimination performance with ‘SVM’\n\n\n\n\n\nInterpretation\n\n\na developmental, circuit-level phenotype with strong repeatability\n\nevoked visual responses as a candidate ‘translational visual biomarker’"
+    "section": "Neurodevelopmental disorders as critical period disorders",
+    "text": "Neurodevelopmental disorders as critical period disorders\n\n\n\nA key theoretical proposal:\nSome neurodevelopmental disorders may reflect disruptions of critical periods.\nIf maturation is altered during these windows:\n\ncircuit refinement may be incomplete or mistimed\nlong-term functional deficits emerge\nlater interventions may have reduced efficacy\n\nThis shifts focus from static deficit → altered developmental trajectory.\n\n\n\nWhy this matters clinically:\nIf disorders involve altered critical period timing, then we need biomarkers that:\n\ndetect dysfunction early\ntrack developmental trajectories\nare sensitive to maturation dynamics\ncan monitor reopening or rescue of plasticity"
   },
   {
-    "objectID": "4_translational_biomarkers.html#why-arousal-visual-cortex",
-    "href": "4_translational_biomarkers.html#why-arousal-visual-cortex",
+    "objectID": "4_translational_biomarkers.html#why-visual-cortex-is-ideal-for-critical-period-biomarkers",
+    "href": "4_translational_biomarkers.html#why-visual-cortex-is-ideal-for-critical-period-biomarkers",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why ‘arousal’ + ‘visual cortex’?",
-    "text": "Why ‘arousal’ + ‘visual cortex’?\n\n\n\nTwo translational ‘short paths’ to brain state:\n\n‘arousal’ → pupil / HRV / locomotion → neuromodulatory tone (fast, passive, scalable)\n‘visual cortex’ → evoked responses (IOS / fNIRS / VEP) → circuit function (quantitative, repeatable)\n\nBoth can support:\n\nearly detection\nlongitudinal tracking\ntreatment monitoring\n\n\n\n\nWhat makes these readouts translational:\n\nsimilar physiology across species\nrobust signal-to-noise\nsimple acquisition pipelines\ncan be combined with ‘ML’ to quantify discrimination\n\nPragmatically: they are easy to repeat and hard to fake."
+    "section": "Why visual cortex is ideal for critical period biomarkers",
+    "text": "Why visual cortex is ideal for critical period biomarkers\n\n\n\nPrimary visual cortex (V1) is one of the best-characterized critical period systems:\n\nwell-defined sensory input\nprecisely mapped circuitry\nknown developmental windows\nmeasurable plasticity\n\nIts maturation can be tracked quantitatively using:\n\nISI & fNIRS imaging\nVEP\n\nThis makes V1 a natural testbed for developmental biomarkers.\n\n\n\nIf a disorder alters critical period timing or gain we expect to observe:\n\nabnormal emergence of evoked responses\naltered amplitude or tuning\nreduced experience-dependent plasticity\npersistent deficits into adulthood\n\nTherefore, evoked V1 responses can serve as:\n\nearly detection markers\nmechanistic indicators of circuit maturation\npotential pharmacodynamic endpoints"
+  },
+  {
+    "objectID": "4_translational_biomarkers.html#why-arousal-is-also-linked-to-critical-periods",
+    "href": "4_translational_biomarkers.html#why-arousal-is-also-linked-to-critical-periods",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Why arousal is also linked to critical periods",
+    "text": "Why arousal is also linked to critical periods\n\n\n\nNeuromodulators regulate plasticity:\n\nacetylcholine\nnorepinephrine\n\nThese systems:\n\ngate cortical responsiveness\nmodulate signal-to-noise\ninfluence experience-dependent refinement\n\nArousal state is therefore not just behavioral, it shapes developmental plasticity.\n\n\n\nIf neuromodulatory tone is altered:\n\ncritical period dynamics may shift\nplasticity thresholds may change\ncircuit refinement may be impaired\n\nPupil and HRV provide scalable readouts of these systems.\nThus arousal biomarkers may index a mechanism that directly impacts developmental timing."
   },
   {
     "objectID": "4_translational_biomarkers.html#cdkl5-deficiency-disorder-cdd",
@@ -677,83 +789,6 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "CDKL5 Deficiency Disorder (CDD)",
     "text": "CDKL5 Deficiency Disorder (CDD)\n\n\n\nCDKL5 Deficiency Disorder (CDD)\n\n\nA severe developmental epileptic encephalopathy caused by loss-of-function variants in CDKL5\n\n\n\nCause - pathogenic variants in the CDKL5 gene (X-linked) - impacts neurodevelopmental signaling and circuit maturation\nCore clinical picture - early-onset seizures (often in infancy) - global developmental delay and intellectual disability - motor impairment and hypotonia; often limited speech - frequent comorbidities: sleep, feeding, autonomic dysregulation\nWhy biomarkers matter - symptoms are heterogeneous and change over development - clinical trials need objective, repeatable functional endpoints beyond caregiver report"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#translational-biomarker-pipeline",
-    "href": "4_translational_biomarkers.html#translational-biomarker-pipeline",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Translational biomarker pipeline",
-    "text": "Translational biomarker pipeline\n\n\n\nA general template:\n\nselect a circuit with conserved physiology\nchoose a repeatable ‘readout’\ntest developmental sensitivity (critical windows)\nquantify discrimination (SVM / deep learning)\nvalidate across model → patient and across labs\n\nAim for metrics that are ‘stable’, but also ‘treatment-sensitive’.\n\n\n\nWhat you report (minimum):\n\nreliability / repeatability\neffect size and confidence intervals\nclassification performance and cross-validation\nsensitivity to confounds (motion, luminance, vigilance)\n\nA biomarker must be ‘measurable’, not only ‘significant’."
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#cdd-as-an-arousal-disorder",
-    "href": "4_translational_biomarkers.html#cdd-as-an-arousal-disorder",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "CDD as an ‘arousal’ disorder",
-    "text": "CDD as an ‘arousal’ disorder\n\n\nOperant behavior + pupillometry + machine learning  Reference \n\n\n\n\n\nMethod\n\n\nappetitive ‘operant conditioning’ to probe cognition/strategy\n\nsimultaneous ‘pupil size’ + locomotor activity\n\nsupervised ‘ML’ to classify genotype using multimodal features\n\n\n\nFindings\n\n\nbehavioral phenotype: impulsivity, reduced flexibility, perseveration\n\nphysiology: smaller ‘tonic pupil’ + blunted stimulus-evoked response\n\naltered coupling with locomotion\n\nmultimodal features improve genotype discrimination\n\n\n\n\n\nInterpretation\n\n\nconsistent with a systems-level defect in ‘arousal modulation’\n\npupil-derived endpoints are simple → strong candidates for ‘longitudinal monitoring’"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#shared-arousal-vulnerabilities-across-ndd-models",
-    "href": "4_translational_biomarkers.html#shared-arousal-vulnerabilities-across-ndd-models",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Shared ‘arousal’ vulnerabilities across NDD models",
-    "text": "Shared ‘arousal’ vulnerabilities across NDD models\n\n\n\nNeurodevelopmental disorders and autistic phenotypes\n\n\nArousal regulation as a convergent axis across syndromic and idiopathic mechanisms\n\n\n\nKey idea - spontaneous pupil dynamics provide a task-free proxy of ‘arousal state’ - deep learning can capture temporal structure beyond summary metrics - supports model → clinic translation via related modalities (pupil ↔︎ ‘HRV’)"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#deep-learning-of-spontaneous-arousal-fluctuations-mouse-patient",
-    "href": "4_translational_biomarkers.html#deep-learning-of-spontaneous-arousal-fluctuations-mouse-patient",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Deep learning of spontaneous arousal fluctuations (mouse → patient)",
-    "text": "Deep learning of spontaneous arousal fluctuations (mouse → patient)\n\n\nConvNet-based arousal decoding + transfer learning  Reference \n\n\n\n\n\nMethod\n\n\nspontaneous ‘pupil traces’ in multiple ASD-related mouse models\n\ntrain a convolutional network to decode arousal-related signatures\n\ntest generalization across models and developmental stages\n\nadapt the representation to patients using ‘HRV’ via transfer learning\n\n\n\nFindings\n\n\ndetects altered arousal signatures across models, including early stages\n\ncaptures structure not visible in mean/variance metrics alone\n\ntransfer learning supports discrimination in patient physiological data\n\nimplicates neuromodulatory tone as a mechanistic axis\n\n\n\n\n\nInterpretation\n\n\na passive, scalable biomarker strategy: train where labels are abundant → adapt where cohorts are small\n\nuseful for screening and stratification when combined with ‘behavioral’ endpoints"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#visual-cortex-fnirs-as-a-scalable-human-biomarker",
-    "href": "4_translational_biomarkers.html#visual-cortex-fnirs-as-a-scalable-human-biomarker",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Visual cortex ‘fNIRS’ as a scalable human biomarker",
-    "text": "Visual cortex ‘fNIRS’ as a scalable human biomarker\n\n\n\nWhy ‘fNIRS’ is attractive for translation:\n\nquiet, portable, and child-friendly\ntolerates some motion\nmeasures evoked hemodynamics linked to neural activity\n\nA visual paradigm offers tight control of stimulus timing and robust occipital responses.\n\n\n\nWhat you want from a visual fNIRS biomarker:\n\nstrong response in short blocks\nhigh compliance (engaging baseline)\nstable features across sessions\ninterpretable physiology (HbO / HbR / THb)\n\nThis makes it suitable for ‘longitudinal’ and ‘clinical trial’ settings."
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#fnirs-visual-hdr-amplitude-and-autistic-traits",
-    "href": "4_translational_biomarkers.html#fnirs-visual-hdr-amplitude-and-autistic-traits",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "fNIRS visual HDR amplitude and autistic traits",
-    "text": "fNIRS visual HDR amplitude and autistic traits\n\n\nOccipital fNIRS with engaging visual stimulation  Reference \n\n\n\n\n\nMethod\n\n\noccipital ‘fNIRS’ during reversing checkerboard\n\nbaseline manipulation to improve compliance (cartoon-enhanced)\n\nextract hemodynamic response features (‘HbO’, ‘HbR’, ‘THb’)\n\nrelate response amplitude to trait measures\n\n\n\nFindings\n\n\nrobust occipital activation across conditions\n\nengaging baseline improves feasibility without losing signal\n\nreduced ‘THb’ amplitude associates with higher autistic traits\n\nsupports a quantitative trait approach rather than strict categories\n\n\n\n\n\nInterpretation\n\n\nsimple pediatric-ready paradigm with physiological interpretability\n\ncandidate marker for stratification and developmental tracking"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#treatment-sensitivity-ctd-and-hemodynamic-rescue",
-    "href": "4_translational_biomarkers.html#treatment-sensitivity-ctd-and-hemodynamic-rescue",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Treatment sensitivity: CTD and hemodynamic rescue",
-    "text": "Treatment sensitivity: CTD and hemodynamic rescue\n\n\n\nCreatine Transporter Deficiency (CTD)\n\n\nIntellectual disability • seizures • autistic-like features — need endpoints that move with treatment\n\n\n\nWhy it matters for biomarkers - therapy requires ‘longitudinal’ functional readouts - evoked hemodynamics provide a repeatable circuit-level endpoint - strengthens biomarker credibility when the signal is ‘treatment-sensitive’"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#cyclocreatine-rescues-phenotype-and-improves-ios-endpoint",
-    "href": "4_translational_biomarkers.html#cyclocreatine-rescues-phenotype-and-improves-ios-endpoint",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Cyclocreatine rescues phenotype and improves IOS endpoint",
-    "text": "Cyclocreatine rescues phenotype and improves IOS endpoint\n\n\nLongitudinal intrinsic optical signal imaging under treatment  Reference \n\n\n\n\n\nMethod\n\n\nearly treatment initiation + longitudinal follow-up\n\nrepeated visual cortex ‘IOS’ sessions across ages\n\nintegrate physiology with behavioral and electrophysiological readouts\n\n\n\nFindings\n\n\ntreatment improves evoked hemodynamic responses over time\n\nphysiological improvements align with functional outcomes\n\ndemonstrates endpoint sensitivity to pharmacological modulation\n\n\n\n\n\nInterpretation\n\n\nstrong example of biomarker ↔︎ ‘treatment response’ coupling\n\nsupports IOS logic as a preclinical analog for ‘fNIRS’ trial endpoints"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#take-home-concepts",
-    "href": "4_translational_biomarkers.html#take-home-concepts",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Take-home concepts",
-    "text": "Take-home concepts\n\n\n\nReusable design principles:\n\ncombine ‘state’ markers (arousal) with ‘circuit’ markers (V1 responses)\nprioritize repeatability and short acquisition time\nuse ‘ML’ for discrimination, but keep physiological interpretability\ntest both ‘developmental onset’ and ‘treatment sensitivity’\n\n\n\n\nWhat to aim for in a translational biomarker:\n\nnoninvasive and scalable\nrobust across sessions and operators\nsensitive to meaningful change\nfeasible in the target population (children, severe disability, fatigue)\n\nA biomarker should be ‘deployable’, not only publishable."
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#why-visual-cortex-and-arousal",
-    "href": "4_translational_biomarkers.html#why-visual-cortex-and-arousal",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why visual cortex and arousal?",
-    "text": "Why visual cortex and arousal?\n\n\n\nVisual cortex is a strong biomarker target because:\n\nit has well-defined input/output (controlled stimuli)\nevoked responses are robust and repeatable\nphysiology is conserved across species\nit links naturally to IOS, VEP, and human fNIRS\n\nIt gives a quantitative readout of circuit function.\n\n\n\nArousal is a strong biomarker target because:\n\nit modulates cognition and behavior globally\nit can be measured passively (task-free)\nit is tightly linked to neuromodulators (ACh/NE systems)\nit scales well to clinic (pupil, HRV)\n\nIt provides a state readout that is easy to repeat."
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#measurement-options-for-v1-and-arousal",
-    "href": "4_translational_biomarkers.html#measurement-options-for-v1-and-arousal",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Measurement options for V1 and arousal",
-    "text": "Measurement options for V1 and arousal\n\n\n\nV1 / visual biomarkers (preclinical → clinical):\n\nIOS (mouse): evoked hemodynamics, high SNR, longitudinal\nVEP (mouse/human): fast electrophysiological validation\nfNIRS (human): portable hemodynamics, child-friendly\n\nChoose stimulus paradigms that maximize compliance and reproducibility.\n\n\n\nArousal biomarkers (preclinical → clinical):\n\npupil dynamics (mouse/human): tonic + phasic components\nlocomotion / whisking (mouse): state coupling\nHRV (mouse/human): autonomic proxy, scalable\n\nArousal readouts become powerful when combined with temporal models (ML / deep learning)."
   },
   {
     "objectID": "4_translational_biomarkers.html#why-cdd-is-ideal-for-v1-arousal-biomarkers",
@@ -775,27 +810,6 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Experiment: Early V1 impairment in CDKL5 mice",
     "text": "Experiment: Early V1 impairment in CDKL5 mice"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#why-visual-cortex-is-ideal-for-critical-period-biomarkers",
-    "href": "4_translational_biomarkers.html#why-visual-cortex-is-ideal-for-critical-period-biomarkers",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why visual cortex is ideal for critical period biomarkers",
-    "text": "Why visual cortex is ideal for critical period biomarkers\n\n\n\nPrimary visual cortex (V1) is one of the best-characterized critical period systems:\n\nwell-defined sensory input\nprecisely mapped circuitry\nknown developmental windows\nmeasurable plasticity\n\nIts maturation can be tracked quantitatively using:\n\nISI & fNIRS imaging\nVEP\n\nThis makes V1 a natural testbed for developmental biomarkers.\n\n\n\nIf a disorder alters critical period timing or gain we expect to observe:\n\nabnormal emergence of evoked responses\naltered amplitude or tuning\nreduced experience-dependent plasticity\npersistent deficits into adulthood\n\nTherefore, evoked V1 responses can serve as:\n\nearly detection markers\nmechanistic indicators of circuit maturation\npotential pharmacodynamic endpoints"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#neurodevelopmental-disorders-as-critical-period-disorders",
-    "href": "4_translational_biomarkers.html#neurodevelopmental-disorders-as-critical-period-disorders",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Neurodevelopmental disorders as critical period disorders",
-    "text": "Neurodevelopmental disorders as critical period disorders\n\n\n\nA key theoretical proposal:\nSome neurodevelopmental disorders may reflect disruptions of critical periods.\nIf maturation is altered during these windows:\n\ncircuit refinement may be incomplete or mistimed\nlong-term functional deficits emerge\nlater interventions may have reduced efficacy\n\nThis shifts focus from static deficit → altered developmental trajectory.\n\n\n\nWhy this matters clinically:\nIf disorders involve altered critical period timing, then we need biomarkers that:\n\ndetect dysfunction early\ntrack developmental trajectories\nare sensitive to maturation dynamics\ncan monitor reopening or rescue of plasticity"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#why-arousal-is-also-linked-to-critical-periods",
-    "href": "4_translational_biomarkers.html#why-arousal-is-also-linked-to-critical-periods",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why arousal is also linked to critical periods",
-    "text": "Why arousal is also linked to critical periods\n\n\n\nNeuromodulators regulate plasticity:\n\nacetylcholine\nnorepinephrine\n\nThese systems:\n\ngate cortical responsiveness\nmodulate signal-to-noise\ninfluence experience-dependent refinement\n\nArousal state is therefore not just behavioral, it shapes developmental plasticity.\n\n\n\nIf neuromodulatory tone is altered:\n\ncritical period dynamics may shift\nplasticity thresholds may change\ncircuit refinement may be impaired\n\nPupil and HRV provide scalable readouts of these systems.\nThus arousal biomarkers may index a mechanism that directly impacts developmental timing."
   },
   {
     "objectID": "4_translational_biomarkers.html#cdkl5-from-model-to-patient",
@@ -854,27 +868,6 @@
     "text": "Creatine Transporter Deficiency (CTD)\n\n\n\nCreatine Transporter Deficiency (CTD)\n\n\nLoss of function in SLC6A8 → impaired creatine transport → neurodevelopmental impairment\n\n\n\nCause - pathogenic variants in SLC6A8 (X-linked) - reduced creatine availability in brain → altered energy buffering\nCore clinical picture - global developmental delay and intellectual disability - speech and motor impairment; behavioral dysregulation - seizures can occur; autistic-like features are common\nWhy biomarkers matter - trials need objective endpoints that track brain function over time - a strong biomarker should be treatment-sensitive and repeatable"
   },
   {
-    "objectID": "4_translational_biomarkers.html#experiment-longitudinal-visual-cortex-biomarker-in-ctd-mice",
-    "href": "4_translational_biomarkers.html#experiment-longitudinal-visual-cortex-biomarker-in-ctd-mice",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Experiment: Longitudinal visual cortex biomarker in CTD mice",
-    "text": "Experiment: Longitudinal visual cortex biomarker in CTD mice\n\n\nCyclocreatine + longitudinal IOS visual responses  Reference \n\n\n\n\n\nMethod\n\n\nCTD mouse model\n\nearly treatment initiation\n\nrepeated transcranial IOS (V1)\n\nlongitudinal developmental tracking\n\nbehavior + EEG integration\n\n\n\nKey results\n\n\nreduced evoked visual responses in CTD\n\ncyclocreatine improves V1 hemodynamics\n\nlongitudinal physiological recovery\n\nalignment with functional outcomes"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#experiment-translational-phenotypes-in-ctd-mouse-patient",
-    "href": "4_translational_biomarkers.html#experiment-translational-phenotypes-in-ctd-mouse-patient",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Experiment: Translational phenotypes in CTD (mouse ↔︎ patient)",
-    "text": "Experiment: Translational phenotypes in CTD (mouse ↔︎ patient)\n\n\nCross-species electrophysiological and network phenotypes  Reference \n\n\n\n\n\nMethod\n\n\nEEG recordings in CTD mouse model\n\nparallel EEG assessment in individuals with CTD\n\nanalysis of oscillatory activity and network-level features\n\nquantitative cross-species comparison\n\n\n\nKey results\n\n\nabnormal cortical oscillatory signatures in CTD mice and patients\nconsistent network-level phenotype across species\n\nobjective physiological features suitable for stratification\n\n\n\n\n\nTranslational significance\n\n\nconfirms that the mouse model captures clinically relevant brain dysfunction\n\nestablishes electrophysiological signatures as shared endpoints\n\nsupports the use of scalable physiological biomarkers in trials"
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#experiment-translational-electrophysiological-phenotype",
-    "href": "4_translational_biomarkers.html#experiment-translational-electrophysiological-phenotype",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Experiment: Translational electrophysiological phenotype",
-    "text": "Experiment: Translational electrophysiological phenotype\n\n\nShared EEG network alterations (mouse ↔︎ patient)  Reference \n\n\n\n\n\nMethod\n\n\nEEG in CTD mouse model\n\nEEG in individuals with CTD\n\noscillatory + network metrics\n\nquantitative comparison\n\n\n\nKey results\n\n\nabnormal cortical oscillations in mice\n\noverlapping EEG alterations in patients\n\nconserved network phenotype\n\nobjective cross-species signature"
-  },
-  {
     "objectID": "4_translational_biomarkers.html#experiment-ctd-translational-phenotype",
     "href": "4_translational_biomarkers.html#experiment-ctd-translational-phenotype",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
@@ -924,6 +917,13 @@
     "text": "Developing a child-friendly visual paradigm\n\n\n\nProblem:\nStandard reversing checkerboard blocks are:\n\nrepetitive\n\nlow engagement\n\ndifficult for long pediatric recordings\n\nWe needed a stimulus that was:\n\nvisually strong\n\nengaging\n\ncompatible with block design\n\n\n\n\nSolution:\n\nembed checkerboard into animated cartoon content\n\nmaintain contrast reversals\n\npreserve visual drive\n\nincrease compliance\n\nGoal: maximize signal without losing attention."
   },
   {
+    "objectID": "4_translational_biomarkers.html#developing-a-child-friendly-visual-paradigm-1",
+    "href": "4_translational_biomarkers.html#developing-a-child-friendly-visual-paradigm-1",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Developing a child-friendly visual paradigm",
+    "text": "Developing a child-friendly visual paradigm\n\n\n\n\nVideo\n\n\n\n\n\nVideo"
+  },
+  {
     "objectID": "4_translational_biomarkers.html#experiment-cartoon-based-fnirs-visual-paradigm",
     "href": "4_translational_biomarkers.html#experiment-cartoon-based-fnirs-visual-paradigm",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
@@ -936,13 +936,6 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Visual fNIRS amplitude and autistic traits",
     "text": "Visual fNIRS amplitude and autistic traits\n\n\n\nIn the typical population we observed:\n\nvariability in visual hemodynamic amplitude\n\nstable individual differences\n\nWe then tested association with:\n\nquantitative autistic traits\n\n\n\n\nKey finding:\n\nlower THb response amplitude\n\nassociated with higher autistic trait scores\n\nImplication:\nVisual cortical response amplitude may reflect\na dimensional neurodevelopmental phenotype."
-  },
-  {
-    "objectID": "4_translational_biomarkers.html#developing-a-child-friendly-visual-paradigm-1",
-    "href": "4_translational_biomarkers.html#developing-a-child-friendly-visual-paradigm-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Developing a child-friendly visual paradigm",
-    "text": "Developing a child-friendly visual paradigm\n\n\n\n\nVideo\n\n\n\n\n\nVideo"
   },
   {
     "objectID": "4_translational_biomarkers.html#visual-fnirs-amplitude-and-autistic-traits-1",
@@ -971,187 +964,5 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Experiment: Visual fNIRS in female preschoolers with ASD",
     "text": "Experiment: Visual fNIRS in female preschoolers with ASD"
-  },
-  {
-    "objectID": "5_data_mining.html#simple-definition",
-    "href": "5_data_mining.html#simple-definition",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Simple Definition",
-    "text": "Simple Definition\nA dataset is:\nAn organized collection of information\nIn biomarker research, a dataset usually contains:\n\nparticipants\n\nmeasurements\n\nclinical labels\n\nIt is typically organized as a table."
-  },
-  {
-    "objectID": "5_data_mining.html#how-is-a-dataset-structured",
-    "href": "5_data_mining.html#how-is-a-dataset-structured",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "How Is a Dataset Structured?",
-    "text": "How Is a Dataset Structured?\n\nMost datasets are organized in rows and columns.\n\n\nEach row represents one participant\n\nEach column represents one variable"
-  },
-  {
-    "objectID": "5_data_mining.html#participant-reaction-time-pupil-dilation-hbo-amplitude-diagnosis",
-    "href": "5_data_mining.html#participant-reaction-time-pupil-dilation-hbo-amplitude-diagnosis",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Participant | Reaction Time | Pupil Dilation | HbO Amplitude | Diagnosis",
-    "text": "Participant | Reaction Time | Pupil Dilation | HbO Amplitude | Diagnosis\nP01 | 520 ms | 0.35 mm | 1.2 µM | Typical\nP02 | 710 ms | 0.62 mm | 0.6 µM | Disorder"
-  },
-  {
-    "objectID": "5_data_mining.html#key-components-of-a-dataset",
-    "href": "5_data_mining.html#key-components-of-a-dataset",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Key Components of a Dataset",
-    "text": "Key Components of a Dataset\n\n\n\nFeatures\n\nmeasurable variables\n\nreaction time\n\nEEG power\n\nquestionnaire scores\n\n\n\n\nLabel or Target variable\n\nwhat we want to predict\n\ndiagnosis\n\nsymptom severity\n\ntreatment response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD\n\nV[\"Statistical Variables\"]\n\nV --&gt; C[\"Categorical (Qualitative)\"]\nV --&gt; N[\"Numerical (Quantitative)\"]\n\nC --&gt; CN[\"Nominal\"]\nC --&gt; CO[\"Ordinal\"]\n\nN --&gt; ND[\"Discrete\"]\nN --&gt; NC[\"Continuous\"]"
-  },
-  {
-    "objectID": "5_data_mining.html#what-is-artificial-intelligence",
-    "href": "5_data_mining.html#what-is-artificial-intelligence",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "What is Artificial Intelligence?",
-    "text": "What is Artificial Intelligence?\nArtificial Intelligence (AI) refers to:\n\nComputational systems that learn patterns from data to make predictions or decisions.\n\n\n\n\nArtificial Intelligence is a broad field that includes:\n\nMachine Learning (ML): Algorithms learn patterns from data.\nDeep Learning: Neural networks with many layers."
-  },
-  {
-    "objectID": "5_data_mining.html#how-ai-learns",
-    "href": "5_data_mining.html#how-ai-learns",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "How AI Learns",
-    "text": "How AI Learns\n\n\n\nMost common learning paradigms:\nSupervised Learning:\nModels are trained using labeled input-output pairs to predict outcomes for new data.\nUnsupervised Learning:\nModels that analyze and find hidden patterns, structures, or relationships in input data that is not labeled, categorized, or guided"
-  },
-  {
-    "objectID": "5_data_mining.html#what-is-a-model",
-    "href": "5_data_mining.html#what-is-a-model",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "What Is a Model?",
-    "text": "What Is a Model?\n\n\nA model is:\nA rule that combines variables to make predictions\n\nVery simplified example:\nIf\n- reaction time is slow\n- pupil dilation is large\n- HbO is reduced\nThen\nprobability of disorder increases.\n\n\nThe computer learns this rule automatically.\n\n\n\nOverfitting occurs when a model learns training data too well, capturing noise and random fluctuations rather than just the underlying patterns.\nHow we prevent Overfitting?\nUsing Cross-Validation: testing the model on Data it has never seen before."
-  },
-  {
-    "objectID": "5_data_mining.html#the-biomarker-discovery-pipeline",
-    "href": "5_data_mining.html#the-biomarker-discovery-pipeline",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "The Biomarker Discovery Pipeline",
-    "text": "The Biomarker Discovery Pipeline\n\n\n\ncollect data\n\nclean and preprocess\n\nexplore variables\n\nselect relevant features\n\ntrain predictive model\n\nvalidate on new data\n\ninterpret carefully"
-  },
-  {
-    "objectID": "5_data_mining.html#what-is-a-dataset",
-    "href": "5_data_mining.html#what-is-a-dataset",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "What Is a Dataset?",
-    "text": "What Is a Dataset?\n\n\n\nA dataset is:\nAn organized collection of information\nIn biomarker research, a dataset usually contains:\n\nparticipants\n\nmeasurements\n\nclinical labels\n\nIt is typically organized as a table.\n\n\n\nMost datasets are organized in rows and columns.\n\nEach row represents one participant\n\nEach column represents one variable\n\n\n\n\n\n\n\n\n\n\n\n\n\nParticipant\nR T\nPupil Dilation\nHbO\nDiagnosis\n\n\n\n\nP01\n520 ms\n0.35 mm\n1.2 µM\nTypical\n\n\nP02\n710 ms\n0.62 mm\n0.6 µM\nDisorder"
-  },
-  {
-    "objectID": "5_data_mining.html#what-is-data-mining",
-    "href": "5_data_mining.html#what-is-data-mining",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "What is Data Mining?",
-    "text": "What is Data Mining?\n\n\nData mining is the process of:\n\nExtracting patterns from data\n\nDiscovering structure in complex datasets\n\nIdentifying predictive features\n\nTransforming data into knowledge\n\n\nModern datasets are:\n\nMultivariate\nHigh dimensional\nNon-linear\nNoisy"
-  },
-  {
-    "objectID": "5_data_mining.html#why-this-is-different-from-classical-statistics",
-    "href": "5_data_mining.html#why-this-is-different-from-classical-statistics",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why This Is Different From classical statistics",
-    "text": "Why This Is Different From classical statistics\n\nA t-test asks:\nAre the averages different?\nMachine learning asks:\nCan I correctly classify each individual?\n\nThis is a major conceptual shift.\nWe move from: Group comparison to Individual prediction"
-  },
-  {
-    "objectID": "5_data_mining.html#supervised-vs-unsupervised-learning",
-    "href": "5_data_mining.html#supervised-vs-unsupervised-learning",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Supervised vs UnSupervised Learning",
-    "text": "Supervised vs UnSupervised Learning\n\n\n\nIn Supervised learning we provide:\n\nmeasurements (features)\ndiagnosis (labels)\n\nThe system learns:\nHow to predict diagnosis from measurements\n\nThis is the most relevant approach for biomarkers.\n\n\n\n\nIn UnSupervised learning we provide:\n\nmeasurements\n\nno diagnosis\n\nThe system tries to:\n\ndiscover natural groups\n\nidentify hidden structure\n\n\nUseful for discovering subgroups."
-  },
-  {
-    "objectID": "5_data_mining.html#supervised-vs-unsupervised-learning-1",
-    "href": "5_data_mining.html#supervised-vs-unsupervised-learning-1",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Supervised vs UnSupervised Learning",
-    "text": "Supervised vs UnSupervised Learning"
-  },
-  {
-    "objectID": "5_data_mining.html#why-use-orange",
-    "href": "5_data_mining.html#why-use-orange",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Why Use Orange?",
-    "text": "Why Use Orange?\n\n\nOrange is:\n\nfree\n\nvisual\n\neasy to use\n\ndesigned for learning\n\n\nNo coding required.\n\n\n\n\n\n\n\n Download \n Documentation"
-  },
-  {
-    "objectID": "5_data_mining.html#how-orange-works",
-    "href": "5_data_mining.html#how-orange-works",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "How Orange Works",
-    "text": "How Orange Works\n\n\n\nOrange uses visual blocks called widgets.\nYou connect them in a workflow.\nExample:\nData → Model → Evaluation\n\nEach block performs one clear step."
-  },
-  {
-    "objectID": "5_data_mining.html#loading-a-dataset",
-    "href": "5_data_mining.html#loading-a-dataset",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Loading a Dataset",
-    "text": "Loading a Dataset\n\n\n\nThe main widget is:\nCSV import\nIt allows you to:\n\nopen a Comma-Separated Value (CSV) file\ninspect variables\n\nAfter loading, the data can be sent to other widgets.\n\nFor other file types you can also use the File widget"
-  },
-  {
-    "objectID": "5_data_mining.html#data-table",
-    "href": "5_data_mining.html#data-table",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Data Table",
-    "text": "Data Table\n\n\n\nThe Data Table widget lets you:\n\nsee all participants\n\ninspect variables\n\ncheck missing values\n\nThis is your first contact with the dataset."
-  },
-  {
-    "objectID": "5_data_mining.html#table",
-    "href": "5_data_mining.html#table",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Table",
-    "text": "Table"
-  },
-  {
-    "objectID": "5_data_mining.html#select-columns",
-    "href": "5_data_mining.html#select-columns",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Select Columns",
-    "text": "Select Columns\n\n\n\nThe Select Columns widget lets you:\n\nchoose which variables are used for prediction\n\ndefine the target variable\n\nassign descriptive information as meta\n\nThis is where you clearly define:\nWhat do I want to predict, and from which variables?"
-  },
-  {
-    "objectID": "5_data_mining.html#preparing-the-data",
-    "href": "5_data_mining.html#preparing-the-data",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Preparing the Data",
-    "text": "Preparing the Data\nBefore modeling, we often need to transform the data. Transformation improves model stability.\nImportant widgets:\n\nImpute\n\nhandle missing values"
-  },
-  {
-    "objectID": "5_data_mining.html#impute",
-    "href": "5_data_mining.html#impute",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Impute",
-    "text": "Impute\n\n\n\nImpute\n\nhandle missing values"
-  },
-  {
-    "objectID": "5_data_mining.html#exploring-the-data",
-    "href": "5_data_mining.html#exploring-the-data",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Exploring the Data",
-    "text": "Exploring the Data\n\n\nVisualization helps us understand patterns.\n\nDistributions\n\ninspect variable distributions\n\n\n\n\nBox Plot\n\ncompare groups\n\n\n\n\nScatter Plot\n\nexplore relationships"
-  },
-  {
-    "objectID": "5_data_mining.html#logistic-regression",
-    "href": "5_data_mining.html#logistic-regression",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Logistic Regression",
-    "text": "Logistic Regression\n\nThe Logistic Regression widget is a simple and interpretable classification model to classify data into two groups.\nIt:\n\nestimates the probability of belonging to a group\n\ncombines variables linearly\n\nworks well when relationships are relatively simple\n\n\n\n\nIt is often a good first model to try because:\n\nit is stable\n\nit is easy to interpret\n\nit provides clear probabilities"
-  },
-  {
-    "objectID": "5_data_mining.html#random-forest",
-    "href": "5_data_mining.html#random-forest",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Random Forest",
-    "text": "Random Forest\nThe Random Forest widget is a more flexible and powerful model.\nIt:\n\nbuilds many decision trees\n\ncombines their predictions\n\nhandles complex and non-linear relationships\n\nIt is useful when:\n\nvariables interact with each other\n\npatterns are not simple\n\nprediction accuracy is the main goal"
-  },
-  {
-    "objectID": "5_data_mining.html#support-vector-machine",
-    "href": "5_data_mining.html#support-vector-machine",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Support Vector Machine",
-    "text": "Support Vector Machine\n\nThe Support Vector Machine widget is a model that tries to find the best boundary between groups.\nIt:\n\nseparates groups with an optimal decision boundary\n\ncan model complex patterns\n\nworks well in high-dimensional data\n\n\n\n\nIt is often effective when:\n\ngroups overlap\n\nthere are many variables\n\nthe separation is subtle"
-  },
-  {
-    "objectID": "5_data_mining.html#models-logistic-regression",
-    "href": "5_data_mining.html#models-logistic-regression",
-    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
-    "section": "Models: Logistic Regression",
-    "text": "Models: Logistic Regression\n\n\n\nThe Logistic Regression widget is a simple and interpretable classification model to classify data into two groups. It:\n\nestimates the probability of belonging to a group\n\ncombines variables linearly\n\nworks well when relationships are relatively simple\n\n\n\n\nIt is often a good first model to try because:\n\nit is stable\n\nit is easy to interpret"
   }
 ]

@@ -50,7 +50,7 @@ These tools are powerful, but `limited`.
 :::
 :::column
 
-![](images/biom_self_report.png){width="350" fig-align="center"}
+![](images/biom_self_report.jpg){width="350" fig-align="center"}
 
 :::
 :::
@@ -78,7 +78,7 @@ Do biomarkers actually deliver on these promises?
 :::
 :::column
 
-![](docs/images/biom_representative.png){width="350" fig-align="center"}
+![](images/biom_representative.png){width="350" fig-align="center"}
 
 :::
 :::
@@ -151,7 +151,7 @@ Many proposed biomarkers:
 - are statistically significant
 - `fail` in real clinical settings
 
-![](docs/images/biom_fail.jpg){width="300" fig-align="center"}
+![](images/biom_fail.jpg){width="300" fig-align="center"}
 :::
 
 
@@ -229,8 +229,8 @@ Without explaining why. [Biomarkers are not mechanisms]{.highlight}.
 :::
 :::column
 
-![](docs/images/biom_corr_not_cause2.jpg){width="300" fig-align="center"}
-![](docs/images/biom_corr_not_cause.png){width="350" fig-align="center"}
+![](images/biom_corr_not_cause2.jpg){width="300" fig-align="center"}
+![](images/biom_corr_not_cause.png){width="350" fig-align="center"}
 
 :::
 :::
@@ -300,7 +300,7 @@ A biomarker can be:
 :::
 :::column
 
-![](docs/images/biom_types(1).png){width="350" fig-align="center"}
+![](images/biom_types(1).png){width="350" fig-align="center"}
 
 :::
 :::
@@ -414,7 +414,7 @@ A genetic marker can be less useful than a behavioral one.
 
 :::
 
-![](docs/images/biom_levels.png){width="500" fig-align="center"}
+![](images/biom_levels.png){width="500" fig-align="center"}
 
 :::
 :::
@@ -647,7 +647,7 @@ Predictive validity is the `most relevant` for clinical use.
 :::
 :::column
 
-![](docs/images/biom_validity.png){width="200" fig-align="center"}
+![](images/biom_validity.png){width="200" fig-align="center"}
 
 :::
 :::
@@ -727,7 +727,7 @@ table.confusion-matrix th[scope="row"]{
 
 </style>
 
-![](docs/images/biom_true_false.png){width="500" fig-align="center"}
+![](images/biom_true_false.png){width="500" fig-align="center"}
 
 :::
 :::
@@ -777,12 +777,12 @@ Consequences:
 :::columns
 :::column
 
-![](docs/images/biom_pregnant.png){width="500" fig-align="center"}
+![](images/biom_pregnant.png){width="500" fig-align="center"}
 
 :::
 :::column
 
-![](docs/images/biom_erro_gaus.png){width="500" fig-align="center"}
+![](images/biom_erro_gaus.png){width="500" fig-align="center"}
 
 :::
 :::
@@ -824,7 +824,7 @@ Increasing specificity often:
 - increases false negatives
 :::
 
-![](docs/images/biom_sens_specif.jpg){width="500" fig-align="center"}
+![](images/biom_sens_specif.jpg){width="500" fig-align="center"}
 
 :::
 :::
@@ -935,7 +935,7 @@ Changing the threshold:
 :::
 :::column
 
-![](docs/images/biom_roc.jpg){width="500" fig-align="center"}
+![](images/biom_roc.jpg){width="500" fig-align="center"}
 
 :::
 :::
@@ -990,7 +990,7 @@ They answer the question:
 `Is this condition present?`
 :::
 
-![](docs/images/biom_diagnostic.png){width="200" fig-align="center"}
+![](images/biom_diagnostic.png){width="200" fig-align="center"}
 
 :::
 :::
@@ -1023,7 +1023,7 @@ They answer the question:
 `What is likely to happen over time?`
 :::
 
-![](docs/images/biom_prognostic.png){width="250" fig-align="center"}
+![](images/biom_prognostic.png){width="250" fig-align="center"}
 
 :::
 :::
@@ -1059,7 +1059,7 @@ They answer the question:
 `Will this treatment work for this person?`
 :::
 
-![](docs/images/biom_predictive.png){width="250" fig-align="center"}
+![](images/biom_predictive.png){width="250" fig-align="center"}
 
 :::
 :::
@@ -1093,7 +1093,7 @@ They answer the question:
 `Is the condition changing over time?`
 :::
 
-![](docs/images/biom_monitoring.png){width="300" fig-align="center"}
+![](images/biom_monitoring.png){width="300" fig-align="center"}
 
 :::
 :::
@@ -1124,7 +1124,7 @@ They answer the question:
 `Who is at higher risk?`
 :::
 
-![](docs/images/biom_risk.png){width="300" fig-align="center"}
+![](images/biom_risk.png){width="300" fig-align="center"}
 
 :::
 :::

@@ -52,7 +52,7 @@ All of these processes increase `metabolic demand`.
 :::
 :::column
 
-![](docs/images/ios_neural_events.png){width="250" fig-align="center"}
+![](/images/ios_neural_events.png){width="250" fig-align="center"}
 
 :::
 :::
@@ -92,7 +92,7 @@ This is often referred to as the [neuro-glio-vascular unit](https://www.frontier
 
 :::
 
-![](docs/images/ios_vascular_brains.png){width="350" fig-align="center"}
+![](/images/ios_vascular_brains.png){width="350" fig-align="center"}
 
 :::
 :::
@@ -114,8 +114,8 @@ There is not a single pathway linking neurons to vessels. Current models describ
 :::
 :::column
 
-![](docs/images/ios_vascular_brains.png){width="350" fig-align="center"}
-![](docs/images/ios_penetrating_arterioles.jpg){width="350" fig-align="center"}
+![](/images/ios_vascular_brains.png){width="350" fig-align="center"}
+![](/images/ios_penetrating_arterioles.jpg){width="350" fig-align="center"}
 
 :::
 :::
@@ -195,7 +195,7 @@ Astrocytes:
 They do not fire action potentials, but they actively regulate blood flow.
 :::
 
-![](docs/images/ios_synapse_tripartite.jpg){width="350" fig-align="center"}
+![](/images/ios_synapse_tripartite.jpg){width="350" fig-align="center"}
 
 :::
 :::column
@@ -257,7 +257,7 @@ This is a `feedback mechanism`, not feedforward. It `reflects actual energy use`
 
 :::columns
 :::column
-![](docs/images/ios_neurovascular_coupling.png){width="500" fig-align="center"}
+![](/images/ios_neurovascular_coupling.png){width="500" fig-align="center"}
 
 :::
 :::column

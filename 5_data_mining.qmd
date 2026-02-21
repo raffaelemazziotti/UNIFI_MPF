@@ -457,9 +457,26 @@ This is where you clearly define:
 ::: 
 :::
 
+## Preprocess
+
+::: columns
+:::column
+
+:::info-box
+`Preprocess`
+
+- Transforma data 
+- Normalize, discretize, etc
+:::
 
 
+::: 
+:::column
+![](images/dm_orange_preprocess.png){width="100" fig-align="left"}
+![](images/dm_orange_preprocess_menu.png){width="500" fig-align="left"}
 
+::: 
+:::
 
 ## Exploring the Data
 
@@ -489,7 +506,35 @@ Visualization helps us understand patterns.
 ::: 
 :::column
 
+![](images/dm_orange_distr_bp_scatter.png){width="150" fig-align="left"}
 
+::: 
+:::
+
+## Features Ranking
+
+::: columns
+:::column
+
+:::info-box
+The `Rank` widget evaluates how informative each variable is for predicting the target. It:
+
+- scores each feature individually  
+- orders variables from most to least informative
+:::
+
+:::info-box
+One common scoring method is `Information Gain`. `Information Gain` measures:
+
+- how much a variable reduces uncertainty ([entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory))) about the diagnosis  
+- how much knowing that variable improves classification
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_rank.png){width="100" fig-align="left"}
+![](images/dm_orange_menu.png){width="500" fig-align="left"}
 
 ::: 
 :::
@@ -519,34 +564,55 @@ It is often a good first model to try because:
 :::column
 
 
+![](images/dm_orange_logistic_regression.png){width="100" fig-align="left"}
+![](images/dm_logistic_regression.png){width="500" fig-align="left"}
+
 ::: 
 :::
 
-## Random Forest
+## Models: Random Forest
+
+::: columns
+:::column
 
 The `Random Forest` widget is a more flexible and powerful model.
 
+:::info-box
 It:
 
 - builds many decision trees  
 - combines their predictions  
 - handles complex and non-linear relationships  
+:::
 
+:::info-box
 It is useful when:
 
 - variables interact with each other  
 - patterns are not simple  
-- prediction accuracy is the main goal 
+- prediction `accuracy is the main goal` 
+:::
 
-## Support Vector Machine
+::: 
+:::column
+
+![](images/dm_orange_random_forest.png){width="100" fig-align="left"}
+![](images/dm_random_forest.png){width="500" fig-align="left"}
+
+::: 
+:::
+
+## Models: Support Vector Machine
+
+::: columns
+:::column
 
 :::info-box
 The `Support Vector Machine` widget is a model that tries to find the best boundary between groups.
 
 It:
 
-- separates groups with an optimal decision boundary  
-- can model complex patterns  
+- separates groups with an optimal decision boundary
 - works well in high-dimensional data  
 :::
 
@@ -556,4 +622,398 @@ It is often effective when:
 - groups overlap  
 - there are many variables  
 - the separation is subtle  
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_svm.png){width="100" fig-align="left"}
+![](images/dm_support_vector_machine.webp){width="500" fig-align="left"}
+
+::: 
+:::
+
+## Models: Neural Network
+
+::: columns
+:::column
+
+:::info-box
+The `Neural Network` widget is a model inspired by how biological neurons process information. It:
+
+- combines variables through `multiple processing layers`  
+- can learn complex and non-linear patterns  
+- adjusts internal connections to improve prediction  
+:::
+
+:::info-box
+Neural networks are useful when:
+
+- relationships between variables are complex  
+- patterns are not linear  
+
+:::
+
+::: 
+:::column
+
+:::info-box
+However:
+
+- they are less interpretable than simpler models
+- they are more sensitive to overfitting  
+
+They are powerful tools, but should be used carefully in clinical research.
+:::
+
+![](images/dm_orange_ANN.png){width="100" fig-align="left"}
+![](images/dm_multilayeer_perceptron.png){width="350" fig-align="left"}
+
+::: 
+:::
+
+## Test and Score
+
+::: columns
+:::column
+
+:::info-box
+The `Test and Score` widget evaluates how well a model performs. This step is essential to avoid `overfitting`. It:
+
+- trains the model  
+- tests it on unseen data  
+- computes performance metrics
+
+:::
+
+:::info-box
+The widget reports measures such as:
+
+- accuracy  
+- AUC  
+- precision  
+- recall  
+
+:::
+
+::: 
+:::column
+
+![](images/dm_orange_test_score.png){width="100" fig-align="left"}
+![](images/dm_orange_test_score_menu.png){width="500" fig-align="left"}
+
+::: 
+:::
+
+## Model Evaluation: Accuracy & Recall
+
+::: columns
+:::column
+
+>`Accuracy` is the proportion of correctly classified individuals.
+
+It answers:
+
+`How often is the model correct overall?`
+
+:::card
+If accuracy is 0.80, the model correctly classifies 80 percent of participants.
+:::
+
+
+>[Important limitation]{.highlight}:
+>If one group is much larger than the other,  
+>accuracy can be misleading.
+
+::: 
+:::column
+
+>`Recall`, reflects sensitivity.
+
+`Of all the real disorder cases, how many did we correctly detect?`
+
+:::card
+Low recall means:
+
+- many true cases were missed  
+:::
+
+>Clinically, this relates to `missed diagnoses`.
+
+
+::: 
+:::
+
+## Model Evaluation: Precision & F1 Score
+
+::: columns
+:::column
+
+`Precision` answers:
+
+`Of all the cases predicted as disorder, how many are truly disorder?`
+
+:::card
+Low precision means:
+
+- many false positives  
+:::
+
+>Clinically, this relates to false alarms.
+
+::: 
+:::column
+
+>`F1 score` combines precision and recall into a single number.
+
+:::card
+It answers:
+
+`Is the model good at detecting true cases while avoiding false alarms?`
+:::
+
+:::info-box
+It is especially useful when:
+
+- classes are imbalanced  
+- both false positives and false negatives matter  
+:::
+
+::: 
+:::
+
+## Model Evaluation: AUC
+
+::: columns
+:::column
+
+>`AUC` stands for [Area Under the Curve]{.highlight}.
+
+:::card
+It measures:
+
+`How well the model separates the two groups overall`
+:::
+
+:::info-box
+It ranges from:
+
+- 0.5 → random guessing  
+- 1.0 → perfect separation  
+
+AUC is useful because:
+
+- it is less sensitive to class imbalance  
+- it reflects overall discriminative ability.
+:::
+
+::: 
+:::column
+
+![](images/dm_auc.png){width="500" fig-align="left"}
+
+::: 
+:::
+
+## Model Evaluation: Why Multiple Metrics Matter
+
+::: columns
+:::column
+
+>No single number tells the whole story.
+
+:::info-box
+A clinically useful model should:
+
+- detect true cases  
+- avoid false alarms  
+- generalize to new patients  
+:::
+
+:::card
+That is why we examine:
+
+accuracy, recall, precision, F1 score, and AUC together.
+:::
+
+::: 
+:::column
+
+![](images/dm_metrics.png){width="400" fig-align="left"}
+
+::: 
+:::
+
+## `Course Project`: Biomarker Discovery
+
+::: columns
+:::column
+
+For this course you will complete an `individual project`.
+
+:::info-box
+You will receive:
+
+- one dataset  
+- one experiment description  
+- one HTML file explaining the variables  
+:::
+
+>Your task is to analyze the dataset and propose potential biomarkers.
+
+::: 
+:::column
+
+
+>Each student will receive a different `dataset`.
+
+:::info-box
+Each dataset contains:
+
+- one experiment  
+- two groups: `Typical` and `Atypical`  
+- several measured variables  
+
+
+Each row represents one participant.  
+Each column represents one variable.
+
+One column contains the group label.
+:::
+
+::: 
+:::
+
+## Step 1: Explore and Visualize
+
+::: columns
+:::column
+
+:::info-box
+Before building any model, you must:
+
+- read the experiment description carefully  
+- understand what each variable represents  
+- identify the `target variable`  
+:::
+
+![](images/dm_data_visualization.jpg){width="350" fig-align="center"}
+
+::: 
+:::column
+
+:::info-box
+You must:
+
+- check missing data
+- plot all variables
+- inspect distributions
+- compare groups visually and statistically
+
+Use:
+
+- box plots  
+- distributions  
+- scatter plots  
+
+Goal:
+
+`Understand how Typical and Atypical subjects differ`
+:::
+
+::: 
+:::
+
+## Step 2: Identify Potential Biomarkers
+
+::: columns
+:::column
+
+:::info-box
+Using Orange:
+
+- build classification models  
+- test different algorithms  
+- compare performances  
+:::
+
+:::info-box
+For your best model, you must report:
+
+- accuracy  
+- precision  
+- recall  
+- F1 score  
+- AUC  
+:::
+
+::: 
+:::column
+
+
+:::card
+You must explain:
+
+`What do these numbers mean in clinical terms?`
+
+For example:
+
+- Are there many false positives?  
+- Are true cases being missed?
+:::
+
+:::info-box
+You must try to improve performance by:
+
+- prune variables using rank widget
+- comparing models  
+
+:::
+
+::: 
+:::
+
+## Step 4: Final Deliverable
+
+::: columns
+:::column
+
+:::info-box
+>You will present your project in `7 minutes`.
+
+Your presentation should include:
+
+1. Brief description of the experiment
+2. Exploratory analysis  
+3. Group differences  
+4. Best predictive model  
+5. Performance metrics  
+6. Interpretation and conclusions  
+
+>Clarity is more important than complexity.
+
+:::
+
+::: 
+:::column
+
+:::info-box
+Your project will be evaluated based on:
+
+- Correct data exploration  
+- Appropriate use of models  
+- Proper interpretation of metrics   
+- Scientific reasoning  
+- Clarity of presentation  
+:::
+
+:::info-box
+This is not about:
+
+- building the most complex model  
+- obtaining perfect accuracy  
+
+:::
+
+::: 
 :::
