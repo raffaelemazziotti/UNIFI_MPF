@@ -186,13 +186,13 @@ Limitations
 :::column
 
 :::info-box
-Astrocytes:
+[Astrocytes]{.highlight}:
 
-- sense synaptic activity
-- integrate signals over space and time
-- release vasoactive substances
+- `sense synaptic activity`
+- `integrate signals` over space and time
+- `release vasoactive substances`
 
-They do not fire action potentials, but they actively regulate blood flow.
+They <u>do not fire action potentials</u>, but they actively regulate blood flow.
 :::
 
 ![](/images/ios_synapse_tripartite.jpg){width="350" fig-align="center"}
@@ -201,16 +201,16 @@ They do not fire action potentials, but they actively regulate blood flow.
 :::column
 
 :::info-box
-Typical sequence after synaptic activation:
+Typical <u>sequence</u> after synaptic activation:
 
-- glutamate activates astrocytic receptors
-- intracellular calcium rises
-- vasoactive signals are released (vasodilation)
+- glutamate activates <u>astrocytic receptors</u>
+- intracellular `calcium` rises
+- `vasoactive signals` are released (vasodilation)
 
 This pathway is `slower` than direct neuronal signaling. Roles:
 
-- integrate and smooth fast neural fluctuations
-- contribute to spatial spread of vascular responses
+- <u>integrate and smooth</u> fast neural fluctuations
+- contribute to <u>spatial spread</u> of vascular responses
 
 This helps explain why vascular signals are `broader` than neural ones.
 
@@ -225,16 +225,16 @@ This helps explain why vascular signals are `broader` than neural ones.
 :::column
 
 :::info-box
-Neural activity alters local metabolism.
+Neural activity alters <u>local metabolism</u>.
 
 This leads to changes in:
 
 - `oxygen` levels
 - `glucose` consumption
-- carbon dioxide
-- pH
+- `carbon dioxide`
+- `pH`
 
-These metabolic changes influence vessel tone.
+These metabolic changes <u>influence vessel tone</u>.
 :::
 
 :::
@@ -244,7 +244,7 @@ These metabolic changes influence vessel tone.
 In this mechanism:
 
 - neural activity consumes oxygen
-- metabolic byproducts accumulate
+- metabolic <u>byproducts accumulate</u>
 - vessels respond to restore balance
 
 This is a `feedback mechanism`, not feedforward. It `reflects actual energy use`.
@@ -302,11 +302,11 @@ Important implications:
 :::info-box
 Despite its complexity:
 
-- coupling is reproducible
-- spatially organized
-- stimulus-dependent
+- coupling is `reproducible`
+- `spatially organized`
+- `stimulus-dependent`
 
-This is why optical imaging works so well for mapping.
+This is why optical imaging works so well for <u>mapping</u>.
 :::
 
 :::
