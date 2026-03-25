@@ -627,7 +627,7 @@
     "href": "2_instrinsic_signals.html#reflectance_change",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Why reflectance changes",
-    "text": "Why reflectance changes\n\n\n\nHemoglobin absorbs light.\n\n\nOxygenated (OHb) and deoxygenated (RHb) hemoglobin:\n\nhave different absorption spectra\nabsorb differently at different wavelengths\n\nTherefore: changes in oxygenation → changes in reflectance."
+    "text": "Why reflectance changes\n\n\n\nHemoglobin absorbs light.\n\n\nOxygenated (OHb) and deoxygenated (RHb) hemoglobin:\n\nhave different absorption spectra\nabsorb differently at different wavelengths\n\n\n\n\n\n\n\n\n\n\nTherefore: changes in oxygenation → changes in reflectance."
   },
   {
     "objectID": "2_instrinsic_signals.html#wavelength-matters",
@@ -655,7 +655,7 @@
     "href": "2_instrinsic_signals.html#mapping-retinotopy-with-isi",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Mapping retinotopy with ISI",
-    "text": "Mapping retinotopy with ISI\n\n\n\nTypical paradigm:\n\nmoving bar stimulus\ndrifting grating\nphase-encoded visual stimulation\n\n\n\nThe cortical response:\n\nshifts smoothly\nmirrors stimulus movement\nproduces continuous retinotopic maps\n\n\n\nVideo Video"
+    "text": "Mapping retinotopy with ISI\n\n\n\nTypical paradigm:\n\nmoving bar stimulus\ndrifting gratings\nphase-encoded visual stimulation\n\n\n\nThe cortical response:\n\nshifts smoothly\nmirrors stimulus movement\nproduces continuous retinotopic maps\n\n\n\nVideo Video"
   },
   {
     "objectID": "2_instrinsic_signals.html#mapping-retinotopy-with-isi-1",

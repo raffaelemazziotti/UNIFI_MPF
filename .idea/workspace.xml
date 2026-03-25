@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_instrinsic_signals.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/2_instrinsic_signals.qmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,8 @@
       <workItem from="1771069382133" duration="24060000" />
       <workItem from="1771234520982" duration="22627000" />
       <workItem from="1771488074113" duration="41593000" />
-      <workItem from="1774169611407" duration="1256000" />
+      <workItem from="1774169611407" duration="1302000" />
+      <workItem from="1774447545325" duration="3582000" />
     </task>
     <servers />
   </component>

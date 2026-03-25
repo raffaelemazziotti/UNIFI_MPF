@@ -131,8 +131,8 @@ There is not a single pathway linking neurons to vessels. Current models describ
 This occurs through:
 
 - neurotransmitter release
-- neuromodulators
-- gaseous messengers (like nitric oxide, aka NO)
+- [neuromodulators](https://www.sciencedirect.com/science/article/pii/S0959438814001044)
+- gaseous messengers (like [nitric oxide](https://en.wikipedia.org/wiki/Nitric_oxide), aka NO)
 :::
 
 :::
@@ -142,10 +142,10 @@ This occurs through:
 In this mechanism:
 
 - neural activity increases
-- neurons release vasoactive substances
-- nearby vessels dilate rapidly
+- neurons release [vasoactive substances](https://en.wikipedia.org/wiki/Vasoactivity)
+- nearby vessels `dilate` rapidly
 
-This is often called a `feedforward` mechanism. It `anticipates` metabolic demand rather than reacting to it.
+This is often called a `feedforward` mechanism. It <u>anticipates metabolic demand</u> rather than reacting to it.
 
 :::
 
@@ -291,7 +291,7 @@ D --> E
 :::info-box
 Important implications:
 
-- signal amplitude ≠ firing rate
+- signal amplitude `≠` firing rate
 - timing reflects vascular dynamics
 - spatial maps reflect integration
 :::
@@ -317,12 +317,12 @@ This is why optical imaging works so well for <u>mapping</u>.
 :::columns
 :::column
 
-> Intrinsic signal optical imaging uses the brain’s own optical properties.
+> Intrinsic signal optical imaging uses the brain’s own `optical properties`.
 
 :::info-box
-- No dyes.  
-- No fluorescent reporters.  
-- No genetic indicators.
+- No [dyes](https://www.nature.com/articles/milelight02).  
+- No [fluorescent reporters](https://en.wikipedia.org/wiki/Reporter_gene).  
+- No [genetic indicators](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609268/).
 
 The signal emerges from:
 
@@ -390,15 +390,13 @@ In ISI:
 :::columns
 :::column
 
->Hemoglobin absorbs light.
+>[Hemoglobin](https://en.wikipedia.org/wiki/Hemoglobin) absorbs light.
 
 :::info-box
-Oxygenated (OHb) and deoxygenated (RHb) hemoglobin:
+[Oxygenated]{.highlight} (OHb) and [deoxygenated]{.highlight} (RHb) hemoglobin:
 
 - have different `absorption spectra`
 - absorb differently at different wavelengths
-
-Therefore: changes in oxygenation → changes in reflectance.
 :::
 
 :::
@@ -408,6 +406,8 @@ Therefore: changes in oxygenation → changes in reflectance.
 
 :::
 :::
+
+>Therefore: changes in oxygenation → changes in reflectance.
 
 ## Wavelength matters
 
@@ -440,7 +440,7 @@ Other wavelengths emphasize different dynamics.
 :::column
 
 :::card
-**Neural activation**
+[Neural activation]{.highlight}
 
 - increases oxygen consumption
 - transient increase in HbR
@@ -448,9 +448,9 @@ Other wavelengths emphasize different dynamics.
 :::
 
 :::card
-**Optical consequence**
+[Optical consequence]{.highlight}
 
-- reflectance decreases at HbR-sensitive wavelengths
+- `reflectance decreases at HbR-sensitive wavelengths`
 - `spatially localized darkening`
 - reproducible stimulus-locked maps
 :::
@@ -496,9 +496,9 @@ These reflect the three mechanisms of neurovascular coupling.
 :::card
 Typical paradigm:
 
-- moving bar stimulus
-- drifting grating
-- phase-encoded visual stimulation
+- moving `bar` stimulus
+- drifting `gratings`
+- `phase-encoded visual stimulation`
 :::
 
 :::card
@@ -506,7 +506,7 @@ The cortical response:
 
 - shifts smoothly
 - mirrors stimulus movement
-- produces continuous retinotopic maps
+- produces `continuous retinotopic maps`
 :::
 
 :::
@@ -526,7 +526,7 @@ The cortical response:
 :::column
 
 :::card
-The retinotopic organization is so strong that you can even draw on the visual cortex.
+The retinotopic organization is so strong that <u>you can even draw on the visual cortex</u>.
 
 In this experiment we tried to understand what is the `stimulus shape` from the `activation pattern`.
 As shown [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10336717): clear distinct activation patterns emerge after visual stimulation.
@@ -750,7 +750,7 @@ During neural activation:
 :::column
 
 :::info-box
-Spatial resolution:
+[Spatial resolution]{.highlight}:
 
 - `centimeter-level` spatial resolution
 - sensitivity to `superficial` cortex
@@ -761,7 +761,7 @@ Spatial resolution:
 :::column
 
 :::info-box
-Temporal resolution:
+[Temporal resolution]{.highlight}:
 
 - samples light at high frequency (tens of Hz)
 - but reflects `slow` vascular dynamics (seconds)
@@ -847,9 +847,9 @@ An fNIRS system consists of:
 :::info-box
 [Sources]{.highlight}:
 
-- emit NIr light
-- typically at 2 wavelengths
-- are placed on the scalp
+- <u>emit</u> `NIr` light
+- typically at `2 wavelengths`
+- are placed on the `scalp`
 
 :::
 
@@ -859,15 +859,15 @@ An fNIRS system consists of:
 :::info-box
 [Detectors]{.highlight}:
 
-- measure light intensity exiting tissue
-- are placed a few centimeters away from sources
-- are sensitive to small changes in intensity
+- <u>measure</u> light intensity exiting tissue
+- are placed a `few centimeters away from sources`
+- are sensitive to `small changes` in intensity
 
 :::
 
 :::info-box
 
-An `optode` is a general term for:
+An [optode]{.highlight} is a general term for:
 
 - a `source` optode (emits light)
 - a `detector` optode (collects light)
@@ -883,12 +883,12 @@ An `optode` is a general term for:
 :::columns
 :::column
 
->Optodes are arranged in structured arrays on the scalp.
+>Optodes are arranged in `structured arrays` on the scalp.
 
 :::info-box
 A source and a detector form a `channel`. The `distance` between them is typically:
 
-- 2.5 to 3.5 cm in adults
+- <u>2.5 to 3.5 cm</u> in adults
 - shorter in infants
 
 This distance determines `sampling depth`.
@@ -900,21 +900,21 @@ This distance determines `sampling depth`.
 :::column
 
 :::card
-The light path forms a curved trajectory called `Banana-shaped sensitivity profile`. Maximum sensitivity occurs approximately:
+The light path forms a curved trajectory called `Banana-shaped sensitivity profile`. <u>Maximum sensitivity</u> occurs approximately:
 
-- halfway between source and detector
-- at a depth of about half the separation distance
+- <u>halfway between source and detector</u>
+- at a <u>depth of about half the separation distance</u>
 
 :::
 
 :::card
 
-Scalp blood flow contributes strongly. To control for this, systems include `Short (separation) channels`:
+<u>Scalp blood flow</u> contributes strongly. To control for this, systems include `Short (separation) channels`:
 
-- short channels (8–10 mm distance)
+- short channels (<u>8–10 mm</u> distance)
 - mainly sensitive to `superficial layers` of the tissue
 
-These are used to regress out scalp effects.
+These are used to `regress` out scalp effects.
 
 :::
 
