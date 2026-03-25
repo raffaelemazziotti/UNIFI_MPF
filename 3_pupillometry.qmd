@@ -120,17 +120,17 @@ This mediates `pupil dilation` in darkness, stress, and arousal.
 :::info-box
 Beyond reflexes, [pupil](https://www.semanticscholar.org/paper/Functional-Organization-of-the-Sympathetic-Pathways-Szabadi/37dcaa8ff2edba07fb9c59bf9543fc39bbe0e473) size is influenced by:
 
-- noradrenergic signaling
-- cortical control systems
-- attention networks
+- `noradrenergic` signaling
+- `cortical control` systems
+- `attention` networks
 
 :::
 
 :::info-box
-The `locus coeruleus`:
+The `locus coeruleus` (LC):
 
-- regulates arousal
-- responds to novelty and uncertainty
+- regulates `arousal`
+- responds to `novelty` and `uncertainty`
 - influences sympathetic activity
 
 Pupil dilation is `correlated` with LC activity.
@@ -154,20 +154,20 @@ Pupil dilation is `correlated` with LC activity.
 :::info-box
 Pupil diameter changes reflect multiple processes:
 
-- light reflex & dark adaptation
-- cognitive load
-- emotional arousal
-- decision, surprise and novelty
+- `light` reflex & dark adaptation
+- `cognitive` load
+- `emotional` arousal
+- `decision`, `surprise` and `novelty`
 
 :::
 
 :::info-box
 `Pupillary light reflex`:
 
-- rapid constriction
+- `rapid` constriction
 - latency around 200 ms
-- highly reliable
-- bilateral (direct and consensual)
+- highly `reliable`
+- `bilateral` (direct and consensual)
 
 :::
 
@@ -185,7 +185,7 @@ Pupil diameter changes reflect multiple processes:
 :::info-box
 `Cognitive load`
 
-When task difficulty increases:
+When `task difficulty` increases:
 
 - pupil dilates
 - even without luminance change
@@ -206,9 +206,9 @@ This is known as the `task-evoked pupillary response`.
 
 - more items in working memory
 - larger pupil dilation
-- dilation scales with effort
+- dilation `scales with effort`
 
-Pupil size tracks mental workload.
+Pupil size tracks `mental workload`.
 :::
 
 :::info-box
@@ -216,10 +216,10 @@ Pupil size tracks mental workload.
 During difficult `decisions`:
 
 - pupil dilation increases
-- uncertainty correlates with amplitude
-- surprise produces phasic dilation
+- `uncertainty correlates with amplitude`
+- `surprise produces phasic dilation`
 
-This links pupil to decision-making models.
+This links pupil to `decision-making` models.
 
 :::
 
@@ -230,10 +230,10 @@ This links pupil to decision-making models.
 `Emotionally salient stimuli`:
 
 - increase pupil diameter
-- regardless of valence
-- scale with arousal intensity
+- `regardless of valence`
+- `scale with arousal intensity`
 
-Pupil reflects arousal, not emotional category.
+Pupil reflects arousal, `not emotional category`.
 
 :::
 
@@ -266,16 +266,16 @@ Pupil reflects arousal, not emotional category.
 :::info-box
 Modern pupillometry uses:
 
-- infrared illumination (850nm)
-- video-based eye tracking
+- `infrared illumination` (850nm)
+- `video`-based eye tracking
 - automated pupil detection
-- sampling rate (>5Hz)
+- `sampling rate (>5Hz)`
 
 Typical steps:
 
 - record pupil diameter over time
-- detect and remove blinks
-- interpolate missing data
+- detect and `remove blinks`
+- `interpolate` missing data
 - baseline correction
 - event-related averaging
 
@@ -296,7 +296,7 @@ Typical steps:
 :::info-box
 Pupil is extremely sensitive to light. Therefore:
 
-- stimulus luminance must be controlled
+- stimulus `luminance` <u>must be controlled</u>
 - screen brightness must be constant
 - visual properties must be standardized
 
@@ -305,9 +305,9 @@ Pupil is extremely sensitive to light. Therefore:
 :::info-box
 Pupil responses:
 
-- begin ~200–500 ms after event
-- peak around 1–2 seconds
-- decay slowly
+- <u>begin</u> `~300–600 ms` after event
+- <u>peak</u> around `1–2` seconds
+- `decay` slowly
 
 Faster than hemodynamic signals  
 but slower than EEG.
@@ -343,7 +343,7 @@ Both are informative.
 :::columns
 :::column
 :::card
-**Strengths**
+[Strengths]{.highlight}
 
 - non-invasive
 - inexpensive
@@ -357,7 +357,7 @@ Both are informative.
 
 :::column
 :::card
-**Limitations**
+[Limitations]{.highlight}
 
 - highly sensitive to luminance
 - influenced by fatigue and circadian factors
