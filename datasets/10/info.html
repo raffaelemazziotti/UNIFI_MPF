@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouse Tbr1 Partial Loss-of-Function Dataset</title>
+<style>
+  body {
+    margin: 0;
+    background: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 14px;
+    padding: 32px 36px;
+    box-shadow: 0 8px 24px rgba(31, 41, 55, 0.06);
+  }
+  h1 {
+    margin: 0 0 22px 0;
+    font-size: 28px;
+    color: #16324f;
+    border-bottom: 2px solid #d9e6f2;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #214d72;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+    font-size: 14px;
+  }
+  .section {
+    background: #f9fbfd;
+    border: 1px solid #e3ebf3;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1>Mouse Tbr1 Partial Loss-of-Function Dataset</h1>
+
+    <div class="section">
+      <h2>1. Dataset Title</h2>
+      <p>Multimodal mouse dataset from a preclinical study centered on a Tbr1 partial loss-of-function model of autism spectrum disorder.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Scientific &amp; Clinical Context</h2>
+      <p>TBR1-related neurodevelopmental models are used to study variation in social behavior, sensory processing, and cortical network organization relevant to autism spectrum disorder. This synthetic dataset represents a small biomarker-style experiment in young adult mice using mixed behavioral and physiological measurements. Group differences are present but intentionally overlapping, with several animals showing values that look typical despite belonging to the model group. The dataset is designed for exploratory classification and simple outcome prediction in a noisy setting.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Experimental Paradigm</h2>
+      <p>Mice completed open-field exploration, social interaction, novel object discrimination, and a repetitive-behavior assay during the same test period. Resting electrophysiology, sensory-gating, an auditory response measure, and autonomic reactivity were collected in parallel. A later binary functional outcome label was assigned after short standardized follow-up under stable housing conditions.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Data Modalities &amp; Variables</h2>
+      <ul>
+        <li>Group — experimental group label used for case-control classification</li>
+        <li>Sex — biological sex of the mouse (M or F)</li>
+        <li>Age_PND — postnatal age in days at testing</li>
+        <li>Body_Weight_g — body weight in grams</li>
+        <li>OpenField_Distance_cm — total distance traveled in the open-field task (cm)</li>
+        <li>Center_Time_pct — percentage of open-field time spent in the center zone</li>
+        <li>Social_Interaction_Index — normalized preference score for social interaction (unitless ratio)</li>
+        <li>Novel_Object_Discrimination_Index — preference index for the novel object (unitless ratio)</li>
+        <li>Self_Grooming_s — total self-grooming time during the assay (seconds)</li>
+        <li>PPI_pct — prepulse inhibition magnitude as a percentage</li>
+        <li>Resting_ThetaPower_uV2 — resting theta-band EEG/LFP power (µV², arbitrary processed units)</li>
+        <li>Auditory_Evoked_Amplitude_uV — amplitude of an auditory-evoked response component (µV)</li>
+        <li>Cortical_Coupling_Index — summary measure of cortical coupling (unitless index)</li>
+        <li>Pupillary_Dilation_pct — stimulus-evoked pupil dilation as percent change from baseline</li>
+        <li>Future_Outcome_Binary — later functional outcome category at follow-up (Resilient or Vulnerable)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Groups</h2>
+      <p><strong>Tbr1_Partial_LOF</strong> mice carry a partial loss-of-function Tbr1 alteration used here as a model relevant to autism spectrum disorder. <strong>WT</strong> mice are wild-type controls assessed with the same procedures and recording methods.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Research Tasks</h2>
+      <p>Classify subjects into groups using the multimodal physiological and behavioral variables.</p>
+      <p>Predict future outcome category from the baseline measurements.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rat Shank3B Partial Disruption Dataset</title>
+<style>
+  body {
+    margin: 0;
+    background: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 14px;
+    padding: 32px 36px;
+    box-shadow: 0 8px 24px rgba(31, 41, 55, 0.06);
+  }
+  h1 {
+    margin: 0 0 22px 0;
+    font-size: 28px;
+    color: #16324f;
+    border-bottom: 2px solid #d9e6f2;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #214d72;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+    font-size: 14px;
+  }
+  .section {
+    background: #f9fbfd;
+    border: 1px solid #e3ebf3;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1>Rat Shank3B Partial Disruption Dataset</h1>
+
+    <div class="section">
+      <h2>1. Dataset Title</h2>
+      <p>Multimodal rat dataset from a preclinical study centered on a Shank3B partial disruption model of autism spectrum disorder.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Scientific &amp; Clinical Context</h2>
+      <p>SHANK3-related models are widely used in neurodevelopmental research to study social communication changes and circuit-level variation relevant to autism spectrum disorder. This synthetic dataset represents a small translational study in adolescent rats combining behavioral, hormonal, electrophysiological, and simple physiological measurements. The main differences are concentrated in social-domain features, while spatial and general cognitive-style variables are broadly preserved across groups. The dataset is designed to feel plausible for early biomarker exploration without any single perfect separator.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Experimental Paradigm</h2>
+      <p>Rats completed a compact test battery including social approach, social novelty preference, Y-maze alternation, and novel object location testing during the same assessment period. Resting neural and autonomic measures were collected alongside a plasma oxytocin assay and a general cognitive electrophysiology index. A later functional outcome category was assigned after short-term follow-up under standardized housing and monitoring conditions.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Data Modalities &amp; Variables</h2>
+      <ul>
+        <li>Group — experimental group label used for case-control classification</li>
+        <li>Sex — biological sex of the rat (M or F)</li>
+        <li>Age_PND — postnatal age in days at testing</li>
+        <li>Body_Weight_g — body weight in grams</li>
+        <li>Social_Interaction_Index — normalized preference score for social interaction (unitless ratio)</li>
+        <li>Social_Novelty_Index — normalized preference score for a novel conspecific (unitless ratio)</li>
+        <li>Ultrasonic_Call_Rate_per_min — rate of social ultrasonic vocalizations during interaction (calls/min)</li>
+        <li>OpenField_Distance_cm — total distance traveled in the open-field task (cm)</li>
+        <li>YMaze_Alternation_pct — spontaneous alternation rate in the Y-maze (%)</li>
+        <li>Novel_Object_Location_Index — preference index for the relocated object (unitless ratio)</li>
+        <li>PPI_pct — prepulse inhibition magnitude as a percentage</li>
+        <li>Plasma_Oxytocin_pg_mL — plasma oxytocin concentration (pg/mL)</li>
+        <li>Resting_Theta_Power_uV2 — resting theta-band EEG/LFP power (µV², arbitrary processed units)</li>
+        <li>Social_Evoked_HbO_AU — stimulus-evoked hemodynamic response during social cue presentation (arbitrary units)</li>
+        <li>Cognitive_P300_Latency_ms — latency of a simple cognitive event-related potential component (ms)</li>
+        <li>Pupillary_Dilation_pct — stimulus-evoked pupil dilation as percent change from baseline</li>
+        <li>Future_Outcome_Category — later functional outcome category at follow-up</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Groups</h2>
+      <p><strong>Shank3B_Partial</strong> rats carry a partial Shank3B disruption used here as a model relevant to autism spectrum disorder. <strong>WT</strong> rats are wild-type controls assessed with the same procedures, timing, and recording methods.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Research Tasks</h2>
+      <p>Classify subjects into groups using the multimodal physiological and behavioral variables.</p>
+      <p>Predict future outcome category from the baseline measurements.</p>
+    </div>
+  </div>
+</body>
+</html>

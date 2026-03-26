@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translational Biomarker Dataset: Creatine Transporter Deficiency Across Mice and Humans</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Translational Biomarker Dataset: Creatine Transporter Deficiency Across Mice and Humans</h1>
+
+    <h2>1. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage translational biomarker study in creatine transporter deficiency using both mouse and human subjects. The measures were chosen to create a shared cross-species feature space spanning physiological and behavioral domains that are often examined in neurodevelopmental research. The dataset is intentionally fuzzy, with strong overlap between groups and only modest shifts in a few variables.</p>
+
+    <h2>2. Experimental Paradigm</h2>
+    <p>Mouse subjects completed a translational test battery including resting EEG, novel object exploration, simple social preference testing, locomotor monitoring, sleep disruption tracking, acoustic startle habituation, and motor coordination assessment. Human participants completed matched laboratory and clinical measures targeting similar domains, including EEG, novelty engagement, social attention, activity variability, sleep disruption, startle habituation, and motor performance. All variables were scaled so mouse-trained models can be explored on the human cohort.</p>
+
+    <h2>3. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Species — cohort origin of the subject (Mouse or Human)</li>
+      <li>Group — study group label (Control or CTD)</li>
+      <li>Age_Stage — developmental stage bin used within species</li>
+      <li>EEG_Frontal_SlowPower — normalized frontal low-frequency resting EEG power</li>
+      <li>Startle_Habituation_pct — percent reduction in startle magnitude across repeated trials</li>
+      <li>Sleep_Disruption_Index — normalized index of rest-period interruption frequency</li>
+      <li>Social_Preference_Index — normalized preference for social over non-social stimulus</li>
+      <li>Novelty_Exploration_Time_s — seconds spent actively exploring a novel object or environment</li>
+      <li>Motor_Coordination_Score — summary score of balance and coordinated movement</li>
+      <li>Locomotor_Variability_SD — within-session variability of movement level</li>
+      <li>Pupil_Reactivity_pct — percent pupil response during light challenge</li>
+      <li>Group_Target — repeated categorical target for group classification</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>4. Groups</h2>
+    <p>The Control group includes mouse and human subjects without creatine transporter deficiency in the study framework. The CTD group includes mouse-model and human subjects assigned to the creatine transporter deficiency group based on the study design.</p>
+
+    <h2>5. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouse Cntnap2 Partial Disruption Dataset</title>
+<style>
+  body {
+    margin: 0;
+    background: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 14px;
+    padding: 32px 36px;
+    box-shadow: 0 8px 24px rgba(31, 41, 55, 0.06);
+  }
+  h1 {
+    margin: 0 0 22px 0;
+    font-size: 28px;
+    color: #16324f;
+    border-bottom: 2px solid #d9e6f2;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #214d72;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+    font-size: 14px;
+  }
+  .section {
+    background: #f9fbfd;
+    border: 1px solid #e3ebf3;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1>Mouse Cntnap2 Partial Disruption Dataset</h1>
+
+    <div class="section">
+      <h2>1. Dataset Title</h2>
+      <p>Multimodal mouse dataset from a preclinical study centered on a Cntnap2 partial disruption model of autism spectrum disorder.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Scientific &amp; Clinical Context</h2>
+      <p>CNTNAP2-related models are frequently used in neurodevelopmental research to examine variation in social behavior, repetitive patterns, and exploratory responses relevant to autism spectrum disorder. This synthetic dataset represents a compact preclinical biomarker-style study in adolescent and young adult mice combining behavioral, neural, and autonomic measures. The behavioral features show stronger group structure than the physiological features, while the physiological measures remain broadly overlapping and only mildly informative. The dataset is designed for introductory multimodal classification and prediction exercises.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Experimental Paradigm</h2>
+      <p>Mice completed open-field exploration, social interaction, novel object recognition, marble burying, and rotarod testing during a single assessment window. Resting neural activity, sensory gating, arousal-related responses, and a simple sleep-fragmentation-style metric were collected in parallel. A later functional outcome category was assigned after standardized short follow-up observation under stable housing conditions.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Data Modalities &amp; Variables</h2>
+      <ul>
+        <li>Group — experimental group label used for case-control classification</li>
+        <li>Sex — biological sex of the mouse (M or F)</li>
+        <li>Age_PND — postnatal age in days at testing</li>
+        <li>Body_Weight_g — body weight in grams</li>
+        <li>OpenField_Distance_cm — total distance traveled in the open-field task (cm)</li>
+        <li>Center_Time_pct — percentage of open-field time spent in the center zone</li>
+        <li>Social_Interaction_Index — normalized preference score for social interaction (unitless ratio)</li>
+        <li>Marble_Bury_Count — number of marbles buried during the assay</li>
+        <li>Rotarod_Latency_s — latency to fall from the accelerating rotarod (seconds)</li>
+        <li>Novel_Object_Discrimination_Index — preference index for the novel object (unitless ratio)</li>
+        <li>PPI_pct — prepulse inhibition magnitude as a percentage</li>
+        <li>Resting_Beta_Power_uV2 — resting EEG/LFP beta-band power (µV², arbitrary processed units)</li>
+        <li>Cortical_Coupling_Index — summary measure of cortical synchrony (unitless index)</li>
+        <li>Sleep_Fragmentation_Index — normalized index of sleep interruption frequency (unitless)</li>
+        <li>Pupillary_Dilation_pct — stimulus-evoked pupil dilation as percent change from baseline</li>
+        <li>Future_Outcome_Category — later functional outcome category at follow-up</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Groups</h2>
+      <p><strong>Cntnap2_Partial</strong> mice carry a partial Cntnap2 disruption used here as a model relevant to autism spectrum disorder. <strong>WT</strong> mice are wild-type controls tested with the same procedures, timing, and recording methods.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Research Tasks</h2>
+      <p>Classify subjects into groups using the multimodal physiological and behavioral variables.</p>
+      <p>Predict future outcome category from the baseline measurements.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translational Biomarker Dataset: ADHD Across Mice and Humans</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Translational Biomarker Dataset: ADHD Across Mice and Humans</h1>
+
+    <h2>1. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage translational biomarker study in attention-deficit/hyperactivity disorder using both mouse and human subjects. The variables were selected to create a shared cross-species feature space combining physiological and behavioral measures related to attention regulation, arousal, motor variability, and reward-guided behavior. The dataset is intentionally noisy and includes partial cross-species mismatch so that model transfer can be explored rather than assumed.</p>
+
+    <h2>2. Experimental Paradigm</h2>
+    <p>Mouse subjects completed a translational battery including frontal EEG recording, impulsive response testing, locomotor monitoring, novelty exploration, simple social interaction testing, pupillometry during attentional challenge, sleep disruption monitoring, and reward-based reversal learning. Human participants completed matched laboratory and clinical tasks targeting similar domains, including resting EEG, response inhibition testing, movement variability summaries, novelty engagement, social interaction measures, pupillometry, sleep fragmentation tracking, and reward-guided learning. All variables were scaled so mouse and human data can be analyzed together in the same feature space.</p>
+
+    <h2>3. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Species — cohort origin of the subject (Mouse or Human)</li>
+      <li>Group — study group label (Control or ADHD)</li>
+      <li>Age_Stage — developmental stage bin used within species</li>
+      <li>EEG_ThetaBeta_Ratio — frontal resting theta-to-beta power ratio</li>
+      <li>Premature_Response_Rate — proportion of responses made before the correct response window</li>
+      <li>Activity_Variability_SD — within-session variability of movement level</li>
+      <li>Novelty_Exploration_Index — normalized engagement with a novel object or environment</li>
+      <li>Social_Engagement_Index — normalized level of social interaction during the task</li>
+      <li>Sleep_Fragmentation_Index — normalized index of rest-period interruption frequency</li>
+      <li>Pupil_Dilation_Attention_pct — percent pupil dilation during attentional challenge</li>
+      <li>Reward_Learning_Errors — number of errors during reward-guided reversal learning</li>
+      <li>Group_Target — repeated categorical target for group classification</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>4. Groups</h2>
+    <p>The Control group includes mouse and human subjects without ADHD in the study framework. The ADHD group includes mouse-model and human subjects assigned to the attention-deficit/hyperactivity disorder group based on the study design.</p>
+
+    <h2>5. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

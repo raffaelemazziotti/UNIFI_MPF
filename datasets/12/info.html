@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translational Biomarker Dataset: Rett Syndrome Across Mice and Humans</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Translational Biomarker Dataset: Rett Syndrome Across Mice and Humans</h1>
+
+    <h2>1. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage translational biomarker study in Rett syndrome using both mouse and human subjects. The variables were chosen to create a shared cross-species feature space that combines physiological and behavioral measures commonly examined in neurodevelopmental research. The dataset is intentionally noisy and overlapping so that species effects, developmental stage, and disorder-related variation all contribute to model performance.</p>
+
+    <h2>2. Experimental Paradigm</h2>
+    <p>Mouse subjects completed a translational battery including resting EEG, respiratory variability monitoring, pupillometry, social interaction testing, open-field locomotor assessment, motor coordination testing, and sleep recording. Human participants completed matched laboratory and clinical assessments targeting similar domains, including EEG, breathing irregularity monitoring, pupillary response testing, social engagement measures, locomotor activity summaries, motor function assessment, and sleep disruption metrics. All variables were scaled for combined analysis across species.</p>
+
+    <h2>3. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Species — cohort origin of the subject (Mouse or Human)</li>
+      <li>Group — study group label (Control or Rett)</li>
+      <li>Age_Stage — developmental stage bin used within species</li>
+      <li>EEG_LowFreq_Power — normalized low-frequency resting EEG power</li>
+      <li>Respiratory_Irregularity_Index — normalized index of breathing instability</li>
+      <li>Pupil_Reactivity_pct — percent pupil response during light challenge</li>
+      <li>Social_Engagement_Index — normalized level of social engagement during the task</li>
+      <li>Motor_Coordination_Score — summary score of balance and coordinated movement</li>
+      <li>Locomotor_Activity_Index — normalized activity level during free exploration</li>
+      <li>Sleep_Disruption_Index — normalized index of night-time or rest-period disruption</li>
+      <li>Arousal_Reactivity_Z — standardized physiological arousal response to challenge</li>
+      <li>Group_Target — repeated categorical target for group classification</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>4. Groups</h2>
+    <p>The Control group includes mouse and human subjects without Rett syndrome in the study framework. The Rett group includes mouse-model and human subjects assigned to the Rett syndrome group based on the study design.</p>
+
+    <h2>5. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

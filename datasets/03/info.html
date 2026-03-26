@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouse Mecp2 Partial Loss-of-Function Dataset</title>
+<style>
+  body {
+    margin: 0;
+    background: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 14px;
+    padding: 32px 36px;
+    box-shadow: 0 8px 24px rgba(31, 41, 55, 0.06);
+  }
+  h1 {
+    margin: 0 0 22px 0;
+    font-size: 28px;
+    color: #16324f;
+    border-bottom: 2px solid #d9e6f2;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #214d72;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+    font-size: 14px;
+  }
+  .section {
+    background: #f9fbfd;
+    border: 1px solid #e3ebf3;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1>Mouse Mecp2 Partial Loss-of-Function Dataset</h1>
+
+    <div class="section">
+      <h2>1. Dataset Title</h2>
+      <p>Multimodal mouse dataset from a preclinical study centered on a Mecp2 partial loss-of-function model of Rett syndrome.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Scientific &amp; Clinical Context</h2>
+      <p>Rett syndrome is a neurodevelopmental disorder strongly linked to MECP2 dysfunction and is commonly studied in mouse models that show mixed physiological and behavioral alterations. This synthetic dataset represents a compact preclinical biomarker-style study in adolescent and young adult mice using parallel neural, autonomic, and behavioral measures. The profiles are intentionally heterogeneous, with substantial overlap between groups and only modest group structure in a few variables. The dataset is designed for introductory pattern analysis rather than clean signal detection.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Experimental Paradigm</h2>
+      <p>Mice completed a short battery including open-field exploration, social approach, motor coordination, object recognition, and nest-building assessment. Resting neural activity and arousal-related measures were collected during the same experimental window, together with a simple respiratory irregularity index to reflect autonomic variation often examined in this model. A later functional outcome category was assigned after standardized follow-up observation under stable housing conditions.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Data Modalities &amp; Variables</h2>
+      <ul>
+        <li>Group — experimental group label used for case-control classification</li>
+        <li>Sex — biological sex of the mouse (M or F)</li>
+        <li>Age_PND — postnatal age in days at testing</li>
+        <li>Body_Weight_g — body weight in grams</li>
+        <li>OpenField_Distance_cm — total distance traveled in the open-field task (cm)</li>
+        <li>Center_Time_pct — percentage of open-field time spent in the center zone</li>
+        <li>Social_Interaction_Index — normalized preference score for social interaction (unitless ratio)</li>
+        <li>Rotarod_Latency_s — latency to fall from the accelerating rotarod (seconds)</li>
+        <li>Novel_Object_Discrimination_Index — preference index for the novel object (unitless ratio)</li>
+        <li>Nest_Building_Score — ordinal nest quality score from 1 to 5</li>
+        <li>PPI_pct — prepulse inhibition magnitude as a percentage</li>
+        <li>Resting_Delta_Power_uV2 — resting EEG/LFP delta-band power (µV², arbitrary processed units)</li>
+        <li>Cortical_Synchrony_Index — summary measure of low-frequency cortical synchrony (unitless index)</li>
+        <li>Respiratory_Irregularity_Index — normalized breath-to-breath variability index (unitless)</li>
+        <li>Pupillary_Dilation_pct — stimulus-evoked pupil dilation as percent change from baseline</li>
+        <li>Future_Outcome_Category — later functional outcome category at follow-up</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Groups</h2>
+      <p><strong>Mecp2_Partial_LOF</strong> mice carry a partial loss-of-function Mecp2 alteration used here as a model relevant to Rett syndrome. <strong>WT</strong> mice are wild-type controls tested with the same procedures, timing, and recording methods.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Research Tasks</h2>
+      <p>Classify subjects into groups using the multimodal physiological and behavioral variables.</p>
+      <p>Predict future outcome category from the baseline measurements.</p>
+    </div>
+  </div>
+</body>
+</html>
