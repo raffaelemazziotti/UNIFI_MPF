@@ -111,7 +111,7 @@ const initChalkboard = function ( Reveal ) {
 			cursor: 'url(' + path + 'img/boardmarker-blue.png), auto'
 		},
 		{
-			color: 'rgba(220,20,60,1)',
+			color: 'rgba(220,19,60,1)',
 			cursor: 'url(' + path + 'img/boardmarker-red.png), auto'
 		},
 		{
@@ -140,11 +140,11 @@ const initChalkboard = function ( Reveal ) {
 			cursor: 'url(' + path + 'img/chalk-blue.png), auto'
 		},
 		{
-			color: 'rgba(237, 20, 28, 0.5)',
+			color: 'rgba(237, 19, 28, 0.5)',
 			cursor: 'url(' + path + 'img/chalk-red.png), auto'
 		},
 		{
-			color: 'rgba(20, 237, 28, 0.5)',
+			color: 'rgba(19, 237, 28, 0.5)',
 			cursor: 'url(' + path + 'img/chalk-green.png), auto'
 		},
 		{

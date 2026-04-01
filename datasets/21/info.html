@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preclinical Connectivity Dataset: Autism Spectrum Disorder Mouse Model</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Preclinical Connectivity Dataset: Autism Spectrum Disorder Mouse Model</h1>
+
+    <h2>1. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage preclinical biomarker study in a mouse model of autism spectrum disorder. The study emphasizes network-level measurements from intrinsic signal optical imaging and calcium imaging, together with histological quantification and a small behavioral battery. The dataset is intentionally fuzzy and noisy so that different modalities contribute partial information without yielding a single clean biomarker.</p>
+
+    <h2>2. Experimental Paradigm</h2>
+    <p>Mice underwent resting-state intrinsic signal optical imaging to estimate mesoscale cortical connectivity, followed by calcium imaging to summarize spontaneous neuronal coordination and long-range co-activity. Histological analyses were used to quantify interneuron density, synaptic marker intensity, dendritic spine density, and glial burden in selected cortical regions. Behavioral testing included social interaction, open-field exploration, repetitive grooming, and motor coordination assessment.</p>
+
+    <h2>3. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Group — study group label (Control or ASD)</li>
+      <li>Age_Stage — developmental stage bin used within the mouse cohort</li>
+      <li>ISOI_FrontoParietal_FC — intrinsic signal optical imaging functional connectivity between frontal and parietal cortex (correlation scale)</li>
+      <li>ISOI_Interhemispheric_Visual_FC — intrinsic signal optical imaging interhemispheric visual connectivity (correlation scale)</li>
+      <li>ISOI_Somatomotor_Association_FC — intrinsic signal connectivity between somatomotor and association cortex (correlation scale)</li>
+      <li>ISOI_Global_Modularity — modularity estimate of the cortical intrinsic signal network</li>
+      <li>Ca_Prefrontal_Synchrony — calcium imaging synchrony across prefrontal neuronal ensembles (normalized index)</li>
+      <li>Ca_LongRange_Correlation — long-range calcium activity correlation across imaged regions</li>
+      <li>Ca_Burst_Event_Rate_per_min — rate of large-scale calcium burst events per minute</li>
+      <li>Ca_SeededConnectivity_S1_PFC — seeded calcium connectivity between somatosensory cortex and prefrontal cortex</li>
+      <li>PV_CellDensity_per_mm2 — parvalbumin-positive interneuron density per square millimeter</li>
+      <li>Synaptophysin_Intensity_AU — synaptophysin staining intensity in arbitrary units</li>
+      <li>Spine_Density_per_10um — dendritic spine density per 10 micrometers</li>
+      <li>Microglia_Load_pctArea — percent area occupied by microglial signal</li>
+      <li>Social_Interaction_Index — normalized level of social engagement during the task</li>
+      <li>OpenField_Distance_m — distance traveled during open-field exploration in meters</li>
+      <li>Grooming_Bouts_Count — number of grooming bouts during the behavioral session</li>
+      <li>Rotarod_Latency_s — latency to fall during motor coordination testing in seconds</li>
+      <li>Group_Target — repeated categorical target for classify subjects into groups</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>4. Groups</h2>
+    <p>The Control group includes mice without the disorder-model label in this study framework. The ASD group includes mice assigned to the autism spectrum disorder model group based on the study design.</p>
+
+    <h2>5. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

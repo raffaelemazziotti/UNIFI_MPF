@@ -683,7 +683,7 @@
     "href": "2_instrinsic_signals.html#what-is-fnirs",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "What is fNIRS?",
-    "text": "What is fNIRS?\n\n\n\nFunctional Near Infrared Spectroscopy (fNIRS) is a non-invasive method that measures changes in:\n\nOHb\nRHb\n\nthrough near-infrared (NIr) light transmitted across the scalp.\n\n\n\n\n\n\n\n\nBiological tissue has an optical window approximately between:\n\n700 nm and 900 nm\n\nIn this range:\n\nlight penetrates scalp and skull\nhemoglobin absorbs selectively\nwater and lipids absorb less\n\nThis makes deep measurement possible."
+    "text": "What is fNIRS?\n\n\n\nFunctional Near Infrared Spectroscopy (fNIRS) is a non-invasive method that measures changes in:\n\nOHb\nRHb\n\nthrough near-infrared (NIR) light transmitted across the scalp.\n\n\n\n\n\n\n\n\nBiological tissue has an optical window approximately between:\n\n700 nm and 900 nm\n\nIn this range:\n\nlight penetrates scalp and skull\nhemoglobin absorbs selectively\nwater and lipids absorb less\n\nThis makes deep measurement possible."
   },
   {
     "objectID": "2_instrinsic_signals.html#from-reflectance-to-absorption",
@@ -732,7 +732,7 @@
     "href": "2_instrinsic_signals.html#the-fnirs-device-basic-components",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "The fNIRS device: basic components",
-    "text": "The fNIRS device: basic components\n\n\n\nAn fNIRS system consists of:\n\nlight sources\nlight detectors\noptodes placed on the scalp\nacquisition and processing unit\n\n\n\nSources:\n\nemit NIr light\ntypically at 2 wavelengths\nare placed on the scalp\n\n\n\n\nDetectors:\n\nmeasure light intensity exiting tissue\nare placed a few centimeters away from sources\nare sensitive to small changes in intensity\n\n\n\nAn optode is a general term for:\n\na source optode (emits light)\na detector optode (collects light)"
+    "text": "The fNIRS device: basic components\n\n\n\nAn fNIRS system consists of:\n\nlight sources\nlight detectors\noptodes placed on the scalp\nacquisition and processing unit\n\n\n\nSources:\n\nemit NIR light\ntypically at 2 wavelengths\nare placed on the scalp\n\n\n\n\nDetectors:\n\nmeasure light intensity exiting tissue\nare placed a few centimeters away from sources\nare sensitive to small changes in intensity\n\n\n\nAn optode is a general term for:\n\na source optode (emits light)\na detector optode (collects light)"
   },
   {
     "objectID": "2_instrinsic_signals.html#source-detector-pairing",

@@ -5,39 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5676132-9073-4a33-b859-5430f0a97a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/datasets/01/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/01/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/02/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/02/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/03/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/03/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/04/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/04/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/05/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/05/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/06/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/06/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/07/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/07/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/08/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/08/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/09/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/09/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/10/dataset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/10/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/11/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/11/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/12/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/12/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/13/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/13/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/14/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/14/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/15/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/15/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/16/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/16/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/17/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/17/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/18/dataset.scv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/18/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/19/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/19/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/20/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/20/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/21/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/21/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/22/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/22/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/23/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/23/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/24/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/24/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/25/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/25/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/26/dataset.scv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/26/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/27/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/27/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/28/dataset.scv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/28/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/29/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/29/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/30/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/30/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/31/dataset.scv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/31/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/32/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/32/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/33/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/33/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/34/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/34/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/35/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/35/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/36/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/36/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/37/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/37/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/38/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/38/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/39/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/39/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/40/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/40/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_instrinsic_signals.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/2_instrinsic_signals.qmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2_instrinsic_signals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/site_libs/revealjs/plugin/reveal-chalkboard/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/site_libs/revealjs/plugin/reveal-chalkboard/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/site_libs/revealjs/plugin/reveal-chalkboard/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/site_libs/revealjs/plugin/reveal-chalkboard/plugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +143,8 @@
       <workItem from="1774447545325" duration="5328000" />
       <workItem from="1774470997942" duration="4284000" />
       <workItem from="1774483342769" duration="3592000" />
-      <workItem from="1774516107833" duration="4009000" />
+      <workItem from="1774516107833" duration="4065000" />
+      <workItem from="1774596266254" duration="13628000" />
     </task>
     <servers />
   </component>

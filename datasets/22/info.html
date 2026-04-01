@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preclinical Biomarker Dataset: CDKL5 Deficiency Disorder Mouse Model</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Preclinical Biomarker Dataset: CDKL5 Deficiency Disorder Mouse Model</h1>
+
+    <h2>1. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage preclinical biomarker study in a mouse model of CDKL5 deficiency disorder. The study combines physiological, psychophysical, and behavioral measurements to mimic a broad screening battery used in exploratory biomarker discovery. The dataset is intentionally noisy and irregular, with group separation carried only by a small subset of physiological variables while the remaining measures overlap strongly.</p>
+
+    <h2>2. Experimental Paradigm</h2>
+    <p>Mice underwent resting EEG, pupillometry, sleep monitoring, respiratory variability analysis, and arousal recording as physiological assessments. They also completed psychophysical testing including auditory threshold detection, prepulse inhibition, visual contrast sensitivity, and tactile withdrawal threshold, together with behavioral assays covering social interaction, open-field exploration, grooming, and motor coordination. The resulting feature space is suitable for introductory modeling but does not contain any clean single-variable biomarker.</p>
+
+    <h2>3. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Group — study group label (Control or CDD)</li>
+      <li>Age_Stage — developmental stage bin used within the mouse cohort</li>
+      <li>EEG_ThetaBeta_Ratio — resting frontal theta-to-beta power ratio</li>
+      <li>Sleep_Fragmentation_Index — normalized index of sleep interruption frequency</li>
+      <li>Pupil_Light_Constriction_pct — percent pupil constriction during light reflex testing</li>
+      <li>Respiratory_Variability_SD — variability of breathing interval on a normalized scale</li>
+      <li>Arousal_Reactivity_Z — standardized physiological arousal response to challenge</li>
+      <li>Auditory_Threshold_dB — minimum sound level detected during psychophysical testing</li>
+      <li>Prepulse_Inhibition_pct — percent reduction of startle response after prepulse</li>
+      <li>Visual_Contrast_Threshold_pct — minimum visual contrast detected during testing</li>
+      <li>Tactile_Withdrawal_Threshold_g — force threshold for withdrawal response in grams</li>
+      <li>Social_Interaction_Index — normalized level of social engagement during the task</li>
+      <li>OpenField_Distance_m — distance traveled during open-field exploration in meters</li>
+      <li>Grooming_Bouts_Count — number of grooming bouts during the behavioral session</li>
+      <li>Motor_Coordination_Score — summary score of balance and coordinated movement</li>
+      <li>Group_Target — repeated categorical target for classify subjects into groups</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>4. Groups</h2>
+    <p>The Control group includes mice without the disorder-model label in this study framework. The CDD group includes mice assigned to the CDKL5 deficiency disorder model group based on the study design.</p>
+
+    <h2>5. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

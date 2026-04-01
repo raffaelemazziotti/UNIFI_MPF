@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Multimodal Dataset: Obsessive-Compulsive Disorder Human Cohort</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Clinical Multimodal Dataset: Obsessive-Compulsive Disorder Human Cohort</h1>
+
+    <h2>1. Dataset Title</h2>
+    <p>Clinical Multimodal Dataset: Obsessive-Compulsive Disorder Human Cohort</p>
+
+    <h2>2. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage biomarker study in obsessive-compulsive disorder using human participants. The dataset combines functional magnetic resonance imaging, fNIRS, blood-based measures, and behavioral task summaries in a single table suitable for introductory multimodal analysis. Compared with the first dataset, the link between the target variables and the measured features is weaker, with broader overlap and more mixed cases across both groups.</p>
+
+    <h2>3. Experimental Paradigm</h2>
+    <p>Participants completed a response-conflict task, a probabilistic reversal-learning task, and a checking-related visual search task. Resting-state and task-based fMRI summaries were extracted, frontal fNIRS responses were measured during cognitive conflict, and morning blood samples were collected for endocrine and inflammatory markers. Behavioral and biological measures were summarized as simple variables for exploratory classification and outcome prediction.</p>
+
+    <h2>4. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Group — study group label (Control or OCD)</li>
+      <li>Age_Stage — age bin used within the human cohort</li>
+      <li>fMRI_FrontoStriatal_FC — resting functional connectivity between frontal and striatal-related regions</li>
+      <li>fMRI_Conflict_Reactivity_Z — standardized task-evoked response during conflict monitoring</li>
+      <li>fMRI_DefaultMode_Modularity — modularity estimate of the resting default-mode-related network</li>
+      <li>fNIRS_DLPFC_HbO_Change_uM — dorsolateral prefrontal oxyhemoglobin change during cognitive challenge in micromolar units</li>
+      <li>fNIRS_Frontal_Coupling — coupling summary across frontal fNIRS channels</li>
+      <li>Cortisol_AM_ug_dL — morning serum cortisol concentration in micrograms per deciliter</li>
+      <li>CRP_mg_L — C-reactive protein concentration in milligrams per liter</li>
+      <li>TNFa_pg_mL — tumor necrosis factor alpha concentration in picograms per milliliter</li>
+      <li>StopSignal_RT_ms — estimated stop-signal reaction time in milliseconds</li>
+      <li>ReversalLearning_Errors — number of errors after contingency reversal</li>
+      <li>CheckingSearch_RT_ms — response time during checking-related visual search in milliseconds</li>
+      <li>ErrorMonitoring_GSR_Z — standardized galvanic skin response following errors</li>
+      <li>Movement_Variability_SD — within-task variability of movement or response level</li>
+      <li>Group_Target — repeated categorical target for classify subjects into groups</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>5. Groups</h2>
+    <p>The Control group includes human participants without obsessive-compulsive disorder in the study framework. The OCD group includes human participants assigned to the obsessive-compulsive disorder group based on the study design.</p>
+
+    <h2>6. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

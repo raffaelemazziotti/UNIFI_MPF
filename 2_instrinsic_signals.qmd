@@ -158,7 +158,7 @@ This is often called a `feedforward` mechanism. It <u>anticipates metabolic dema
 :::column
 
 :::card
-**Strengths**
+[Strengths]{.highlight}
 
 - `fast`
 - spatially `precise`
@@ -169,7 +169,7 @@ This is often called a `feedforward` mechanism. It <u>anticipates metabolic dema
 :::column
 
 :::card
-Limitations
+[Limitations]{.highlight}
 
 - `not sufficient` alone
 - does not encode metabolic state
@@ -617,7 +617,7 @@ Functional Near Infrared Spectroscopy (fNIRS) is a `non-invasive` method that me
 - OHb
 - RHb
 
-through `near-infrared` (NIr) light transmitted across the scalp.
+through `near-infrared` (NIR) light transmitted across the scalp.
 :::
 
 
@@ -633,11 +633,11 @@ Biological tissue has an `optical window` approximately between:
 
 In this range:
 
-- light penetrates scalp and skull
+- light <u>penetrates scalp and skull</u>
 - hemoglobin absorbs selectively
 - water and lipids absorb less
 
-This makes deep measurement possible.
+This makes <u>deep</u> measurement possible.
 :::
 
 :::
@@ -704,7 +704,7 @@ In fNIRS, the absorbing molecules are:
 OHb and RHb absorb light differently (see [absorption coefficients](#reflectance_change)). Using at least `2` wavelengths:
 
 - allows `separation` of OHb and RHb signals
-- enables `estimation` of relative concentration changes
+- enables `estimation` of <u>relative</u> concentration changes
 
 This is called the `modified Beer–Lambert law`.
 
@@ -847,7 +847,7 @@ An fNIRS system consists of:
 :::info-box
 [Sources]{.highlight}:
 
-- <u>emit</u> `NIr` light
+- <u>emit</u> `NIR` light
 - typically at `2 wavelengths`
 - are placed on the `scalp`
 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Multimodal Dataset: Social Anxiety Disorder Human Cohort</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Clinical Multimodal Dataset: Social Anxiety Disorder Human Cohort</h1>
+
+    <h2>1. Dataset Title</h2>
+    <p>Clinical Multimodal Dataset: Social Anxiety Disorder Human Cohort</p>
+
+    <h2>2. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage biomarker study in social anxiety disorder using human participants. The dataset combines functional magnetic resonance imaging, fNIRS, blood-based measures, and behavioral task summaries in a single table suitable for introductory multimodal analysis. Group structure is present but not clean, with a few variables showing moderate shifts and substantial overlap across participants.</p>
+
+    <h2>3. Experimental Paradigm</h2>
+    <p>Participants completed a social evaluation task, an emotion-face attention task, and a simple approach-avoidance task. During the study, resting-state and task-related fMRI summaries were extracted, frontal fNIRS responses were measured during social challenge, and morning blood samples were collected for endocrine and inflammatory markers. Behavioral and biological measures were summarized into interpretable variables for exploratory classification and outcome modeling.</p>
+
+    <h2>4. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Group — study group label (Control or SAD)</li>
+      <li>Age_Stage — age bin used within the human cohort</li>
+      <li>fMRI_AmygdalaPFC_FC — resting functional connectivity between amygdala-related and prefrontal regions</li>
+      <li>fMRI_DefaultMode_Modularity — modularity estimate of the resting default-mode-related network</li>
+      <li>fMRI_Salience_Reactivity_Z — standardized task-evoked salience-network response during social evaluation</li>
+      <li>fNIRS_Frontal_HbO_Change_uM — frontal oxyhemoglobin change during social challenge in micromolar units</li>
+      <li>fNIRS_LeftRight_Coupling — coupling summary between bilateral frontal fNIRS channels</li>
+      <li>Cortisol_AM_ug_dL — morning serum cortisol concentration in micrograms per deciliter</li>
+      <li>CRP_mg_L — C-reactive protein concentration in milligrams per liter</li>
+      <li>IL6_pg_mL — interleukin-6 concentration in picograms per milliliter</li>
+      <li>FaceGaze_DwellTime_ms — average dwell time on faces during social viewing in milliseconds</li>
+      <li>ApproachAvoidance_Bias_ms — reaction-time bias for avoiding social stimuli in milliseconds</li>
+      <li>EmotionRecognition_Accuracy_pct — percent correct on emotion recognition trials</li>
+      <li>SpeechAnticipation_GSR_Z — standardized galvanic skin response during speech anticipation</li>
+      <li>Movement_Variability_SD — within-task variability of movement or response level</li>
+      <li>Group_Target — repeated categorical target for classify subjects into groups</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>5. Groups</h2>
+    <p>The Control group includes human participants without social anxiety disorder in the study framework. The SAD group includes human participants assigned to the social anxiety disorder group based on the study design.</p>
+
+    <h2>6. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

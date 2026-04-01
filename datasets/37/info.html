@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Multimodal Dataset: Panic Disorder Human Cohort</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Clinical Multimodal Dataset: Panic Disorder Human Cohort</h1>
+
+    <h2>1. Dataset Title</h2>
+    <p>Clinical Multimodal Dataset: Panic Disorder Human Cohort</p>
+
+    <h2>2. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage clinical biomarker study in panic disorder using human participants only. The dataset combines continuous clinical variables with physiological measures including EEG, fNIRS, blood pressure, galvanic skin response, reaction-time summaries, and psychophysical thresholds. The strongest group shifts are carried by clinical variables, while physiological variables show weaker and more overlapping effects.</p>
+
+    <h2>3. Experimental Paradigm</h2>
+    <p>Participants completed a clinical assessment battery together with a breathlessness anticipation task, a mild threat-cue task, and a perceptual threshold session. Resting EEG and frontal fNIRS were recorded, blood pressure and galvanic skin response were measured during the visit, and reaction-time and threshold summaries were extracted from simple laboratory tasks. Several additional columns were included as realistic low-information variables with little or no relation to the target labels.</p>
+
+    <h2>4. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Group — study group label (Control or PD)</li>
+      <li>Age_Stage — age bin used within the human cohort</li>
+      <li>Clinical_Panic_Severity_Score — continuous clinical panic severity score</li>
+      <li>Clinical_Avoidance_Impact_Score — continuous score for avoidance-related daily-life impact</li>
+      <li>Clinical_Anticipatory_Anxiety_Score — continuous score for anticipatory anxiety symptoms</li>
+      <li>Clinical_Somatic_Distress_Score — continuous score for somatic distress complaints</li>
+      <li>EEG_ThetaBeta_Ratio — frontal resting theta-to-beta power ratio</li>
+      <li>EEG_AlphaPeak_Hz — peak alpha frequency in hertz</li>
+      <li>fNIRS_Frontal_HbO_Change_uM — frontal oxyhemoglobin change during anticipation challenge in micromolar units</li>
+      <li>fNIRS_Bilateral_Coupling — coupling summary between bilateral frontal fNIRS channels</li>
+      <li>Systolic_BP_mmHg — systolic blood pressure in millimeters of mercury</li>
+      <li>Diastolic_BP_mmHg — diastolic blood pressure in millimeters of mercury</li>
+      <li>GSR_Challenge_Z — standardized galvanic skin response during challenge</li>
+      <li>ThreatCue_RT_ms — response time during threat-cue task in milliseconds</li>
+      <li>Breathlessness_Detection_Threshold — minimum inspiratory resistance level detected during testing</li>
+      <li>Auditory_Discomfort_Threshold_dB — sound intensity rated as uncomfortable in decibels</li>
+      <li>Random_ColorPreference_Index — normalized score from unrelated color preference task</li>
+      <li>Random_TypingSpeed_wpm — typing speed during neutral task in words per minute</li>
+      <li>Random_NumberEstimation_Error — absolute error on unrelated number estimation task</li>
+      <li>Group_Target — repeated categorical target for classify subjects into groups</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>5. Groups</h2>
+    <p>The Control group includes human participants without panic disorder in the study framework. The PD group includes human participants assigned to the panic disorder group based on the study design.</p>
+
+    <h2>6. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>

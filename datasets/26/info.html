@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Connectivity Dataset: Major Depressive Disorder Human Cohort</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2a37;
+    margin: 0;
+    padding: 32px;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 34px 38px;
+    box-shadow: 0 10px 24px rgba(31, 42, 55, 0.06);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #16324f;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #234e70;
+    border-bottom: 1px solid #e6edf5;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 0 0 12px 0;
+  }
+  ul {
+    margin: 8px 0 0 22px;
+    padding: 0;
+  }
+  li {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Clinical Connectivity Dataset: Major Depressive Disorder Human Cohort</h1>
+
+    <h2>1. Scientific &amp; Clinical Context</h2>
+    <p>This synthetic dataset represents an early-stage clinical biomarker study in major depressive disorder using human participants only. The study combines standard behavioral task summaries with resting EEG and connectivity-derived features to create a small multimodal dataset for introductory biomarker discovery. The dataset is intentionally overlapping, with only a few variables showing modest shifts and no single feature cleanly separating the groups.</p>
+
+    <h2>2. Experimental Paradigm</h2>
+    <p>Participants completed a virtual spatial memory task, a social preference task, and a novel object-like recognition task adapted for human testing. Resting EEG was recorded and summarized together with simple connectivity features reflecting communication between frontal, hippocampal-related, and visual-association networks. The resulting feature space is suitable for comparing groups and exploring categorical follow-up outcome prediction.</p>
+
+    <h2>3. Data Modalities &amp; Variables</h2>
+    <ul>
+      <li>Group — study group label (Control or MDD)</li>
+      <li>Age_Stage — developmental stage bin used within the human cohort</li>
+      <li>SpatialMemory_Latency_s — average latency to reach the target location during late learning trials in seconds</li>
+      <li>SpatialMemory_TargetZone_pct — percent of probe trial time spent in the target zone</li>
+      <li>Social_Preference_Index — normalized preference for social over non-social stimulus</li>
+      <li>Novelty_Discrimination_Index — normalized preference for novel over familiar stimulus</li>
+      <li>OpenFieldLike_CenterTime_s — seconds spent in the center area during free exploration</li>
+      <li>EEG_ThetaBeta_Ratio — resting frontal theta-to-beta power ratio</li>
+      <li>EEG_Gamma_Power_Relative — relative resting gamma-band power</li>
+      <li>EEG_Coherence_FrontoTemporal — EEG coherence between frontal and temporal regions</li>
+      <li>Conn_FrontoHippocampal_FC — functional connectivity summary between frontal and hippocampal-related regions</li>
+      <li>Conn_VisualInterhemispheric_FC — connectivity summary between bilateral visual regions</li>
+      <li>Movement_Variability_SD — within-task variability of movement or response level</li>
+      <li>Group_Target — repeated categorical target for classify subjects into groups</li>
+      <li>Future_Outcome_Category — later functional outcome category measured at follow-up</li>
+    </ul>
+
+    <h2>4. Groups</h2>
+    <p>The Control group includes human participants without the disorder label in this study framework. The MDD group includes human participants assigned to the major depressive disorder group based on the study design.</p>
+
+    <h2>5. Research Tasks</h2>
+    <p>classify subjects into groups</p>
+    <p>predict future outcome category</p>
+  </div>
+</body>
+</html>
