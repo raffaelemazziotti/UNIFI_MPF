@@ -1002,18 +1002,17 @@ Your project will be evaluated based on:
 
 - Correct data exploration  
 - Appropriate use of models  
-- Proper interpretation of metrics   
-- Scientific reasoning  
-- Clarity of presentation  
-:::
+- Proper interpretation of metrics 
+- Scientific reasoning
 
-:::info-box
 This is not about:
 
 - building the most complex model  
 - obtaining perfect accuracy  
 
-:::
-
 ::: 
+
+<a href="assignment.html" target="_blank" class="btn">
+Download your project
+</a>
 :::

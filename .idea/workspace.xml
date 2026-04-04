@@ -5,38 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5676132-9073-4a33-b859-5430f0a97a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/datasets/41/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/41/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/42/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/42/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/43/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/43/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/44/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/44/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/45/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/45/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/46/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/46/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/47/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/47/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/48/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/48/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/49/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/49/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/50/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/50/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/51/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/51/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/52/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/52/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/53/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/53/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/54/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/54/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/55/dataset.scv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/55/info.htm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_data_mining.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/5_data_mining.qmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/5_data_mining.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/5_data_mining.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assignment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +63,9 @@
       <recent name="C:\Users\pupil\Documents\GitHub\UNIFI_MPF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$/datasets/09" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\pupil\Documents\GitHub\UNIFI_MPF" />
     </key>
   </component>
@@ -122,7 +96,7 @@
       <workItem from="1774470997942" duration="4284000" />
       <workItem from="1774483342769" duration="3592000" />
       <workItem from="1774516107833" duration="4065000" />
-      <workItem from="1774596266254" duration="24711000" />
+      <workItem from="1774596266254" duration="27247000" />
     </task>
     <servers />
   </component>
