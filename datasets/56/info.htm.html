@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panic Disorder Monitoring Biomarker Teaching Dataset</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:#1f2a37;margin:0;padding:32px;line-height:1.55}
+.container{max-width:920px;margin:0 auto;background:#ffffff;border:1px solid #d7e0ea;border-radius:16px;padding:32px;box-shadow:0 8px 24px rgba(31,42,55,0.06)}
+h1{font-size:30px;margin:0 0 20px;color:#16324f}
+h2{font-size:18px;margin:26px 0 10px;color:#274c77;padding-bottom:6px;border-bottom:1px solid #e2e8f0}
+p,li{font-size:14px}
+ul{margin:8px 0 0 20px;padding:0}
+.badge{display:inline-block;background:#eaf1f8;color:#274c77;border:1px solid #c9d7e6;border-radius:999px;padding:5px 10px;font-size:12px;margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="badge">Synthetic teaching dataset</div>
+<h1>Panic Disorder Monitoring Biomarker Teaching Dataset</h1>
+
+<h2>Scientific &amp; Clinical Context</h2>
+<p>This synthetic dataset represents a human longitudinal study in adolescents and young adults with panic disorder. The study is designed for teaching situations where baseline physiological and psychophysical variables do not meaningfully explain future prognosis. Most columns are intentionally unrelated to follow-up state.</p>
+
+<h2>Experimental Paradigm</h2>
+<p>Participants completed resting EEG, pupillometry during anticipatory cue viewing, galvanic skin response recording during brief challenge blocks, and simple psychophysical timing and contrast detection tasks. They also completed short self-report ratings of bodily vigilance and anticipatory discomfort. Follow-up visits were used to assign a two-level future clinical state.</p>
+
+<h2>Data Modalities &amp; Variables</h2>
+<ul>
+<li>Age_Years — age at baseline in years</li>
+<li>EEG_BetaPower_uV2 — resting beta-band power in microvolt-squared units</li>
+<li>EEG_PeakFrequency_Hz — dominant resting EEG peak frequency in hertz</li>
+<li>Pupil_DilationPct — average task-evoked pupil dilation as percent change from baseline</li>
+<li>GSR_Response_uS — mean galvanic skin response amplitude in microsiemens during challenge blocks</li>
+<li>Contrast_Threshold_pct — minimum visual contrast detected reliably in percent</li>
+<li>Temporal_Discrimination_ms — temporal discrimination threshold in milliseconds</li>
+<li>ReactionTime_ms — mean response time on the psychophysical task in milliseconds</li>
+<li>Bodily_Vigilance_Score — self-reported bodily vigilance score on a 0–100 scale</li>
+<li>Anticipatory_Discomfort_Score — self-reported anticipatory discomfort score on a 0–100 scale</li>
+<li>Baseline_Clinical_State — baseline clinical state category (Lower-support or Higher-support)</li>
+<li>Future_Clinical_State — follow-up clinical state category (Lower-support or Higher-support)</li>
+</ul>
+
+<h2>Groups</h2>
+<p>All participants in this dataset have panic disorder and were assessed at baseline and follow-up. The future clinical state is intended as the target in a monitoring biomarker exercise.</p>
+
+<h2>Research Tasks</h2>
+<p>Predict future outcome category.</p>
+<p>Predict severity category.</p>
+</div>
+</body>
+</html>

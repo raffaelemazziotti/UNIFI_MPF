@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homework biomarcatori</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    input, button {
+      font-size: 1rem;
+      padding: 0.7rem;
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 0.5rem;
+    }
+    button {
+      cursor: pointer;
+    }
+    #result, #error {
+      margin-top: 1.25rem;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    #result {
+      display: none;
+      border: 1px solid #ccc;
+    }
+    #error {
+      display: none;
+      background: #fdeaea;
+      color: #8a1f1f;
+    }
+    a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Homework biomarcatori</h2>
+  <p>Inserisci la tua matricola per ottenere i link del materiale.</p>
+
+  <input id="matricola" type="text" placeholder="Matricola" />
+  <button id="searchBtn">Invia</button>
+
+  <div id="error"></div>
+
+  <div id="result">
+    <p><strong>Studente:</strong> <span id="studentName"></span></p>
+    <p><strong>Dataset:</strong> <span id="datasetCode"></span></p>
+
+    <a id="infoLink" target="_blank" rel="noopener">Apri info.html</a>
+    <a id="csvLink" target="_blank" rel="noopener">Scarica dataset.csv</a>
+    <a id="templateLink" target="_blank" rel="noopener">Apri template presentazione</a>
+  </div>
+
+  <script>
+    const FUNCTION_URL = "https://cifszrgncnrjnogfqezy.supabase.co/functions/v1/smart-function";
+
+    async function searchAssignment() {
+      const matricola = document.getElementById("matricola").value.trim();
+      const error = document.getElementById("error");
+      const result = document.getElementById("result");
+
+      error.style.display = "none";
+      result.style.display = "none";
+
+      if (!matricola) {
+        error.textContent = "Inserisci una matricola.";
+        error.style.display = "block";
+        return;
+      }
+
+      try {
+        const response = await fetch(FUNCTION_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ matricola })
+        });
+
+        const payload = await response.json();
+
+        if (!response.ok) {
+          error.textContent = payload.error || "Errore durante la ricerca.";
+          error.style.display = "block";
+          return;
+        }
+
+        document.getElementById("studentName").textContent =
+          `${payload.nome} ${payload.cognome}`;
+        document.getElementById("datasetCode").textContent = payload.dataset;
+        document.getElementById("infoLink").href = payload.info_url;
+        document.getElementById("csvLink").href = payload.csv_url;
+        document.getElementById("templateLink").href = payload.template_url;
+
+        result.style.display = "block";
+      } catch (e) {
+        error.textContent = "Impossibile contattare il servizio.";
+        error.style.display = "block";
+      }
+    }
+
+    document.getElementById("searchBtn").addEventListener("click", searchAssignment);
+    document.getElementById("matricola").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") searchAssignment();
+    });
+  </script>
+</body>
+</html>
