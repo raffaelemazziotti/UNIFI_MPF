@@ -249,6 +249,44 @@
       filter: invert(88%) sepia(8%) saturate(216%) hue-rotate(181deg) brightness(95%) contrast(90%);
     }
 
+    .text-link {
+      color: #9ad1ff;
+      text-decoration: none;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      transition: color 0.2s ease;
+    }
+
+    .text-link:hover {
+      color: #67bdfb;
+      text-decoration: underline;
+    }
+
+    .text-link {
+      color: #9ad1ff;
+      text-decoration: none;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      transition: color 0.2s ease;
+    }
+
+    .text-link:hover {
+      color: #67bdfb;
+      text-decoration: underline;
+    }
+
+    code {
+      display: inline-block;
+      padding: 0.16em 0.45em;
+      border-radius: 7px;
+      background: rgba(255, 255, 255, 0.07);
+      color: #eaf6ff;
+      font-family: "Fira Code", monospace;
+      font-size: 0.86em;
+      font-weight: 500;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
   </style>
 </head>
 <body>
@@ -256,12 +294,12 @@
   <img src="images/home.svg" alt="Home" />
 </a>
   <main class="app">
-    <h2>Homework biomarcatori</h2>
-    <p class="subtitle">Inserisci la tua matricola per ottenere i link del materiale.</p>
+    <h2>Progetto Biomarcatori</h2>
+    <p class="subtitle">Scarica il tuo progetto inserendo la matricola e clicca sui link che appaiono in basso.</p>
 
     <div class="info-box">
-      <strong>Istruzioni.</strong> Inserisci la matricola e premi invia. Potrai scaricare
-      <code>info.html</code>, <code>dataset.csv</code> e aprire il template della presentazione.
+      <strong>Istruzioni:</strong> Puoi scaricare la presentazione andando su esporta -> <code>.pptx</code>.
+      Una volta creata la presentazione fai upload <a class="text-link" href="https://drive.google.com/drive/folders/1oaG9yDOB8QnPlzQEDinJrwZUJmfVFoI6?usp=drive_link">qui</a>. Rinomina la presentazione con <code>{COGNOME}_{NOME}_{MATRICOLA}_presentazione.pptx</code>.
     </div>
 
     <div class="card">
