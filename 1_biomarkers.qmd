@@ -66,9 +66,9 @@ Biomarkers are expected to:
 
 - reduce subjectivity
 - link behavior to biology
-- improve diagnosis and prognosis
-- guide treatment decisions
-- enable personalized approaches
+- improve <u>diagnosis</u> and <u>prognosis</u>
+- guide <u>treatment</u> decisions
+- enable <u>personalized approaches</u>
 
 >**Key question:**  
 Do biomarkers actually deliver on these promises?
@@ -85,7 +85,7 @@ Do biomarkers actually deliver on these promises?
 
 ## What do we mean by “biomarker”?
 
-A widely accepted formal definition ([NIH](https://www.nih.gov/) / [FDA](https://www.fda.gov/)):
+A widely accepted formal <u>definition</u> ([NIH](https://www.nih.gov/) / [FDA](https://www.fda.gov/)):
 
 > A [biomarker]{.highlight} is a defined `characteristic` that is `measured` as an `indicator` of normal biological **processes**, pathogenic processes, or *responses* to an intervention.
 
@@ -243,13 +243,13 @@ Without explaining why. [Biomarkers are not mechanisms]{.highlight}.
 Clinical decisions are made at the individual level.
 
 :::info-box
-Research question:
+[Research]{.highlight} question:
 
-- “Is there a difference between groups?”
+- “Is there a difference between `groups`?”
 
-Clinical question:
+[Clinical]{.highlight} question:
 
-- “Can I make a decision for this person?”
+- “Can I make a decision for this `person`?”
 
 These are fundamentally different problems.
 :::
@@ -295,7 +295,7 @@ A biomarker can be:
 - `computational` (scores derived from multiple measures)
 :::
 
->Biomarkers are **not limited to biology at the molecular level**.
+>Biomarkers `are not limited to biology` at the molecular level.
 
 :::
 :::column
@@ -329,7 +329,7 @@ A biomarker is not:
 
 :::card
 
-Mechanisms:
+[Mechanisms]{.highlight}:
 
 - explain how a process works
 - imply causal structure
@@ -338,9 +338,9 @@ Mechanisms:
 
 
 :::card
-Endophenotypes:
+[Endophenotypes]{.highlight}:
 
-- are heritable traits
+- are `heritable` traits
 - lie between genes and behavior
 - are relatively stable
 
@@ -391,7 +391,7 @@ The same measured characteristic can be:
 In reality, biomarkers vary along multiple `dimensions`.
 
 :::info-box
-Dimension 1: Biological Level
+Dimension 1: [Biological Level]{.highlight}
 
 - molecular
 - cellular
@@ -594,7 +594,7 @@ They are evaluated by:
 :::info-box
 A biomarker must be reliable before being useful.
 
-Reliability refers to:
+[Reliability]{.highlight} refers to:
 
 - `test-retest` stability
 - `inter-rater` consistency
