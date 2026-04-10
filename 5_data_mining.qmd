@@ -973,7 +973,7 @@ You must try to improve performance by:
 ::: 
 :::
 
-## Step 4: Final Deliverable
+## Step 4: Final Deliverable {#final}
 
 ::: columns
 :::column
@@ -1012,7 +1012,7 @@ This is not about:
 
 ::: 
 
-<a href="assignment.html" target="_blank" class="btn">
+<a href="#final" target="_blank" class="btn">
 Download your project
 </a>
 :::
