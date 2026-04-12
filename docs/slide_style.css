@@ -809,8 +809,26 @@
   background: transparent;
 }
 
-.mermaid {
-  font-size: 20px !important;
+.reveal .slides .mermaid {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.reveal .slides .mermaid svg {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+}
+
+.reveal .slides .mermaid svg text {
+  font-size: 12px !important;
+}
+
+.reveal .slides .mermaid .node rect,
+.reveal .slides .mermaid .node polygon,
+.reveal .slides .mermaid .node path {
+  overflow: visible !important;
 }
 
 /* mobile */
