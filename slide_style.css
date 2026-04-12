@@ -809,6 +809,10 @@
   background: transparent;
 }
 
+.mermaid {
+  font-size: 20px !important;
+}
+
 /* mobile */
 @media (max-width: 768px){
   .quiz-frame{
