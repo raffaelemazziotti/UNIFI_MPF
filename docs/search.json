@@ -67,7 +67,7 @@
     "href": "5_data_mining.html#why-use-orange",
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Why Use Orange?",
-    "text": "Why Use Orange?\n\n\nOrange is:\n\nfree\n\nvisual\n\neasy to use\n\ndesigned for learning\n\n\nNo coding required.\n\n\n\n\n\n\n\n Download \n Documentation \n\nExample Datasets\nDataset 1: Info -  Dataset\nDataset 2: Info - Dataset"
+    "text": "Why Use Orange?\n\n\nOrange is:\n\nfree\n\nvisual\n\neasy to use\n\ndesigned for learning\n\n\nNo coding required.\n\n\n\n\n\n\n\n Download \n Documentation \n\nExample Datasets\nDataset 1: Info -  Dataset"
   },
   {
     "objectID": "5_data_mining.html#how-orange-works",
@@ -971,5 +971,12 @@
     "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
     "section": "Step 4: Final Deliverable",
     "text": "Step 4: Final Deliverable\n\n\n\n\nYou will present your project in 7 minutes.\n\nYour presentation should include:\n\nBrief description of the experiment\nExploratory analysis\n\nGroup differences\n\nBest predictive model\n\nPerformance metrics\n\nInterpretation and conclusions\n\n\nClarity is more important than complexity.\n\n\n\n\nYour project will be evaluated based on:\n\nCorrect data exploration\n\nAppropriate use of models\n\nProper interpretation of metrics\nScientific reasoning\n\nThis is not about:\n\nbuilding the most complex model\n\nobtaining perfect accuracy\n\n\n Download your project"
+  },
+  {
+    "objectID": "5_data_mining.html#principal-component-analysis-pca",
+    "href": "5_data_mining.html#principal-component-analysis-pca",
+    "title": "Metodi di Psicofisiologia e Neuroimaging nella Clinica e nelle Neuroscienze Cognitive",
+    "section": "Principal Component Analysis (PCA)",
+    "text": "Principal Component Analysis (PCA)\n\nThe PCA widget is used to simplify complex datasets.\n\n\n\n\nInstead of many variables PCA creates new variables called:\nprincipal components\n\n\nEach component is:\n\na combination of the original variables\n\nordered by how much information it explains\n\n\n\n\n\n\n\n\n\n\nImportant:\nComponents are not directly interpretable like original variables. They represent combinations, not single measures."
   }
 ]

@@ -335,7 +335,7 @@ Example Datasets
 
 Dataset 1: <a href="example_datasets/06/info1.html" download="info1.html">Info</a> - <a href="example_datasets/06/dataset1.csv" download="dataset1.csv"> Dataset</a>
 
-Dataset 2: <a href="example_datasets/52/info2.html" download="info2.html">Info</a> - <a href="example_datasets/06/dataset2.csv" download="dataset2.csv">Dataset</a>
+<!--Dataset 2: <a href="example_datasets/52/info2.html" download="info2.html">Info</a> - <a href="example_datasets/06/dataset2.csv" download="dataset2.csv">Dataset</a> -->
 :::
 
 
@@ -547,6 +547,43 @@ One common scoring method is `Information Gain`. `Information Gain` measures:
 ![](images/dm_orange_menu.png){width="500" fig-align="left"}
 
 ::: 
+:::
+
+## Principal Component Analysis (PCA)
+
+>The `PCA` widget is used to simplify complex datasets.
+
+:::columns
+:::column
+
+:::info-box
+Instead of many variables PCA creates new variables called:
+
+`principal components`
+
+:::
+
+:::card
+Each component is:
+
+- a combination of the original variables  
+- ordered by how much information it explains  
+:::
+
+:::
+:::column
+
+![](images/dm_orange_pca.png){width="100" fig-align="left"}
+
+:::caution
+
+Important:
+
+Components are not directly `interpretable` like original variables. They represent combinations, not single measures.
+
+:::
+
+:::
 :::
 
 ## Models: Logistic Regression

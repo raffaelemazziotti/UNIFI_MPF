@@ -474,7 +474,7 @@ probability of disorder increases.</p>
 <div class="card">
 <p>Example Datasets</p>
 <p>Dataset 1: <a href="example_datasets/06/info1.html" download="info1.html">Info</a> - <a href="example_datasets/06/dataset1.csv" download="dataset1.csv"> Dataset</a></p>
-<p>Dataset 2: <a href="example_datasets/52/info2.html" download="info2.html">Info</a> - <a href="example_datasets/06/dataset2.csv" download="dataset2.csv">Dataset</a></p>
+<!--Dataset 2: <a href="example_datasets/52/info2.html" download="info2.html">Info</a> - <a href="example_datasets/06/dataset2.csv" download="dataset2.csv">Dataset</a> -->
 </div>
 </div></div>
 </section>
@@ -649,6 +649,38 @@ probability of disorder increases.</p>
 </div>
 </div><div class="column">
 <p><img data-src="images/dm_orange_rank.png" class="quarto-figure quarto-figure-left" width="100"> <img data-src="images/dm_orange_menu.png" class="quarto-figure quarto-figure-left" width="500"></p>
+</div></div>
+</section>
+<section id="principal-component-analysis-pca" class="slide level2 center">
+<h2>Principal Component Analysis (PCA)</h2>
+<blockquote>
+<p>The <code>PCA</code> widget is used to simplify complex datasets.</p>
+</blockquote>
+<div class="columns">
+<div class="column">
+<div class="info-box">
+<p>Instead of many variables PCA creates new variables called:</p>
+<p><code>principal components</code></p>
+</div>
+<div class="card">
+<p>Each component is:</p>
+<ul>
+<li>a combination of the original variables<br>
+</li>
+<li>ordered by how much information it explains<br>
+</li>
+</ul>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/dm_orange_pca.png" class="quarto-figure quarto-figure-left" width="100"></p>
+</figure>
+</div>
+<div class="caution">
+<p>Important:</p>
+<p>Components are not directly <code>interpretable</code> like original variables. They represent combinations, not single measures.</p>
+</div>
 </div></div>
 </section>
 <section id="models-logistic-regression" class="slide level2 center">
