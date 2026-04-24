@@ -1,4 +1,4 @@
 
 
-# TODO add slides on dataset privacy GDPR and also toy dataset on privacy
+# TODO add slides on dataset.csv privacy GDPR and also toy dataset.csv on privacy
 # TODO toy 06 52
