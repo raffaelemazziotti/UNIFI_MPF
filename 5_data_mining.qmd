@@ -335,7 +335,7 @@ Example Datasets
 
 Dataset 1: <a href="example_datasets/06/info1.html" download="info1.html">Info</a> - <a href="example_datasets/06/dataset1.csv" download="dataset1.csv"> Dataset</a>
 
-<!--Dataset 2: <a href="example_datasets/52/info2.html" download="info2.html">Info</a> - <a href="example_datasets/06/dataset2.csv" download="dataset2.csv">Dataset</a> -->
+Dataset 2: <a href="example_datasets/52/info2.html" download="info2.html">Info</a> - <a href="example_datasets/06/dataset2.csv" download="dataset2.csv">Dataset</a>
 :::
 
 
@@ -1059,7 +1059,7 @@ This is not about:
 
 ::: 
 
-<a href="#final" target="_blank" class="btn">
+<a href="assignment.html" target="_blank" class="btn">
 Download your project
 </a>
 :::
